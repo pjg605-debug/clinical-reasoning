@@ -2,9 +2,12 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#20282c">
 <meta name="description" content="근골격계 통증과 재활, 침치료·dry needling 최신 연구를 임상 재평가 관점에서 읽는 Clinical Reasoning Archive">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
 <title>Clinical Reasoning Archive</title>
 <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -20,13 +23,13 @@
     </div>
     <div class="search-wrap">
       <label class="search">
-        <span>⌕</span>
-        <input id="searchInput" type="search" placeholder="질환 · 부위 · 검사 · 논문 검색">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="질환 · 부위 · 검사 · 논문 검색" autocomplete="off">
         <kbd>/</kbd>
       </label>
     </div>
-    <div class="archive-label">Archive</div>
-    <nav id="archiveList" class="archive-list"></nav>
+    <div class="archive-label">발행 목록</div>
+    <nav id="archiveList" class="archive-list" aria-label="브리핑 목록"></nav>
     <div class="archive-foot">Acupuncture · Dry needling<br>Musculoskeletal pain · Rehabilitation</div>
   </aside>
 
@@ -37,8 +40,9 @@
         <div id="currentTitle" class="current-title">Clinical Reasoning Archive</div>
       </div>
       <div class="actions">
+        <button class="text-btn install-btn" id="installBtn" hidden>앱 설치</button>
         <button class="text-btn hide-mobile" id="copyLinkBtn">링크 복사</button>
-        <button class="text-btn" id="copyHtmlBtn">HTML 복사</button>
+        <button class="text-btn" id="copyHtmlBtn">독립 HTML 복사</button>
         <button class="text-btn hide-mobile" onclick="window.print()">인쇄</button>
       </div>
     </header>
@@ -46,7 +50,7 @@
     <div class="stage">
       <article id="articleMount" class="article" aria-live="polite"></article>
       <aside class="rail">
-        <div class="rail-label">On this page</div>
+        <div class="rail-label">이 글의 목차</div>
         <nav id="pageOutline" class="outline"></nav>
       </aside>
     </div>
