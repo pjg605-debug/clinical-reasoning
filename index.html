@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#20282c">
+<meta name="description" content="근골격계 통증과 재활, 침치료·dry needling 최신 연구를 임상 재평가 관점에서 읽는 Clinical Reasoning Archive">
+<title>Clinical Reasoning Archive</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="progress"><div id="progressBar"></div></div>
+<div class="backdrop" id="backdrop"></div>
+<div class="shell">
+  <aside class="archive" id="archive">
+    <div class="archive-head">
+      <div class="eyebrow">Clinical Evidence Archive</div>
+      <a class="brand" href="./">임상 추론 브리핑<span>Musculoskeletal Medicine</span></a>
+      <p>최신 논문을 읽는 데서 끝나지 않고, 잘 낫지 않는 환자를 어떤 근거로 다시 볼 것인지 기록합니다.</p>
+    </div>
+    <div class="search-wrap">
+      <label class="search">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="질환 · 부위 · 검사 · 논문 검색">
+        <kbd>/</kbd>
+      </label>
+    </div>
+    <div class="archive-label">Archive</div>
+    <nav id="archiveList" class="archive-list"></nav>
+    <div class="archive-foot">Acupuncture · Dry needling<br>Musculoskeletal pain · Rehabilitation</div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="목차 열기">☰</button>
+        <div id="currentTitle" class="current-title">Clinical Reasoning Archive</div>
+      </div>
+      <div class="actions">
+        <button class="text-btn hide-mobile" id="copyLinkBtn">링크 복사</button>
+        <button class="text-btn" id="copyHtmlBtn">HTML 복사</button>
+        <button class="text-btn hide-mobile" onclick="window.print()">인쇄</button>
+      </div>
+    </header>
+
+    <div class="stage">
+      <article id="articleMount" class="article" aria-live="polite"></article>
+      <aside class="rail">
+        <div class="rail-label">On this page</div>
+        <nav id="pageOutline" class="outline"></nav>
+      </aside>
+    </div>
+  </main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
