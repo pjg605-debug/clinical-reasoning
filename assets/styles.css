@@ -80,8 +80,8 @@ button,input{font:inherit}a{color:inherit}::selection{background:#dbe6e9}
 @media(max-width:760px){.anatomy-grid{grid-template-columns:1fr}.structure-card{padding:18px}.structure-value,.exam-copy,.safety-box{font-size:14px}.exam-step{padding-left:58px}}
 
 .brief-figure{margin:30px 0 44px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;box-shadow:0 12px 32px rgba(27,40,46,.08)}
-.brief-figure a{display:block;text-decoration:none;background:#eef4f6}
-.brief-figure img{display:block;width:100%;height:auto;margin:0 auto}
+.brief-figure a{display:flex;justify-content:center;text-decoration:none;background:#eef4f6}
+.brief-figure img{display:block;width:min(100%,800px);height:auto;margin:0 auto}
 .brief-figure figcaption{padding:14px 17px;font-size:13.5px;line-height:1.68;color:#596264;background:#fafaf7;border-top:1px solid var(--line)}
 .brief-figure .figure-kicker{display:block;font-size:11px;font-weight:850;color:#405d69;margin-bottom:3px}
 @media(max-width:650px){.brief-figure{margin:22px -4px 32px;border-radius:12px}.brief-figure figcaption{font-size:12.5px;padding:12px 14px}}
