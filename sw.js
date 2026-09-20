@@ -1,4 +1,4 @@
-const VERSION="clinical-reasoning-v5";
+const VERSION="clinical-reasoning-v6";
 const CORE=[
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
