@@ -1,10 +1,14 @@
-const VERSION="clinical-reasoning-v6";
+const VERSION="clinical-reasoning-v7";
 const CORE=[
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
   "./articles/2026-09-20-knee-oa-posterior-pain.html",
   "./articles/2026-09-19-lateral-elbow.html",
-  "./articles/2026-09-18-plantar.html","./articles/2026-09-18-shoulder.html"
+  "./articles/2026-09-18-plantar.html","./articles/2026-09-18-shoulder.html",
+  "./assets/briefs/posterior-knee-differential.webp",
+  "./assets/briefs/lateral-elbow-radial-tunnel.webp",
+  "./assets/briefs/shoulder-cervical-differential.webp",
+  "./assets/briefs/plantar-heel-differential.webp"
 ];
 
 self.addEventListener("install",event=>{
