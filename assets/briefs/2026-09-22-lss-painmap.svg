@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+<title id="title">걷기 유발 하퇴 통증 감별 지도</title><desc id="desc">신경인성 간헐적 파행, 요추 신경근성 통증, 혈관성 파행, 고관절 및 말초 근골격 통증의 유발·완화 패턴을 비교한다.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7fbfd"/><stop offset="1" stop-color="#edf4f6"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#29434e" flood-opacity=".12"/></filter>
+  <style>
+    text{font-family:Pretendard,'Noto Sans KR','Apple SD Gothic Neo',Arial,sans-serif;fill:#17313d} .h{font-weight:800}.s{font-size:20px}.xs{font-size:16px}.tiny{font-size:14px}.muted{fill:#5b6d75}.white{fill:#fff}
+  </style>
+</defs>
+<rect width="1200" height="860" rx="28" fill="url(#bg)"/>
+<text x="54" y="72" font-size="40" class="h">걷기만 하면 종아리가 아플 때</text>
+<text x="54" y="108" font-size="24" class="muted">“어디가 아픈가”보다 <tspan class="h">무엇이 증상을 만들고 무엇이 풀어주는가</tspan>를 먼저 봅니다</text>
+
+<!-- central silhouette -->
+<g transform="translate(64 156)">
+  <rect x="0" y="0" width="310" height="630" rx="24" fill="#fff" filter="url(#shadow)"/>
+  <text x="24" y="42" font-size="22" class="h">증상 분포는 겹칠 수 있습니다</text>
+  <text x="24" y="70" class="xs muted">패턴과 유발 조건을 함께 비교하세요.</text>
+  <g transform="translate(62 106)">
+    <circle cx="92" cy="42" r="34" fill="#d7e3e8"/>
+    <path d="M58 86 Q92 72 126 86 L142 242 Q130 290 117 315 L125 493 Q126 520 108 522 L92 362 L76 522 Q58 520 59 493 L67 315 Q54 286 42 242 Z" fill="#dfe8eb" stroke="#96aeb8" stroke-width="3"/>
+    <path d="M43 115 Q20 170 16 244" fill="none" stroke="#dfe8eb" stroke-width="20" stroke-linecap="round"/>
+    <path d="M141 115 Q164 170 168 244" fill="none" stroke="#dfe8eb" stroke-width="20" stroke-linecap="round"/>
+    <!-- neurogenic areas -->
+    <path d="M66 244 C48 294 52 340 70 387 C80 414 78 453 67 492" fill="none" stroke="#3f7ea1" stroke-width="20" stroke-linecap="round" opacity=".75"/>
+    <path d="M118 245 C137 300 132 350 116 392 C105 420 107 458 118 492" fill="none" stroke="#3f7ea1" stroke-width="20" stroke-linecap="round" opacity=".75"/>
+    <ellipse cx="92" cy="217" rx="54" ry="26" fill="#88b3c7" opacity=".35"/>
+    <circle cx="92" cy="218" r="11" fill="#2e5d73"/>
+  </g>
+  <g transform="translate(20 552)"><rect width="270" height="56" rx="14" fill="#e8f1f4"/><text x="16" y="24" class="xs h">핵심:</text><text x="16" y="46" class="tiny">분포 하나만으로 진단하지 않습니다.</text></g>
+</g>
+
+<!-- cards -->
+<g transform="translate(400 156)">
+  <rect x="0" y="0" width="360" height="296" rx="24" fill="#fff" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="360" height="58" rx="24" fill="#315f74"/><rect x="0" y="34" width="360" height="24" fill="#315f74"/>
+  <text x="22" y="38" font-size="23" class="h white">1. 신경인성 간헐적 파행</text>
+  <text x="22" y="92" class="s h">걷기·서기 → 다리 통증/저림·무거움</text>
+  <text x="22" y="124" class="xs">• 앉기 또는 허리 굽힘에서 비교적 빨리 완화</text>
+  <text x="22" y="153" class="xs">• 양측 또는 비대칭, 엉덩이~종아리까지 다양</text>
+  <text x="22" y="182" class="xs">• 휴식 시 신경학적 검사는 정상일 수도 있음</text>
+  <g transform="translate(22 210)"><rect width="316" height="62" rx="14" fill="#e8f1f4"/><text x="14" y="26" class="xs h">다음 확인</text><text x="14" y="49" class="tiny">증상 발생 시간·거리 + 앉기/굴곡 후 회복 시간</text></g>
+</g>
+
+<g transform="translate(782 156)">
+  <rect x="0" y="0" width="354" height="296" rx="24" fill="#fff" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="354" height="58" rx="24" fill="#567b67"/><rect x="0" y="34" width="354" height="24" fill="#567b67"/>
+  <text x="22" y="38" font-size="23" class="h white">2. 신경근성 통증</text>
+  <text x="22" y="92" class="s h">특정 신경 분포 + 신경학적 변화</text>
+  <text x="22" y="124" class="xs">• 기침/재채기·허리 자세에 따라 변할 수 있음</text>
+  <text x="22" y="153" class="xs">• 감각·근력·반사 변화가 동반되면 가중치 상승</text>
+  <text x="22" y="182" class="xs">• “몇 m 걸으면 항상 시작” 패턴은 필수 아님</text>
+  <g transform="translate(22 210)"><rect width="310" height="62" rx="14" fill="#edf3ee"/><text x="14" y="26" class="xs h">다음 확인</text><text x="14" y="49" class="tiny">myotome·dermatome·reflex + 신경긴장검사</text></g>
+</g>
+
+<g transform="translate(400 476)">
+  <rect x="0" y="0" width="360" height="310" rx="24" fill="#fff" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="360" height="58" rx="24" fill="#a06b3b"/><rect x="0" y="34" width="360" height="24" fill="#a06b3b"/>
+  <text x="22" y="38" font-size="23" class="h white">3. 혈관성 파행</text>
+  <text x="22" y="92" class="s h">운동량에 비례하는 종아리 통증</text>
+  <text x="22" y="124" class="xs">• 자세와 무관하게 단순 휴식만으로도 호전 가능</text>
+  <text x="22" y="153" class="xs">• 차가움·피부색 변화·맥박 저하가 있으면 우선 평가</text>
+  <text x="22" y="182" class="xs">• 흡연·당뇨·혈관질환 위험요인 확인</text>
+  <g transform="translate(22 214)"><rect width="316" height="72" rx="14" fill="#f7efe6"/><text x="14" y="27" class="xs h">행동이 바뀌는 신호</text><text x="14" y="51" class="tiny">비정상 말초맥박·휴식통·색 변화 → ABI/혈관 평가</text></g>
+</g>
+
+<g transform="translate(782 476)">
+  <rect x="0" y="0" width="354" height="310" rx="24" fill="#fff" filter="url(#shadow)"/>
+  <rect x="0" y="0" width="354" height="58" rx="24" fill="#735f86"/><rect x="0" y="34" width="354" height="24" fill="#735f86"/>
+  <text x="22" y="38" font-size="23" class="h white">4. 고관절·말초 근골격</text>
+  <text x="22" y="92" class="s h">관절·힘줄 부하에서 국소적으로 재현</text>
+  <text x="22" y="124" class="xs">• 서혜부 통증 + 고관절 ROM 제한이면 hip 가중치↑</text>
+  <text x="22" y="153" class="xs">• 특정 근육 수축/신장에 국소 통증 재현</text>
+  <text x="22" y="182" class="xs">• 굴곡 자세만으로 즉시 풀리는 양상은 덜 전형적</text>
+  <g transform="translate(22 214)"><rect width="310" height="72" rx="14" fill="#f0edf4"/><text x="14" y="27" class="xs h">다음 확인</text><text x="14" y="51" class="tiny">고관절 ROM·국소 부하검사 + 보행 패턴 비교</text></g>
+</g>
+
+<g transform="translate(64 804)"><rect width="1072" height="36" rx="12" fill="#fff4f1"/><text x="18" y="24" class="tiny h" fill="#9a4f49">경고:</text><text x="74" y="24" class="tiny">진행성 근력저하, 회음부 감각저하, 배뇨·배변 이상은 보존적 재평가보다 즉시 의뢰가 우선입니다.</text></g>
+</svg>

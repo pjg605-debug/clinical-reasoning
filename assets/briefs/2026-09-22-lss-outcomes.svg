@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">통증과 보행 기능을 따로 추적해야 하는 이유</title><desc id="desc">요추관협착증 치료에서 통증과 기능 점수는 좋아질 수 있지만 보행거리는 별도로 확인해야 함을 보여주는 임상 의사결정 인포그래픽.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fbfc"/><stop offset="1" stop-color="#edf4f6"/></linearGradient>
+  <filter id="sh"><feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#29434e" flood-opacity=".12"/></filter>
+  <style>text{font-family:Pretendard,'Noto Sans KR','Apple SD Gothic Neo',Arial,sans-serif;fill:#18323e}.h{font-weight:800}.muted{fill:#65747b}.white{fill:#fff}.sm{font-size:18px}.xs{font-size:15px}</style>
+</defs>
+<rect width="1200" height="650" rx="28" fill="url(#bg)"/>
+<text x="54" y="70" font-size="39" class="h">통증이 줄었다고 “걷는 능력”도 좋아졌다고 가정하지 않습니다</text>
+<text x="54" y="108" font-size="22" class="muted">2026 네트워크 메타분석의 핵심은 <tspan class="h">통증·기능 개선 신호와 보행거리 개선 신호가 같지 않았다</tspan>는 점입니다.</text>
+
+<g transform="translate(54 152)">
+  <rect width="520" height="330" rx="24" fill="#fff" filter="url(#sh)"/>
+  <rect width="520" height="62" rx="24" fill="#315f74"/><rect y="36" width="520" height="26" fill="#315f74"/>
+  <text x="24" y="40" font-size="24" class="h white">치료 후 좋아질 수 있는 것</text>
+  <text x="28" y="112" font-size="22" class="h">통증 · 증상 관련 기능</text>
+  <g transform="translate(28 142)"><rect width="464" height="70" rx="16" fill="#e8f1f4"/>
+    <text x="18" y="30" class="sm h">2026 NMA: acupuncture vs placebo</text>
+    <text x="18" y="55" class="xs">단기 통증 MD −10.02 · 기능 MD −14.39, 모두 low-certainty</text>
+  </g>
+  <g transform="translate(28 232)">
+    <circle cx="46" cy="34" r="28" fill="#dcebed"/><path d="M31 34 l11 11 l21-24" fill="none" stroke="#315f74" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="88" y="28" class="sm h">그래서 기록할 것</text><text x="88" y="54" class="xs">다리 NRS, ZCQ/RMDQ 등 증상·기능 지표</text>
+  </g>
+</g>
+
+<g transform="translate(626 152)">
+  <rect width="520" height="330" rx="24" fill="#fff" filter="url(#sh)"/>
+  <rect width="520" height="62" rx="24" fill="#a06b3b"/><rect y="36" width="520" height="26" fill="#a06b3b"/>
+  <text x="24" y="40" font-size="24" class="h white">별도로 확인해야 하는 것</text>
+  <text x="28" y="112" font-size="22" class="h">보행거리 · 증상 발생 시간</text>
+  <g transform="translate(28 142)"><rect width="464" height="70" rx="16" fill="#f7efe6"/>
+    <text x="18" y="30" class="sm h">같은 NMA에서</text>
+    <text x="18" y="55" class="xs">어떤 비수술 중재도 보행거리 개선이 명확하지 않았음</text>
+  </g>
+  <g transform="translate(28 232)">
+    <circle cx="46" cy="34" r="28" fill="#f4e3d1"/><path d="M29 38 h34 M46 21 v34" stroke="#9a6737" stroke-width="6" stroke-linecap="round"/>
+    <text x="88" y="28" class="sm h">그래서 따로 잴 것</text><text x="88" y="54" class="xs">첫 증상 거리, 걷기 중단 거리, 회복 시간</text>
+  </g>
+</g>
+
+<g transform="translate(54 512)"><rect width="1092" height="88" rx="18" fill="#263f49"/>
+  <text x="24" y="35" font-size="20" class="h white">임상 의사결정:</text>
+  <text x="178" y="35" class="sm white">NRS 7→3이어도 첫 증상 거리가 300 m→320 m라면 “치료 성공”으로 끝내지 않습니다.</text>
+  <text x="24" y="65" class="xs white">보행 제한이 남는다면 LSS phenotype, 혈관성 원인, 신경학적 변화, 실제 활동부하와 재활 전략을 다시 점검합니다.</text>
+</g>
+</svg>
