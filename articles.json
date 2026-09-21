@@ -1,23 +1,32 @@
 [
   {
+    "id": "2026-09-21-acute-neck-arm-tingling",
+    "date": "2026-09-21",
+    "publishedAt": "2026-09-21T08:50:00+09:00",
+    "type": "Neck · Clinical Reasoning",
+    "title": "급성 경항통으로 치료했는데 왜 팔 저림이 새로 생기면 계획이 달라질까?",
+    "file": "articles/2026-09-21-acute-neck-arm-tingling.html",
+    "keywords": [
+      "급성 경항통",
+      "acute neck pain",
+      "motion style acupuncture",
+      "MSAT",
+      "경추 신경근병증",
+      "cervical radiculopathy",
+      "Spurling",
+      "ULNT",
+      "NDI",
+      "팔 저림"
+    ]
+  },
+  {
     "id": "2026-09-20-knee-oa-posterior-pain",
     "date": "2026-09-20",
     "publishedAt": "2026-09-20T08:05:00+09:00",
     "type": "Knee · Clinical Reasoning",
     "title": "무릎 골관절염으로 치료했는데 왜 뒤쪽 무릎 통증이 남을까?",
     "file": "articles/2026-09-20-knee-oa-posterior-pain.html",
-    "keywords": [
-      "무릎 골관절염",
-      "knee osteoarthritis",
-      "posterior knee pain",
-      "popliteus",
-      "dry needling",
-      "Baker cyst",
-      "effusion",
-      "ultrasound",
-      "DN4",
-      "WOMAC"
-    ]
+    "keywords": ["무릎 골관절염","knee osteoarthritis","posterior knee pain","popliteus","dry needling","Baker cyst","effusion","ultrasound","DN4","WOMAC"]
   },
   {
     "id": "2026-09-19-lateral-elbow",
@@ -26,18 +35,7 @@
     "type": "Elbow · Clinical Reasoning",
     "title": "테니스엘보로 치료했는데 왜 깊은 전완 통증이 남을까?",
     "file": "articles/2026-09-19-lateral-elbow.html",
-    "keywords": [
-      "테니스엘보",
-      "외측상과염",
-      "lateral elbow tendinopathy",
-      "radial tunnel",
-      "posterior interosseous nerve",
-      "dry needling",
-      "tendon fenestration",
-      "PRTEE",
-      "cervicothoracic screen",
-      "pain-free grip"
-    ]
+    "keywords": ["테니스엘보","외측상과염","lateral elbow tendinopathy","radial tunnel","posterior interosseous nerve","dry needling","tendon fenestration","PRTEE","cervicothoracic screen","pain-free grip"]
   },
   {
     "id": "2026-09-18-shoulder",
@@ -46,19 +44,7 @@
     "type": "Shoulder · Clinical Reasoning",
     "title": "회전근개 통증으로 치료했는데 왜 야간통과 팔 통증이 남을까?",
     "file": "articles/2026-09-18-shoulder.html",
-    "keywords": [
-      "어깨",
-      "회전근개",
-      "견봉하통증",
-      "야간통",
-      "팔통증",
-      "경추신경근병증",
-      "dry needling",
-      "acupuncture",
-      "SPADI",
-      "ULNT",
-      "Spurling"
-    ]
+    "keywords": ["어깨","회전근개","견봉하통증","야간통","팔통증","경추신경근병증","dry needling","acupuncture","SPADI","ULNT","Spurling"]
   },
   {
     "id": "2026-09-18-plantar",
@@ -67,16 +53,6 @@
     "type": "Foot & Ankle · Clinical Reasoning",
     "title": "족저근막병증으로 치료했는데 왜 계속 아플까?",
     "file": "articles/2026-09-18-plantar.html",
-    "keywords": [
-      "족저근막",
-      "족저통증",
-      "Baxter nerve",
-      "ADM",
-      "Achilles",
-      "fat pad",
-      "calcaneal stress injury",
-      "dry needling",
-      "acupuncture"
-    ]
+    "keywords": ["족저근막","족저통증","Baxter nerve","ADM","Achilles","fat pad","calcaneal stress injury","dry needling","acupuncture"]
   }
 ]
