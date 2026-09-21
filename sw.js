@@ -1,6 +1,6 @@
-const VERSION="clinical-reasoning-v11";
+const VERSION="clinical-reasoning-v12";
 const CORE=[
-  "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html",
+  "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html","./manifest.webmanifest",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
   "./articles/2026-09-21-acute-neck-arm-tingling.html",
   "./articles/2026-09-20-knee-oa-posterior-pain.html",
@@ -14,55 +14,55 @@ const CORE=[
 ];
 
 self.addEventListener("install",event=>{
-  event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(CORE)));
-  self.skipWaiting();
+  event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));
 });
 
 self.addEventListener("activate",event=>{
   event.waitUntil(
-    caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==VERSION).map(k=>caches.delete(k))))
+    caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("clinical-reasoning-v")&&k!==VERSION).map(k=>caches.delete(k))))
+      .then(()=>self.clients.claim())
   );
-  self.clients.claim();
 });
+
+// Keep successful responses only; a temporary HTTP error must not poison offline data.
+async function networkResponse(req,cacheKey=req){
+  const res=await fetch(req);
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const cache=await caches.open(VERSION);
+  await cache.put(cacheKey,res.clone());
+  return res;
+}
 
 self.addEventListener("fetch",event=>{
   const req=event.request;
   if(req.method!=="GET")return;
   const url=new URL(req.url);
-  if(url.origin!==location.origin)return;
+  const scope=new URL(self.registration.scope);
+  if(url.origin!==scope.origin||!url.pathname.startsWith(scope.pathname))return;
 
   if(req.mode==="navigate"){
     event.respondWith(
-      fetch(req).then(res=>{
-        const copy=res.clone();
-        caches.open(VERSION).then(c=>c.put("./index.html",copy));
-        return res;
-      }).catch(async()=>{
-        return (await caches.match("./index.html"))||(await caches.match("./offline.html"));
+      networkResponse(req).catch(async()=>{
+        const cache=await caches.open(VERSION);
+        const isShell=url.pathname===scope.pathname||url.pathname===scope.pathname+"index.html";
+        return (await cache.match(req))||(isShell&&await cache.match("./index.html"))||(await cache.match("./offline.html"));
       })
     );
     return;
   }
 
-  if(url.pathname.endsWith("/articles.json")||url.pathname.includes("/articles/")){
+  if(url.pathname.endsWith("/articles.json")||url.pathname.includes("/articles/")||url.pathname.endsWith("/manifest.webmanifest")){
     event.respondWith(
-      fetch(req).then(res=>{
-        const copy=res.clone();
-        caches.open(VERSION).then(c=>c.put(req,copy));
-        return res;
-      }).catch(()=>caches.match(req))
+      networkResponse(req).catch(async()=>{
+        const cache=await caches.open(VERSION);
+        return (await cache.match(req))||Response.error();
+      })
     );
     return;
   }
 
-  event.respondWith(
-    caches.match(req).then(cached=>{
-      const network=fetch(req).then(res=>{
-        const copy=res.clone();
-        caches.open(VERSION).then(c=>c.put(req,copy));
-        return res;
-      }).catch(()=>cached);
-      return cached||network;
-    })
-  );
+  const cached=caches.open(VERSION).then(cache=>cache.match(req));
+  const network=networkResponse(req).catch(async()=>(await cached)||Response.error());
+  event.waitUntil(network.then(()=>{}));
+  event.respondWith(cached.then(res=>res||network));
 });

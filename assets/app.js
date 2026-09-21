@@ -16,7 +16,6 @@ async function init(){
   }catch(err){
     mount.innerHTML='<div class="loading">사이트 데이터를 불러오지 못했습니다. 인터넷 연결을 확인한 뒤 다시 열어 주세요.</div>';
   }
-  registerServiceWorker();
 }
 
 function renderArchive(q=""){
@@ -173,14 +172,23 @@ function escapeHtml(s){
 
 async function registerServiceWorker(){
   if("serviceWorker" in navigator){
-    try{await navigator.serviceWorker.register("sw.js",{scope:"./"});}catch(e){}
+    try{
+      await navigator.serviceWorker.register("./sw.js",{scope:"./",updateViaCache:"none"});
+    }catch(e){console.warn("오프라인 준비에 실패했습니다.",e);}
   }
 }
+
+const standaloneMode=window.matchMedia("(display-mode: standalone)");
+function updateInstallButton(){
+  installBtn.hidden=standaloneMode.matches||navigator.standalone===true;
+}
+standaloneMode.addEventListener("change",updateInstallButton);
+updateInstallButton();
 
 window.addEventListener("beforeinstallprompt",e=>{
   e.preventDefault();
   state.installPrompt=e;
-  installBtn.hidden=false;
+  updateInstallButton();
 });
 window.addEventListener("appinstalled",()=>{
   state.installPrompt=null;
@@ -189,13 +197,21 @@ window.addEventListener("appinstalled",()=>{
 });
 installBtn.addEventListener("click",async()=>{
   if(!state.installPrompt){
-    toast("Chrome 메뉴의 ‘앱 설치’ 또는 ‘홈 화면에 추가’를 이용해 주세요.");
+    $("#installHelp").showModal();
     return;
   }
-  state.installPrompt.prompt();
-  await state.installPrompt.userChoice;
+  const prompt=state.installPrompt;
   state.installPrompt=null;
-  installBtn.hidden=true;
+  installBtn.disabled=true;
+  try{
+    await prompt.prompt();
+    const choice=await prompt.userChoice;
+    installBtn.hidden=choice.outcome==="accepted";
+  }catch(e){
+    $("#installHelp").showModal();
+  }finally{
+    installBtn.disabled=false;
+  }
 });
 
 search.addEventListener("input",e=>renderArchive(e.target.value));
@@ -218,4 +234,5 @@ window.addEventListener("keydown",e=>{
   if(e.key==="/"&&document.activeElement!==search){e.preventDefault();search.focus();openMenu()}
   if(e.key==="Escape"){closeMenu();search.blur()}
 });
+registerServiceWorker();
 init();
