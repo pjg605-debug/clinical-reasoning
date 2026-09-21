@@ -1,15 +1,17 @@
-const VERSION="clinical-reasoning-v10";
+const VERSION="clinical-reasoning-v11";
 const CORE=[
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
+  "./articles/2026-09-21-acute-neck-arm-tingling.html",
   "./articles/2026-09-20-knee-oa-posterior-pain.html",
   "./articles/2026-09-19-lateral-elbow.html",
   "./articles/2026-09-18-plantar.html","./articles/2026-09-18-shoulder.html",
+  "./assets/briefs/2026-09-21-neck-painmap.svg","./assets/briefs/2026-09-21-neck-exam-sequence.svg",
   "./assets/briefs/plantar-painmap-v4.jpg","./assets/briefs/plantar-exams-v4.jpg",
   "./assets/briefs/shoulder-painmap-v4.jpg","./assets/briefs/shoulder-exams-v4.jpg",
   "./assets/briefs/elbow-painmap-v4.jpg","./assets/briefs/elbow-exams-v4.jpg",
   "./assets/briefs/knee-painmap-v4.jpg","./assets/briefs/knee-exams-v4.jpg"
-]
+];
 
 self.addEventListener("install",event=>{
   event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(CORE)));
