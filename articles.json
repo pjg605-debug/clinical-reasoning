@@ -1,23 +1,21 @@
 [
   {
+    "id": "2026-09-23-gtps-lateral-hip",
+    "date": "2026-09-23",
+    "publishedAt": "2026-09-23T08:25:00+09:00",
+    "type": "Hip · Clinical Reasoning",
+    "title": "대전자 통증으로 치료했는데 왜 옆으로 누우면 계속 아플까?",
+    "file": "articles/2026-09-23-gtps-lateral-hip.html",
+    "keywords": ["대전자 통증","GTPS","gluteal tendinopathy","중둔근","소둔근","trochanteric bursitis","ultrasound","single leg stance","dry needling","PSFS"]
+  },
+  {
     "id": "2026-09-22-walking-leg-pain-stenosis",
     "date": "2026-09-22",
     "publishedAt": "2026-09-22T08:39:00+09:00",
     "type": "Lumbar Spine · Clinical Reasoning",
     "title": "요통으로 치료했는데 왜 걸으면 종아리 통증이 남을까?",
     "file": "articles/2026-09-22-walking-leg-pain-stenosis.html",
-    "keywords": [
-      "요추관협착증",
-      "lumbar spinal stenosis",
-      "neurogenic claudication",
-      "보행검사",
-      "walking test",
-      "acupuncture",
-      "RMDQ",
-      "혈관성 파행",
-      "radiculopathy",
-      "walking distance"
-    ]
+    "keywords": ["요추관협착증","lumbar spinal stenosis","neurogenic claudication","보행검사","walking test","acupuncture","RMDQ","혈관성 파행","radiculopathy","walking distance"]
   },
   {
     "id": "2026-09-21-acute-neck-arm-tingling",
@@ -26,18 +24,7 @@
     "type": "Neck · Clinical Reasoning",
     "title": "급성 경항통으로 치료했는데 왜 팔 저림이 새로 생기면 계획이 달라질까?",
     "file": "articles/2026-09-21-acute-neck-arm-tingling.html",
-    "keywords": [
-      "급성 경항통",
-      "acute neck pain",
-      "motion style acupuncture",
-      "MSAT",
-      "경추 신경근병증",
-      "cervical radiculopathy",
-      "Spurling",
-      "ULNT",
-      "NDI",
-      "팔 저림"
-    ]
+    "keywords": ["급성 경항통","acute neck pain","motion style acupuncture","MSAT","경추 신경근병증","cervical radiculopathy","Spurling","ULNT","NDI","팔 저림"]
   },
   {
     "id": "2026-09-20-knee-oa-posterior-pain",
