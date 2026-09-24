@@ -1,13 +1,15 @@
-const VERSION="clinical-reasoning-v14";
+const VERSION="clinical-reasoning-v15";
 const CORE=[
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html","./manifest.webmanifest",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
+  "./articles/2026-09-24-tmd-myalgia-opening.html",
   "./articles/2026-09-23-gtps-lateral-hip.html",
   "./articles/2026-09-22-walking-leg-pain-stenosis.html",
   "./articles/2026-09-21-acute-neck-arm-tingling.html",
   "./articles/2026-09-20-knee-oa-posterior-pain.html",
   "./articles/2026-09-19-lateral-elbow.html",
   "./articles/2026-09-18-plantar.html","./articles/2026-09-18-shoulder.html",
+  "./assets/briefs/2026-09-24-tmd-differential.svg","./assets/briefs/2026-09-24-tmd-exam-sequence.svg",
   "./assets/briefs/2026-09-23-gtps-anatomy-painmap.svg","./assets/briefs/2026-09-23-gtps-exam-sequence.svg",
   "./assets/briefs/2026-09-22-lss-painmap.svg","./assets/briefs/2026-09-22-lss-walk-test.svg","./assets/briefs/2026-09-22-lss-outcomes.svg",
   "./assets/briefs/2026-09-21-neck-painmap.svg","./assets/briefs/2026-09-21-neck-exam-sequence.svg",

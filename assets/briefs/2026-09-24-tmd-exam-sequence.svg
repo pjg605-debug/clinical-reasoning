@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" role="img" aria-labelledby="title desc">
+<title id="title">턱관절 진찰 순서</title><desc id="desc">문진, 개구량 측정, 교근과 측두근 촉진, 턱관절 기능검사, red flag 확인의 순서를 보여주는 임상 진찰 인포그래픽</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f8fbfd"/><stop offset="1" stop-color="#eef5f9"/></linearGradient>
+  <style>
+  .t{font-family:Pretendard,'Noto Sans KR','Apple SD Gothic Neo',sans-serif;fill:#153b67}.h{font-weight:900}.xl{font-size:38px}.l{font-size:27px}.m{font-size:20px}.s{font-size:16px}.small{font-size:14px}.card{fill:#fff;stroke:#c8dce8;stroke-width:2}.blue{fill:#eaf4fb}.green{fill:#e9f6ef}.amber{fill:#fff4da}.red{fill:#fdebea}.num{fill:#1d69a6}.white{fill:#fff}.mut{fill:#596b78}.line{stroke:#567f9c;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect x="26" y="24" width="748" height="92" rx="18" fill="#173f72"/>
+<text x="52" y="63" class="t h xl white">턱 통증 재평가: 10분 진찰 순서</text>
+<text x="52" y="94" class="t s white">한 점의 압통보다 familiar pain + 개구 기능 + 잠김 + 동반 소견을 연결합니다</text>
+
+<!-- Step 1 -->
+<rect x="26" y="138" width="748" height="142" rx="18" class="card"/>
+<circle cx="67" cy="177" r="26" class="num"/><text x="59" y="185" class="t h m white">1</text>
+<text x="108" y="177" class="t h l">문진: 통증을 두 개 이상으로 나눠 묻기</text>
+<rect x="48" y="202" width="208" height="55" rx="12" class="blue"/><text x="62" y="225" class="t h s">근육 통증</text><text x="62" y="247" class="t small">씹기·악물기·오래 말하기</text>
+<rect x="274" y="202" width="208" height="55" rx="12" class="green"/><text x="288" y="225" class="t h s">관절 통증</text><text x="288" y="247" class="t small">큰 개구·하품·잠김·소리</text>
+<rect x="500" y="202" width="248" height="55" rx="12" class="amber"/><text x="514" y="225" class="t h s">모방통</text><text x="514" y="247" class="t small">치통·이통·저림·전신 증상</text>
+
+<!-- Step 2 -->
+<rect x="26" y="300" width="364" height="278" rx="18" class="card"/>
+<circle cx="67" cy="339" r="26" class="num"/><text x="59" y="347" class="t h m white">2</text>
+<text x="108" y="339" class="t h l">개구량 + 움직임</text>
+<ellipse cx="206" cy="430" rx="71" ry="86" fill="#f1d2bf" stroke="#c8a68f" stroke-width="2"/>
+<path d="M166 407 Q206 387 246 407" class="line"/>
+<path d="M174 448 Q206 485 238 448" stroke="#b8494e" stroke-width="11" fill="none" stroke-linecap="round"/>
+<line x1="280" y1="389" x2="280" y2="489" stroke="#d24b4b" stroke-width="4"/>
+<line x1="267" y1="389" x2="293" y2="389" stroke="#d24b4b" stroke-width="4"/>
+<line x1="267" y1="489" x2="293" y2="489" stroke="#d24b4b" stroke-width="4"/>
+<text x="299" y="430" class="t h m">mm</text>
+<text x="53" y="523" class="t s">• 통증 없는 개구와 최대 개구를 따로</text>
+<text x="53" y="549" class="t s">• 편위, click/crepitus, open/closed lock 확인</text>
+
+<!-- Step 3 -->
+<rect x="410" y="300" width="364" height="278" rx="18" class="card"/>
+<circle cx="451" cy="339" r="26" class="num"/><text x="443" y="347" class="t h m white">3</text>
+<text x="492" y="339" class="t h l">근육 familiar pain</text>
+<ellipse cx="591" cy="428" rx="70" ry="84" fill="#f1d2bf" stroke="#c8a68f" stroke-width="2"/>
+<path d="M536 396 Q557 374 578 393 Q565 443 548 476 Q529 441 536 396Z" fill="#df716d"/>
+<path d="M551 348 Q591 329 627 352 Q610 381 582 399 Q558 379 551 348Z" fill="#e6a15b"/>
+<circle cx="548" cy="430" r="13" fill="#1d69a6" opacity=".9"/>
+<line x1="548" y1="430" x2="487" y2="468" class="line"/>
+<text x="465" y="502" class="t s">교근·측두근을 부드럽게 촉진</text>
+<text x="465" y="529" class="t s">→ 평소 통증이 재현되는지 확인</text>
+<text x="465" y="555" class="t h small">단순 압통 ≠ 확진</text>
+
+<!-- Step 4 -->
+<rect x="26" y="600" width="748" height="204" rx="18" class="card"/>
+<circle cx="67" cy="639" r="26" class="num"/><text x="59" y="647" class="t h m white">4</text>
+<text x="108" y="639" class="t h l">TMJ familiar pain + 기능검사</text>
+<ellipse cx="171" cy="713" rx="58" ry="62" fill="#f1d2bf" stroke="#c8a68f" stroke-width="2"/>
+<ellipse cx="228" cy="711" rx="13" ry="25" fill="#edc7b0" stroke="#c8a68f" stroke-width="2"/>
+<circle cx="214" cy="698" r="10" fill="#2c8bc3"/>
+<line x1="214" y1="698" x2="283" y2="674" class="line"/>
+<text x="292" y="680" class="t h m">귀 앞 TMJ 촉진</text>
+<text x="292" y="709" class="t s">개구·측방운동에서 같은 관절통이 재현되는가?</text>
+<text x="292" y="738" class="t s">기능성 잠김·개구 제한이 반복되는가?</text>
+<text x="292" y="767" class="t h s">근육 통증과 관절 통증을 각각 별도 기록</text>
+
+<!-- Step 5 -->
+<rect x="26" y="826" width="748" height="250" rx="18" class="red" stroke="#e7a8a4" stroke-width="2"/>
+<circle cx="67" cy="865" r="26" fill="#c83f3b"/><text x="59" y="873" class="t h m white">5</text>
+<text x="108" y="865" class="t h l">Red flags / 다른 진료과로 방향 전환</text>
+<text x="52" y="910" class="t s">□ 갑자기 또는 점점 심해지는 trismus / 새로운 개구장애</text>
+<text x="52" y="940" class="t s">□ 얼굴·목 종괴, 림프절병증, 원인불명 체중감소, 발열</text>
+<text x="52" y="970" class="t s">□ 안면 감각저하·근력저하·시각/청각 변화 등 새 신경학적 증상</text>
+<text x="52" y="1000" class="t s">□ 명확한 치통·냉온 자극통·이루/청력 변화·지속적 비출혈</text>
+<rect x="52" y="1022" width="696" height="36" rx="10" fill="#fff"/>
+<text x="72" y="1047" class="t h s">이 소견들이 있으면 국소 침 자극 확대보다 원인 평가와 적절한 의뢰가 우선입니다.</text>
+
+<text x="400" y="1102" text-anchor="middle" class="t h m">치료반응보다 “어떤 증상이 남았는가”가 다음 진료를 결정합니다.</text>
+</svg>

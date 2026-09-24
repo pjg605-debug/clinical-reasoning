@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" role="img" aria-labelledby="title desc">
+<title id="title">턱관절 통증 감별 지도</title><desc id="desc">근육성 TMD, 관절성 TMD, 치성·이비인후과 모방통, 신경성 통증과 외측익돌근 주변 안전 구조를 비교한 임상 인포그래픽</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbfe"/><stop offset="1" stop-color="#eef5f8"/></linearGradient>
+  <style>
+    .t{font-family:Pretendard,'Noto Sans KR','Apple SD Gothic Neo',sans-serif;fill:#173b67}.h{font-weight:900}.s{font-size:17px}.m{font-size:20px}.l{font-size:28px}.xl{font-size:38px}.mut{fill:#536778}.card{fill:#fff;stroke:#c8dbe7;stroke-width:2}.blue{fill:#e8f2fb}.red{fill:#fdeaea}.green{fill:#eaf6ef}.amber{fill:#fff4dc}.line{stroke:#547c98;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.fine{stroke:#8ea9ba;stroke-width:2;fill:none}.label{font-weight:800;font-size:17px}.small{font-size:15px}.white{fill:#fff}
+  </style>
+</defs>
+<rect width="800" height="1120" fill="url(#bg)"/>
+<rect x="26" y="24" width="748" height="92" rx="18" fill="#173f72"/>
+<text x="52" y="63" class="t h xl white">턱 통증, 어느 층에서 재현되는가?</text>
+<text x="52" y="94" class="t s white">위치 + 유발 동작 + familiar pain + 기능 변화를 함께 봅니다</text>
+
+<rect x="26" y="136" width="360" height="430" rx="20" class="card"/>
+<text x="48" y="173" class="t h l">① 표층 저작근 vs 턱관절</text>
+<!-- face -->
+<ellipse cx="190" cy="315" rx="98" ry="132" fill="#f6d9c8" stroke="#cfad9a" stroke-width="2"/>
+<path d="M140 208 Q190 165 240 208 Q226 183 190 174 Q155 184 140 208" fill="#344d62"/>
+<ellipse cx="288" cy="325" rx="18" ry="34" fill="#efcdb9" stroke="#cfad9a" stroke-width="2"/>
+<path d="M127 300 Q155 270 177 288 Q159 348 142 390 Q122 354 127 300Z" fill="#e97c73" opacity=".9"/>
+<path d="M142 214 Q191 194 225 215 Q205 252 180 274 Q153 254 142 214Z" fill="#e7a15f" opacity=".85"/>
+<circle cx="275" cy="310" r="15" fill="#4a9fd6" opacity=".95"/>
+<path d="M177 394 Q220 420 256 385" class="fine"/>
+<path d="M174 282 Q191 290 205 281" class="fine"/>
+<path d="M158 282 Q151 280 145 286" class="fine"/>
+<line x1="124" y1="342" x2="55" y2="342" class="line"/><circle cx="124" cy="342" r="5" fill="#d14f49"/>
+<text x="48" y="330" class="t h m">교근</text><text x="48" y="354" class="t small mut">씹기·악물기에서 변함</text>
+<line x1="160" y1="236" x2="69" y2="215" class="line"/><circle cx="160" cy="236" r="5" fill="#d78338"/>
+<text x="48" y="203" class="t h m">측두근</text><text x="48" y="227" class="t small mut">관자놀이 familiar pain</text>
+<line x1="277" y1="310" x2="337" y2="275" class="line"/><circle cx="277" cy="310" r="5" fill="#2b80bd"/>
+<text x="276" y="248" class="t h m">TMJ</text><text x="276" y="272" class="t small mut">귀 앞 깊은 통증</text>
+<rect x="50" y="450" width="310" height="91" rx="14" class="blue"/>
+<text x="67" y="480" class="t h m">근육성 TMD를 올리는 소견</text>
+<text x="67" y="508" class="t s">• 씹기/악물기에서 같은 통증 변화</text>
+<text x="67" y="533" class="t s">• 교근·측두근 촉진이 familiar pain 재현</text>
+
+<rect x="410" y="136" width="364" height="430" rx="20" class="card"/>
+<text x="432" y="173" class="t h l">② 관절성 통증을 따로 찾기</text>
+<!-- TMJ inset -->
+<path d="M470 280 Q520 218 590 220 Q645 222 708 268" stroke="#c6a78f" stroke-width="36" fill="none" stroke-linecap="round"/>
+<path d="M565 286 Q594 253 624 273 Q637 297 616 324 Q593 334 572 320Z" fill="#e9eef2" stroke="#6e8798" stroke-width="3"/>
+<ellipse cx="600" cy="303" rx="26" ry="31" fill="#f0cfb8" stroke="#b48d76" stroke-width="3"/>
+<path d="M577 279 Q601 263 626 280" stroke="#335c7e" stroke-width="6" fill="none"/>
+<line x1="624" y1="298" x2="704" y2="245" class="line"/><text x="640" y="230" class="t h m">관절원판/관절면</text>
+<line x1="591" y1="324" x2="691" y2="364" class="line"/><text x="628" y="392" class="t h m">하악과두</text>
+<rect x="434" y="416" width="316" height="124" rx="14" class="red"/>
+<text x="452" y="447" class="t h m">관절성 가설을 올리는 소견</text>
+<text x="452" y="475" class="t s">• TMJ 촉진/개구에서 귀 앞 familiar pain</text>
+<text x="452" y="502" class="t s">• 기능성 click/crepitus, open/closed lock</text>
+<text x="452" y="529" class="t s">• 최대 개구 감소·편위가 반복됨</text>
+
+<rect x="26" y="588" width="748" height="264" rx="20" class="card"/>
+<text x="48" y="625" class="t h l">③ 비슷하게 느껴지는 통증을 걸러낸다</text>
+<rect x="48" y="650" width="222" height="172" rx="16" class="green"/>
+<text x="65" y="682" class="t h m">치성·이비인후과</text>
+<text x="65" y="714" class="t s">• 냉온 자극·타진통, 국소 치통</text>
+<text x="65" y="742" class="t s">• 이통·이루·청력 변화</text>
+<text x="65" y="770" class="t s">• 비염/부비동·인후 증상 동반</text>
+<text x="65" y="800" class="t h small">→ 치과/ENT 평가 우선</text>
+<rect x="290" y="650" width="222" height="172" rx="16" class="amber"/>
+<text x="307" y="682" class="t h m">신경성 통증</text>
+<text x="307" y="714" class="t s">• 전기충격성·짧고 강한 통증</text>
+<text x="307" y="742" class="t s">• 감각저하·안면마비·근력저하</text>
+<text x="307" y="770" class="t s">• 특정 신경분포를 따라 재현</text>
+<text x="307" y="800" class="t h small">→ 신경학적 평가</text>
+<rect x="532" y="650" width="218" height="172" rx="16" class="red"/>
+<text x="549" y="682" class="t h m">Red flags</text>
+<text x="549" y="714" class="t s">• 진행성 trismus·종괴·발열</text>
+<text x="549" y="742" class="t s">• 원인불명 체중감소</text>
+<text x="549" y="770" class="t s">• 새 신경학적 증상</text>
+<text x="549" y="800" class="t h small">→ 자극 확대보다 신속 의뢰</text>
+
+<rect x="26" y="874" width="748" height="220" rx="20" fill="#173f72"/>
+<text x="48" y="912" class="t h l white">④ 깊은 외측익돌근: 해부학적 안전 경계</text>
+<path d="M67 1027 Q126 951 199 971 Q248 987 288 1016" stroke="#f0c1a3" stroke-width="32" fill="none" stroke-linecap="round"/>
+<path d="M173 1002 Q212 952 268 959" stroke="#f26a63" stroke-width="18" fill="none" stroke-linecap="round"/>
+<path d="M183 1032 Q246 1016 308 1028" stroke="#f2b344" stroke-width="8" fill="none"/>
+<path d="M187 1048 Q245 1041 303 1053" stroke="#6fb0d8" stroke-width="8" fill="none"/>
+<text x="326" y="961" class="t h m white">외측익돌근은 깊은 위치</text>
+<text x="326" y="993" class="t s white">상악동맥·하치조신경 등 중요 구조와 인접합니다.</text>
+<text x="326" y="1025" class="t s white">표면 압통점 = 안전한 깊은 자침 경로가 아닙니다.</text>
+<text x="326" y="1060" class="t h m" fill="#ffd98a">심부 blind needling 방향은 제시하지 않습니다.</text>
+</svg>
