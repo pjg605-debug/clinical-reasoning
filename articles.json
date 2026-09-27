@@ -1,12 +1,42 @@
 [
   {
+    "id": "2026-09-28-achilles-function",
+    "date": "2026-09-28",
+    "publishedAt": "2026-09-28T01:15:00+09:00",
+    "type": "Foot & ankle · Clinical Reasoning",
+    "title": "아킬레스건병증으로 치료했는데 왜 통증은 줄었는데 한 발 까치발이 회복되지 않을까?",
+    "file": "articles/2026-09-28-achilles-function.html",
+    "keywords": [
+      "아킬레스건",
+      "Achilles tendinopathy",
+      "midportion",
+      "insertional",
+      "heel raise",
+      "load management",
+      "dynamic ultrasound",
+      "TENDINS-A",
+      "acupuncture"
+    ]
+  },
+  {
     "id": "2026-09-24-tmd-myalgia-opening",
     "date": "2026-09-24",
     "publishedAt": "2026-09-24T08:51:00+09:00",
     "type": "TMD · Clinical Reasoning",
     "title": "교근 통증으로 치료했는데 왜 입 벌림 제한과 귀앞 통증이 남을까?",
     "file": "articles/2026-09-24-tmd-myalgia-opening.html",
-    "keywords": ["턱관절","TMD","교근","측두근","TMD myalgia","TMJ arthralgia","개구 제한","jaw locking","acupuncture","JFLS"]
+    "keywords": [
+      "턱관절",
+      "TMD",
+      "교근",
+      "측두근",
+      "TMD myalgia",
+      "TMJ arthralgia",
+      "개구 제한",
+      "jaw locking",
+      "acupuncture",
+      "JFLS"
+    ]
   },
   {
     "id": "2026-09-23-gtps-lateral-hip",
@@ -15,7 +45,18 @@
     "type": "Hip · Clinical Reasoning",
     "title": "대전자 통증으로 치료했는데 왜 옆으로 누우면 계속 아플까?",
     "file": "articles/2026-09-23-gtps-lateral-hip.html",
-    "keywords": ["대전자 통증","GTPS","gluteal tendinopathy","중둔근","소둔근","trochanteric bursitis","ultrasound","single leg stance","dry needling","PSFS"]
+    "keywords": [
+      "대전자 통증",
+      "GTPS",
+      "gluteal tendinopathy",
+      "중둔근",
+      "소둔근",
+      "trochanteric bursitis",
+      "ultrasound",
+      "single leg stance",
+      "dry needling",
+      "PSFS"
+    ]
   },
   {
     "id": "2026-09-22-walking-leg-pain-stenosis",
@@ -24,7 +65,18 @@
     "type": "Lumbar Spine · Clinical Reasoning",
     "title": "요통으로 치료했는데 왜 걸으면 종아리 통증이 남을까?",
     "file": "articles/2026-09-22-walking-leg-pain-stenosis.html",
-    "keywords": ["요추관협착증","lumbar spinal stenosis","neurogenic claudication","보행검사","walking test","acupuncture","RMDQ","혈관성 파행","radiculopathy","walking distance"]
+    "keywords": [
+      "요추관협착증",
+      "lumbar spinal stenosis",
+      "neurogenic claudication",
+      "보행검사",
+      "walking test",
+      "acupuncture",
+      "RMDQ",
+      "혈관성 파행",
+      "radiculopathy",
+      "walking distance"
+    ]
   },
   {
     "id": "2026-09-21-acute-neck-arm-tingling",
@@ -33,7 +85,18 @@
     "type": "Neck · Clinical Reasoning",
     "title": "급성 경항통으로 치료했는데 왜 팔 저림이 새로 생기면 계획이 달라질까?",
     "file": "articles/2026-09-21-acute-neck-arm-tingling.html",
-    "keywords": ["급성 경항통","acute neck pain","motion style acupuncture","MSAT","경추 신경근병증","cervical radiculopathy","Spurling","ULNT","NDI","팔 저림"]
+    "keywords": [
+      "급성 경항통",
+      "acute neck pain",
+      "motion style acupuncture",
+      "MSAT",
+      "경추 신경근병증",
+      "cervical radiculopathy",
+      "Spurling",
+      "ULNT",
+      "NDI",
+      "팔 저림"
+    ]
   },
   {
     "id": "2026-09-20-knee-oa-posterior-pain",
@@ -42,7 +105,18 @@
     "type": "Knee · Clinical Reasoning",
     "title": "무릎 골관절염으로 치료했는데 왜 뒤쪽 무릎 통증이 남을까?",
     "file": "articles/2026-09-20-knee-oa-posterior-pain.html",
-    "keywords": ["무릎 골관절염","knee osteoarthritis","posterior knee pain","popliteus","dry needling","Baker cyst","effusion","ultrasound","DN4","WOMAC"]
+    "keywords": [
+      "무릎 골관절염",
+      "knee osteoarthritis",
+      "posterior knee pain",
+      "popliteus",
+      "dry needling",
+      "Baker cyst",
+      "effusion",
+      "ultrasound",
+      "DN4",
+      "WOMAC"
+    ]
   },
   {
     "id": "2026-09-19-lateral-elbow",
@@ -51,7 +125,18 @@
     "type": "Elbow · Clinical Reasoning",
     "title": "테니스엘보로 치료했는데 왜 깊은 전완 통증이 남을까?",
     "file": "articles/2026-09-19-lateral-elbow.html",
-    "keywords": ["테니스엘보","외측상과염","lateral elbow tendinopathy","radial tunnel","posterior interosseous nerve","dry needling","tendon fenestration","PRTEE","cervicothoracic screen","pain-free grip"]
+    "keywords": [
+      "테니스엘보",
+      "외측상과염",
+      "lateral elbow tendinopathy",
+      "radial tunnel",
+      "posterior interosseous nerve",
+      "dry needling",
+      "tendon fenestration",
+      "PRTEE",
+      "cervicothoracic screen",
+      "pain-free grip"
+    ]
   },
   {
     "id": "2026-09-18-shoulder",
@@ -60,7 +145,19 @@
     "type": "Shoulder · Clinical Reasoning",
     "title": "회전근개 통증으로 치료했는데 왜 야간통과 팔 통증이 남을까?",
     "file": "articles/2026-09-18-shoulder.html",
-    "keywords": ["어깨","회전근개","견봉하통증","야간통","팔통증","경추신경근병증","dry needling","acupuncture","SPADI","ULNT","Spurling"]
+    "keywords": [
+      "어깨",
+      "회전근개",
+      "견봉하통증",
+      "야간통",
+      "팔통증",
+      "경추신경근병증",
+      "dry needling",
+      "acupuncture",
+      "SPADI",
+      "ULNT",
+      "Spurling"
+    ]
   },
   {
     "id": "2026-09-18-plantar",
@@ -69,6 +166,16 @@
     "type": "Foot & Ankle · Clinical Reasoning",
     "title": "족저근막병증으로 치료했는데 왜 계속 아플까?",
     "file": "articles/2026-09-18-plantar.html",
-    "keywords": ["족저근막","족저통증","Baxter nerve","ADM","Achilles","fat pad","calcaneal stress injury","dry needling","acupuncture"]
+    "keywords": [
+      "족저근막",
+      "족저통증",
+      "Baxter nerve",
+      "ADM",
+      "Achilles",
+      "fat pad",
+      "calcaneal stress injury",
+      "dry needling",
+      "acupuncture"
+    ]
   }
 ]
