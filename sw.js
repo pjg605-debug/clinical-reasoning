@@ -1,7 +1,8 @@
-const VERSION="clinical-reasoning-v16";
+const VERSION="clinical-reasoning-v17";
 const CORE=[
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html","./manifest.webmanifest",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
+  "./articles/2026-10-05-ankle-giving-way.html",
   "./articles/2026-09-28-achilles-function.html",
   "./articles/2026-09-24-tmd-myalgia-opening.html",
   "./articles/2026-09-23-gtps-lateral-hip.html",
