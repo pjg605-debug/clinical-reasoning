@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v32";
+const VERSION="clinical-reasoning-v33";
 const CORE=[
+  "./assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+  "./assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+  "./assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+  "./articles/2026-10-10-cuff-imaging-weight.html",
+
   "./assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
   "./assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
   "./assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
