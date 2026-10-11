@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v35";
+const VERSION="clinical-reasoning-v36";
 const CORE=[
+  "./assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+  "./assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+  "./assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+  "./articles/2026-10-12-meniscus-exam-mri.html",
   "./assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
   "./assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
   "./assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
@@ -164,3 +168,4 @@ self.addEventListener("fetch",event=>{
   event.waitUntil(network.then(()=>{}));
   event.respondWith(cached.then(res=>res||network));
 });
+

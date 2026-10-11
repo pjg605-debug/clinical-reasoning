@@ -315,5 +315,28 @@
       "exam": "elbow_exam",
       "rehab": "elbow_rehab"
     }
+  },
+  {
+    "id": "2026-10-12-meniscus-exam-mri",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "verified realistic 3D right-knee virtual dissection; fibula defines lateral side; medial C-shaped and lateral near-circular menisci shown in main and axial views",
+    "pain_location": "case-specific medial joint-line pain in text; figure states location is not pain-source confirmation",
+    "competing_diagnosis": "OA, patellofemoral pain, ligament and osteochondral injury in decision table",
+    "examination_posture": "joint-line palpation, supine McMurray hand placement and supported Thessaly 20°",
+    "movement_sequence": "history/function → bundled exam → supported weight-bearing confirmation",
+    "loading_mechanics": "twist, squat, stairs and 24-hour effusion response",
+    "ultrasound_MRI_orientation": "no synthetic MRI diagnostic image; MRI used only as management-changing investigation",
+    "finding_interpretation": "pooled sensitivity/specificity separated by medial/lateral compartment; no single sign establishes pain source",
+    "rehabilitation_progression": "4–6 week conservative branch with effusion, ROM and function reassessment",
+    "decision_branch": "dedicated SVG covering urgent referral, conservative care, competing diagnosis and MRI question",
+    "red_flags": "true locking, acute large effusion, fracture/infection and neurovascular screening",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle/depth/trajectory",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "sources": {
+      "anatomy": "imagegen_verified_right_knee_v2",
+      "exam": "imagegen_meniscus_exam",
+      "decision": "original_svg"
+    }
   }
 ]

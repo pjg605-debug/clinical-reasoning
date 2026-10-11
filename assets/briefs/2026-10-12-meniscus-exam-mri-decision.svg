@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">반월상연골 의심 환자의 검사와 MRI 결정 흐름</title>
+  <desc id="desc">잠김과 급성 외상 소견, 검사 묶음, 기능 경과에 따라 응급 의뢰, 재활, MRI를 선택하는 흐름도</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf5f8"/>
+      <stop offset="1" stop-color="#f8faf7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#213b49" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#547181"/>
+    </marker>
+    <style>
+      .t{font-family:Arial,'Noto Sans KR',sans-serif;fill:#22343d}
+      .h{font-size:34px;font-weight:800}
+      .s{font-size:21px;font-weight:800}
+      .b{font-size:18px;font-weight:600}
+      .n{font-size:16px;font-weight:600;fill:#53636b}
+      .box{fill:#fff;stroke:#c8d7dd;stroke-width:2;rx:18}
+      .blue{fill:#e4f0f5;stroke:#8eb0bf}
+      .amber{fill:#fff4e4;stroke:#d7aa69}
+      .rose{fill:#f9e9e7;stroke:#cd8b85}
+      .green{fill:#eaf3ed;stroke:#8bad98}
+      .line{fill:none;stroke:#547181;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <text class="t h" x="60" y="62">검사와 MRI는 ‘누가 더 우수한가’가 아니라 ‘무엇을 바꿀 것인가’로 선택한다</text>
+  <g filter="url(#shadow)">
+    <rect class="box blue" x="390" y="100" width="420" height="105"/>
+    <text class="t s" x="600" y="140" text-anchor="middle">1. 먼저 긴급 분기</text>
+    <text class="t b" x="600" y="174" text-anchor="middle">진짜 잠김 · 급성 큰 관절삼출 · 골절/감염 의심?</text>
+
+    <rect class="box rose" x="55" y="275" width="315" height="155"/>
+    <text class="t s" x="212" y="318" text-anchor="middle">예</text>
+    <text class="t b" x="212" y="352" text-anchor="middle">당일/신속 영상·정형외과 의뢰</text>
+    <text class="t n" x="212" y="383" text-anchor="middle">억지 Thessaly·회전검사 중단</text>
+    <text class="t n" x="212" y="408" text-anchor="middle">MRI는 구조와 수술 계획 질문에 사용</text>
+
+    <rect class="box green" x="440" y="275" width="320" height="155"/>
+    <text class="t s" x="600" y="318" text-anchor="middle">아니오 + 검사 묶음 일치</text>
+    <text class="t b" x="600" y="352" text-anchor="middle">기능 중심 보존적 관리 시작</text>
+    <text class="t n" x="600" y="383" text-anchor="middle">관절삼출·ROM·통증유발 기능 기록</text>
+    <text class="t n" x="600" y="408" text-anchor="middle">4–6주 재평가로 가설을 검증</text>
+
+    <rect class="box amber" x="830" y="275" width="315" height="155"/>
+    <text class="t s" x="987" y="318" text-anchor="middle">검사 묶음 불일치</text>
+    <text class="t b" x="987" y="352" text-anchor="middle">경쟁 진단을 먼저 다시 본다</text>
+    <text class="t n" x="987" y="383" text-anchor="middle">OA · PFP · 인대 · 연골병변</text>
+    <text class="t n" x="987" y="408" text-anchor="middle">MRI는 관리가 바뀔 때만</text>
+
+    <rect class="box blue" x="390" y="525" width="420" height="135"/>
+    <text class="t s" x="600" y="568" text-anchor="middle">2. 다음 방문의 MRI 질문</text>
+    <text class="t b" x="600" y="604" text-anchor="middle">“이 결과가 의뢰·수술·부하 계획을 바꾸는가?”</text>
+    <text class="t n" x="600" y="634" text-anchor="middle">아니면 검사 묶음과 기능 경과를 계속 추적한다</text>
+  </g>
+  <path class="line" d="M500 205 C420 235 310 245 245 275"/>
+  <path class="line" d="M600 205 L600 275"/>
+  <path class="line" d="M700 205 C780 235 890 245 955 275"/>
+  <path class="line" d="M212 430 C250 510 385 565 390 585"/>
+  <path class="line" d="M600 430 L600 525"/>
+  <path class="line" d="M987 430 C950 510 815 565 810 585"/>
+  <text class="t n" x="60" y="718">단일 special test나 MRI sign은 통증원·치료 적응증을 단독으로 확정하지 않는다.</text>
+</svg>

@@ -669,5 +669,19 @@
     },
     "editorialStatus": "featured",
     "abstractIssue": "PRTEE CI printed [-16.73,+9.39]; not silently corrected; full text verification needed"
+  },
+  {
+    "id": "42544509",
+    "title": "Diagnostic accuracy of clinical examination versus MRI for meniscal tears: a systematic review and meta-analysis.",
+    "doi": "10.1093/bmb/ldag023",
+    "dateVerification": {
+      "id": "42544509",
+      "doi": "10.1093/bmb/ldag023",
+      "earliest_identifiable_public": "2026-07-03",
+      "evidence": "PubMed indexed citation; publisher issue date is later"
+    },
+    "design": "paired diagnostic-accuracy systematic review and meta-analysis",
+    "sample": "10 studies; 1643 knees",
+    "checkedAt": "2026-10-12"
   }
 ]
