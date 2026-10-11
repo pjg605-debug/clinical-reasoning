@@ -1,0 +1,103 @@
+{
+  "auditedAt": "2026-10-11",
+  "startDate": "2026-09-18",
+  "missingDates": [
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11"
+  ],
+  "items": [
+    {
+      "date": "2026-09-25",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-09-26",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-09-27",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-09-30",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-01",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-02",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-03",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-04",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-07",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-08",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-09",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-10",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    },
+    {
+      "date": "2026-10-11",
+      "state": "pending",
+      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+    }
+  ],
+  "incompletePublished": [
+    {
+      "id": "2026-10-05-ankle-giving-way",
+      "state": "3D anatomy published",
+      "commit": "dbdb6f1e13d56acfb562ad76c19a39b3ff61d414",
+      "pages": "success",
+      "liveImageHTTP": 200,
+      "cache": "clinical-reasoning-v19"
+    }
+  ],
+  "automation": {
+    "id": "6aaba98b901081919da79f748a4b681b",
+    "enabled": true,
+    "timezone": "Asia/Seoul",
+    "schedule": "daily 08:00",
+    "neverDisableOnFailure": true
+  }
+}

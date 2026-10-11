@@ -1,9 +1,15 @@
-const VERSION="clinical-reasoning-v20";
+const VERSION="clinical-reasoning-v21";
 const CORE=[
   "./assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
   "./assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
   "./assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
   "./articles/2026-09-29-pfp-stair-pain.html",
+  "./assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+  "./assets/briefs/2026-10-06-patellar-load-exam.webp",
+  "./assets/briefs/2026-10-06-patellar-load-imaging.svg",
+  "./assets/briefs/2026-10-06-patellar-load-progression.svg",
+  "./assets/briefs/2026-10-06-patellar-load-decision.svg",
+  "./articles/2026-10-06-patellar-load.html",
 
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html","./manifest.webmanifest",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
