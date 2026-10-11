@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v19";
+const VERSION="clinical-reasoning-v20";
 const CORE=[
+  "./assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+  "./assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+  "./assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+  "./articles/2026-09-29-pfp-stair-pain.html",
+
   "./","./index.html","./assets/styles.css","./assets/app.js","./articles.json","./offline.html","./manifest.webmanifest",
   "./assets/icons/icon-192.png","./assets/icons/icon-512.png",
   "./articles/2026-10-05-ankle-giving-way.html",
