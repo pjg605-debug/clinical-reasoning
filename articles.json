@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-10-02-acl-return-control",
+    "date": "2026-10-02",
+    "publishedAt": "2026-10-11T13:02:59+00:00",
+    "recoveredAt": "2026-10-11T13:02:59+00:00",
+    "publicationStatus": "recovered",
+    "type": "ACL 재건 재활 · Clinical Reasoning",
+    "title": "ACL 재건 후 대칭 hop만 좋아지면 방향 전환 복귀를 허가할까?",
+    "file": "articles/2026-10-02-acl-return-control.html",
+    "keywords": [
+      "ACL 재건 재활",
+      "acl-return-control",
+      "복구 발행"
+    ]
+  },
+  {
     "id": "2026-10-01-meniscus-root-rehab",
     "date": "2026-10-01",
     "publishedAt": "2026-10-11T13:02:59+00:00",

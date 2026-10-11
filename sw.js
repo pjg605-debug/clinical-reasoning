@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v26";
+const VERSION="clinical-reasoning-v27";
 const CORE=[
+  "./assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+  "./assets/briefs/2026-10-02-acl-return-control-exam.webp",
+  "./assets/briefs/2026-10-02-acl-return-control-decision.svg",
+  "./articles/2026-10-02-acl-return-control.html",
+
   "./assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
   "./assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
   "./assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
