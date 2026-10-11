@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v25";
+const VERSION="clinical-reasoning-v26";
 const CORE=[
+  "./assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+  "./assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+  "./assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+  "./articles/2026-10-01-meniscus-root-rehab.html",
+
   "./assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
   "./assets/briefs/2026-09-30-lbp-reweight-exam.webp",
   "./assets/briefs/2026-09-30-lbp-reweight-decision.svg",
