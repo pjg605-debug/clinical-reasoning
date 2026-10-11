@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v29";
+const VERSION="clinical-reasoning-v30";
 const CORE=[
+  "./assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+  "./assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+  "./assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+  "./articles/2026-10-07-plantar-load-update.html",
+
   "./assets/briefs/2026-10-04-hip-activity-anatomy.webp",
   "./assets/briefs/2026-10-04-hip-activity-exam.webp",
   "./assets/briefs/2026-10-04-hip-activity-decision.svg",
