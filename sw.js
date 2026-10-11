@@ -1,5 +1,11 @@
-const VERSION="clinical-reasoning-v33";
+const VERSION="clinical-reasoning-v34";
 const CORE=[
+  "./assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+  "./assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+  "./assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+  "./assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
+  "./articles/2026-10-11-elbow-function-update.html",
+
   "./assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
   "./assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
   "./assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
