@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-09-26-carpal-tinel",
+    "date": "2026-09-26",
+    "publishedAt": "2026-10-11T13:02:59+00:00",
+    "recoveredAt": "2026-10-11T13:02:59+00:00",
+    "publicationStatus": "recovered",
+    "type": "수근관증후군 · Clinical Reasoning",
+    "title": "Tinel은 음성인데 왜 밤마다 손이 저릴까?",
+    "file": "articles/2026-09-26-carpal-tinel.html",
+    "keywords": [
+      "수근관증후군",
+      "carpal-tinel",
+      "복구 발행"
+    ]
+  },
+  {
     "id": "2026-09-25-shoulder-passive-rom",
     "date": "2026-09-25",
     "publishedAt": "2026-10-11T13:02:59+00:00",

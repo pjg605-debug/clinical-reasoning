@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v22";
+const VERSION="clinical-reasoning-v23";
 const CORE=[
+  "./assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+  "./assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+  "./assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+  "./articles/2026-09-26-carpal-tinel.html",
+
   "./assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
   "./assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
   "./assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
