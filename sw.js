@@ -1,5 +1,17 @@
-const VERSION="clinical-reasoning-v34";
+const VERSION="clinical-reasoning-v35";
 const CORE=[
+  "./assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+  "./assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+  "./assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+  "./assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+
   "./assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
   "./assets/briefs/2026-10-11-elbow-function-update-exam.webp",
   "./assets/briefs/2026-10-11-elbow-function-update-decision.svg",

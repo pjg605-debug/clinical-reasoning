@@ -562,7 +562,8 @@
         }
       ]
     },
-    "checkedAt": "2026-10-11"
+    "checkedAt": "2026-10-11",
+    "editorialStatus": "excluded: DN node includes Dunning 2024 electrical DN; not used as manual DN evidence"
   },
   {
     "id": "42098847",
@@ -652,5 +653,21 @@
       ]
     },
     "checkedAt": "2026-10-11"
+  },
+  {
+    "id": "42177007",
+    "title": "Strengthening of Rotator Cuff and Scapular Muscles in Patients With Lateral Elbow Tendinopathy: A Randomized Controlled Study.",
+    "doi": "10.1016/j.apmr.2026.05.006",
+    "dateVerification": {
+      "earliestVerifiedOnline": "2026-05-22",
+      "sources": [
+        "PubMed electronic publication",
+        "EuropePMC electronicPublicationDate",
+        "publisher Available online 22 May 2026"
+      ],
+      "printIssue": "2026-10"
+    },
+    "editorialStatus": "featured",
+    "abstractIssue": "PRTEE CI printed [-16.73,+9.39]; not silently corrected; full text verification needed"
   }
 ]

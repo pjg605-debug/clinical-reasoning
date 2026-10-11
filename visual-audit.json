@@ -1,0 +1,319 @@
+[
+  {
+    "id": "2026-09-29-pfp-stair-pain",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "knee_corrected",
+      "exam": "pfp_exam"
+    }
+  },
+  {
+    "id": "2026-10-06-patellar-load",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "US linear-probe long/transverse actual-position panels with 3D tendon/deep fat pad inset; no actual diagnostic MRI/B-mode",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "dedicated progression figure",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 5,
+    "sources": {
+      "anatomy": "knee_corrected",
+      "exam": "patellar_exam",
+      "imaging": "patellar_imaging_fixed"
+    }
+  },
+  {
+    "id": "2026-09-25-shoulder-passive-rom",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "shoulder_fixed",
+      "exam": "shoulder_exam"
+    }
+  },
+  {
+    "id": "2026-09-26-carpal-tinel",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "wrist_final",
+      "exam": "wrist_exam_fixed"
+    }
+  },
+  {
+    "id": "2026-09-27-hamstring-sitting",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "hamstring_anatomy",
+      "exam": "hamstring_exam"
+    }
+  },
+  {
+    "id": "2026-09-30-lbp-reweight",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "lumbar_fixed",
+      "exam": "lumbar_exam"
+    }
+  },
+  {
+    "id": "2026-10-01-meniscus-root-rehab",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "meniscus_fixed",
+      "exam": "meniscus_exam_fixed"
+    }
+  },
+  {
+    "id": "2026-10-02-acl-return-control",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "meniscus_fixed",
+      "exam": "acl_exam"
+    }
+  },
+  {
+    "id": "2026-10-03-radial-wrist",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "wrist_final",
+      "exam": "radial_wrist_exam"
+    }
+  },
+  {
+    "id": "2026-10-04-hip-activity",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "hip_anatomy",
+      "exam": "hip_exam"
+    }
+  },
+  {
+    "id": "2026-10-07-plantar-load-update",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "foot_fixed",
+      "exam": "foot_exam"
+    }
+  },
+  {
+    "id": "2026-10-08-tmd-chewing",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "tmd_anatomy",
+      "exam": "tmd_exam"
+    }
+  },
+  {
+    "id": "2026-10-09-acute-lbp-imaging",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "lumbar_fixed",
+      "exam": "lumbar_exam"
+    }
+  },
+  {
+    "id": "2026-10-10-cuff-imaging-weight",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 3,
+    "sources": {
+      "anatomy": "shoulder_fixed",
+      "exam": "shoulder_exam"
+    }
+  },
+  {
+    "id": "2026-10-11-elbow-function-update",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D depth/landmarks in anatomy figure",
+    "pain_location": "case-specific description plus anatomy reference; no pain point equals diagnosis",
+    "competing_diagnosis": "comparison table and decision map",
+    "examination_posture": "exam figure with familiar symptom/function and safety conditions",
+    "movement_sequence": "exam multi-panel order",
+    "loading_mechanics": "exam/function plus management-specific load instructions; rehab movement panels",
+    "ultrasound_MRI_orientation": "no image acquisition instruction required; additional imaging only for management question",
+    "finding_interpretation": "evidence limitations and branch table, no single image sign establishes pain source",
+    "rehabilitation_progression": "case-specific management/action table and decision map",
+    "decision_branch": "dedicated decision figure plus management-changing comparison table",
+    "red_flags": "case-specific change criteria and exam safety panel",
+    "safety_boundary": "AI anatomy location only; tender point is not safe needle path; no needle trajectory",
+    "figuresPlanned": 4,
+    "sources": {
+      "anatomy": "elbow_fixed",
+      "exam": "elbow_exam",
+      "rehab": "elbow_rehab"
+    }
+  }
+]

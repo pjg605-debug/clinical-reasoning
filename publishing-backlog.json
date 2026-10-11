@@ -1,86 +1,97 @@
 {
   "auditedAt": "2026-10-11",
   "startDate": "2026-09-18",
-  "missingDates": [
-    "2026-09-25",
-    "2026-09-26",
-    "2026-09-27",
-    "2026-09-30",
-    "2026-10-01",
-    "2026-10-02",
-    "2026-10-03",
-    "2026-10-04",
-    "2026-10-07",
-    "2026-10-08",
-    "2026-10-09",
-    "2026-10-10",
-    "2026-10-11"
-  ],
+  "missingDates": [],
   "items": [
     {
+      "id": "2026-09-29-pfp-stair-pain",
+      "date": "2026-09-29",
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
+    },
+    {
+      "id": "2026-10-06-patellar-load",
+      "date": "2026-10-06",
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 5
+    },
+    {
+      "id": "2026-09-25-shoulder-passive-rom",
       "date": "2026-09-25",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-09-26-carpal-tinel",
       "date": "2026-09-26",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-09-27-hamstring-sitting",
       "date": "2026-09-27",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-09-30-lbp-reweight",
       "date": "2026-09-30",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-01-meniscus-root-rehab",
       "date": "2026-10-01",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-02-acl-return-control",
       "date": "2026-10-02",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-03-radial-wrist",
       "date": "2026-10-03",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-04-hip-activity",
       "date": "2026-10-04",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-07-plantar-load-update",
       "date": "2026-10-07",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-08-tmd-chewing",
       "date": "2026-10-08",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-09-acute-lbp-imaging",
       "date": "2026-10-09",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-10-cuff-imaging-weight",
       "date": "2026-10-10",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 3
     },
     {
+      "id": "2026-10-11-elbow-function-update",
       "date": "2026-10-11",
-      "state": "pending",
-      "note": "Actual repository audit: no registered article/file; no accessible existing package found"
+      "state": "prepared for atomic GitHub publication",
+      "visuals": 4
     }
   ],
   "incompletePublished": [
@@ -90,7 +101,8 @@
       "commit": "dbdb6f1e13d56acfb562ad76c19a39b3ff61d414",
       "pages": "success",
       "liveImageHTTP": 200,
-      "cache": "clinical-reasoning-v19"
+      "cache": "clinical-reasoning-v19",
+      "addedExam": "prepared"
     }
   ],
   "automation": {
@@ -99,5 +111,6 @@
     "timezone": "Asia/Seoul",
     "schedule": "daily 08:00",
     "neverDisableOnFailure": true
-  }
+  },
+  "visualRepairCount": 10
 }

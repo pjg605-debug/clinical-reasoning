@@ -1,0 +1,141 @@
+{
+  "repository": "pjg605-debug/clinical-reasoning",
+  "effectiveDate": "2026-10-11",
+  "preserve": [
+    "existing modular PWA",
+    "index design",
+    "readable typography",
+    "install/offline/export",
+    "published IDs and evidence"
+  ],
+  "auditBeforeEachRun": [
+    "articles.json",
+    "sw.js",
+    "index.html",
+    "assets/app.js",
+    "assets/styles.css",
+    "manifest.webmanifest",
+    "recent 5-10 article fragments",
+    "recent binary assets",
+    "GitHub history",
+    "Pages deployment"
+  ],
+  "deduplicate": "one actual article per date unless already distinct original articles; compare IDs/topics/DOIs; never duplicate existing registry entries",
+  "recovery": "reuse accessible drafts first, partially prepared next, completely missing last; retain original slot date and actual publishedAt/recoveredAt notice; never pretend earlier publication",
+  "research": {
+    "featuredEarliestPublic": "previous 12 months from actual work day; check epub/online/preprint, never late print issue",
+    "olderEvidence": "explicit background evidence",
+    "priority": [
+      "SR/meta-analysis",
+      "RCT",
+      "major guideline/consensus",
+      "diagnostic accuracy",
+      "clinically important safety"
+    ],
+    "allowedIntervention": [
+      "manual acupuncture",
+      "acupuncture without electrical stimulation",
+      "manual dry needling"
+    ],
+    "excluded": [
+      "electroacupuncture",
+      "electrical stimulation including electrical dry needling",
+      "herbal medicine"
+    ],
+    "mixedReviews": "inspect trial tables; do not treat electrical DN under DN node as manual DN; exclude unless separable allowed comparison",
+    "otherAllowed": [
+      "diagnosis",
+      "rehab",
+      "imaging",
+      "anatomy",
+      "guideline",
+      "safety",
+      "diagnostic accuracy"
+    ],
+    "avoidRepeat": "compare DOI evidence ledger and actual prior articles; reuse only meaningful updates"
+  },
+  "clinicalFlow": [
+    "same hypothetical composite patient throughout",
+    "symptom/function",
+    "initial rationale",
+    "discordant clue",
+    "exact questions",
+    "why selected exam",
+    "hypothetical results",
+    "weight raised/lowered",
+    "maintain/change criteria",
+    "treatment/load/imaging/referral",
+    "metrics/time"
+  ],
+  "evidenceCard": [
+    "population/sample",
+    "intervention/region/technique/frequency/sessions/duration",
+    "comparator",
+    "primary distinct from secondary",
+    "exact between-group effect/CI/p when reported",
+    "responder/absolute difference",
+    "follow-up",
+    "adverse events",
+    "completion/dropout",
+    "applicability"
+  ],
+  "missingFields": "not reported in the accessible abstract; full text needed",
+  "grading": "formal GRADE/RoB only when authors actually performed it; editor judgement separately; association is not diagnostic accuracy",
+  "patientReturn": "after each major evidence block, what changed/unchanged/next action",
+  "endRequired": [
+    "exact questions",
+    "exact exam/test bundle",
+    "maintain criteria",
+    "change criteria",
+    "What may change practice",
+    "Worth reading today"
+  ],
+  "visualAudit": [
+    "anatomy",
+    "pain-location",
+    "competing diagnosis",
+    "exam posture",
+    "movement sequence",
+    "loading mechanics",
+    "US/MRI orientation",
+    "imaging interpretation",
+    "rehab progression",
+    "decision branch",
+    "red flags",
+    "safety boundary"
+  ],
+  "anatomy": "mandatory realistic 3D virtual anatomy/dissection; bone/tendon/ligament/muscle/deep structures/nerve/vessel and relative depth as relevant; verify leaders and orientation, repair errors before publication; no flat cartoon anatomy",
+  "examVisual": "accurate patient/clinician position, hand placement, direction, supportive and lowering finding, safety; do not label weak tests as confirmation",
+  "needlingSafety": "압통점은 통증 단서이지 안전한 자침 경로가 아니다. Anatomy is location understanding, not needling guidance. No blind deep directions, angle/depth/trajectory or danger structure penetration.",
+  "html": "existing readable CSS; every visual figure.brief-figure near relevant section; click full-size; short Korean caption; mobile table compatibility; sources stay in fragment",
+  "assets": "unique date/topic names; ~800px web optimization but retain legible Korean; reasonable WebP; upload actual Git binary blob; confirm repo path AND plausible nonzero binary size AND src/href exact reference",
+  "publish": [
+    "upload binary blobs",
+    "article fragment",
+    "prepend/update registry",
+    "actual cache version bump and CORE article/image paths",
+    "JSON/HTML/SW syntax audit",
+    "Publish clinical brief YYYY-MM-DD: <topic> commit",
+    "check GitHub Pages deployment for exact head",
+    "live registry/route/image200/cache version check"
+  ],
+  "failure": "never silently remove missing figure; retry binary/blob/base64 method; if truly blocked mark VISUAL PUBLISH FAILURE in temporary text-only article and backlog; preserve package; next run visual recovery first",
+  "automation": {
+    "id": "6aaba98b901081919da79f748a4b681b",
+    "timezone": "Asia/Seoul",
+    "dailyLocalTime": "08:00",
+    "neverDisableOnUploadFailure": true,
+    "onlyDisable": "explicit user request"
+  },
+  "successClaim": "GitHub commit is not Pages success; if deployment unavailable say GitHub commit 완료, Pages final verification unavailable",
+  "statusFields": [
+    "article",
+    "visuals planned/generated/uploaded/embedded",
+    "article GitHub",
+    "articles.json",
+    "sw.js+version",
+    "Pages deployment",
+    "live link",
+    "exact failed step"
+  ]
+}

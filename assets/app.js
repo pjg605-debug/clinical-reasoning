@@ -160,6 +160,20 @@ async function standaloneHtml(){
   const article=mount.cloneNode(true);
   const nav=article.querySelector("[data-article-nav]");
   if(nav)nav.remove();
+  await Promise.all([...article.querySelectorAll("img[src]")].map(async img=>{
+    const url=new URL(img.getAttribute("src"),document.baseURI).href;
+    try{
+      const res=await fetch(url);
+      if(!res.ok)throw new Error("image export failed");
+      const blob=await res.blob();
+      img.src=await new Promise((resolve,reject)=>{
+        const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);
+      });
+    }catch(e){img.src=url;}
+  }));
+  article.querySelectorAll("a[href]").forEach(a=>{
+    a.href=new URL(a.getAttribute("href"),document.baseURI).href;
+  });
   const printCss='body{background:#f3f3ef}.article{max-width:920px;margin:40px auto;padding:0 24px}.hero,.body{display:block}.archive,.topbar,.rail{display:none}';
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+
     escapeHtml(state.active.title)+'</title><style>'+state.cssText+"\n"+printCss+'</style></head><body><main class="article">'+article.innerHTML+
