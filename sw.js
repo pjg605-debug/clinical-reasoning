@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v27";
+const VERSION="clinical-reasoning-v28";
 const CORE=[
+  "./assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+  "./assets/briefs/2026-10-03-radial-wrist-exam.webp",
+  "./assets/briefs/2026-10-03-radial-wrist-decision.svg",
+  "./articles/2026-10-03-radial-wrist.html",
+
   "./assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
   "./assets/briefs/2026-10-02-acl-return-control-exam.webp",
   "./assets/briefs/2026-10-02-acl-return-control-decision.svg",
