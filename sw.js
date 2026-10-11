@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v23";
+const VERSION="clinical-reasoning-v24";
 const CORE=[
+  "./assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+  "./assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+  "./assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+  "./articles/2026-09-27-hamstring-sitting.html",
+
   "./assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
   "./assets/briefs/2026-09-26-carpal-tinel-exam.webp",
   "./assets/briefs/2026-09-26-carpal-tinel-decision.svg",
