@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-09-30-lbp-reweight",
+    "date": "2026-09-30",
+    "publishedAt": "2026-10-11T13:02:59+00:00",
+    "recoveredAt": "2026-10-11T13:02:59+00:00",
+    "publicationStatus": "recovered",
+    "type": "요통 재평가 · Clinical Reasoning",
+    "title": "요통이 줄어도 다시 허리를 못 쓰는 환자, 다음 방문에는 무엇을 분리할까?",
+    "file": "articles/2026-09-30-lbp-reweight.html",
+    "keywords": [
+      "요통 재평가",
+      "lbp-reweight",
+      "복구 발행"
+    ]
+  },
+  {
     "id": "2026-09-27-hamstring-sitting",
     "date": "2026-09-27",
     "publishedAt": "2026-10-11T13:02:59+00:00",
