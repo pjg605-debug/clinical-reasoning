@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v30";
+const VERSION="clinical-reasoning-v31";
 const CORE=[
+  "./assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+  "./assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+  "./assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+  "./articles/2026-10-08-tmd-chewing.html",
+
   "./assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
   "./assets/briefs/2026-10-07-plantar-load-update-exam.webp",
   "./assets/briefs/2026-10-07-plantar-load-update-decision.svg",
