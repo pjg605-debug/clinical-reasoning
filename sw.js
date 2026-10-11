@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v31";
+const VERSION="clinical-reasoning-v32";
 const CORE=[
+  "./assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+  "./assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+  "./assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+  "./articles/2026-10-09-acute-lbp-imaging.html",
+
   "./assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
   "./assets/briefs/2026-10-08-tmd-chewing-exam.webp",
   "./assets/briefs/2026-10-08-tmd-chewing-decision.svg",

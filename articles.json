@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-10-09-acute-lbp-imaging",
+    "date": "2026-10-09",
+    "publishedAt": "2026-10-11T13:02:59+00:00",
+    "recoveredAt": "2026-10-11T13:02:59+00:00",
+    "publicationStatus": "recovered",
+    "type": "급성 요통 영상 결정 · Clinical Reasoning",
+    "title": "심하게 아픈 급성 요통, 다음 방문의 MRI는 무엇 때문에 선택할까?",
+    "file": "articles/2026-10-09-acute-lbp-imaging.html",
+    "keywords": [
+      "급성 요통 영상 결정",
+      "acute-lbp-imaging",
+      "복구 발행"
+    ]
+  },
+  {
     "id": "2026-10-08-tmd-chewing",
     "date": "2026-10-08",
     "publishedAt": "2026-10-11T13:02:59+00:00",
