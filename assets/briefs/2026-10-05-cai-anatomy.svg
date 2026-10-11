@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1080" viewBox="0 0 800 1080" role="img" aria-labelledby="t d">
+<title id="t">발목 염좌 후 지속되는 불안정성의 해부와 감별</title>
+<desc id="d">ATFL, CFL, 비골근건, 신데스모시스, 비복신경과 만성 발목 불안정성의 주요 임상 패턴을 비교한 한국어 임상 인포그래픽</desc>
+<defs><style>
+text{font-family:Pretendard,'Noto Sans KR',sans-serif;fill:#163b67}.h{font-weight:800}.w{fill:#fff}.mut{fill:#50697c}.card{fill:#fff;stroke:#c8ddea;stroke-width:2}.blue{fill:#eaf4fb}.red{fill:#fdeceb}.amber{fill:#fff4dc}.green{fill:#eaf6ef}.line{stroke:#527e9d;stroke-width:3;fill:none;stroke-linecap:round}.lig{stroke:#d9504d;stroke-width:12;fill:none;stroke-linecap:round}.nerve{stroke:#e9a72c;stroke-width:7;fill:none}</style></defs>
+<rect width="800" height="1080" fill="#f5fafc"/>
+<rect x="24" y="20" width="752" height="90" rx="18" fill="#174b80"/>
+<text x="48" y="60" class="h w" font-size="34">발목을 삐끗한 뒤, 왜 계속 ‘휘청’할까?</text>
+<text x="48" y="91" class="w" font-size="17">통증 · 구조적 불안정성 · 감각운동 조절을 같은 문제로 묶지 않는다</text>
+<rect x="24" y="130" width="360" height="420" rx="18" class="card"/>
+<text x="46" y="169" class="h" font-size="26">1. 외측 발목의 주요 구조</text>
+<path d="M145 205 C128 290 134 380 142 455" stroke="#d8b699" stroke-width="46" fill="none" stroke-linecap="round"/>
+<path d="M210 205 C219 294 213 375 205 456" stroke="#d8b699" stroke-width="45" fill="none" stroke-linecap="round"/>
+<ellipse cx="178" cy="474" rx="92" ry="45" fill="#e7c9ad" stroke="#b79478" stroke-width="2"/>
+<path d="M160 348 L217 375" class="lig"/><path d="M159 369 L196 428" class="lig"/>
+<path d="M116 236 C100 320 98 403 103 500" class="nerve"/>
+<path d="M228 242 C247 315 248 400 231 496" stroke="#8f9aa3" stroke-width="12" fill="none"/>
+<line x1="158" y1="350" x2="56" y2="320" class="line"/><text x="45" y="305" class="h" font-size="19">ATFL</text><text x="45" y="328" font-size="15">전거비인대</text>
+<line x1="158" y1="370" x2="54" y2="390" class="line"/><text x="43" y="415" class="h" font-size="19">CFL · 종비인대</text>
+<line x1="103" y1="420" x2="45" y2="458" class="line"/><text x="43" y="480" class="h" font-size="18">비복신경</text>
+<line x1="232" y1="396" x2="321" y2="414" class="line"/><text x="267" y="443" class="h" font-size="18">비골근건</text>
+<text x="55" y="523" font-size="15" class="mut">외과 주변의 압통점은 통증 단서이지</text><text x="55" y="545" font-size="15" class="mut">안전한 깊은 자침 경로가 아닙니다.</text>
+
+<rect x="404" y="130" width="372" height="420" rx="18" class="card"/>
+<text x="426" y="169" class="h" font-size="26">2. 같은 ‘휘청’도 원인은 다르다</text>
+<rect x="426" y="196" width="328" height="76" rx="13" class="blue"/><text x="444" y="226" class="h" font-size="20">CAI / giving-way</text><text x="444" y="251" font-size="15">방향전환·불규칙 지면·착지에서 반복되는 불안정감</text>
+<rect x="426" y="286" width="328" height="76" rx="13" class="red"/><text x="444" y="316" class="h" font-size="20">기계적 불안정성</text><text x="444" y="341" font-size="15">반복 재염좌 + 반대측보다 뚜렷한 laxity</text>
+<rect x="426" y="376" width="328" height="76" rx="13" class="green"/><text x="444" y="406" class="h" font-size="20">감각운동 조절 문제</text><text x="444" y="431" font-size="15">balance·reach·landing에서 기능 결손</text>
+<rect x="426" y="466" width="328" height="62" rx="13" class="amber"/><text x="444" y="493" class="h" font-size="19">다른 원인</text><text x="444" y="517" font-size="14">신데스모시스·비골근건·관절내 병변·신경성 증상</text>
+
+<rect x="24" y="574" width="752" height="278" rx="18" class="card"/>
+<text x="46" y="614" class="h" font-size="26">3. 증상과 구조를 따로 기록한다</text>
+<rect x="46" y="638" width="222" height="170" rx="15" class="blue"/><text x="62" y="671" class="h" font-size="20">증상축</text>
+<text x="62" y="704" font-size="16">• giving-way 횟수</text><text x="62" y="733" font-size="16">• 재염좌 횟수</text><text x="62" y="762" font-size="16">• CAIT / FAAM-Sports</text>
+<rect x="289" y="638" width="222" height="170" rx="15" class="red"/><text x="305" y="671" class="h" font-size="20">구조축</text>
+<text x="305" y="704" font-size="16">• anterior drawer</text><text x="305" y="733" font-size="16">• talar tilt</text><text x="305" y="762" font-size="16">• 필요 시 stress US</text>
+<rect x="532" y="638" width="222" height="170" rx="15" class="green"/><text x="548" y="671" class="h" font-size="20">기능축</text>
+<text x="548" y="704" font-size="16">• single-leg stance</text><text x="548" y="733" font-size="16">• SEBT / Y-Balance</text><text x="548" y="762" font-size="16">• hop / landing</text>
+<text x="47" y="835" class="h" font-size="17">CAIT 점수 하나, 초음파 한 장, anterior drawer 한 번만으로 결론내리지 않는다.</text>
+
+<rect x="24" y="875" width="752" height="177" rx="18" fill="#174b80"/>
+<text x="46" y="915" class="h w" font-size="25">안전 경계</text>
+<text x="46" y="950" class="w" font-size="17">외과 주변에는 비골근건·비복신경·혈관·관절 구조가 가깝습니다.</text>
+<text x="46" y="980" class="w" font-size="17">표면 landmark나 압통점은 자동으로 안전한 깊은 자침 경로가 아닙니다.</text>
+<text x="46" y="1017" class="h" fill="#ffd88a" font-size="18">증상 + 구조 + 기계적 움직임 + 기능을 함께 봅니다.</text>
+</svg>
