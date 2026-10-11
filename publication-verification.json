@@ -1,0 +1,482 @@
+{
+  "verifiedAt": "2026-10-11T13:26:33.316644+00:00",
+  "publicationHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+  "pages": {
+    "run": 38142886403,
+    "conclusion": "success",
+    "head": "2722a25e1a89d4d81bb52b919535092b0aceb9a8"
+  },
+  "articles": 25,
+  "recoveredArticles": 15,
+  "recoveredDateRanges": [
+    "2026-09-25..2026-09-27",
+    "2026-09-29..2026-10-04",
+    "2026-10-06..2026-10-11"
+  ],
+  "missingDates": [],
+  "originalAnatomyReplacements": 10,
+  "newVisualsFinal": {
+    "planned": 59,
+    "generated": 59,
+    "uploaded": 59,
+    "embedded": 59,
+    "webp": 43,
+    "svg": 16,
+    "note": "Counts final dated/topic assets; shared 3D/exam models reused where appropriate. Rejected intermediate renders are excluded."
+  },
+  "allArticleFigures": 70,
+  "githubAssetPathSizeVerification": [
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+      "size": 148222,
+      "sha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b"
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+      "size": 1576,
+      "sha": "c7ef0ba97ab41a3cccc26043ab7562fc7148a10e"
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+      "size": 126002,
+      "sha": "0ac56b64777dd172b245fb3bbfc95daa21bc1d0f"
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
+      "size": 72008,
+      "sha": "20dbc21ac9baf1a6573c518cf699bd5e5092eebe"
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+      "size": 164174,
+      "sha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+      "size": 1626,
+      "sha": "da6f91ba2f7372f38725c27bb9f4fb3aa1fc3403"
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+      "size": 123256,
+      "sha": "5856a0f5143c9cd4287bafe16a881cee47804494"
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+      "size": 200650,
+      "sha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+      "size": 1579,
+      "sha": "e400598a91c088ecfdbc852dc2186935236d9b52"
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+      "size": 123816,
+      "sha": "e743b903baab3c9527a460586d6a72c08eed0397"
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+      "size": 194796,
+      "sha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2"
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+      "size": 1537,
+      "sha": "058dcb2f75665e1876ccab73c0f5b7cd5aa2d543"
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+      "size": 158940,
+      "sha": "af440deeea9675286da20f405f0476fefb6e2606"
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+      "size": 170484,
+      "sha": "d93f8c6f18089098602503a4cf3ed9394e695a17"
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+      "size": 1542,
+      "sha": "3d51eb07c7004f47d4b17c0ee0c495171f064bcb"
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+      "size": 176534,
+      "sha": "30fbb75496736f36845baf12b0cdcce8974fc434"
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+      "size": 160430,
+      "sha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5"
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-decision.svg",
+      "size": 1527,
+      "sha": "a282b71225700736e08bdca92dfd89f7e8b41b5c"
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-exam.webp",
+      "size": 127182,
+      "sha": "7c18c6ed8af35baac130cb83c3d55f50c013dfa6"
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+      "size": 157380,
+      "sha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0"
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-decision.svg",
+      "size": 1600,
+      "sha": "023a09535c608bc721568234bdc43ff3276013b7"
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+      "size": 119262,
+      "sha": "87299ff2fd29fb4059a628cad164f2ac85d30257"
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+      "size": 151992,
+      "sha": "dc9eb0bcc45aa21551bae12103c848a0513346bd"
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-decision.svg",
+      "size": 1652,
+      "sha": "c525ed219bacdd29718460f0054ddd22b1ee2597"
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+      "size": 132946,
+      "sha": "b587798fdc8fd8b1fb390fb9f78e8b53a1d47a39"
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+      "size": 151992,
+      "sha": "dc9eb0bcc45aa21551bae12103c848a0513346bd"
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+      "size": 1626,
+      "sha": "8910134d9baa12b141f01341443d644003fa6ac9"
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+      "size": 161370,
+      "sha": "033654d0ded4883a9531c4d5b628a2e6a6692eb5"
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+      "size": 200650,
+      "sha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
+      "size": 1590,
+      "sha": "712256266ac1ed2340426e1fda59aacb3f2ce030"
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+      "size": 123816,
+      "sha": "e743b903baab3c9527a460586d6a72c08eed0397"
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+      "size": 204952,
+      "sha": "0eb35dc37eac3c05f42cb26229e01494c6e90ce0"
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+      "size": 1646,
+      "sha": "34197ced854429f3c2c7147f077f34c004b72345"
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+      "size": 110514,
+      "sha": "71b677585539fc59b99ed6c51225cbe800c9ba2b"
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+      "size": 157380,
+      "sha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0"
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+      "size": 1741,
+      "sha": "25428b8d553eba7439b515e741d62f1aedaec3ca"
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+      "size": 103676,
+      "sha": "b4f267b71afaa40bd3ce4be35129070f8be18e01"
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+      "size": 164174,
+      "sha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+      "size": 1723,
+      "sha": "4a0857fe5c1b5734cf1b1440076f3f0b4a3a467d"
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+      "size": 123256,
+      "sha": "5856a0f5143c9cd4287bafe16a881cee47804494"
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+      "size": 157668,
+      "sha": "a2b2368ccf17915e40f788e56930477edbbad258"
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-decision.svg",
+      "size": 1773,
+      "sha": "74385e12e097920765a6137728e118bd02264b76"
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-exam.webp",
+      "size": 206026,
+      "sha": "7d4367b73b63fbae8e030c62e578deafba9cf0c9"
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+      "size": 144704,
+      "sha": "4547da44a05f42eaa4f9735658e5c27fff6fb68a"
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-progression.svg",
+      "size": 1575,
+      "sha": "51d2c78aa4623f3fe2cf4ebcffb5ae352174a09f"
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+      "size": 157668,
+      "sha": "a2b2368ccf17915e40f788e56930477edbbad258"
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+      "size": 1901,
+      "sha": "0cb0bce2b6ae3a9c6488bc52188e5b995f800f03"
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+      "size": 163574,
+      "sha": "b901f98e100fab66eeb966ed928fe45a87c1fa63"
+    },
+    {
+      "path": "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+      "size": 145938,
+      "sha": "f6d732afbf251c69681205d2da40dd1f9d1620fa"
+    },
+    {
+      "path": "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+      "size": 150138,
+      "sha": "bb7c0817741ef1e0c05f1b3850b9441da8d670a5"
+    },
+    {
+      "path": "assets/briefs/2026-10-05-cai-reassessment.svg",
+      "size": 5813,
+      "sha": "99866e1597af7ad09537edb79cb1417d182361f2"
+    },
+    {
+      "path": "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+      "size": 133678,
+      "sha": "f068070df79a3a436c65cb7e70a4f4fbd21db573"
+    },
+    {
+      "path": "assets/briefs/2026-09-28-achilles-reassessment.svg",
+      "size": 5870,
+      "sha": "99224c895ee9f767ff3ab48e144aac95d4fad4a1"
+    },
+    {
+      "path": "assets/briefs/2026-09-24-tmd-exam-sequence.svg",
+      "size": 6159,
+      "sha": "f6f55b2a082332f594c45e3021dfb6afd8f4c3b8"
+    },
+    {
+      "path": "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+      "size": 194796,
+      "sha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2"
+    },
+    {
+      "path": "assets/briefs/2026-09-23-gtps-exam-sequence.svg",
+      "size": 6632,
+      "sha": "9340b478b93d094ebdbd430a4d392b0d1e240d6a"
+    },
+    {
+      "path": "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+      "size": 160430,
+      "sha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5"
+    },
+    {
+      "path": "assets/briefs/2026-09-22-lss-outcomes.svg",
+      "size": 3951,
+      "sha": "62f969f61df8017044a0a3c855ca5ede507ebe33"
+    },
+    {
+      "path": "assets/briefs/2026-09-22-lss-walk-test.svg",
+      "size": 7274,
+      "sha": "0a3ee86b5f6651671a9a0f02aa4003c9f987dd2b"
+    },
+    {
+      "path": "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+      "size": 200650,
+      "sha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+    },
+    {
+      "path": "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+      "size": 166766,
+      "sha": "57f0a8f955ec0dc3478163788ffc7bec043c9c47"
+    },
+    {
+      "path": "assets/briefs/2026-09-21-neck-exam-sequence.svg",
+      "size": 6009,
+      "sha": "1b896797a3e1109a29032bd94eeb9fa08ea83c56"
+    },
+    {
+      "path": "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+      "size": 151992,
+      "sha": "dc9eb0bcc45aa21551bae12103c848a0513346bd"
+    },
+    {
+      "path": "assets/briefs/knee-exams-v4.jpg",
+      "size": 159157,
+      "sha": "45bade41fc25cf9ab6008a66f325d9074e10b819"
+    },
+    {
+      "path": "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+      "size": 148222,
+      "sha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b"
+    },
+    {
+      "path": "assets/briefs/elbow-exams-v4.jpg",
+      "size": 164462,
+      "sha": "8473d3f9ccb5a31203758933713e9f7e8b6deed7"
+    },
+    {
+      "path": "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+      "size": 164174,
+      "sha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+    },
+    {
+      "path": "assets/briefs/shoulder-exams-v4.jpg",
+      "size": 160503,
+      "sha": "4ec00c3b8786ad6f1dbc7fee024337a12caf6dd2"
+    },
+    {
+      "path": "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+      "size": 170484,
+      "sha": "d93f8c6f18089098602503a4cf3ed9394e695a17"
+    },
+    {
+      "path": "assets/briefs/plantar-exams-v4.jpg",
+      "size": 152040,
+      "sha": "60ffdd9c2c4217bcaa067b8325b3205918a21e7f"
+    }
+  ],
+  "allSrcHrefAndCOREVerified": true,
+  "cache": "clinical-reasoning-v35",
+  "https": {
+    "verifiedPaths": 115,
+    "allHTTP200": true,
+    "allByteMatch": true
+  },
+  "browser": {
+    "testedOn": "localhost mirror downloaded over certificate-validated HTTPS; byte equality checked against publication",
+    "onlineRoutes": 25,
+    "offlineRoutes": 25,
+    "imageFailures": [],
+    "installHelp": true,
+    "cache": [
+      "clinical-reasoning-v35"
+    ],
+    "oldCacheCleanup": "seeded v18 removed",
+    "exportImagesEmbeddedAndOfflineLoaded": 5,
+    "errors": []
+  },
+  "limits": [
+    "Direct live-origin Chromium rendering was unavailable because proxy CA trust failed; equivalent served files were checked in local browser mirror.",
+    "Physical device app installation was not performed.",
+    "AI-generated 3D models are location understanding illustrations, not diagnostic images or needling routes."
+  ],
+  "automation": {
+    "enabled": true,
+    "id": "6aaba98b901081919da79f748a4b681b",
+    "timezone": "Asia/Seoul",
+    "dailyTime": "08:00"
+  },
+  "articleCommits": [
+    {
+      "id": "2026-09-25-shoulder-passive-rom",
+      "sha": "6b104bcff584a8d6acf6ac1ef20dec0e62fcb4df"
+    },
+    {
+      "id": "2026-09-26-carpal-tinel",
+      "sha": "28c1113bc67e074ef1143c9ae5948b127f639aa1"
+    },
+    {
+      "id": "2026-09-27-hamstring-sitting",
+      "sha": "f157acf75f18911994a964e48658b915ee056b81"
+    },
+    {
+      "id": "2026-09-30-lbp-reweight",
+      "sha": "821861f3e4649b10a161c6bf71c4c00fe97c9548"
+    },
+    {
+      "id": "2026-10-01-meniscus-root-rehab",
+      "sha": "8e1089e0dda3e45148a37b322b7ad468d318ecf0"
+    },
+    {
+      "id": "2026-10-02-acl-return-control",
+      "sha": "032a56a68ea01dbf29159d63e2b6a8cb9d3ea77e"
+    },
+    {
+      "id": "2026-10-03-radial-wrist",
+      "sha": "b96734e2b5bf060d648f7e920e1548c9185dfc56"
+    },
+    {
+      "id": "2026-10-04-hip-activity",
+      "sha": "9a1f91a48f72537c20f7d96e2225aa7cc78cd1f9"
+    },
+    {
+      "id": "2026-10-07-plantar-load-update",
+      "sha": "f30fc0866465d97e85190173d418b4e7f2764aa7"
+    },
+    {
+      "id": "2026-10-08-tmd-chewing",
+      "sha": "cedceabca8aadcd33100e458e4bd63ce22d81984"
+    },
+    {
+      "id": "2026-10-09-acute-lbp-imaging",
+      "sha": "84298e0fe8a3319a503064016ecdf01d06e2b6a8"
+    },
+    {
+      "id": "2026-10-10-cuff-imaging-weight",
+      "sha": "c741ad23ba9a473254b5a7fc44eaccea24774017"
+    },
+    {
+      "id": "2026-10-11-elbow-function-update",
+      "sha": "a4bf4b24b512259fd2920f75d727596952855a9b"
+    },
+    {
+      "id": "2026-09-29-pfp-stair-pain",
+      "sha": "5e6497409e408f84fc4c7879d0f9278fa14158f3"
+    },
+    {
+      "id": "2026-10-06-patellar-load",
+      "sha": "0c72d0feba01e92463489ecb9e59ad31dd94da85"
+    }
+  ],
+  "supersededVisuals": "Original flat anatomy files and first PT imaging-flow SVG are retained for history but no longer embedded; their replacements are explicit. No published article removed.",
+  "excludedEvidence": {
+    "pmid": "42433645",
+    "reason": "DN node included electrical DN trial; no manual-DN efficacy from that pooled node published"
+  },
+  "evidenceSourceIssue": {
+    "pmid": "42177007",
+    "issue": "PRTEE confidence-interval upper bound printed +9.39 in accessible abstract; not silently corrected; no definitive PRTEE superiority claim"
+  }
+}

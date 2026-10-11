@@ -6,103 +6,257 @@
     {
       "id": "2026-09-29-pfp-stair-pain",
       "date": "2026-09-29",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "5e6497409e408f84fc4c7879d0f9278fa14158f3",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-29-pfp-stair-pain",
+      "assets": [
+        "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+        "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+        "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-06-patellar-load",
       "date": "2026-10-06",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 5
+      "state": "published",
+      "visuals": 5,
+      "commit": "0c72d0feba01e92463489ecb9e59ad31dd94da85",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-06-patellar-load",
+      "assets": [
+        "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+        "assets/briefs/2026-10-06-patellar-load-decision.svg",
+        "assets/briefs/2026-10-06-patellar-load-exam.webp",
+        "assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+        "assets/briefs/2026-10-06-patellar-load-progression.svg"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-09-25-shoulder-passive-rom",
       "date": "2026-09-25",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "6b104bcff584a8d6acf6ac1ef20dec0e62fcb4df",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-25-shoulder-passive-rom",
+      "assets": [
+        "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-09-26-carpal-tinel",
       "date": "2026-09-26",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "28c1113bc67e074ef1143c9ae5948b127f639aa1",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-26-carpal-tinel",
+      "assets": [
+        "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+        "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+        "assets/briefs/2026-09-26-carpal-tinel-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-09-27-hamstring-sitting",
       "date": "2026-09-27",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "f157acf75f18911994a964e48658b915ee056b81",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-27-hamstring-sitting",
+      "assets": [
+        "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+        "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+        "assets/briefs/2026-09-27-hamstring-sitting-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-09-30-lbp-reweight",
       "date": "2026-09-30",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "821861f3e4649b10a161c6bf71c4c00fe97c9548",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-30-lbp-reweight",
+      "assets": [
+        "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
+        "assets/briefs/2026-09-30-lbp-reweight-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-01-meniscus-root-rehab",
       "date": "2026-10-01",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "8e1089e0dda3e45148a37b322b7ad468d318ecf0",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-01-meniscus-root-rehab",
+      "assets": [
+        "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-02-acl-return-control",
       "date": "2026-10-02",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "032a56a68ea01dbf29159d63e2b6a8cb9d3ea77e",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-02-acl-return-control",
+      "assets": [
+        "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+        "assets/briefs/2026-10-02-acl-return-control-decision.svg",
+        "assets/briefs/2026-10-02-acl-return-control-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-03-radial-wrist",
       "date": "2026-10-03",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "b96734e2b5bf060d648f7e920e1548c9185dfc56",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-03-radial-wrist",
+      "assets": [
+        "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+        "assets/briefs/2026-10-03-radial-wrist-decision.svg",
+        "assets/briefs/2026-10-03-radial-wrist-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-04-hip-activity",
       "date": "2026-10-04",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "9a1f91a48f72537c20f7d96e2225aa7cc78cd1f9",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-04-hip-activity",
+      "assets": [
+        "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+        "assets/briefs/2026-10-04-hip-activity-decision.svg",
+        "assets/briefs/2026-10-04-hip-activity-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-07-plantar-load-update",
       "date": "2026-10-07",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "f30fc0866465d97e85190173d418b4e7f2764aa7",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-07-plantar-load-update",
+      "assets": [
+        "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+        "assets/briefs/2026-10-07-plantar-load-update-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-08-tmd-chewing",
       "date": "2026-10-08",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "cedceabca8aadcd33100e458e4bd63ce22d81984",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-08-tmd-chewing",
+      "assets": [
+        "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+        "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+        "assets/briefs/2026-10-08-tmd-chewing-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-09-acute-lbp-imaging",
       "date": "2026-10-09",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "84298e0fe8a3319a503064016ecdf01d06e2b6a8",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-09-acute-lbp-imaging",
+      "assets": [
+        "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-10-cuff-imaging-weight",
       "date": "2026-10-10",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 3
+      "state": "published",
+      "visuals": 3,
+      "commit": "c741ad23ba9a473254b5a7fc44eaccea24774017",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-10-cuff-imaging-weight",
+      "assets": [
+        "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     },
     {
       "id": "2026-10-11-elbow-function-update",
       "date": "2026-10-11",
-      "state": "prepared for atomic GitHub publication",
-      "visuals": 4
+      "state": "published",
+      "visuals": 4,
+      "commit": "a4bf4b24b512259fd2920f75d727596952855a9b",
+      "pagesDeploymentHead": "2722a25e1a89d4d81bb52b919535092b0aceb9a8",
+      "pages": "success",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-11-elbow-function-update",
+      "assets": [
+        "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+        "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-rehab.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": true
     }
   ],
   "incompletePublished": [
     {
       "id": "2026-10-05-ankle-giving-way",
-      "state": "3D anatomy published",
+      "state": "completed",
       "commit": "dbdb6f1e13d56acfb562ad76c19a39b3ff61d414",
       "pages": "success",
       "liveImageHTTP": 200,
-      "cache": "clinical-reasoning-v19",
-      "addedExam": "prepared"
+      "cache": "clinical-reasoning-v35",
+      "addedExam": "published",
+      "finalRestorationCommit": "2722a25e1a89d4d81bb52b919535092b0aceb9a8"
     }
   ],
   "automation": {
@@ -110,7 +264,11 @@
     "enabled": true,
     "timezone": "Asia/Seoul",
     "schedule": "daily 08:00",
-    "neverDisableOnFailure": true
+    "neverDisableOnFailure": true,
+    "dailyTime": "08:00",
+    "verifiedAt": "2026-10-11T13:26:33.316644+00:00"
   },
-  "visualRepairCount": 10
+  "visualRepairCount": 10,
+  "verifiedAt": "2026-10-11T13:26:33.316644+00:00",
+  "pendingVisuals": []
 }
