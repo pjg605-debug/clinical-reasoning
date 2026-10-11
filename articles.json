@@ -1,5 +1,20 @@
 [
   {
+    "id": "2026-10-04-hip-activity",
+    "date": "2026-10-04",
+    "publishedAt": "2026-10-11T13:02:59+00:00",
+    "recoveredAt": "2026-10-11T13:02:59+00:00",
+    "publicationStatus": "recovered",
+    "type": "고관절 골관절염 · Clinical Reasoning",
+    "title": "고관절 운동은 하는데 왜 실제 걷는 시간은 그대로일까?",
+    "file": "articles/2026-10-04-hip-activity.html",
+    "keywords": [
+      "고관절 골관절염",
+      "hip-activity",
+      "복구 발행"
+    ]
+  },
+  {
     "id": "2026-10-03-radial-wrist",
     "date": "2026-10-03",
     "publishedAt": "2026-10-11T13:02:59+00:00",
