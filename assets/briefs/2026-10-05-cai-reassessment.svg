@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" role="img" aria-labelledby="t d">
+<title id="t">만성 발목 불안정성 재평가 순서</title><desc id="d">문진부터 가동범위, 기계적 불안정성, 감각운동 기능, 동반 병변 확인까지의 단계적 진찰 순서</desc>
+<defs><style>text{font-family:Pretendard,'Noto Sans KR',sans-serif;fill:#173b67}.h{font-weight:800}.w{fill:#fff}.card{fill:#fff;stroke:#c9ddea;stroke-width:2}.blue{fill:#eaf4fb}.green{fill:#e8f5ec}.red{fill:#fdebea}.amber{fill:#fff3da}.arrow{stroke:#347ab0;stroke-width:5;fill:none;marker-end:url(#m)}.mut{fill:#576b7a}</style><marker id="m" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#347ab0"/></marker></defs>
+<rect width="800" height="1120" fill="#f6fafc"/>
+<rect x="24" y="20" width="752" height="90" rx="18" fill="#174b80"/>
+<text x="47" y="60" class="h w" font-size="32">‘휘청’이 남으면 이렇게 다시 본다</text>
+<text x="47" y="91" class="w" font-size="17">통증점보다 구조 · 감각운동 조절 · 기능 · 동반 병변을 함께 확인</text>
+<g transform="translate(24,132)">
+<rect width="752" height="142" rx="17" class="card"/><circle cx="43" cy="40" r="25" fill="#1e6da7"/><text x="35" y="48" class="h w" font-size="21">1</text>
+<text x="83" y="42" class="h" font-size="24">문진: 통증과 불안정감을 분리</text>
+<text x="43" y="82" font-size="16">giving-way / 재염좌 횟수 · 방향전환/불규칙 지면 · 깊은 관절통/부종/잠김</text>
+<text x="43" y="111" font-size="16">비골근건 snapping · 외측 발/뒤꿈치 저림 · 복귀하려는 스포츠 과제</text>
+</g>
+<g transform="translate(24,292)">
+<rect width="752" height="168" rx="17" class="card"/><circle cx="43" cy="40" r="25" fill="#1e6da7"/><text x="35" y="48" class="h w" font-size="21">2</text>
+<text x="83" y="42" class="h" font-size="24">가동범위와 기본 기능</text>
+<rect x="43" y="72" width="205" height="66" rx="12" class="blue"/><text x="58" y="100" class="h" font-size="18">Knee-to-wall</text><text x="58" y="124" font-size="14">양측 체중부하 배측굴곡 비교</text>
+<rect x="273" y="72" width="205" height="66" rx="12" class="blue"/><text x="288" y="100" class="h" font-size="18">Heel raise</text><text x="288" y="124" font-size="14">반복수·높이·통증 비교</text>
+<rect x="503" y="72" width="205" height="66" rx="12" class="blue"/><text x="518" y="100" class="h" font-size="18">보행 관찰</text><text x="518" y="124" font-size="14">회피·비대칭·불안정 재현</text>
+</g>
+<g transform="translate(24,478)">
+<rect width="360" height="246" rx="17" class="card"/><circle cx="43" cy="40" r="25" fill="#1e6da7"/><text x="35" y="48" class="h w" font-size="21">3</text>
+<text x="83" y="42" class="h" font-size="23">기계적 불안정성</text>
+<text x="43" y="84" class="h" font-size="18">Anterior drawer</text>
+<path d="M80 124 H168" class="arrow"/><text x="43" y="153" font-size="14">반대측과 전방 이동 비교</text>
+<text x="43" y="191" class="h" font-size="18">Talar tilt</text>
+<path d="M84 219 Q135 185 178 214" class="arrow"/><text x="193" y="220" font-size="14">과도한 tilt가 있나?</text>
+</g>
+<g transform="translate(416,478)">
+<rect width="360" height="246" rx="17" class="card"/><circle cx="43" cy="40" r="25" fill="#1e6da7"/><text x="35" y="48" class="h w" font-size="21">4</text>
+<text x="83" y="42" class="h" font-size="23">감각운동·동적 안정성</text>
+<text x="43" y="84" font-size="16">① 한 발 서기 30초</text><text x="43" y="116" font-size="16">② SEBT / Y-Balance 3방향</text><text x="43" y="148" font-size="16">③ single-leg hop / landing</text>
+<text x="43" y="190" class="mut" font-size="14">도달거리·오류·불안정감·착지 제어를</text><text x="43" y="212" class="mut" font-size="14">같은 조건에서 반복 측정</text>
+</g>
+<g transform="translate(24,744)">
+<rect width="752" height="184" rx="17" class="card"/><circle cx="43" cy="40" r="25" fill="#1e6da7"/><text x="35" y="48" class="h w" font-size="21">5</text>
+<text x="83" y="42" class="h" font-size="24">다른 원인 screen</text>
+<rect x="43" y="72" width="158" height="82" rx="12" class="amber"/><text x="56" y="99" class="h" font-size="16">신데스모시스</text><text x="56" y="123" font-size="13">발목 위쪽 통증</text>
+<rect x="219" y="72" width="158" height="82" rx="12" class="amber"/><text x="232" y="99" class="h" font-size="16">비골근건</text><text x="232" y="123" font-size="13">외과 뒤 snapping</text>
+<rect x="395" y="72" width="158" height="82" rx="12" class="red"/><text x="408" y="99" class="h" font-size="16">관절내 병변</text><text x="408" y="123" font-size="13">부종·locking</text>
+<rect x="571" y="72" width="158" height="82" rx="12" class="red"/><text x="584" y="99" class="h" font-size="16">신경성</text><text x="584" y="123" font-size="13">저림·감각 이상</text>
+</g>
+<g transform="translate(24,946)">
+<rect width="360" height="140" rx="17" class="green"/><text x="22" y="35" class="h" font-size="22">KEEP</text>
+<text x="22" y="67" font-size="15">giving-way ↓ · balance/hop ↑</text><text x="22" y="94" font-size="15">부종/locking/신경 sign 없음</text><text x="22" y="121" font-size="15">→ 현재 재활을 점진적으로 진행</text>
+</g>
+<g transform="translate(416,946)">
+<rect width="360" height="140" rx="17" class="red"/><text x="22" y="35" class="h" font-size="22">CHANGE</text>
+<text x="22" y="67" font-size="15">재염좌·뚜렷한 laxity·부종/locking</text><text x="22" y="94" font-size="15">tendon snapping·신경증상·기능 정체</text><text x="22" y="121" font-size="15">→ 영상/의뢰 또는 병변별 계획</text>
+</g>
+</svg>
