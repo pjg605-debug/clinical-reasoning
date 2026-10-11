@@ -1,5 +1,10 @@
-const VERSION="clinical-reasoning-v21";
+const VERSION="clinical-reasoning-v22";
 const CORE=[
+  "./assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+  "./assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+  "./assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+  "./articles/2026-09-25-shoulder-passive-rom.html",
+
   "./assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
   "./assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
   "./assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
