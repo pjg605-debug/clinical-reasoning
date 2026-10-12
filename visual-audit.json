@@ -354,9 +354,15 @@
     "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no angle/depth/trajectory.",
     "figuresPlanned": 3,
     "figuresGenerated": 3,
-    "figuresUploaded": 0,
+    "figuresUploaded": 3,
     "figuresEmbedded": 3,
     "anatomySource": "imagegen corrected right-hip v2; visual verification before compression",
-    "checkedAt": "2026-10-13"
+    "checkedAt": "2026-10-13",
+    "githubBlobVerified": true,
+    "liveHttpsVerified": true,
+    "pagesDeploymentHead": "91bff97e16433d12686defbaa91d739348357937",
+    "publicationCommit": "91bff97e16433d12686defbaa91d739348357937",
+    "pagesRunId": 38322316296,
+    "verifiedAt": "2026-10-13T08:32:47+09:00"
   }
 ]
