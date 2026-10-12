@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">비외상성 대퇴골두 골괴사 의심 환자의 영상과 의뢰 결정</title>
+  <desc id="desc">위험력과 깊은 서혜부 통증에서 시작해 단순촬영, MRI, 연골하 골절과 붕괴 여부에 따라 감별, 관절보존 의뢰, 재건 수술 의뢰로 분기하는 흐름도</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4d6672"/></marker>
+    <style>
+      .bg{fill:#f5f8fa}.card{fill:#fff;stroke:#b9c8cf;stroke-width:2}.blue{fill:#e8f1f5;stroke:#466777;stroke-width:2}.green{fill:#e9f3ed;stroke:#4d725f;stroke-width:2}.amber{fill:#fbf1e2;stroke:#9a6b34;stroke-width:2}.red{fill:#f9e9e7;stroke:#a44f4b;stroke-width:2}.t{font-family:Pretendard,"Noto Sans KR",sans-serif;fill:#172126;text-anchor:middle}.h{font-size:30px;font-weight:800}.b{font-size:24px;font-weight:750}.s{font-size:19px;font-weight:600;fill:#425157}.k{font-size:16px;font-weight:800;letter-spacing:.08em;fill:#56717e}.line{fill:none;stroke:#4d6672;stroke-width:4;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="800" rx="26"/>
+  <text class="t h" x="600" y="54">서혜부 통증에서 MRI·CT·정형외과 의뢰까지</text>
+  <text class="t s" x="600" y="86">영상은 통증의 왕관이 아니라, 병기와 관절보존 가능성을 바꾸는 도구다</text>
+
+  <rect class="blue" x="350" y="115" width="500" height="105" rx="20"/>
+  <text class="t k" x="600" y="145">START</text>
+  <text class="t b" x="600" y="178">깊은 서혜부 통증 + 위험력/기능저하</text>
+  <text class="t s" x="600" y="205">스테로이드·고위험 음주·이식/혈액질환 · 내회전 제한</text>
+
+  <path class="line" d="M600 220V260"/>
+  <rect class="card" x="365" y="265" width="470" height="92" rx="18"/>
+  <text class="t b" x="600" y="302">AP + frog-leg 단순촬영</text>
+  <text class="t s" x="600" y="334">정상이더라도 초기 골괴사를 배제하지 못함</text>
+
+  <path class="line" d="M600 357V400"/>
+  <rect class="blue" x="415" y="405" width="370" height="88" rx="18"/>
+  <text class="t b" x="600" y="440">의심이 남으면 MRI</text>
+  <text class="t s" x="600" y="472">병변 범위 · 골수부종 · 관절삼출</text>
+
+  <path class="line" d="M415 449H265V525"/>
+  <path class="line" d="M785 449H935V525"/>
+  <path class="line" d="M600 493V525"/>
+
+  <rect class="green" x="55" y="530" width="420" height="145" rx="20"/>
+  <text class="t k" x="265" y="560">MRI 음성</text>
+  <text class="t b" x="265" y="595">경쟁 가설 재평가</text>
+  <text class="t s" x="265" y="626">OA · 연골/순 · 요추 · 탈장 · 건병증</text>
+  <text class="t s" x="265" y="654">한 진단의 반복 치료를 중단</text>
+
+  <rect class="amber" x="390" y="530" width="420" height="145" rx="20"/>
+  <text class="t k" x="600" y="560">ARCO I–II · 붕괴 전</text>
+  <text class="t b" x="600" y="595">조기 정형외과 의뢰</text>
+  <text class="t s" x="600" y="626">관절보존 가능성 · 병변 크기/위치 논의</text>
+  <text class="t s" x="600" y="654">충격부하 조절 + 기능 기준선 기록</text>
+
+  <rect class="red" x="725" y="530" width="420" height="145" rx="20"/>
+  <text class="t k" x="935" y="560">골절/붕괴 의심 · ARCO III–IV</text>
+  <text class="t b" x="935" y="595">CT 또는 MRI로 병기 확정</text>
+  <text class="t s" x="935" y="626">신속한 정형외과 평가</text>
+  <text class="t s" x="935" y="654">재건·치환 선택은 전문 병기평가 후</text>
+
+  <rect class="red" x="180" y="712" width="840" height="58" rx="15"/>
+  <text class="t s" x="600" y="748">발열·급성 체중부하 불가·최근 외상·신경혈관 이상 → 이 경로보다 먼저 긴급 평가</text>
+</svg>

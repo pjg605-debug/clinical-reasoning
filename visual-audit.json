@@ -338,5 +338,25 @@
       "exam": "imagegen_meniscus_exam",
       "decision": "original_svg"
     }
+  },
+  {
+    "id": "2026-10-13-hip-osteonecrosis-mri",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "Corrected realistic 3D virtual dissection of right hip with weight-bearing dome, osteonecrotic segment, marrow edema, subchondral fracture, femoral neck and restrained posterior vascular relationship; anatomy-only/no needling trajectory.",
+    "pain_location": "Deep groin pain located in case and figure context; explicitly not diagnostic alone.",
+    "competing_diagnosis": "OA, labrum, iliopsoas/adductor, lumbar and hernia branches included.",
+    "exam_posture": "Right-sided gait, passive internal rotation and gentle log-roll with corrected laterality and non-confirmatory warning.",
+    "movement_loading": "Walking tolerance, impact-load modification and 24-hour response included.",
+    "imaging_orientation": "Coronal MRI orientation inset plus X-ray/MRI/CT role in decision figure.",
+    "rehab_progression": "Temporary impact-load reduction and metrics tied to imaging/referral branch.",
+    "decision_branch": "MRI-negative, ARCO I-II and fracture/collapse branches visualized.",
+    "red_flags": "Fever, acute inability to bear weight, trauma and neurovascular deficit precede pathway.",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no angle/depth/trajectory.",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresUploaded": 0,
+    "figuresEmbedded": 3,
+    "anatomySource": "imagegen corrected right-hip v2; visual verification before compression",
+    "checkedAt": "2026-10-13"
   }
 ]

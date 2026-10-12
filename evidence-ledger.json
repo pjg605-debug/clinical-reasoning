@@ -683,5 +683,18 @@
     "design": "paired diagnostic-accuracy systematic review and meta-analysis",
     "sample": "10 studies; 1643 knees",
     "checkedAt": "2026-10-12"
+  },
+  {
+    "id": "41967526",
+    "title": "Nontraumatic Osteonecrosis of the Femoral Head: An International Evidence-Based Clinical Practice Guideline",
+    "doi": "10.1016/j.arth.2026.03.056",
+    "dateVerification": {
+      "pubmed_online_ahead_of_print": "2026-04-10",
+      "guideline_adopted": "2026-01-20",
+      "aaos_endorsed": "2026-06-04"
+    },
+    "design": "International evidence-based clinical practice guideline; 12 recommendations; GRADE Evidence-to-Decision",
+    "diagnosticEvidence": "33 imaging studies; MRI sensitivity 0.91 (95% CI 0.87-0.94), specificity 0.96 (0.87-0.99)",
+    "checkedAt": "2026-10-13"
   }
 ]

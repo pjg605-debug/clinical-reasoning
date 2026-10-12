@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v36";
+const VERSION="clinical-reasoning-v37";
 const CORE=[
+  "./assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+  "./assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+  "./assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+  "./articles/2026-10-13-hip-osteonecrosis-mri.html",
   "./assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
   "./assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
   "./assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
