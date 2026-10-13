@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v37";
+const VERSION="clinical-reasoning-v38";
 const CORE=[
+  "./assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+  "./assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+  "./assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+  "./articles/2026-10-14-cervical-radiculopathy-tests.html",
   "./assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
   "./assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
   "./assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",

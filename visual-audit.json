@@ -364,5 +364,27 @@
     "publicationCommit": "91bff97e16433d12686defbaa91d739348357937",
     "pagesRunId": 38322316296,
     "verifiedAt": "2026-10-13T08:32:47+09:00"
+  },
+  {
+    "id": "2026-10-14-cervical-radiculopathy-tests",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "Corrected realistic 3D virtual dissection of lower cervical spine, spinal cord, foramina, vertebral artery and nerve roots; individual vertebral-body labels removed after two failed level-label iterations; final C6–7 disc/C7 root relationship retained.",
+    "pain_location": "Right neck-to-arm symptom distribution described as overlapping and non-diagnostic.",
+    "competing_diagnosis": "Peripheral median/ulnar/radial entrapment, shoulder referral, somatic referred pain, myelopathy and serious pathology branches included.",
+    "exam_posture": "Corrected right-sided Spurling, ULNT1 and shoulder-abduction-relief positions with examiner support and non-confirmatory warning.",
+    "movement_loading": "Keyboard, sleep and overhead tolerance plus graded cervical/thoracic/scapular and upper-limb loading.",
+    "imaging_orientation": "MRI reserved for management-changing persistent/progressive neurologic deficit; imaging alone does not establish pain source.",
+    "rehab_progression": "Two-week repeated neurologic/function metrics and gradual load progression; escalation at progressive deficit or persistent objective deficit.",
+    "decision_branch": "Urgent myelopathy/progressive deficit, lower-probability, higher-probability, and MRI/referral branches visualized.",
+    "red_flags": "Bilateral symptoms, gait change, hand clumsiness, pathological reflexes, trauma, fever and cancer risk precede routine pathway.",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle, depth or trajectory.",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresUploaded": 0,
+    "figuresEmbedded": 3,
+    "anatomySource": "imagegen corrected virtual-dissection v3; visual verification after 800px WebP compression",
+    "examSource": "imagegen corrected right-sided exam v2; visual verification after 800px WebP compression",
+    "decisionSource": "original deterministic SVG",
+    "checkedAt": "2026-10-14"
   }
 ]

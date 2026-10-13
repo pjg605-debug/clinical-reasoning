@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">경추 신경근병증 재평가와 의뢰 결정 경로</title>
+  <desc id="desc">척수병증과 진행성 근력저하를 먼저 선별하고, 신경학적 검사와 Spurling·ULNT 묶음으로 가중치를 조정한 뒤 보존관리, MRI 또는 의뢰를 선택하는 흐름도</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#edf4f8"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#17384a" flood-opacity=".13"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#416a7d"/></marker>
+    <style>
+      .h{font:700 42px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#17384a}.sub{font:600 21px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#496675}.t{font:700 25px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#17384a}.b{font:500 20px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#314d5b}.small{font:600 17px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#496675}.white{fill:#fff}.line{stroke:#416a7d;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+  <text x="60" y="72" class="h">목 통증보다 팔 저림이 남을 때</text>
+  <text x="60" y="112" class="sub">검사 하나가 아니라 ‘긴급도 → 신경학적 결손 → 사전확률 변화’ 순서로 결정한다</text>
+
+  <g filter="url(#shadow)"><rect x="60" y="150" width="1080" height="112" rx="24" fill="#9f2f3f"/></g>
+  <text x="95" y="190" class="t white">1. 먼저 멈추고 의뢰할 단서</text>
+  <text x="95" y="225" class="b white">진행성 근력저하 · 양측 증상/보행 이상 · 손의 서툼 · 병적반사 · 외상·발열·암 위험</text>
+
+  <path d="M600 262 V308" class="line"/>
+  <g filter="url(#shadow)"><rect x="90" y="310" width="1020" height="126" rx="24" fill="#fff"/></g>
+  <text x="125" y="352" class="t">2. 정확한 재평가 묶음</text>
+  <text x="125" y="389" class="b">C5–T1 근력·감각 + 이두/상완요골/삼두 반사 + Spurling + ULNT 묶음</text>
+  <text x="125" y="420" class="small">국소 목 통증만 재현되면 양성으로 세지 않는다 · 검사 전후 신경학적 상태를 기록한다</text>
+
+  <path d="M600 436 V480" class="line"/>
+  <g filter="url(#shadow)"><rect x="60" y="482" width="335" height="205" rx="24" fill="#e4f3ec"/></g>
+  <text x="90" y="526" class="t">가중치 낮아짐</text>
+  <text x="90" y="565" class="b">네 ULNT 모두 음성</text>
+  <text x="90" y="595" class="b">근력·반사·감각 정상</text>
+  <text x="90" y="632" class="small">말초포착·어깨·연관통 재검토</text>
+  <text x="90" y="660" class="small">증상 부하를 단계적으로 회복</text>
+
+  <g filter="url(#shadow)"><rect x="432" y="482" width="335" height="205" rx="24" fill="#e8f1f8"/></g>
+  <text x="462" y="526" class="t">가중치 상승</text>
+  <text x="462" y="565" class="b">익숙한 원위 팔 증상 재현</text>
+  <text x="462" y="595" class="b">분절성 결손과 일치</text>
+  <text x="462" y="632" class="small">안정적이면 보존관리 + 추적</text>
+  <text x="462" y="660" class="small">객관적 결손을 수치로 재검</text>
+
+  <g filter="url(#shadow)"><rect x="805" y="482" width="335" height="205" rx="24" fill="#f9eadf"/></g>
+  <text x="835" y="526" class="t">MRI·의뢰 문턱 하향</text>
+  <text x="835" y="565" class="b">근력저하가 진행하거나</text>
+  <text x="835" y="595" class="b">4–6주에도 객관적 결손 지속</text>
+  <text x="835" y="632" class="small">척수병증은 즉시 전문 평가</text>
+  <text x="835" y="660" class="small">영상은 관리 선택 질문에 사용</text>
+
+  <path d="M227 687 V736" class="line"/><path d="M600 687 V736" class="line"/><path d="M972 687 V736" class="line"/>
+  <g filter="url(#shadow)"><rect x="90" y="738" width="1020" height="105" rx="24" fill="#17384a"/></g>
+  <text x="125" y="780" class="t white">2주 재평가: NDI/PSFS · 팔 증상 범위 · 근력 MRC · 반사 · 감각 · 수면·업무 허용도</text>
+  <text x="125" y="816" class="b white">호전이면 단계적 부하 증가 · 불변/악화면 가설과 영상·신경검사·의뢰 질문을 다시 정한다</text>
+  <text x="600" y="878" text-anchor="middle" class="small">단일 검사·영상·즉시 통증 변화만으로 원인 구조를 확정하지 않는다</text>
+</svg>
