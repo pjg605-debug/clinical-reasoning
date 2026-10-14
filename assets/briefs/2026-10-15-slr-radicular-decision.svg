@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">하지직거상검사 이후 요천추 방사통 재평가 경로</title>
+  <desc id="desc">마미증후군과 진행성 신경결손을 먼저 선별하고, 분절성 신경검사와 SLR 묶음에 따라 보존관리, MRI와 의뢰를 선택하는 흐름도</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#edf4f8"/></linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#17384a" flood-opacity=".13"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#416a7d"/></marker>
+    <style>
+      .h{font:700 42px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#17384a}.sub{font:600 21px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#496675}.t{font:700 25px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#17384a}.b{font:500 20px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#314d5b}.small{font:600 17px system-ui,-apple-system,"Noto Sans KR",sans-serif;fill:#496675}.white{fill:#fff}.line{stroke:#416a7d;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="900" rx="34" fill="url(#bg)"/>
+  <text x="60" y="72" class="h">SLR 양성 뒤에 무엇을 할 것인가</text>
+  <text x="60" y="112" class="sub">검사 하나가 아니라 ‘긴급도 → 신경결손 → 관리가 바뀌는가’ 순서로 결정한다</text>
+
+  <g filter="url(#shadow)"><rect x="60" y="150" width="1080" height="112" rx="24" fill="#9f2f3f"/></g>
+  <text x="95" y="190" class="t white">1. 즉시 영상·의뢰가 먼저인 단서</text>
+  <text x="95" y="225" class="b white">요정체/실금 · 안장감각 저하 · 양측 증상 · 진행성 근력저하 · 발열·외상·암/감염 위험</text>
+
+  <path d="M600 262 V308" class="line"/>
+  <g filter="url(#shadow)"><rect x="90" y="310" width="1020" height="126" rx="24" fill="#fff"/></g>
+  <text x="125" y="352" class="t">2. 같은 방식으로 기록하는 검사 묶음</text>
+  <text x="125" y="389" class="b">보행·heel/toe walk + L2–S1 근력·감각 + 슬개/아킬레스 반사 + SLR·crossed SLR</text>
+  <text x="125" y="420" class="small">익숙한 원위 증상, 증상각도, 구조적 분화 반응을 기록한다 · 강제 끝범위는 피한다</text>
+
+  <path d="M600 436 V480" class="line"/>
+  <g filter="url(#shadow)"><rect x="60" y="482" width="335" height="205" rx="24" fill="#e4f3ec"/></g>
+  <text x="90" y="526" class="t">가중치 낮아짐</text>
+  <text x="90" y="565" class="b">SLR 음성 + 신경검사 정상</text>
+  <text x="90" y="595" class="b">고관절·말초신경 소견이 더 일치</text>
+  <text x="90" y="632" class="small">경쟁 가설 재검토</text>
+  <text x="90" y="660" class="small">기능·부하를 단계적으로 회복</text>
+
+  <g filter="url(#shadow)"><rect x="432" y="482" width="335" height="205" rx="24" fill="#e8f1f8"/></g>
+  <text x="462" y="526" class="t">양성이나 결손 없음</text>
+  <text x="462" y="565" class="b">신경 기계민감성 단서</text>
+  <text x="462" y="595" class="b">신경근병증 확진은 아님</text>
+  <text x="462" y="632" class="small">활동 유지 + 증상조절</text>
+  <text x="462" y="660" class="small">1–2주 신경학적 상태 재검</text>
+
+  <g filter="url(#shadow)"><rect x="805" y="482" width="335" height="205" rx="24" fill="#f9eadf"/></g>
+  <text x="835" y="526" class="t">가중치·의뢰 문턱 상승</text>
+  <text x="835" y="565" class="b">익숙한 원위 증상 +</text>
+  <text x="835" y="595" class="b">분절성 근력·반사·감각 결손</text>
+  <text x="835" y="632" class="small">진행 시 즉시 의뢰</text>
+  <text x="835" y="660" class="small">지속·중재 계획 시 MRI 검토</text>
+
+  <path d="M227 687 V736" class="line"/><path d="M600 687 V736" class="line"/><path d="M972 687 V736" class="line"/>
+  <g filter="url(#shadow)"><rect x="90" y="738" width="1020" height="105" rx="24" fill="#17384a"/></g>
+  <text x="125" y="780" class="t white">1–2주 재평가: ODI/PSFS · 다리 증상 범위 · MRC 근력 · 반사 · 감각 · 보행·수면·업무</text>
+  <text x="125" y="816" class="b white">호전이면 걷기·앉기·hip hinge를 단계화 · 말단 증상/결손 악화면 부하를 낮추고 영상·의뢰 질문 재설정</text>
+  <text x="600" y="878" text-anchor="middle" class="small">SLR·MRI·즉시 통증 변화 어느 하나도 원인 구조를 단독 확정하지 않는다</text>
+</svg>

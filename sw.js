@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v38";
+const VERSION="clinical-reasoning-v39";
 const CORE=[
+  "./assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+  "./assets/briefs/2026-10-15-slr-radicular-exam.webp",
+  "./assets/briefs/2026-10-15-slr-radicular-decision.svg",
+  "./articles/2026-10-15-slr-radicular-pain.html",
   "./assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
   "./assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
   "./assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",

@@ -392,5 +392,29 @@
     "publicationCommit": "f34ae71e987f2cf65e032a2a2551d0f3b6b152b4",
     "pagesRunId": 38483349638,
     "verifiedAt": "2026-10-14T08:20:15+09:00"
+  },
+  {
+    "id": "2026-10-15-slr-radicular-pain",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "Verified realistic 3D virtual dissection of lower lumbar spine, pelvis, sacral plexus and sciatic nerve; overlapping symptom distributions shown without fabricated root-level leader labels.",
+    "pain_location": "Right posterolateral leg and lateral-foot symptoms mapped as overlapping and non-diagnostic.",
+    "competing_diagnosis": "Somatic referral, hip/deep gluteal, hamstring, peripheral nerve, vascular and serious pathology branches included.",
+    "exam_posture": "Right symptomatic SLR, ankle-dorsiflexion structural differentiation and left crossed SLR with right-sided symptoms; forced end range prohibited.",
+    "movement_loading": "Sitting, flexion, walking, graded exposure and 24-hour distal-symptom response included.",
+    "imaging_orientation": "No synthetic MRI image; imaging reserved for cauda equina/serious pathology, progressive deficit or management-changing persistent objective deficit.",
+    "rehab_progression": "Walking and position-change exposure progressed one variable at a time with distal symptoms and neurologic status as stop criteria.",
+    "decision_branch": "Urgent red flags, lower-weight, positive-without-deficit, segmental-deficit and follow-up branches visualized.",
+    "red_flags": "Urinary retention/new incontinence, saddle sensory loss, bilateral progression, rapid weakness, fever, cancer/infection/procedure and trauma risk precede routine pathway.",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle, depth or trajectory.",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresUploaded": 3,
+    "figuresEmbedded": 3,
+    "anatomySource": "imagegen corrected virtual-dissection; visual verification after 800px WebP compression",
+    "examSource": "imagegen right-sided exam sequence; visual verification after 800px WebP compression",
+    "decisionSource": "original deterministic SVG",
+    "checkedAt": "2026-10-15",
+    "githubBlobVerified": false,
+    "liveHttpsVerified": false
   }
 ]
