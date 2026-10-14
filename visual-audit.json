@@ -414,7 +414,11 @@
     "examSource": "imagegen right-sided exam sequence; visual verification after 800px WebP compression",
     "decisionSource": "original deterministic SVG",
     "checkedAt": "2026-10-15",
-    "githubBlobVerified": false,
-    "liveHttpsVerified": false
+    "githubBlobVerified": true,
+    "liveHttpsVerified": true,
+    "pagesDeploymentHead": "75963a8758bd95c2d92adc105254c923388d967c",
+    "publicationCommit": "75963a8758bd95c2d92adc105254c923388d967c",
+    "pagesRunId": 38656276070,
+    "verifiedAt": "2026-10-15T08:48:30+09:00"
   }
 ]
