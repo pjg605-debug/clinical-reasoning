@@ -420,5 +420,40 @@
     "publicationCommit": "75963a8758bd95c2d92adc105254c923388d967c",
     "pagesRunId": 38656276070,
     "verifiedAt": "2026-10-15T08:48:30+09:00"
+  },
+  {
+    "id": "2026-10-16-ottawa-ankle-rules",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "Verified realistic 3D virtual dissection of the right ankle and midfoot showing distal tibia/fibula, malleolar posterior edges/tips, talus, calcaneus, navicular, fifth-metatarsal base, lateral ligaments, tendons and nearby neurovascular structures; no needling trajectory.",
+    "pain_location": "Ankle-zone versus midfoot-zone pain separated from the four exact OAR bony palpation landmarks; soft-tissue tenderness explicitly non-diagnostic.",
+    "competing_diagnosis": "Fracture, lateral ligament sprain, syndesmosis, talar dome, peroneal tendon, Achilles, proximal fibula and neurovascular branches included.",
+    "exam_posture": "Right-sided malleolar posterior-edge palpation, navicular/fifth-metatarsal-base palpation and four-step weight-bearing sequence; positive result labeled radiography indication, not fracture confirmation.",
+    "movement_loading": "Immediate and clinic four-step status, protected weight bearing, ROM, calf raise and balance progression with same-day/next-day response.",
+    "imaging_orientation": "Zone-specific ankle versus foot radiography decision shown; no synthetic radiograph; persistent discordant findings trigger reassessment/additional imaging question.",
+    "rehab_progression": "Support/brace to tolerated steps, ROM, bilateral calf raise and single-leg balance, progressed one variable at a time.",
+    "decision_branch": "Urgent neurovascular/open/deformity branch, OAR eligibility, ankle/midfoot radiography branches, negative-rule rehab and 3–7-day reassessment visualized.",
+    "red_flags": "Deformity, open wound, threatened skin, neurovascular deficit, compartment concern and high-energy trauma precede routine OAR use.",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle, depth or trajectory.",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresUploaded": 3,
+    "figuresEmbedded": 3,
+    "figureSizesBytes": {
+      "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp": 63344,
+      "assets/briefs/2026-10-16-ottawa-ankle-exam.webp": 36796,
+      "assets/briefs/2026-10-16-ottawa-ankle-decision.svg": 5423
+    },
+    "anatomySource": "imagegen verified virtual-dissection; visual verification after 800px WebP compression",
+    "examSource": "imagegen right-sided OAR sequence; visual verification after 800px WebP compression",
+    "decisionSource": "original deterministic SVG",
+    "checkedAt": "2026-10-16",
+    "githubBlobVerified": true,
+    "liveHttpsVerified": true,
+    "cacheVersion": "clinical-reasoning-v41",
+    "pagesDeploymentHead": "1bfa5840f4682869da1d64ab93a42fe17da7ab55",
+    "publicationCommit": "1bfa5840f4682869da1d64ab93a42fe17da7ab55",
+    "pagesRunId": 38824332867,
+    "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-16-ottawa-ankle-rules",
+    "verifiedAt": "2026-10-16T08:35:00+09:00"
   }
 ]
