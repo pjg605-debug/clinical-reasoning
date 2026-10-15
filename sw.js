@@ -1,4 +1,4 @@
-const VERSION="clinical-reasoning-v39";
+const VERSION="clinical-reasoning-v40";
 const CORE=[
   "./assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
   "./assets/briefs/2026-10-15-slr-radicular-exam.webp",
