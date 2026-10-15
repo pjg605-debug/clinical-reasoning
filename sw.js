@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v40";
+const VERSION="clinical-reasoning-v41";
 const CORE=[
+  "./assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+  "./assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+  "./assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
+  "./articles/2026-10-16-ottawa-ankle-rules.html",
   "./assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
   "./assets/briefs/2026-10-15-slr-radicular-exam.webp",
   "./assets/briefs/2026-10-15-slr-radicular-decision.svg",

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">급성 발목 외상에서 Ottawa Ankle Rules와 재평가 분기</title>
+  <desc id="desc">긴급 징후, Ottawa 규칙 적용 가능성, 발목과 중족부 촬영 분기, 음성일 때 기능적 재활과 재평가를 순서대로 보여 준다.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6fbff"/><stop offset="1" stop-color="#eaf4ff"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0a2f57" flood-opacity=".13"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2c6aa0"/></marker>
+  </defs>
+  <rect width="1200" height="860" rx="34" fill="url(#bg)"/>
+  <text x="600" y="60" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="33" font-weight="800" fill="#0b2f55">급성 발목 외상: OAR은 ‘촬영 선별’이고 진단은 아니다</text>
+
+  <g filter="url(#shadow)" font-family="Arial,'Noto Sans KR',sans-serif">
+    <rect x="120" y="92" width="960" height="104" rx="22" fill="#fff" stroke="#c7d9ea" stroke-width="2"/>
+    <circle cx="175" cy="144" r="32" fill="#b42318"/><text x="175" y="154" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">1</text>
+    <text x="230" y="132" font-size="24" font-weight="800" fill="#0b2f55">먼저 긴급 선별</text>
+    <text x="230" y="168" font-size="20" fill="#334e68">변형·개방상처·피부 긴장, 맥박/감각/운동 이상, 구획증후군 의심, 심한 고에너지 외상 → 즉시 응급 평가</text>
+
+    <path d="M600 200 V235" stroke="#2c6aa0" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="120" y="242" width="960" height="112" rx="22" fill="#fff" stroke="#c7d9ea" stroke-width="2"/>
+    <circle cx="175" cy="298" r="32" fill="#1769aa"/><text x="175" y="308" text-anchor="middle" font-size="30" font-weight="800" fill="#fff">2</text>
+    <text x="230" y="286" font-size="24" font-weight="800" fill="#0b2f55">OAR을 신뢰할 수 있는 성인 급성 외상인가?</text>
+    <text x="230" y="322" font-size="19" fill="#334e68">의식·협조·감각이 신뢰 가능해야 한다. 소아, 임신, 중독·두부손상, 다발외상·개방손상은 별도 판단.</text>
+
+    <path d="M600 358 V393" stroke="#2c6aa0" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="55" y="400" width="525" height="178" rx="22" fill="#fff" stroke="#60a5d8" stroke-width="3"/>
+    <text x="317" y="438" text-anchor="middle" font-size="25" font-weight="800" fill="#0b2f55">발목 구역 통증</text>
+    <text x="86" y="476" font-size="19" fill="#334e68">• 내·외과 뒤쪽 6 cm 또는 끝의 골성 압통</text>
+    <text x="86" y="510" font-size="19" fill="#334e68">• 손상 직후와 진료실 모두 네 걸음 불가</text>
+    <rect x="102" y="530" width="430" height="36" rx="18" fill="#d8eeff"/><text x="317" y="555" text-anchor="middle" font-size="19" font-weight="800" fill="#115b91">하나라도 있으면 발목 X-ray</text>
+
+    <rect x="620" y="400" width="525" height="178" rx="22" fill="#fff" stroke="#60a5d8" stroke-width="3"/>
+    <text x="882" y="438" text-anchor="middle" font-size="25" font-weight="800" fill="#0b2f55">중족부 구역 통증</text>
+    <text x="651" y="476" font-size="19" fill="#334e68">• 주상골 또는 제5중족골 기저부의 골성 압통</text>
+    <text x="651" y="510" font-size="19" fill="#334e68">• 손상 직후와 진료실 모두 네 걸음 불가</text>
+    <rect x="667" y="530" width="430" height="36" rx="18" fill="#d8eeff"/><text x="882" y="555" text-anchor="middle" font-size="19" font-weight="800" fill="#115b91">하나라도 있으면 발 X-ray</text>
+
+    <path d="M317 582 V620" stroke="#2c6aa0" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M882 582 V620" stroke="#2c6aa0" stroke-width="5" marker-end="url(#arrow)"/>
+    <rect x="55" y="628" width="525" height="146" rx="22" fill="#fff8e7" stroke="#d99b18" stroke-width="3"/>
+    <text x="317" y="666" text-anchor="middle" font-size="24" font-weight="800" fill="#7a4a00">양성 또는 임상 우려 지속</text>
+    <text x="317" y="701" text-anchor="middle" font-size="19" fill="#5a4930">촬영으로 골절 여부·정렬 확인</text>
+    <text x="317" y="735" text-anchor="middle" font-size="19" fill="#5a4930">양성 = 골절 확정 아님</text>
+
+    <rect x="620" y="628" width="525" height="146" rx="22" fill="#eefaf4" stroke="#2d8a61" stroke-width="3"/>
+    <text x="882" y="666" text-anchor="middle" font-size="24" font-weight="800" fill="#146c43">음성 + 신뢰 가능한 검사</text>
+    <text x="882" y="701" text-anchor="middle" font-size="19" fill="#275847">보호·보조기 → 허용 범위 체중부하/ROM</text>
+    <text x="882" y="735" text-anchor="middle" font-size="19" fill="#275847">3–7일: 보행·골성 압통·부종·기능 재검</text>
+  </g>
+  <rect x="80" y="798" width="1040" height="42" rx="21" fill="#0b2f55"/>
+  <text x="600" y="826" text-anchor="middle" font-family="Arial,'Noto Sans KR',sans-serif" font-size="19" font-weight="700" fill="#fff">지속되는 국소 골성 통증·악화·부하 진행 실패 → OAR 음성이어도 재평가·영상/의뢰</text>
+</svg>

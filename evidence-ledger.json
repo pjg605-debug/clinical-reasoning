@@ -730,5 +730,29 @@
     "companionReview": "PMID 42799684; 105 studies in 111 publications",
     "usedIn": "2026-10-15-slr-radicular-pain",
     "checkedAt": "2026-10-15"
+  },
+  {
+    "id": "42524327",
+    "title": "Revisiting the Diagnostic Accuracy of Ottawa Ankle Rules for Ankle Fractures: A Systematic Review and Meta-Analysis.",
+    "doi": "10.22037/aaem.v14i1.3051",
+    "earliestPublicDate": "2026-06-18",
+    "evidenceType": "Systematic review and diagnostic meta-analysis",
+    "population": "45 adult acute ankle-trauma studies; GRADE denominators 3,066 fracture and 13,437 non-fracture participants, not summed as unique total",
+    "keyResults": "Sensitivity 0.92 (95% CI 0.91–0.93), specificity 0.35 (0.34–0.36), LR+ 1.76 (1.46–2.13), LR− 0.13 (0.09–0.19), DOR 16.21 (10.15–25.89), AUC 0.87, diagnostic accuracy 0.52 (0.45–0.59).",
+    "authorsCertainty": "Moderate certainty for sensitivity and specificity; downgraded for serious risk of bias and inconsistency.",
+    "applicability": "Adults only; English-language studies; excluded studies exclusively evaluating midfoot fractures; most used plain radiography as reference standard.",
+    "usedIn": "2026-10-16-ottawa-ankle-rules",
+    "checkedAt": "2026-10-16"
+  },
+  {
+    "id": "33789434",
+    "title": "Ankle Stability and Movement Coordination Impairments: Lateral Ankle Ligament Sprains Revision 2021.",
+    "doi": "10.2519/jospt.2021.0302",
+    "earliestPublicDate": "2021-04-01",
+    "evidenceType": "Clinical practice guideline; background evidence",
+    "population": "Adolescents and adults with first-time lateral ankle sprain or chronic ankle instability",
+    "keyUse": "External support and progressive weight bearing matched to severity; structured ROM, strengthening, neuromuscular and balance exercise.",
+    "usedIn": "2026-10-16-ottawa-ankle-rules",
+    "checkedAt": "2026-10-16"
   }
 ]
