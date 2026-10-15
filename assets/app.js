@@ -1,7 +1,10 @@
-const state={articles:[],active:null,installPrompt:null,cssText:""};
+const state={articles:[],active:null,installPrompt:null,cssText:"",annotations:[],pendingSelection:null,jumpAnnotation:null,vaultFilter:"all"};
 const $=s=>document.querySelector(s);
 const list=$("#archiveList"),mount=$("#articleMount"),outline=$("#pageOutline"),search=$("#searchInput");
 const toastEl=$("#toast"),archive=$("#archive"),backdrop=$("#backdrop"),installBtn=$("#installBtn");
+const annotationToolbar=$("#annotationToolbar"),annotationVault=$("#annotationVault"),annotationBackdrop=$("#annotationBackdrop");
+const vaultList=$("#vaultList"),vaultCount=$("#vaultCount"),noteDialog=$("#noteDialog"),noteInput=$("#noteInput"),noteQuote=$("#noteQuote");
+const ANNOTATION_KEY="clinical-reasoning.annotations.v1";
 
 async function init(){
   try{
@@ -11,6 +14,7 @@ async function init(){
     ]);
     state.articles=(await articlesRes.json()).sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
     state.cssText=await cssRes.text();
+    loadAnnotations();
     renderArchive();
     await route();
   }catch(err){
@@ -56,9 +60,17 @@ async function route(){
   enhanceTables();
   buildOutline();
   buildNav();
+  renderAnnotations();
+  renderVault();
   updateProgress();
   setTimeout(updateOutline,50);
-  window.scrollTo({top:0,behavior:"instant"});
+  if(state.jumpAnnotation){
+    const jumpId=state.jumpAnnotation;
+    state.jumpAnnotation=null;
+    setTimeout(()=>scrollToAnnotation(jumpId),80);
+  }else{
+    window.scrollTo({top:0,behavior:"instant"});
+  }
 }
 
 function enhanceTables(){
@@ -184,6 +196,246 @@ function escapeHtml(s){
   return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));
 }
 
+
+function loadAnnotations(){
+  try{
+    const raw=localStorage.getItem(ANNOTATION_KEY);
+    state.annotations=raw?JSON.parse(raw):[];
+    if(!Array.isArray(state.annotations))state.annotations=[];
+  }catch(e){state.annotations=[];}
+  updateVaultCount();
+}
+
+function persistAnnotations(){
+  localStorage.setItem(ANNOTATION_KEY,JSON.stringify(state.annotations));
+  updateVaultCount();
+  renderVault();
+}
+
+function updateVaultCount(){
+  if(vaultCount)vaultCount.textContent=String(state.annotations.length);
+}
+
+function articleTextNodes(){
+  const walker=document.createTreeWalker(mount,NodeFilter.SHOW_TEXT,{
+    acceptNode(node){
+      if(!node.nodeValue||!node.nodeValue.length)return NodeFilter.FILTER_REJECT;
+      const p=node.parentElement;
+      if(!p||p.closest(".annotation-toolbar,.annotation-vault,script,style"))return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const nodes=[];let n;
+  while(n=walker.nextNode())nodes.push(n);
+  return nodes;
+}
+
+function offsetsFromRange(range){
+  const nodes=articleTextNodes();
+  let cursor=0,start=null,end=null;
+  for(const n of nodes){
+    const len=n.nodeValue.length;
+    if(n===range.startContainer)start=cursor+range.startOffset;
+    if(n===range.endContainer)end=cursor+range.endOffset;
+    cursor+=len;
+  }
+  return start===null||end===null?null:{start,end};
+}
+
+function rangeFromOffsets(start,end){
+  const nodes=articleTextNodes();
+  const range=document.createRange();
+  let cursor=0,startNode=null,endNode=null,startOffset=0,endOffset=0;
+  for(const n of nodes){
+    const next=cursor+n.nodeValue.length;
+    if(startNode===null&&start>=cursor&&start<=next){
+      startNode=n;startOffset=Math.min(n.nodeValue.length,start-cursor);
+    }
+    if(endNode===null&&end>=cursor&&end<=next){
+      endNode=n;endOffset=Math.min(n.nodeValue.length,end-cursor);
+      break;
+    }
+    cursor=next;
+  }
+  if(!startNode||!endNode)return null;
+  try{
+    range.setStart(startNode,startOffset);
+    range.setEnd(endNode,endOffset);
+    return range;
+  }catch(e){return null;}
+}
+
+function resolveAnnotationRange(annotation){
+  if(!annotation||annotation.articleId!==state.active?.id)return null;
+  let range=rangeFromOffsets(annotation.start,annotation.end);
+  if(range&&range.toString()===annotation.quote)return range;
+  const full=mount.textContent||"";
+  const index=full.indexOf(annotation.quote||"");
+  if(index<0)return null;
+  range=rangeFromOffsets(index,index+annotation.quote.length);
+  if(range){
+    annotation.start=index;annotation.end=index+annotation.quote.length;
+  }
+  return range;
+}
+
+function renderAnnotations(){
+  if(!state.active)return;
+  const groups={highlight:[],underline:[],note:[],save:[]};
+  const names={highlight:"cr-highlight",underline:"cr-underline",note:"cr-note",save:"cr-save"};
+  if(CSS.highlights){
+    Object.values(names).forEach(name=>CSS.highlights.delete(name));
+    state.annotations.filter(a=>a.articleId===state.active.id).forEach(a=>{
+      const range=resolveAnnotationRange(a);
+      if(range&&groups[a.type])groups[a.type].push(range);
+    });
+    Object.entries(groups).forEach(([type,ranges])=>{
+      if(ranges.length)CSS.highlights.set(names[type],new Highlight(...ranges));
+    });
+  }
+}
+
+function selectionPayload(){
+  const sel=window.getSelection();
+  if(!sel||sel.rangeCount===0||sel.isCollapsed)return null;
+  const range=sel.getRangeAt(0);
+  if(!mount.contains(range.commonAncestorContainer))return null;
+  const quote=sel.toString().replace(/\s+/g," ").trim();
+  if(!quote||quote.length<2)return null;
+  const offsets=offsetsFromRange(range);
+  if(!offsets)return null;
+  return {quote,start:offsets.start,end:offsets.end,range:range.cloneRange()};
+}
+
+function showAnnotationToolbar(){
+  const payload=selectionPayload();
+  if(!payload){hideAnnotationToolbar();return;}
+  state.pendingSelection=payload;
+  const rect=payload.range.getBoundingClientRect();
+  annotationToolbar.hidden=false;
+  annotationToolbar.classList.add("show");
+  const w=annotationToolbar.offsetWidth||360;
+  const left=Math.max(10,Math.min(innerWidth-w-10,rect.left+rect.width/2-w/2));
+  const top=Math.max(68,rect.top-54);
+  annotationToolbar.style.left=left+"px";
+  annotationToolbar.style.top=top+"px";
+}
+
+function hideAnnotationToolbar(){
+  if(!annotationToolbar)return;
+  annotationToolbar.classList.remove("show");
+  annotationToolbar.hidden=true;
+}
+
+function addAnnotation(type,note=""){
+  const p=state.pendingSelection;
+  if(!p||!state.active)return;
+  const annotation={
+    id:"ann-"+Date.now().toString(36)+"-"+Math.random().toString(36).slice(2,7),
+    articleId:state.active.id,articleTitle:state.active.title,articleDate:state.active.date,
+    type,quote:p.quote,start:p.start,end:p.end,note,
+    createdAt:new Date().toISOString()
+  };
+  state.annotations.unshift(annotation);
+  persistAnnotations();
+  renderAnnotations();
+  window.getSelection()?.removeAllRanges();
+  state.pendingSelection=null;
+  hideAnnotationToolbar();
+  toast(type==="highlight"?"형광펜으로 표시했습니다.":type==="underline"?"밑줄을 저장했습니다.":type==="note"?"메모를 저장했습니다.":"보관함에 넣었습니다.");
+}
+
+function annotationLabel(type){
+  return ({highlight:"형광펜",underline:"밑줄",note:"메모",save:"보관"})[type]||type;
+}
+
+function openVault(filter=state.vaultFilter||"all"){
+  state.vaultFilter=filter;
+  renderVault();
+  annotationVault.classList.add("open");
+  annotationVault.setAttribute("aria-hidden","false");
+  annotationBackdrop.classList.add("show");
+  hideAnnotationToolbar();
+}
+
+function closeVault(){
+  annotationVault.classList.remove("open");
+  annotationVault.setAttribute("aria-hidden","true");
+  annotationBackdrop.classList.remove("show");
+}
+
+function renderVault(){
+  if(!vaultList)return;
+  document.querySelectorAll("[data-vault-filter]").forEach(b=>b.classList.toggle("active",b.dataset.vaultFilter===state.vaultFilter));
+  const rows=state.annotations.filter(a=>state.vaultFilter==="all"||a.type===state.vaultFilter);
+  vaultList.innerHTML="";
+  if(!rows.length){
+    vaultList.innerHTML='<div class="vault-empty">아직 저장한 문장이 없습니다.<br>본문에서 문장을 드래그하면 형광펜·밑줄·메모·보관을 사용할 수 있습니다.</div>';
+    return;
+  }
+  rows.forEach(a=>{
+    const card=document.createElement("article");
+    card.className="vault-item";
+    card.innerHTML='<div class="vault-item-top"><span class="vault-kind kind-'+a.type+'">'+annotationLabel(a.type)+'</span><span class="vault-date">'+escapeHtml(a.articleDate||"")+'</span></div>'+
+      '<div class="vault-article">'+escapeHtml(a.articleTitle||"")+'</div>'+
+      '<blockquote>'+escapeHtml(a.quote||"")+'</blockquote>'+
+      (a.note?'<div class="vault-note">'+escapeHtml(a.note)+'</div>':"")+
+      '<div class="vault-item-actions"><button type="button" data-jump="'+a.id+'">원문 위치</button>'+
+      (a.type==="note"?'<button type="button" data-edit-note="'+a.id+'">메모 수정</button>':"")+
+      '<button type="button" class="danger" data-delete-ann="'+a.id+'">삭제</button></div>';
+    vaultList.appendChild(card);
+  });
+}
+
+function scrollToAnnotation(id){
+  const a=state.annotations.find(x=>x.id===id);
+  if(!a)return;
+  const range=resolveAnnotationRange(a);
+  if(!range){toast("원문에서 이 위치를 찾지 못했습니다.");return;}
+  const el=range.startContainer.parentElement;
+  if(el)el.scrollIntoView({behavior:"smooth",block:"center"});
+  try{
+    const sel=window.getSelection();sel.removeAllRanges();sel.addRange(range);
+    setTimeout(()=>sel.removeAllRanges(),1100);
+  }catch(e){}
+}
+
+function jumpToAnnotation(id){
+  const a=state.annotations.find(x=>x.id===id);
+  if(!a)return;
+  closeVault();
+  if(state.active?.id===a.articleId){
+    scrollToAnnotation(id);
+  }else{
+    state.jumpAnnotation=id;
+    location.hash=a.articleId;
+  }
+}
+
+function deleteAnnotation(id){
+  state.annotations=state.annotations.filter(a=>a.id!==id);
+  persistAnnotations();renderAnnotations();toast("표시를 삭제했습니다.");
+}
+
+function editNote(id){
+  const a=state.annotations.find(x=>x.id===id&&x.type==="note");
+  if(!a)return;
+  noteQuote.textContent=a.quote;
+  noteInput.value=a.note||"";
+  noteDialog.dataset.editId=id;
+  noteDialog.showModal();
+  setTimeout(()=>noteInput.focus(),50);
+}
+
+function openNewNote(){
+  if(!state.pendingSelection)return;
+  delete noteDialog.dataset.editId;
+  noteQuote.textContent=state.pendingSelection.quote;
+  noteInput.value="";
+  noteDialog.showModal();
+  setTimeout(()=>noteInput.focus(),50);
+}
+
 async function registerServiceWorker(){
   if("serviceWorker" in navigator){
     try{
@@ -236,6 +488,47 @@ $("#copyLinkBtn").onclick=async()=>{
   history.replaceState(null,"","#"+state.active.id);
   toast("이 글의 고정 링크를 복사했습니다.");
 };
+$("#vaultBtn").onclick=()=>openVault();
+$("#vaultCloseBtn").onclick=closeVault;
+annotationBackdrop.onclick=closeVault;
+$("#vaultFilters").addEventListener("click",e=>{
+  const b=e.target.closest("[data-vault-filter]");
+  if(b){state.vaultFilter=b.dataset.vaultFilter;renderVault();}
+});
+vaultList.addEventListener("click",e=>{
+  const jump=e.target.closest("[data-jump]");
+  const del=e.target.closest("[data-delete-ann]");
+  const edit=e.target.closest("[data-edit-note]");
+  if(jump)jumpToAnnotation(jump.dataset.jump);
+  else if(del)deleteAnnotation(del.dataset.deleteAnn);
+  else if(edit)editNote(edit.dataset.editNote);
+});
+annotationToolbar.addEventListener("pointerdown",e=>e.preventDefault());
+annotationToolbar.addEventListener("click",e=>{
+  const b=e.target.closest("[data-annotation-type]");
+  if(e.target.closest("[data-open-vault]")){openVault();return;}
+  if(!b)return;
+  if(b.dataset.annotationType==="note")openNewNote();
+  else addAnnotation(b.dataset.annotationType);
+});
+$("#noteCancelBtn").onclick=()=>noteDialog.close();
+$("#noteForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const editId=noteDialog.dataset.editId;
+  const note=noteInput.value.trim();
+  if(editId){
+    const a=state.annotations.find(x=>x.id===editId);
+    if(a){a.note=note;persistAnnotations();renderAnnotations();toast("메모를 수정했습니다.");}
+  }else addAnnotation("note",note);
+  noteDialog.close();
+});
+mount.addEventListener("mouseup",()=>setTimeout(showAnnotationToolbar,20));
+mount.addEventListener("touchend",()=>setTimeout(showAnnotationToolbar,180),{passive:true});
+document.addEventListener("pointerdown",e=>{
+  if(annotationToolbar.hidden)return;
+  if(!annotationToolbar.contains(e.target)&&!mount.contains(e.target))hideAnnotationToolbar();
+});
+
 $("#copyHtmlBtn").onclick=async()=>{
   const html=await standaloneHtml();
   await copyText(html);
@@ -243,10 +536,10 @@ $("#copyHtmlBtn").onclick=async()=>{
 };
 
 window.addEventListener("hashchange",route);
-window.addEventListener("scroll",()=>{updateProgress();updateOutline()},{passive:true});
+window.addEventListener("scroll",()=>{updateProgress();updateOutline();if(!annotationToolbar.hidden)hideAnnotationToolbar()},{passive:true});
 window.addEventListener("keydown",e=>{
   if(e.key==="/"&&document.activeElement!==search){e.preventDefault();search.focus();openMenu()}
-  if(e.key==="Escape"){closeMenu();search.blur()}
+  if(e.key==="Escape"){closeMenu();closeVault();hideAnnotationToolbar();if(noteDialog.open)noteDialog.close();search.blur()}
 });
 registerServiceWorker();
 init();
