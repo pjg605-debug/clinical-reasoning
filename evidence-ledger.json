@@ -754,5 +754,17 @@
     "keyUse": "External support and progressive weight bearing matched to severity; structured ROM, strengthening, neuromuscular and balance exercise.",
     "usedIn": "2026-10-16-ottawa-ankle-rules",
     "checkedAt": "2026-10-16"
+  },
+  {
+    "id": "41919928",
+    "title": "Hand Pain and Sensory Deficits: Carpal Tunnel Syndrome: Revision 2026.",
+    "doi": "10.2519/jospt.2026.0301",
+    "earliestPublicDate": "2026-02-12",
+    "evidenceType": "Revised clinical practice guideline",
+    "population": "Suspected or confirmed carpal tunnel syndrome; nonsurgical and surgical physical-therapy management evidence, with mild-to-moderate conservative-care branches",
+    "keyResults": "Use Katz-Stirrat diagram; use Phalen, Tinel and Durkan as a diagnostic bundle; measure sensory threshold with Semmes-Weinstein monofilaments and static 2-point discrimination; recommend a forearm-based near-neutral wrist immobilization orthosis at night for mild-to-moderate CTS; no recommendation for DN because of insufficient evidence.",
+    "interventionEvidence": "Manual dry needling was not recommended; electrical dry needling/electroacupuncture evidence was not used as manual-DN evidence.",
+    "usedIn": "2026-10-17-carpal-tunnel-cpg",
+    "checkedAt": "2026-10-17"
   }
 ]

@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v41";
+const VERSION="clinical-reasoning-v42";
 const CORE=[
+  "./assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+  "./assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+  "./assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp",
+  "./articles/2026-10-17-carpal-tunnel-cpg.html",
   "./assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
   "./assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
   "./assets/briefs/2026-10-16-ottawa-ankle-decision.svg",

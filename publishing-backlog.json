@@ -1,5 +1,5 @@
 {
-  "auditedAt": "2026-10-16",
+  "auditedAt": "2026-10-17",
   "startDate": "2026-09-18",
   "missingDates": [],
   "items": [
@@ -245,6 +245,22 @@
         "assets/briefs/2026-10-11-elbow-function-update-rehab.webp"
       ],
       "binaryPathSizeSrcHrefVerified": true
+    },
+    {
+      "id": "2026-10-17-carpal-tunnel-cpg",
+      "date": "2026-10-17",
+      "state": "publishing",
+      "visuals": 3,
+      "commit": null,
+      "pagesDeploymentHead": null,
+      "pages": "pending",
+      "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-17-carpal-tunnel-cpg",
+      "assets": [
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
+      ],
+      "binaryPathSizeSrcHrefVerified": false
     }
   ],
   "incompletePublished": [
@@ -269,6 +285,6 @@
     "verifiedAt": "2026-10-11T13:26:33.316644+00:00"
   },
   "visualRepairCount": 10,
-  "verifiedAt": "2026-10-11T13:26:33.316644+00:00",
+  "verifiedAt": null,
   "pendingVisuals": []
 }

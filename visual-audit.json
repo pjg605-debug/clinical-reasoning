@@ -455,5 +455,29 @@
     "pagesRunId": 38824332867,
     "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-16-ottawa-ankle-rules",
     "verifiedAt": "2026-10-16T08:35:00+09:00"
+  },
+  {
+    "id": "2026-10-17-carpal-tunnel-cpg",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "Inspected realistic 3D virtual dissection of the volar wrist/carpal tunnel showing carpal bones, transverse carpal ligament, median nerve, flexor tendons, palmar cutaneous branch, thenar region and Guyon canal; no needle trajectory.",
+    "pain_location": "Median-nerve sensory territory shown with explicit warning that distribution is not diagnostic alone.",
+    "competing_diagnosis": "Ulnar/Guyon, cervical root, polyneuropathy, acute compression and vascular/trauma branches included.",
+    "exam_posture": "Semmes-Weinstein monofilament, static 2-point discrimination, APB testing, Phalen, Durkan and Tinel positions visualized.",
+    "movement_loading": "Night orthosis, wrist position, sustained grip, mouse/keyboard exposure and 24-hour symptom response included.",
+    "imaging_orientation": "No synthetic diagnostic image; electrodiagnostic testing/neuromuscular ultrasound reserved for management-changing progressive or persistent objective deficit.",
+    "rehabilitation_progression": "Baseline, 2-week fit/skin check and 4–6-week outcome reassessment with maintain/change criteria.",
+    "decision_branch": "Mild-moderate, partial response, progressive objective deficit and competing neurologic distribution branches visualized.",
+    "red_flags": "Acute trauma, rapid progression, broad neurologic deficit, cervical/ulnar distribution and objective motor/sensory deterioration precede routine progression.",
+    "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle, depth or trajectory.",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresUploaded": 0,
+    "figuresEmbedded": 3,
+    "anatomySource": "imagegen realistic virtual-dissection; visual verification after 800px WebP compression",
+    "examSource": "imagegen clinical examination sequence; visual verification after 800px WebP compression",
+    "decisionSource": "imagegen evidence-aligned six-week pathway; visual verification after 800px WebP compression",
+    "checkedAt": "2026-10-17",
+    "githubBlobVerified": false,
+    "liveHttpsVerified": false
   }
 ]
