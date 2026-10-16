@@ -249,18 +249,19 @@
     {
       "id": "2026-10-17-carpal-tunnel-cpg",
       "date": "2026-10-17",
-      "state": "publishing",
+      "state": "published",
       "visuals": 3,
-      "commit": null,
-      "pagesDeploymentHead": null,
-      "pages": "pending",
+      "commit": "bf8f56ad8e3fa5d0a04accd6db154c266d165066",
+      "pagesDeploymentHead": "bf8f56ad8e3fa5d0a04accd6db154c266d165066",
+      "pages": "success",
       "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-17-carpal-tunnel-cpg",
       "assets": [
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
       ],
-      "binaryPathSizeSrcHrefVerified": false
+      "binaryPathSizeSrcHrefVerified": true,
+      "verifiedAt": "2026-10-17T08:30:56+09:00"
     }
   ],
   "incompletePublished": [
@@ -285,6 +286,6 @@
     "verifiedAt": "2026-10-11T13:26:33.316644+00:00"
   },
   "visualRepairCount": 10,
-  "verifiedAt": null,
+  "verifiedAt": "2026-10-17T08:30:56+09:00",
   "pendingVisuals": []
 }

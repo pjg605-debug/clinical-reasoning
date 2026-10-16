@@ -471,13 +471,17 @@
     "safety_boundary": "압통점은 통증 단서이지 안전한 자침 경로가 아니다; no needle angle, depth or trajectory.",
     "figuresPlanned": 3,
     "figuresGenerated": 3,
-    "figuresUploaded": 0,
+    "figuresUploaded": 3,
     "figuresEmbedded": 3,
     "anatomySource": "imagegen realistic virtual-dissection; visual verification after 800px WebP compression",
     "examSource": "imagegen clinical examination sequence; visual verification after 800px WebP compression",
     "decisionSource": "imagegen evidence-aligned six-week pathway; visual verification after 800px WebP compression",
     "checkedAt": "2026-10-17",
-    "githubBlobVerified": false,
-    "liveHttpsVerified": false
+    "githubBlobVerified": true,
+    "liveHttpsVerified": true,
+    "pagesDeploymentHead": "bf8f56ad8e3fa5d0a04accd6db154c266d165066",
+    "publicationCommit": "bf8f56ad8e3fa5d0a04accd6db154c266d165066",
+    "pagesRunId": 38981676068,
+    "verifiedAt": "2026-10-17T08:30:56+09:00"
   }
 ]
