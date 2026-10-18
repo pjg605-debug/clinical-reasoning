@@ -1100,7 +1100,11 @@
       "gitBlobSha": "8faca259a4662e9cbacb2ce118ae9bf781340d22",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "Actual original 3D image preview fetched from GitHub; cuff displayed proximally; no clear Korean structure labels; anatomical accuracy pending review"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
@@ -1108,7 +1112,11 @@
       "gitBlobSha": "80ca5fd0db094cfd078bb483579dbc57f334c05d",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "Actual original 3-panel image preview fetched from GitHub; band/cuff appears around distal thigh rather than intended proximal placement, potentially clinically misleading; request user review"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
@@ -1116,7 +1124,11 @@
       "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewLinkProvided": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "SVG original binary path known, inline renderer unavailable; requires preview via browser before decision"
+      ]
     },
     {
       "path": "assets/briefs/elbow-exams-v3.jpg",
@@ -1311,6 +1323,20 @@
       "userApproval": null
     }
   ],
-  "reviewLog": [],
+  "reviewLog": [
+    {
+      "date": "2026-10-19",
+      "articleId": "2026-10-18-bfr-rehab",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp"
+      ],
+      "previewLinkOnly": [
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "userApproved": [],
+      "note": "First preview batch prepared. No user approvals recorded. Potential cuff placement inconsistency flagged."
+    }
+  ],
   "mainUnchangedUntilAuthorized": true
 }
