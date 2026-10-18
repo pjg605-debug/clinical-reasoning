@@ -1,0 +1,60 @@
+name: Choice Factory live website smoke test
+
+on:
+  push:
+    paths:
+      - 'choice-factory/**'
+      - '.github/workflows/choice-factory-live-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  published-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Verify published HTML and all 16 illustrations
+        shell: bash
+        env:
+          SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory
+        run: |
+          set -euo pipefail
+          echo 'Waiting for the new Pages revision...'
+          status=000
+          for attempt in {1..24}; do
+            status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory.html -w '%{http_code}' "${SITE}/" || true)"
+            if [[ "${status}" == '200' ]] && grep -q 'art-install.js?v=20261019-watercolour' /tmp/choice-factory.html; then
+              echo "HTML deployment confirmed after attempt ${attempt} (HTTP 200)."
+              break
+            fi
+            sleep 10
+          done
+          test "${status}" = 200
+          grep -q 'art-install.js?v=20261019-watercolour' /tmp/choice-factory.html
+          if grep -q 'src="./chiikawa-illustrations.js"' /tmp/choice-factory.html; then
+            echo 'Old vector illustration script is still loaded.' >&2
+            exit 1
+          fi
+          curl -fsSL --retry 3 "${SITE}/art-install.js" -o /tmp/art-install.js
+          node --check /tmp/art-install.js
+          mkdir -p /tmp/choice-art
+          for name in hero section01 section02 section03 section04 section05 section06 section07 section08 section09 section10 case01 case02 case03 culture comb; do
+            url="${SITE}/art/${name}.webp"
+            file="/tmp/choice-art/${name}.webp"
+            status="$(curl -sS -L --max-time 30 -o "${file}" -w '%{http_code}' "${url}" || true)"
+            if [[ "${status}" != '200' ]]; then
+              echo "FAILED: ${name}.webp HTTP ${status}" >&2
+              exit 1
+            fi
+            signature="$(head -c 4 "${file}")"
+            format="$(dd if="${file}" bs=1 skip=8 count=4 status=none)"
+            bytes="$(wc -c < "${file}")"
+            if [[ "${signature}" != 'RIFF' || "${format}" != 'WEBP' || "${bytes}" -lt 30000 ]]; then
+              echo "FAILED: ${name}.webp invalid data (${bytes} bytes)" >&2
+              exit 1
+            fi
+            echo "PASS ${name}.webp: HTTP ${status}, ${bytes} bytes, valid WEBP"
+          done
+          echo 'PASS: published HTML, art script and all sixteen image routes.'
