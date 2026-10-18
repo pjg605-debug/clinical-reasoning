@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f7f5ef">
+<meta name="description" content="선택하는 인간 01. 기본적 귀인 오류를 출발점으로 성격과 상황, 선한 사마리아인 실험, 반론, 진료실과 한의원 운영까지 확장하는 지적 탐구.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="선택하는 인간 01 — 사람인가, 상황인가">
+<meta property="og:description" content="왜 친절한 사람도 돕지 않고, 왜 좋은 의도만으로 좋은 행동을 예측할 수 없는가. Richard Shotton의 The Choice Factory에서 출발하는 첫 번째 탐구.">
+<title>01 · 사람인가, 상황인가 — 선택하는 인간</title>
+<style>
+:root{--paper:#f8f6f0;--panel:#fffdf7;--ink:#20312f;--muted:#6d7972;--rule:#dcded4;--accent:#b36047;--green:#416c5d;--sage:#e6ede3;--sun:#e7c57c;--bodySize:18px;--shadow:0 12px 45px rgba(24,38,34,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}body.dark{--paper:#17231f;--panel:#202d27;--ink:#e9e9dc;--muted:#afb9ae;--rule:#405148;--accent:#e19b80;--green:#8db6a0;--sage:#2b4037;--sun:#e3bd70;--shadow:0 15px 40px rgba(0,0,0,.22)}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}svg{max-width:100%}.progress{height:3px;background:transparent;position:fixed;top:0;left:0;right:0;z-index:50}.progress span{display:block;height:100%;background:var(--accent);width:0;transition:width .15s}
+.topbar{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px clamp(18px,4vw,54px);background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(16px);border-bottom:1px solid var(--rule)}.brand{font-family:Georgia,"Noto Serif KR",serif;font-size:19px;font-weight:700;letter-spacing:-.05em}.brand small{display:block;font-family:system-ui,sans-serif;font-size:10px;letter-spacing:.22em;color:var(--muted);font-weight:700;margin-top:2px}.tools{display:flex;align-items:center;gap:5px}.iconbtn{border:1px solid transparent;border-radius:8px;background:transparent;color:var(--ink);min-width:36px;height:36px;padding:0 9px;font-weight:650}.iconbtn:hover{background:var(--sage)}.tool-pill{border:1px solid var(--rule);border-radius:22px;padding:7px 12px;background:var(--panel);font-size:12px;font-weight:700}.mobile-menu{display:none}
+.shell{max-width:1380px;margin:auto;display:grid;grid-template-columns:236px minmax(0,850px);justify-content:center;gap:clamp(30px,6vw,90px);padding:0 38px 100px}.side{padding-top:52px}.side-sticky{position:sticky;top:100px;max-height:calc(100vh - 120px);overflow:auto}.side h4{font-size:11px;letter-spacing:.19em;color:var(--accent);margin:0 0 20px;text-transform:uppercase}.side nav{border-left:1px solid var(--rule);display:grid;gap:0}.side nav a{padding:10px 0 10px 16px;color:var(--muted);font-size:13px;line-height:1.5;border-left:2px solid transparent;margin-left:-1px;transition:.18s}.side nav a:hover,.side nav a.active{color:var(--ink);border-left-color:var(--accent)}.series{margin-top:36px;padding-top:22px;border-top:1px solid var(--rule);color:var(--muted);font-size:12px;line-height:1.9}.series strong{font-size:18px;color:var(--ink);font-family:Georgia,serif}
+main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.eyebrow{font-size:12px;letter-spacing:.22em;font-weight:750;color:var(--accent);text-transform:uppercase}.hero h1{font-family:Georgia,"Noto Serif KR","Nanum Myeongjo",serif;font-weight:650;font-size:clamp(43px,5.3vw,76px);letter-spacing:-.08em;line-height:1.18;margin:20px 0 23px}.hero h1 em{font-style:normal;color:var(--accent)}.dek{font-size:clamp(19px,2.2vw,24px);font-weight:470;line-height:1.75;letter-spacing:-.03em;max-width:760px}.meta{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:26px;color:var(--muted);font-size:12px}.meta span+span:before{content:"·";margin-right:12px}.hero-art{margin:43px 0 0;border-radius:16px;background:#e8e5d8;overflow:hidden;position:relative}.hero-art figcaption,.figure figcaption{font-size:12px;color:var(--muted);text-align:left;line-height:1.6;padding:10px 2px}.hero-art figcaption{background:var(--paper)}.hero-art svg{display:block;width:100%;height:auto}
+.article-intro{padding:42px 0 2px;max-width:720px}.abstract{border-left:4px solid var(--accent);padding:9px 0 9px 24px;font-size:21px;line-height:1.9;font-weight:640;letter-spacing:-.04em;font-family:Georgia,"Noto Serif KR",serif}.source-legend{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0}.legend{font-size:11px;font-weight:740;border-radius:30px;padding:6px 11px;letter-spacing:.02em;border:1px solid var(--rule)}.legend.book{color:var(--green);background:var(--sage)}.legend.review{color:var(--accent)}.legend.idea{color:var(--muted)}
+.prose{max-width:745px}.prose section{padding:38px 0 30px;scroll-margin-top:90px}.sect-num{font-size:11px;letter-spacing:.22em;color:var(--accent);font-weight:800}.prose h2{font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(29px,3.7vw,42px);line-height:1.35;letter-spacing:-.06em;margin:16px 0 20px;font-weight:650}.prose h3{font-size:22px;line-height:1.5;letter-spacing:-.05em;margin:42px 0 14px}.prose p,.prose li{font-size:var(--bodySize);line-height:2.04;letter-spacing:-.016em;word-break:keep-all;overflow-wrap:break-word}.prose p{margin:0 0 22px}.prose strong{font-weight:750}.prose em{font-style:normal;text-decoration:underline;text-decoration-color:var(--sun);text-decoration-thickness:4px;text-underline-offset:4px}.prose a.external{border-bottom:1px solid var(--accent);color:var(--accent)}.prose small{font-size:12px;color:var(--muted)}.figlabel{font-size:11px;letter-spacing:.12em;font-weight:750;color:var(--green);margin-bottom:10px}.figure{margin:36px 0 30px;padding:25px;background:var(--panel);border:1px solid var(--rule);border-radius:13px;box-shadow:var(--shadow)}.figure svg{display:block;width:100%;height:auto}.figure figcaption{border-top:1px solid var(--rule);margin-top:14px;padding-top:12px}
+.pullquote{margin:42px 0;padding:18px 0 20px 24px;border-left:3px solid var(--accent);font-family:Georgia,"Noto Serif KR",serif;font-size:clamp(23px,3vw,31px);line-height:1.7;letter-spacing:-.055em}.pullquote small{font:12px system-ui;color:var(--muted)}
+.bars{padding:18px 0 6px}.barline{margin:17px 0}.barlabels{display:flex;justify-content:space-between;margin-bottom:6px;font-size:14px}.barlabels strong{font-size:20px;font-variant-numeric:tabular-nums}.track{height:20px;border-radius:7px;background:var(--sage);overflow:hidden}.fill{height:100%;background:var(--green);border-radius:7px}.barline:first-child .fill{background:#b36b59}.barline:nth-child(2) .fill{background:#cba25d}
+.dual{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0}.sidecard{padding:24px;background:var(--panel);border:1px solid var(--rule);border-radius:12px}.sidecard.warn{border-top:4px solid var(--accent)}.sidecard.good{border-top:4px solid var(--green)}.sidecard h4{font-size:19px;margin:5px 0 13px}.sidecard p{font-size:16px;line-height:1.84;margin:0}.sidecard .mini{font-size:11px;font-weight:800;letter-spacing:.15em;color:var(--muted)}
+.layer{background:var(--sage);padding:28px;border-radius:12px;margin:28px 0}.layer .l-head{font-size:11px;letter-spacing:.15em;font-weight:750;color:var(--green);margin-bottom:12px}.layer p{margin:0 0 13px}.layer p:last-child{margin:0}
+.casegrid{display:grid;gap:18px;margin:28px 0}.case{background:var(--panel);border:1px solid var(--rule);border-radius:14px;padding:28px}.case-head{display:flex;align-items:center;gap:10px;margin-bottom:18px}.case-id{background:var(--ink);color:var(--paper);font:700 12px Georgia,serif;padding:8px 10px;border-radius:6px}.case h4{margin:0;font-size:20px;letter-spacing:-.04em}.case .scenario{font-size:17px;line-height:1.9;margin-bottom:15px}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}.hyp{padding:15px;border-radius:9px;background:var(--paper)}.hyp b{display:block;font-size:12px;letter-spacing:.05em;margin-bottom:7px;color:var(--accent)}.hyp:last-child b{color:var(--green)}.hyp p{font-size:15px;line-height:1.8;margin:0}
+.matrix{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:22px 0}.matrix .quadrant{min-height:122px;background:var(--panel);border:1px solid var(--rule);border-radius:9px;padding:17px}.matrix .quadrant b{display:block;font-size:14px;margin-bottom:8px;color:var(--green)}.matrix .quadrant p{margin:0;font-size:14px;line-height:1.7}
+.triple{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:24px 0}.triple>div{border-radius:12px;padding:19px;background:var(--panel);border:1px solid var(--rule)}.triple b{font-size:28px;color:var(--accent);font-family:Georgia,serif;display:block;margin-bottom:4px}.triple strong{display:block;font-size:14px;margin-bottom:9px}.triple p{font-size:14px;line-height:1.75;margin:0}
+.mini-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}.mini-table th,.mini-table td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.7}.mini-table th{color:var(--muted);font-size:12px;background:var(--sage)}.mini-table td:first-child{font-weight:730}
+.tryit{padding:28px;border-radius:15px;background:var(--ink);color:var(--paper);margin:35px 0}.tryit .label{color:var(--sun);font-size:11px;font-weight:800;letter-spacing:.13em}.tryit h3{font:650 25px Georgia,"Noto Serif KR",serif;line-height:1.5;margin:13px 0}.tryit p{font-size:16px;line-height:1.8;margin:0 0 15px}.choices{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.choice{border:1px solid #87978a;background:transparent;color:#fff;border-radius:8px;padding:12px 15px;text-align:left}.choice:hover,.choice:focus-visible{background:#435e52}.choice.selected{background:#a6b7a2;color:#12251b}.answer{background:#354d41;border-left:3px solid #dfc783;padding:20px;margin-top:20px;border-radius:5px;display:none}.answer.show{display:block}
+.questions{counter-reset:question;list-style:none;padding:0;margin:24px 0}.questions li{padding:13px 0;border-bottom:1px solid var(--rule);font-size:17px;line-height:1.8}.questions li:before{counter-increment:question;content:"0" counter(question);font:700 13px Georgia,serif;color:var(--accent);margin-right:15px}
+.references{padding:40px 0;border-top:1px solid var(--rule)}.references h3{font-size:20px}.references ol{padding-left:22px}.references li{color:var(--muted);font-size:13px;line-height:1.9;margin-bottom:12px;overflow-wrap:anywhere}.references a{text-decoration:underline;text-underline-offset:3px}.next{border-top:1px solid var(--rule);padding:36px 0 20px;display:flex;justify-content:space-between;gap:20px;align-items:center}.next span{font-size:11px;color:var(--accent);letter-spacing:.14em;font-weight:800}.next strong{font:650 25px Georgia,"Noto Serif KR",serif;line-height:1.5}.next .soon{font-size:12px;color:var(--muted)}
+.selection-tools{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:55;background:#20342c;color:white;border-radius:14px;padding:7px;box-shadow:0 10px 50px #0005;display:none;gap:4px}.selection-tools.visible{display:flex}.selection-tools button{border:0;background:transparent;color:white;padding:10px 14px;border-radius:8px;font-size:13px}.selection-tools button:hover{background:#486352}::highlight(choice-highlight){background:#f2d976;color:#2c302b}::highlight(choice-underline){text-decoration:underline;text-decoration-color:#d18c6d;text-decoration-thickness:3px;text-underline-offset:3px}::highlight(choice-note){background:#c2dccb;color:#20312f}body.dark ::highlight(choice-highlight){background:#b79843;color:#fff}body.dark ::highlight(choice-note){background:#486c58;color:#fff}.annotated-fallback{border-left:3px solid var(--sun);padding-left:9px}
+.vault-screen{display:none;position:fixed;inset:0;background:#101b17a8;z-index:58}.vault-screen.open{display:block}.vault{position:fixed;right:0;top:0;bottom:0;width:min(480px,100%);background:var(--panel);color:var(--ink);z-index:59;transform:translateX(105%);transition:transform .25s;box-shadow:-10px 0 50px #0002;overflow:auto;padding:26px}.vault.open{transform:translateX(0)}.vault h2{font-family:Georgia,"Noto Serif KR",serif;font-size:27px}.vault p{font-size:13px;color:var(--muted);line-height:1.7}.vault-item{padding:17px 0;border-bottom:1px solid var(--rule)}.vault-item q{display:block;font-size:16px;line-height:1.8;quotes:none}.vault-item small{display:block;color:var(--accent);margin-top:9px}.vault-item button{border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:5px 9px;border-radius:6px;margin-top:8px;margin-right:7px;font-size:12px}.vault-head{display:flex;align-items:center;justify-content:space-between}.tagline{font-size:12px;color:var(--muted);margin-top:18px}
+@media(max-width:1060px){.shell{grid-template-columns:190px minmax(0,800px);gap:25px;padding:0 25px 80px}.side nav a{font-size:12px}}@media(max-width:760px){.mobile-menu{display:inline-block}.brand{font-size:15px}.topbar{padding:10px 14px}.shell{display:block;padding:0 22px 80px}.side{position:fixed;z-index:49;left:0;top:57px;bottom:0;width:min(300px,85vw);overflow:auto;background:var(--panel);box-shadow:var(--shadow);padding:28px;transform:translateX(-110%);transition:transform .2s}.side.open{transform:translateX(0)}.side-sticky{position:static;max-height:none}.hero{padding-top:43px}.hero h1{font-size:clamp(41px,10vw,59px)}.hero-art{margin-top:28px}.prose p,.prose li{line-height:1.93}.dual,.twocol{grid-template-columns:1fr}.triple{grid-template-columns:1fr 1fr}.figure{padding:17px}.case{padding:22px}.tool-pill{padding:6px 9px}.hidetiny{display:none}.prose section{padding:28px 0 20px}.hero-art figcaption{font-size:11px}}@media(max-width:390px){.triple{grid-template-columns:1fr}.shell{padding:0 16px 65px}.tools{gap:0}.iconbtn{min-width:31px;padding:0 6px}}
+@media print{.topbar,.side,.selection-tools,.vault,.vault-screen,.progress,.tools,.tryit .choices{display:none!important}.shell{display:block;padding:0}.hero{padding-top:20px}.prose{max-width:none}.figure,.case,.sidecard{break-inside:avoid}body{--paper:#fff;--ink:#171717;--panel:#fff}a{color:#111!important}}
+</style>
+</head>
+<body id="top">
+<div class="progress"><span id="progress"></span></div>
+<header class="topbar">
+  <button class="iconbtn mobile-menu" id="menuBtn" aria-label="목차 열기">☰</button>
+  <a class="brand" href="#top">선택하는 인간<small>THE CHOICE FACTORY · EXPANDED READING</small></a>
+  <div class="tools">
+    <button class="iconbtn" id="fontDown" aria-label="글씨 작게">A−</button>
+    <button class="iconbtn" id="fontUp" aria-label="글씨 크게">A+</button>
+    <button class="iconbtn" id="themeBtn" aria-label="다크 모드">◐</button>
+    <button class="tool-pill" id="vaultBtn">보관함 <span id="vaultCount">0</span></button>
+    <button class="iconbtn hidetiny" id="shareBtn" title="현재 링크 복사" aria-label="링크 복사">↗</button>
+  </div>
+</header>
+<div class="shell">
+  <aside class="side" id="side"><div class="side-sticky">
+    <h4>01 / Table of Contents</h4>
+    <nav id="toc" aria-label="글의 목차">
+      <a href="#opening">들어가며 · 닫히기 직전의 문</a>
+      <a href="#story">01 · 장면 하나, 두 가지 설명</a>
+      <a href="#study">02 · 신학생들이 지나친 사람</a>
+      <a href="#interpret">03 · 무슨 일이 벌어진 걸까</a>
+      <a href="#person">04 · 상황 속에서도 남는 성격</a>
+      <a href="#argument">05 · 반론이 필요한 이유</a>
+      <a href="#clinic">06 · 진료실이라는 실험실</a>
+      <a href="#organization">07 · 조직을 바꾸는 시선</a>
+      <a href="#thought">08 · 당신이라면 누구 탓을 할까</a>
+      <a href="#practice">09 · 작게 시험하는 방법</a>
+      <a href="#ending">맺으며 · 끝나지 않은 질문</a>
+      <a href="#sources">읽기의 근거</a>
+    </nav>
+    <div class="series">
+      <strong>25개의 지적 탐구</strong><br>리처드 쇼튼의 25개 주제를 출발점으로 인간의 선택과 행동을 폭넓게 탐구합니다.<br><br>
+      <span>제1편 · 기본적 귀인 오류</span><br><span>다음 편 · 사회적 증거</span>
+      <div class="tagline">본문을 드래그하면 형광펜·밑줄·메모를 보관할 수 있습니다. 저장은 이 기기 안에서만 이루어집니다.</div>
+    </div>
+  </div></aside>
+  <main>
+    <header class="hero">
+      <div class="eyebrow">Essay 01 / 25 · Fundamental Attribution Error</div>
+      <h1>사람인가,<br><em>상황인가.</em></h1>
+      <div class="dek">우리는 타인의 행동을 보고 그 사람을 판단한다. 그러나 그가 놓여 있던 상황을 바꾸면, 우리가 알던 '그 사람'도 달라질까?</div>
+      <div class="meta"><span>2026. 10. 18.</span><span>약 23~28분 읽기</span><span>원서 기반 · 비판 · 확장 · 임상 적용</span></div>
+      <figure class="hero-art">
+        <svg viewBox="0 0 900 415" role="img" aria-label="두 개의 다른 시간표 사이에서 지나가는 사람을 묘사한 창작 삽화">
+          <rect width="900" height="415" fill="#e9e6d9"/>
+          <rect x="0" y="0" width="447" height="415" fill="#e0e3d7"/><rect x="453" y="0" width="447" height="415" fill="#e9dfd1"/>
+          <path d="M0 324H900" stroke="#849386" stroke-width="2"/><path d="M80 324L160 266L242 324" fill="none" stroke="#cad1c8" stroke-width="36"/><path d="M660 324L755 266L865 324" fill="none" stroke="#d7c7b2" stroke-width="36"/>
+          <circle cx="256" cy="126" r="53" fill="#355b4c"/><circle cx="650" cy="126" r="53" fill="#b46852"/>
+          <text x="256" y="136" font-size="25" fill="#fff" font-weight="700" text-anchor="middle">09:00</text><text x="650" y="136" font-size="25" fill="#fff" font-weight="700" text-anchor="middle">09:20</text>
+          <path d="M260 206l-39 92h83z" fill="#263c34"/><circle cx="260" cy="195" r="23" fill="#b88465"/><path d="M245 297l-30 49m60-49l36 47" stroke="#263c34" stroke-width="14" stroke-linecap="round"/><path d="M235 236l-40 29m78-29l39 11" stroke="#263c34" stroke-width="12" stroke-linecap="round"/>
+          <path d="M648 206l-39 92h83z" fill="#263c34"/><circle cx="648" cy="195" r="23" fill="#b88465"/><path d="M632 297l-31 49m61-49l36 47" stroke="#263c34" stroke-width="14" stroke-linecap="round"/><path d="M622 238l-38 12m78-12l42 17" stroke="#263c34" stroke-width="12" stroke-linecap="round"/>
+          <circle cx="143" cy="280" r="20" fill="#bb8869"/><path d="M126 305h35l15 27h-64z" fill="#9cafa1"/><path d="M150 274l24-10" stroke="#bb8869" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="539" cy="280" r="20" fill="#bb8869"/><path d="M522 305h35l15 27h-64z" fill="#9cafa1"/><path d="M548 274l22-12" stroke="#bb8869" stroke-width="8" stroke-linecap="round"/>
+          <path d="M334 231c26-15 54-13 79-2" fill="none" stroke="#9cafa1" stroke-width="4" stroke-dasharray="4 10"/><path d="M727 231c30 4 53 23 71 49" fill="none" stroke="#d8a58a" stroke-width="4" stroke-dasharray="4 10"/>
+          <text x="44" y="47" font-size="15" font-weight="700" fill="#526d5d">SAME PERSON</text><text x="856" y="47" text-anchor="end" font-size="15" font-weight="700" fill="#a56e5a">DIFFERENT CONTEXT</text>
+          <text x="240" y="378" font-size="18" font-weight="700" text-anchor="middle" fill="#355b4c">“늦었다. 어서 가야 해.”</text><text x="660" y="378" font-size="18" font-weight="700" text-anchor="middle" fill="#9f5c47">“조금 여유가 있다.”</text>
+        </svg>
+        <figcaption>창작 장면. 같은 사람의 행동도 시간적 여유가 달라지면 달라질 수 있다는 첫 질문을 이미지로 재구성했다. 실제 실험 사진이 아니다.</figcaption>
+      </figure>
+    </header>
+    <div class="article-intro prose" id="opening">
+      <div class="abstract">한 사람의 행동은 그 사람에게서만 나오지 않는다. <em>그 사람과 그 순간이 만나는 자리에서</em> 만들어진다.</div>
+      <div class="source-legend"><span class="legend book">원서의 문제 제기</span><span class="legend review">연구와 반론</span><span class="legend idea">새로운 해석·생활 적용</span></div>
+      <p>어떤 환자는 치료 시간을 잘 지키고, 어떤 환자는 항상 늦는다. 어떤 직원은 마감 직전까지 친절하고, 어떤 직원은 퇴근 시간이 가까워지면 설명을 짧게 끝낸다. 우리는 빠르게 결론을 내린다. '성실한 환자', '불친절한 직원', '책임감 있는 사람'. 사람을 이해하는 가장 쉬운 방법은 그에게 형용사를 붙이는 일이다.</p>
+      <p>그런데 그 형용사는 사람이 원래 가지고 있던 속성일까? 아니면 우리가 특정한 날, 특정한 환경에서 본 행동에 대한 이름일까? 《The Choice Factory》의 첫 장은 이 작은 의심에서 시작한다. 저자 리처드 쇼튼은 마케팅에서 <strong>누구에게 말하느냐 못지않게, 언제 어떤 상황에서 말하느냐</strong>가 중요하다고 주장한다.</p>
+      <p>이 글은 그 주장을 그대로 받아들이지 않는다. 반대로 뒤집어 보고, 다른 학문을 불러오고, 진료실의 하루 속에 넣어 볼 것이다. 목표는 쇼튼의 정답을 암기하는 것이 아니라, 인간을 설명하는 언어를 하나 더 얻는 것이다.</p>
+    </div>
+    <div class="prose">
+      <section id="story">
+        <div class="sect-num">01 / THE SCENE</div>
+        <h2>장면 하나, 두 가지 설명</h2>
+        <p>길가에 웅크린 사람이 있다. 잘 차려입은 직장인이 그의 앞을 그냥 지나간다. 당신은 생각한다. '인정이 없군.' 몇 초 뒤 당신도 같은 사람을 지나친다. 당신에게는 사정이 있다. 주머니에 잔돈이 없었고, 지금은 늦어서는 안 되는 날이다.</p>
+        <p>누군가를 판단할 때 우리는 <strong>그가 어떤 사람인가</strong>에 주목하고, 자신을 설명할 때는 <strong>무슨 일이 있었는가</strong>를 먼저 떠올리기 쉽다. 쇼튼이 제시하는 첫 번째 편향, 기본적 귀인 오류(fundamental attribution error)다.</p>
+        <p>이 일화가 교묘한 이유는 두 사람이 사실상 같은 행동을 했기 때문이다. 행동 자체에는 '성격'이라는 꼬리표가 달려 있지 않다. 우리는 관찰한 행동과 자신이 상상한 원인 사이의 빈칸을 서둘러 채운다. <em>관찰은 사실일 수 있지만 설명은 이야기일 수 있다.</em></p>
+        <div class="pullquote">“저 사람은 원래 그래.”라는 말은<br>설명이 아니라 탐색의 종료일지도 모른다.</div>
+        <p>물론 사람의 성격을 추론하는 일이 언제나 잘못은 아니다. 평생 수천 번의 만남을 모두 상황별로 분석할 수는 없다. 성격에 대한 추정은 복잡한 사회생활을 가능하게 하는 유용한 압축이다. 문제는 그 압축이 <strong>설명을 더 이상 수정할 수 없는 낙인</strong>이 되는 순간이다.</p>
+      </section>
+      <section id="study">
+        <div class="sect-num">02 / THE EXPERIMENT</div>
+        <h2>선한 사마리아인은 왜 멈추지 않았는가</h2>
+        <p>1973년 존 달리와 대니얼 뱃슨은 프린스턴 신학교 학생들을 대상으로 기억할 만한 실험을 진행했다. 학생들은 다른 건물에서 짧은 발표를 해야 했다. 연구자는 출발 직전에 시간을 알려주었다. 어떤 학생에게는 이미 늦었다고 재촉했고, 어떤 학생에게는 여유가 있다고 했다.</p>
+        <p>학생들이 이동하는 길목에는 고통스러워하는 듯한 사람이 웅크리고 있었다. 참가자가 도움을 주는지가 관찰 대상이었다. 중요한 것은 학생들이 종교적 가르침을 알고 있었느냐가 아니다. <strong>그 지식을 행동으로 옮길 여건이 있었느냐</strong>라는 질문이다.</p>
+        <figure class="figure">
+          <div class="figlabel">FIGURE 01 / 실험에서 관찰된 도움 행동</div>
+          <div class="bars" role="img" aria-label="시간 여유 조건 63%, 중간 45%, 매우 바쁨 10%의 도움 행동 비율">
+            <div class="barline"><div class="barlabels"><span>매우 바쁜 조건</span><strong>10%</strong></div><div class="track"><div class="fill" style="width:10%"></div></div></div>
+            <div class="barline"><div class="barlabels"><span>중간 정도의 시간 압박</span><strong>45%</strong></div><div class="track"><div class="fill" style="width:45%"></div></div></div>
+            <div class="barline"><div class="barlabels"><span>시간 여유가 있는 조건</span><strong>63%</strong></div><div class="track"><div class="fill" style="width:63%"></div></div></div>
+          </div>
+          <figcaption>Darley &amp; Batson(1973)의 실제 보고 수치. 최종 분석 대상 40명. 소규모의 특정 표본에서 나타난 결과로, '시간이 넉넉하면 누구나 돕는다'는 법칙이 아니다. <a class="external" href="https://greatergood.berkeley.edu/images/uploads/Darley-JersualemJericho.pdf" target="_blank" rel="noopener">원 논문 확인 ↗</a></figcaption>
+        </figure>
+        <p>도움을 주는 비율은 매우 바쁜 조건에서 10%, 여유가 있는 조건에서 63%였다. 쇼튼은 상황의 힘을 보여주는 장면으로 이 차이를 강조한다. 말로만 선의를 약속하는 것과, 실제로 선의를 발휘하는 것은 서로 다른 문제일 수 있다.</p>
+        <p>이 실험에는 흥미로운 추가 조건이 있다. 일부 학생은 발표 주제가 '선한 사마리아인'이었고, 다른 학생은 신학생의 진로에 관한 것이었다. 전자에서 53%, 후자에서 29%가 도움을 줬다. 관찰된 차이는 있었지만 원 연구의 분석에서 이 효과는 통계적으로 유의하지 않았다. <strong>'도움에 관한 이야기를 한다고 더 잘 돕는 것은 아니다'는 표현은 가능하지만, '발표 주제는 아무 영향도 없다'는 단정과는 다르다.</strong></p>
+        <p>또 하나. 원 연구에 참여한 학생들은 일반 인구를 대표하지 않는다. 측정한 개인차도 성격 전체가 아니라 주로 종교적 동기의 측면이다. 이런 제약을 기억하면서도, 우리는 실험에서 충분히 흥미로운 질문을 건질 수 있다. <em>도움을 주지 못한 사람을 이해하려면 그의 도덕성보다 먼저 그가 무엇에 쫓기고 있었는지 물어야 할까?</em></p>
+        <div class="layer">
+          <div class="l-head">생각을 흔드는 작은 역전</div>
+          <p>쇼튼은 433명에게 누가 더 도움을 줄 것 같은지 가상 상황을 물었다. 책에 따르면 81%가 '배려심은 있으나 서두르는 사람'을 택했고 19%가 '배려심은 덜하지만 여유가 있는 사람'을 택했다.</p>
+          <p>여기서 조심할 점도 있다. <strong>가상 인물에 대한 예상과 실제 도움 행동을 관찰한 실험은 동일한 검사가 아니다.</strong> 그럼에도 우리는 성품이라는 설명에 얼마나 매력을 느끼는지 떠올려 볼 수 있다. <small>— Shotton, 《The Choice Factory》, 제1장</small></p>
+        </div>
+      </section>
+      <section id="interpret">
+        <div class="sect-num">03 / BEYOND A SINGLE EXPLANATION</div>
+        <h2>도대체 무엇이 바뀐 것일까?</h2>
+        <p>시간 압박이 행동을 바꿨다고 해서 그 작동 원인까지 하나로 결정되는 것은 아니다. 같은 결과에는 몇 가지 서로 다른 설명이 들어갈 수 있다.</p>
+        <div class="matrix">
+          <div class="quadrant"><b>주의력의 협소화</b><p>급한 일에 주의를 빼앗겨 눈앞의 고통을 충분히 해석하지 못했을 수 있다. 보는 것과 의미를 파악하는 것은 다르다.</p></div>
+          <div class="quadrant"><b>책임의 충돌</b><p>도움을 주고 싶어도 다른 장소에서 기다리는 사람과의 약속을 어기는 일이 부담스러웠을 수 있다.</p></div>
+          <div class="quadrant"><b>불확실성의 회피</b><p>낯선 사람이 취했는지, 아픈지, 위험한지 확신할 수 없다. 상황을 확인하는 데도 시간과 비용이 든다.</p></div>
+          <div class="quadrant"><b>자기정당화</b><p>'지금은 할 수 없다'라는 설명을 만들어 심리적 불편함을 줄였을 수도 있다. 단, 이 실험만으로 확인된 동기는 아니다.</p></div>
+        </div>
+        <p>어느 해석이 옳을까? 첫 번째일 수도 있고, 여러 원인이 동시에 작동했을 수도 있다. 실험에서 조작한 것은 주로 <strong>시간 압박</strong>이지, 참가자의 머릿속에서 실제로 작동한 모든 심리 과정이 아니다. 따라서 우리는 결과와 원인을 구별해야 한다.</p>
+        <p>이 구별은 임상에서도 중요하다. 통증이 호전되지 않았다는 관찰과 '환자가 의지가 부족해서 그렇다'는 설명 사이에는 커다란 간극이 있다. 설명을 서둘러 확정하면 다음에 무엇을 확인해야 하는지가 사라진다.</p>
+      </section>
+      <section id="person">
+        <div class="sect-num">04 / PERSONALITY RETURNS</div>
+        <h2>그렇다면 성격은 존재하지 않는가</h2>
+        <p>상황의 힘을 설명하는 글은 쉽게 반대편 극단으로 미끄러진다. 인간은 환경에 의해 움직이는 존재이고, 성격은 착각이라는 주장이다. 그러나 이는 첫 장의 교훈을 지나치게 단순화한 해석이다.</p>
+        <p>월터 미셸과 유이치 쇼다는 1995년 사람마다 <strong>어떤 상황에서 어떤 반응을 보이는지의 패턴</strong> 자체가 비교적 특징적일 수 있다고 제안했다. '언제나 침착한 사람'보다는 '공개적인 비판 앞에서는 방어적이지만, 일대일 피드백 앞에서는 유연한 사람'이라는 설명이 더 정교할 수 있다는 뜻이다. 이른바 <em>if–then 행동 서명(behavioral signature)</em>이라는 관점이다.</p>
+        <figure class="figure">
+          <div class="figlabel">FIGURE 02 / 같은 사람에게도 반응의 지도가 있다</div>
+          <svg viewBox="0 0 660 310" role="img" aria-label="한 사람의 상황에 따른 반응 정도를 예시 수치로 표현한 개념도">
+            <rect x="18" y="15" width="624" height="270" rx="12" fill="#eef1e9"/>
+            <text x="35" y="48" font-size="15" fill="#244237" font-weight="700">행동의 '평균'보다 상황별 '반응 패턴'을 보자</text>
+            <line x1="68" y1="223" x2="605" y2="223" stroke="#aab9ac" stroke-width="2"/>
+            <line x1="68" y1="75" x2="68" y2="223" stroke="#aab9ac" stroke-width="2"/>
+            <path d="M95 124L247 196L403 105L566 182" fill="none" stroke="#ae694e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M95 185L247 121L403 174L566 100" fill="none" stroke="#3e7563" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+            <g fill="#ae694e"><circle cx="95" cy="124" r="7"/><circle cx="247" cy="196" r="7"/><circle cx="403" cy="105" r="7"/><circle cx="566" cy="182" r="7"/></g>
+            <g fill="#3e7563"><circle cx="95" cy="185" r="7"/><circle cx="247" cy="121" r="7"/><circle cx="403" cy="174" r="7"/><circle cx="566" cy="100" r="7"/></g>
+            <g font-size="13" text-anchor="middle" fill="#46584e"><text x="95" y="250">시간 여유</text><text x="247" y="250">시간 압박</text><text x="403" y="250">낯선 사람</text><text x="566" y="250">익숙한 사람</text></g>
+            <rect x="366" y="62" width="13" height="13" rx="4" fill="#ae694e"/><text x="385" y="74" font-size="12" fill="#46584e">사람 A</text><rect x="463" y="62" width="13" height="13" rx="4" fill="#3e7563"/><text x="482" y="74" font-size="12" fill="#46584e">사람 B</text>
+          </svg>
+          <figcaption>개념 설명을 위한 임의의 선과 값이다. 실제 연구 데이터가 아니다. 핵심은 두 사람의 평균 점수뿐 아니라 상황에 따른 변화의 '모양'도 성격의 표현일 수 있다는 것이다. <a class="external" href="https://pubmed.ncbi.nlm.nih.gov/7740090/" target="_blank" rel="noopener">Mischel &amp; Shoda(1995) ↗</a></figcaption>
+        </figure>
+        <p>또 하나의 역설이 있다. 상황이 행동을 결정한다는 설명과, 사람은 자기 상황을 선택한다는 설명은 서로 충돌하면서 동시에 연결된다. 늘 시간에 쫓기는 사람이 우연히 매번 바쁜 것은 아닐 수 있다. 과도한 약속을 잡는 성향, 거절하지 못하는 습관, 직업 구조, 사회적 기대가 함께 그 시간을 만들어냈을 수 있기 때문이다.</p>
+        <p>따라서 사람과 상황은 둘 중 하나를 선택해야 하는 경쟁자가 아니다. <strong>사람이 환경을 만들고, 환경이 행동을 만들며, 그 행동의 결과가 다음 환경을 만든다.</strong> 이렇게 순환하는 모형이 실제 인간의 일상에 더 가까울지도 모른다.</p>
+      </section>
+      <section id="argument">
+        <div class="sect-num">05 / PROS &amp; CONS</div>
+        <h2>설득력 있는 주장일수록 반론이 필요하다</h2>
+        <div class="dual">
+          <div class="sidecard good"><div class="mini">PRO</div><h4>상황에 주목할 이유</h4><p>행동을 바꾸고 싶다면 사람을 바꾸기보다 환경을 바꾸는 것이 빠르고 실용적일 수 있다. 업무 흐름, 대기시간 안내, 약 복용의 편의처럼 조정 가능한 조건은 실제로 많다.</p></div>
+          <div class="sidecard warn"><div class="mini">CON</div><h4>상황 만능론의 위험</h4><p>모든 행동을 상황 탓으로 돌리면 개인의 선택과 책임, 장기간에 걸친 습관, 가치관의 지속성을 놓친다. 때로는 능력이나 동기 자체에 개입해야 한다.</p></div>
+        </div>
+        <h3>반론 1. 널리 알려진 귀인 법칙도 그렇게 보편적이지 않다</h3>
+        <p>우리 행동은 상황으로, 남의 행동은 성격으로 설명한다는 '행위자–관찰자 비대칭'은 오래도록 유명했다. 그러나 버트럼 말레가 2006년 발표한 173개 연구의 메타분석은 평균 효과가 거의 0에 가까운 경우가 많고, 사건이 긍정적인지 부정적인지 같은 조건에 따라 방향도 달라질 수 있음을 보여주었다.</p>
+        <p>여기서 혼동하지 말아야 한다. <strong>행위자–관찰자 비대칭과 기본적 귀인 오류는 연결되지만 동일한 가설이 아니다.</strong> 말레의 연구가 상황의 영향을 모두 부정하거나 달리·뱃슨의 실험을 반박하는 것은 아니다. 다만 '우리는 언제나 남을 성격으로 판단한다'라는 쉬운 문장을 경계하게 만든다.</p>
+        <h3>반론 2. 무엇을 '사람의 원인'이라고 여기는지도 문화가 다르다</h3>
+        <p>조앤 밀러의 1984년 비교 연구에서는 성인이 될수록 미국 참가자들이 개인의 일반적 성향에, 인도 참가자들이 맥락에 더 무게를 두는 경향이 관찰되었다. 이는 서구 심리학이 설명해 온 인간의 습관이 반드시 보편적이지 않을 수 있다는 힌트다.</p>
+        <p>한국에서는 체면, 관계, 위계, 공동체적 기대가 상황의 의미를 바꿀 수 있다. 가령 환자가 원장 앞에서는 순순히 동의하고 집에 돌아가서는 치료 계획을 따르지 않는다고 하자. 이를 단순히 '순응성이 낮다'고 볼 수도 있지만, 권위적인 관계 안에서 <em>거절하기 어려웠던 것</em>일 수도 있다. 이 부분은 새로운 해석이지, 밀러의 연구가 한국 한의원에서 직접 검증한 결과는 아니다.</p>
+        <h3>반론 3. 상황을 바꾸는 일이 언제나 쉽거나 윤리적인 것은 아니다</h3>
+        <p>사람을 설득하기 쉬운 순간을 노리는 것과 상대가 충분히 생각할 수 있는 여건을 만드는 것은 방향이 다르다. 고객이 피곤할 때 결제를 유도하는 설계도, 고객의 상황을 활용하는 기술이다. 하지만 그것이 바람직한 선택을 돕는 것은 아니다.</p>
+        <p>의료에서 목표는 환자의 선택을 빼앗는 것이 아니라, 판단에 필요한 이해와 시간을 회복시키는 데 있어야 한다. 행동과학은 그 목적에 따라 설계의 윤리성이 크게 달라진다.</p>
+        <div class="layer"><div class="l-head">여기까지의 잠정 결론</div><p>상황은 중요하다. 그러나 상황만이 중요하지는 않다. '성격을 탓하지 말자'보다 정교한 명제는 이것이다. <strong>행동을 해석할 때, 사람에 관한 설명과 상황에 관한 설명을 경쟁하는 가설로 놓고 검증하자.</strong></p></div>
+      </section>
+      <section id="clinic">
+        <div class="sect-num">06 / AT THE CLINIC</div>
+        <h2>진료실이라는 작은 인간 연구실</h2>
+        <p>진료실은 인간 행동을 살펴보기에 특별한 곳이다. 증상과 통증이라는 불확실성, 비용과 시간의 제약, 의사와 환자의 정보 비대칭, 회복에 대한 기대가 좁은 공간에 함께 들어온다. 원서의 광고 사례를 의료로 기계적으로 옮길 수는 없다. 대신 상황의 힘을 묻는 질문을 응용할 수 있다.</p>
+        <div class="casegrid">
+          <div class="case">
+            <div class="case-head"><span class="case-id">CASE 01</span><h4>설명을 여러 번 하는데도 기억하지 못하는 환자</h4></div>
+            <p class="scenario">환자는 진료실에서 고개를 끄덕였지만 접수대에서는 다시 같은 질문을 한다. 다음 방문에서도 치료 계획을 기억하지 못한다.</p>
+            <div class="twocol"><div class="hyp"><b>사람에 대한 설명</b><p>주의력이 부족하다. 관심이 없다. 말을 건성으로 듣는다.</p></div><div class="hyp"><b>상황에 대한 설명</b><p>통증 걱정, 결제와 귀가 준비, 낯선 용어, 한꺼번에 전달된 정보가 이해를 방해했을 수 있다.</p></div></div>
+            <p>여기서 유용한 방법은 '다 이해하셨죠?'라는 질문 대신 환자 자신의 말로 핵심 계획을 설명해 보게 하는 <strong>teach-back</strong>이다. 환자를 시험하는 것이 아니라 설명한 사람의 전달이 충분했는지 점검하는 방식이다. 다만 반복적인 기억 문제를 모두 상황으로 설명해서도 안 된다. 인지 기능이나 의학적 평가가 필요한 경우는 별도로 고려해야 한다.</p>
+          </div>
+          <div class="case">
+            <div class="case-head"><span class="case-id">CASE 02</span><h4>치료에 동의했지만 실행하지 않는 환자</h4></div>
+            <p class="scenario">환자는 치료 계획에 동의했으나 생활 조절을 실천하지 못한다. 복약이나 추적 방문도 자주 놓친다.</p>
+            <div class="twocol"><div class="hyp"><b>사람에 대한 설명</b><p>의지가 약하다. 스스로 낫고 싶은 마음이 없다.</p></div><div class="hyp"><b>상황에 대한 설명</b><p>비용, 일정, 직장, 복용의 불편함, 설명 이해도, 부작용 걱정, 치료 목표에 대한 생각이 복합적으로 작용할 수 있다.</p></div></div>
+            <p>행동 변화 연구의 COM-B 모형은 실행을 <strong>능력(Capability)·기회(Opportunity)·동기(Motivation)</strong>의 상호작용으로 본다. 불이행의 원인을 의지 하나로 환원하지 말라는 틀이다. 물론 계획 자체의 적절성이나 환자의 가치관과 선택도 먼저 확인해야 한다.</p>
+          </div>
+          <div class="case">
+            <div class="case-head"><span class="case-id">CASE 03</span><h4>대기시간에 갑자기 예민해지는 환자</h4></div>
+            <p class="scenario">평소 차분한 환자가 대기 40분째에 강한 불만을 제기한다. 직원은 '원래 까다로운 분'이라고 생각한다.</p>
+            <div class="twocol"><div class="hyp"><b>사람에 대한 설명</b><p>인내심이 없고 요구가 많다.</p></div><div class="hyp"><b>상황에 대한 설명</b><p>기다림의 길이보다 '언제 끝날지 모른다'는 불확실성이 큰 부담일 수 있다.</p></div></div>
+            <p>예약과 대기 안내의 정확도를 높이면 불만이 줄어들 것이라는 가설을 세울 수 있다. 그러나 예상시간을 반복해서 어기면 더 큰 불신을 낳는다. 개선책은 친절한 문구만이 아니라 실제 진료 흐름을 함께 조정하는 일이다.</p>
+          </div>
+        </div>
+      </section>
+      <section id="organization">
+        <div class="sect-num">07 / THE ORGANIZATION</div>
+        <h2>사람을 탓하기 전에 제도를 볼 수 있을까?</h2>
+        <p>조직에서도 상황을 무시한 성격 설명이 자주 등장한다. 직원이 마감 직전의 예약을 부담스러워한다고 하자. 이를 '환자를 배려하지 않는 태도'라고 설명하기는 쉽다. 하지만 접수 마감 기준, 실제 퇴근 시간, 늦은 예약으로 생기는 추가 업무, 진료실과 접수대 사이의 정보 흐름을 함께 보면 전혀 다른 그림이 나온다.</p>
+        <p>그렇다고 구조만 고치면 모든 문제가 사라지지는 않는다. 같은 환경에서도 역할에 대한 이해, 숙련도, 개인의 책임감에 따라 행동은 달라진다. 핵심은 누가 옳으냐를 성급히 결론 내리는 대신 <strong>역할·보상·업무량·정보·재량권</strong>을 차례로 확인하는 것이다.</p>
+        <figure class="figure">
+          <div class="figlabel">FIGURE 03 / 한 가지 행동에서 네 개의 원인으로</div>
+          <svg viewBox="0 0 650 304" role="img" aria-label="관찰된 행동을 사람, 환경, 관계, 제도로 나누어 검토하는 네 갈래 사고 지도">
+            <rect x="235" y="108" width="180" height="77" rx="12" fill="#244b3b"/><text x="325" y="139" fill="#fff" font-weight="700" font-size="17" text-anchor="middle">관찰된 행동</text><text x="325" y="163" fill="#d6e5d8" font-size="12" text-anchor="middle">예: 마감 예약 안내 소홀</text>
+            <path d="M235 146H175V68H153 M415 146H477V68H497 M235 146H175V235H153 M415 146H477V235H497" fill="none" stroke="#96a99a" stroke-width="3"/>
+            <rect x="10" y="32" width="144" height="72" rx="9" fill="#e8ebdf"/><text x="82" y="60" text-anchor="middle" font-size="16" font-weight="700" fill="#315443">개인</text><text x="82" y="82" text-anchor="middle" font-size="12" fill="#53695a">기술 · 태도 · 피로</text>
+            <rect x="497" y="32" width="143" height="72" rx="9" fill="#e8ebdf"/><text x="569" y="60" text-anchor="middle" font-size="16" font-weight="700" fill="#315443">환경</text><text x="569" y="82" text-anchor="middle" font-size="12" fill="#53695a">시간 · 업무량</text>
+            <rect x="10" y="198" width="144" height="72" rx="9" fill="#e8ebdf"/><text x="82" y="226" text-anchor="middle" font-size="16" font-weight="700" fill="#315443">관계</text><text x="82" y="248" text-anchor="middle" font-size="12" fill="#53695a">역할 · 권한 · 대화</text>
+            <rect x="497" y="198" width="143" height="72" rx="9" fill="#e8ebdf"/><text x="569" y="226" text-anchor="middle" font-size="16" font-weight="700" fill="#315443">제도</text><text x="569" y="248" text-anchor="middle" font-size="12" fill="#53695a">규정 · 인력 · 보상</text>
+          </svg>
+          <figcaption>저자의 도식이 아닌 이 글의 실무 확장 모델. 어느 한 원인으로 단정하기 전에 상호작용하는 요소를 확인하도록 설계했다.</figcaption>
+        </figure>
+        <p>좋은 관리자는 사람의 책임을 묻지 않는 사람이 아니라, 책임을 묻기 전에 <strong>책임을 제대로 수행할 조건이 갖추어졌는지</strong> 확인하는 사람일 수 있다. 한편 조건을 개선한 뒤에도 문제가 반복된다면 그때는 교육, 역할 조정, 업무 기준과 책임의 문제를 더 분명히 다룰 수 있다.</p>
+      </section>
+      <section id="thought">
+        <div class="sect-num">08 / INTERACTIVE THOUGHT EXPERIMENT</div>
+        <h2>당신이라면 누구 탓을 할까?</h2>
+        <div class="tryit">
+          <div class="label">THOUGHT EXPERIMENT · 정답이 없는 선택</div>
+          <h3>퇴근 직전, 직원이 마지막 환자의 예약을 적극적으로 안내하지 않았다.</h3>
+          <p>원장인 당신은 무엇부터 확인하겠는가? 자신의 첫 반응에 가장 가까운 선택을 눌러 보자.</p>
+          <div class="choices">
+            <button class="choice" data-answer="a">A. 근무 태도와 책임감</button>
+            <button class="choice" data-answer="b">B. 마감 시간과 업무 구조</button>
+            <button class="choice" data-answer="c">C. 환자 상태와 진료 필요성</button>
+          </div>
+          <div class="answer" id="thoughtAnswer" aria-live="polite"></div>
+        </div>
+        <p>이 사고실험이 드러내려는 것은 어느 선택이 옳다는 사실이 아니다. 우리가 처음 선택한 설명이 다음에 어떤 정보를 수집할지까지 결정한다는 점이다. <strong>성격을 먼저 의심하면 교육 기록을 보고, 구조를 먼저 의심하면 업무표를 보고, 환자 안전을 먼저 생각하면 임상적 긴급도를 확인한다.</strong></p>
+        <p>같은 사건을 해석하는 첫 문장이 조사 방향을 바꾸고, 그렇게 수집한 자료는 다시 첫 가설을 강화하기 쉽다. 이는 제12장 확증편향으로 자연스럽게 이어지는 문제이기도 하다.</p>
+      </section>
+      <section id="practice">
+        <div class="sect-num">09 / A SMALL, ETHICAL EXPERIMENT</div>
+        <h2>내 주변에서 어떻게 시험할까?</h2>
+        <p>이론이 흥미로워도 현실의 변화로 연결되지 않으면 한 편의 좋은 이야기에 그칠 수 있다. 그렇다고 임상 진료를 환자의 동의 없는 실험으로 만들어서는 안 된다. 처음에는 <strong>의료적 판단이나 처치를 바꾸지 않는 안내·운영의 질 개선</strong>에서 출발하는 편이 적절하다.</p>
+        <h3>작은 시험 ① 대기 불확실성 줄이기</h3>
+        <p>문제: 환자는 예상한 것보다 오래 기다리고, 언제 자신의 차례가 올지 모른다.</p>
+        <p>가설: 총 대기시간이 같더라도, 정확하고 갱신되는 예상 대기 정보를 제공하면 불안과 반복 문의가 줄어들 수 있다. 다만 실제 시간이 반복해서 틀리면 신뢰가 더 낮아질 수 있다.</p>
+        <table class="mini-table">
+          <thead><tr><th>관찰 항목</th><th>현재 운영</th><th>변경 후</th></tr></thead>
+          <tbody><tr><td>실제 대기시간</td><td>기준값 기록</td><td>동일하게 기록</td></tr><tr><td>대기 문의</td><td>하루 문의 횟수</td><td>동일 기준의 문의 횟수</td></tr><tr><td>환자 평가</td><td>익명·자발적 평가</td><td>동일한 질문</td></tr><tr><td>동시 변화</td><td>진료 인원·요일 기록</td><td>차이를 해석할 때 함께 고려</td></tr></tbody>
+        </table>
+        <p>운영 개선에서 핵심은 '통계적으로 엄밀한 실험'이라는 이름보다, <strong>해석을 잘못할 가능성을 스스로 열어두는 태도</strong>다. 대기 환자 수가 다른 두 요일을 단순 비교하거나, 직원이 더 바빴던 날을 무시하면 결과를 오독할 수 있다.</p>
+        <h3>작은 시험 ② 환자에게 기억을 요구하지 않기</h3>
+        <p>진료가 끝날 때 정보를 한꺼번에 전달하는 방식 대신, 꼭 필요한 두세 가지를 짧게 나누어 설명하고 환자가 본인 말로 다시 표현하도록 돕는다. 서면 안내가 필요한 경우에는 함께 제공한다. 이후 반복 설명이 필요한 빈도나 환자의 실제 이해도를 살펴볼 수 있다. 이해도 확인은 평가나 질책의 도구가 되어서는 안 된다.</p>
+        <figure class="figure">
+          <div class="figlabel">FIGURE 04 / 행동의 원인을 살피는 임상적 사고틀</div>
+          <div class="triple">
+            <div><b>C</b><strong>Capability · 능력</strong><p>이해했는가? 기억할 수 있는가? 물리적으로 할 수 있는가?</p></div>
+            <div><b>O</b><strong>Opportunity · 기회</strong><p>시간, 비용, 환경, 가족·직장의 협조가 있는가?</p></div>
+            <div><b>M</b><strong>Motivation · 동기</strong><p>치료 목표에 동의하는가? 두려움과 기대는 무엇인가?</p></div>
+          </div>
+          <figcaption>Michie 외(2011)의 COM-B 모델을 환자와 함께 질문해 볼 수 있는 형태로 재구성. 실제 진료 판단의 대체물이 아니라 행동을 이해하는 보조 틀이다. <a class="external" href="https://doi.org/10.1186/1748-5908-6-42" target="_blank" rel="noopener">원 연구 ↗</a></figcaption>
+        </figure>
+        <p>불이행을 관찰했을 때 '의지가 약하다'는 한 문장으로 끝내기보다, '어렵지 않았는가(C)', '가능한 환경이었는가(O)', '의미가 있었는가(M)'를 함께 묻는다. 물론 세 질문이 모든 문제의 답을 주는 것은 아니다. <strong>치료의 필요성·안전성에 관한 의학적 판단, 환자의 권리와 선호, 제도적 제약</strong>을 별도로 존중해야 한다.</p>
+      </section>
+      <section id="ending">
+        <div class="sect-num">10 / AN OPEN ENDING</div>
+        <h2>좋은 사람인가보다,<br>언제 좋은 사람이 되는가</h2>
+        <p>우리는 누군가를 이해했다고 느끼고 싶어 한다. 사람을 한마디로 규정하면 세상은 단순해진다. 그 사람은 이기적이고, 그 사람은 게으르고, 그 사람은 원래 친절하다. 하지만 사람이 매 순간 같은 사람으로 행동하지 않는다면, 이 명쾌한 세계관은 균열을 일으킨다.</p>
+        <p>달리와 뱃슨의 신학생들은 특별히 악한 사람들이 아니었을 것이다. 어떤 조건에서는 멈췄고 어떤 조건에서는 지나쳤다. 이 차이는 도덕성이 무의미하다는 뜻이 아니라, <strong>선한 의도가 행동으로 나타나는 데에도 조건이 필요할 수 있다</strong>는 사실을 떠올리게 한다.</p>
+        <p>쇼튼의 원래 질문은 '어떤 맥락에서 광고를 보여줄 것인가'였다. 우리가 도달한 질문은 조금 더 넓다. <em>사람이 자신의 좋은 가능성을 발휘할 수 있도록, 우리는 어떤 환경과 관계를 만들 수 있을까?</em> 그리고 그런 환경에서도 끝내 개인에게 남는 선택과 책임은 무엇일까?</p>
+        <div class="pullquote">행동은 성격을 보여줄 때도 있다.<br>그러나 행동 하나가 그 사람 전체는 아니다.</div>
+        <h3>다음 장으로 가져갈 세 개의 질문</h3>
+        <ol class="questions"><li>내가 '그 사람은 원래 그렇다'고 판단했던 사례 중, 상황을 바꾸면 설명이 달라질 것은 무엇인가?</li><li>환자와 직원의 행동을 개선할 때, 성격을 고치려는 시도와 환경을 바꾸는 시도 중 무엇을 먼저 검토해야 하는가?</li><li>우리는 자유롭게 선택하는 사람인가, 아니면 스스로 선택했다고 느끼는 상황의 산물인가?</li></ol>
+        <p>다음 편에서는 선택을 바꾸는 상황 가운데 가장 강력한 것 하나를 살펴본다. <strong>다른 사람들이 이미 선택했다는 사실</strong>이다. 집단은 불확실성을 줄여주는 정보의 원천이면서, 때로는 독립적인 판단을 포기하게 만드는 압력이기도 하다.</p>
+      </section>
+      <div class="references" id="sources">
+        <div class="sect-num">SOURCE NOTES</div>
+        <h3>읽기의 근거와 경계</h3>
+        <p>이 글은 사용자가 제공한 Richard Shotton의 《The Choice Factory》(Harriman House, 2018) 제1장 <i>The Fundamental Attribution Error</i>를 출발점으로 작성한 독립 해설이다. 원작의 서술·실험 결과, 후속 연구, 작성자의 새로운 추론·가상 사례를 구별했다. 원문 문단이나 원서 삽화를 그대로 재게시하지 않았다.</p>
+        <ol>
+          <li>Shotton, R. (2018). <i>The Choice Factory</i>, Bias 1: The Fundamental Attribution Error. 업로드된 EPUB의 제1장 및 책 말미 참고문헌.</li>
+          <li>Darley, J. M., &amp; Batson, C. D. (1973). “From Jerusalem to Jericho”: A study of situational and dispositional variables in helping behavior. <i>Journal of Personality and Social Psychology</i> 27(1), 100–108. <a href="https://greatergood.berkeley.edu/images/uploads/Darley-JersualemJericho.pdf" target="_blank" rel="noopener">원 논문 PDF ↗</a></li>
+          <li>Ross, L., Amabile, T. M., &amp; Steinmetz, J. L. (1977). Social roles, social control, and biases in social-perception processes. <i>JPSP</i> 35(7), 485–494. <a href="https://doi.org/10.1037/0022-3514.35.7.485" target="_blank" rel="noopener">DOI ↗</a></li>
+          <li>Mischel, W., &amp; Shoda, Y. (1995). A cognitive-affective system theory of personality. <i>Psychological Review</i> 102(2), 246–268. <a href="https://pubmed.ncbi.nlm.nih.gov/7740090/" target="_blank" rel="noopener">연구 정보 ↗</a></li>
+          <li>Malle, B. F. (2006). The actor-observer asymmetry in attribution: A (surprising) meta-analysis. <i>Psychological Bulletin</i> 132(6), 895–919. <a href="https://pubmed.ncbi.nlm.nih.gov/17073526/" target="_blank" rel="noopener">173개 연구의 메타분석 ↗</a></li>
+          <li>Miller, J. G. (1984). Culture and the development of everyday social explanation. <i>JPSP</i> 46(5), 961–978. <a href="https://pubmed.ncbi.nlm.nih.gov/6737211/" target="_blank" rel="noopener">문화 비교 연구 ↗</a></li>
+          <li>Michie, S., van Stralen, M. M., &amp; West, R. (2011). The behaviour change wheel: A new method for characterising and designing behaviour change interventions. <i>Implementation Science</i> 6, 42. <a href="https://doi.org/10.1186/1748-5908-6-42" target="_blank" rel="noopener">COM-B 원 연구 ↗</a></li>
+          <li>Agency for Healthcare Research and Quality. (2024). Use the Teach-Back Method, Health Literacy Universal Precautions Toolkit, 3rd ed. <a href="https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html" target="_blank" rel="noopener">환자 이해 확인 가이드 ↗</a></li>
+        </ol>
+        <p><small>저작권 및 연구 해석: 원서 문장을 길게 재현하지 않았고, 실험 수치 외 그래픽은 직접 제작했다. 실무 사례는 사고실험·운영 개선 아이디어이며 개인 환자에 대한 진료 지침이나 치료 효과에 관한 근거로 사용해서는 안 된다.</small></p>
+      </div>
+      <footer class="next"><div><span>NEXT ESSAY / 02</span><br><strong>우리는 왜 다수를 따라가는가?</strong><div class="soon">Social Proof · 다음 글 준비 중</div></div><a href="#top" class="tool-pill">맨 위로 ↑</a></footer>
+    </div>
+  </main>
+</div>
+<div class="selection-tools" id="selectionTools" role="toolbar" aria-label="선택한 문장 보관">
+  <button type="button" data-mark="highlight">형광펜</button><button type="button" data-mark="underline">밑줄</button><button type="button" data-mark="note">메모</button><button type="button" id="selectClose">닫기</button>
+</div>
+<div class="vault-screen" id="vaultScreen"></div>
+<aside class="vault" id="vault" aria-label="내 보관함" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="vault-head"><h2>내 문장 보관함</h2><button class="iconbtn" id="vaultClose" aria-label="보관함 닫기">✕</button></div>
+  <p>문장을 드래그한 뒤 형광펜·밑줄·메모로 보관하세요. 아래 문장을 누르면 본문 위치로 이동합니다. 내용은 이 브라우저에만 저장되며 다른 기기와 동기화되지 않습니다.</p>
+  <div id="vaultList"></div>
+</aside>
+<script>
+(function(){
+  'use strict';
+  var $=function(s){return document.querySelector(s)};
+  var $$=function(s){return Array.prototype.slice.call(document.querySelectorAll(s))};
+  var prefix='choice-human-v1-';
+  var notes=[];
+  try {notes=JSON.parse(localStorage.getItem(prefix+'notes')||'[]')} catch(e){notes=[]}
+  var savedTheme='';try{savedTheme=localStorage.getItem(prefix+'theme')||''}catch(e){}
+  if(savedTheme==='dark')document.body.classList.add('dark');
+  var savedFont=18;try{savedFont=Number(localStorage.getItem(prefix+'font')||18)}catch(e){}
+  document.documentElement.style.setProperty('--bodySize',Math.min(23,Math.max(16,savedFont))+'px');
+  function store(){try{localStorage.setItem(prefix+'notes',JSON.stringify(notes))}catch(e){}}
+  function noteCount(){$('#vaultCount').textContent=notes.length}
+  $$('.prose p,.case p,.layer p,.sidecard p,.abstract,.questions li').forEach(function(p,i){p.dataset.para='p'+String(i+1);if(!p.id)p.id='paragraph-'+String(i+1)});
+  function updateProgress(){
+    var total=document.documentElement.scrollHeight-innerHeight;
+    $('#progress').style.width=(total>0?Math.min(100,Math.max(0,scrollY/total*100)):0)+'%';
+    var active='';$$('#toc a').forEach(function(a){var el=document.querySelector(a.getAttribute('href'));if(el&&el.getBoundingClientRect().top<135)active=a.getAttribute('href')});
+    $$('#toc a').forEach(function(a){a.classList.toggle('active',a.getAttribute('href')===active)});
+  }
+  addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+  $('#menuBtn').addEventListener('click',function(){$('#side').classList.toggle('open')});
+  $$('#toc a').forEach(function(a){a.addEventListener('click',function(){$('#side').classList.remove('open')})});
+  $('#fontUp').addEventListener('click',function(){savedFont=Math.min(23,savedFont+1);document.documentElement.style.setProperty('--bodySize',savedFont+'px');try{localStorage.setItem(prefix+'font',savedFont)}catch(e){}});
+  $('#fontDown').addEventListener('click',function(){savedFont=Math.max(16,savedFont-1);document.documentElement.style.setProperty('--bodySize',savedFont+'px');try{localStorage.setItem(prefix+'font',savedFont)}catch(e){}});
+  $('#themeBtn').addEventListener('click',function(){document.body.classList.toggle('dark');try{localStorage.setItem(prefix+'theme',document.body.classList.contains('dark')?'dark':'light')}catch(e){}});
+  $('#shareBtn').addEventListener('click',function(){var t=location.href;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){alert('링크를 복사했습니다.')}).catch(function(){window.prompt('링크를 복사하세요',t)})}else{window.prompt('링크를 복사하세요',t)}});
+  var answers={
+    a:'태도 문제라는 가설은 타당할 수 있습니다. 그러나 곧바로 질책하면 왜 그런 행동을 했는지 확인할 기회를 잃을 수 있습니다. 먼저 안내 기준이 명확했고 실제로 지킬 수 있는 조건이었는지, 같은 조건에서 반복되었는지를 확인해 보세요.',
+    b:'업무 구조를 먼저 살피는 선택입니다. 다만 구조를 수정한 뒤에도 업무가 반복해서 누락된다면 역할 이해, 교육, 책임의 문제를 검토해야 합니다. 구조만으로 모든 행동을 설명할 수도 없습니다.',
+    c:'환자 안전과 실제 진료 필요성을 우선하는 선택입니다. 하지만 그 뒤에는 직원의 관점과 운영 구조도 확인해야 합니다. 환자 안전이라는 명분이 근로자의 합당한 시간·업무 조건을 무시하는 이유가 되어서는 안 됩니다.'
+  };
+  $$('.choice').forEach(function(b){b.addEventListener('click',function(){$$('.choice').forEach(function(x){x.classList.remove('selected')});b.classList.add('selected');var answer=$('#thoughtAnswer');answer.classList.add('show');answer.textContent=answers[b.dataset.answer]})});
+  function openVault(){$('#vault').classList.add('open');$('#vaultScreen').classList.add('open');$('#vault').setAttribute('aria-hidden','false');renderVault()}
+  function closeVault(){$('#vault').classList.remove('open');$('#vaultScreen').classList.remove('open');$('#vault').setAttribute('aria-hidden','true')}
+  $('#vaultBtn').addEventListener('click',openVault);$('#vaultClose').addEventListener('click',closeVault);$('#vaultScreen').addEventListener('click',closeVault);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeVault();$('#selectionTools').classList.remove('visible')}});
+  var pending=null;
+  function checkSelection(){
+    var sel=window.getSelection();
+    if(!sel||sel.isCollapsed){return}
+    var quote=sel.toString().trim().replace(/\s+/g,' ');
+    if(quote.length<3||quote.length>450){return}
+    var el=sel.anchorNode&&sel.anchorNode.nodeType===1?sel.anchorNode:sel.anchorNode&&sel.anchorNode.parentElement;
+    var para=el&&el.closest('[data-para]');
+    var other=sel.focusNode&&sel.focusNode.nodeType===1?sel.focusNode:sel.focusNode&&sel.focusNode.parentElement;
+    if(!para||!other||!other.closest('[data-para]')||other.closest('[data-para]')!==para){return}
+    pending={quote:quote,paragraphId:para.id};
+    $('#selectionTools').classList.add('visible');
+  }
+  document.addEventListener('mouseup',function(){setTimeout(checkSelection,60)});
+  document.addEventListener('touchend',function(){setTimeout(checkSelection,250)});
+  $('#selectClose').addEventListener('click',function(){$('#selectionTools').classList.remove('visible');pending=null;window.getSelection().removeAllRanges()});
+  $$('#selectionTools button[data-mark]').forEach(function(btn){btn.addEventListener('mousedown',function(e){e.preventDefault()});btn.addEventListener('click',function(){
+    if(!pending)return;
+    var type=btn.dataset.mark,comment='';
+    if(type==='note'){comment=window.prompt('이 문장에 남길 생각을 적어 주세요.','')||'';if(!comment.trim())return}
+    notes.unshift({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),type:type,quote:pending.quote,paragraphId:pending.paragraphId,comment:comment,created:new Date().toLocaleDateString('ko-KR')});
+    store();noteCount();refreshHighlights();$('#selectionTools').classList.remove('visible');pending=null;window.getSelection().removeAllRanges();
+  })});
+  function rangeForText(el,quote){
+    var walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);var nodes=[],full='',n;
+    while((n=walker.nextNode())){nodes.push({node:n,start:full.length,end:full.length+n.textContent.length});full+=n.textContent}
+    var q=quote.replace(/\s+/g,' ');
+    var norm=full.replace(/\s+/g,' ');
+    var index=norm.indexOf(q);if(index<0)return null;
+    var search=0,start=-1,end=-1,inSpace=false;
+    for(var i=0;i<full.length;i++){var ch=full.charAt(i);if(/\s/.test(ch)){if(inSpace)continue;inSpace=true}else inSpace=false;if(search===index)start=i;if(search===index+q.length-1)end=i+1;search++;if(search>index+q.length)break}
+    if(start<0||end<0)return null;
+    var left=nodes.find(function(z){return z.end>start});var right=nodes.find(function(z){return z.end>=end});
+    if(!left||!right)return null;
+    var r=document.createRange();r.setStart(left.node,start-left.start);r.setEnd(right.node,end-right.start);return r;
+  }
+  function refreshHighlights(){
+    if(window.CSS&&CSS.highlights&&typeof Highlight!=='undefined'){
+      ['choice-highlight','choice-underline','choice-note'].forEach(function(key){CSS.highlights.delete(key)});
+      [['highlight','choice-highlight'],['underline','choice-underline'],['note','choice-note']].forEach(function(kv){var ranges=notes.filter(function(n){return n.type===kv[0]}).map(function(n){var el=document.getElementById(n.paragraphId);return el?rangeForText(el,n.quote):null}).filter(Boolean);if(ranges.length)CSS.highlights.set(kv[1],new Highlight(...ranges))});
+    }else{
+      notes.forEach(function(n){var el=document.getElementById(n.paragraphId);if(el)el.classList.add('annotated-fallback')});
+    }
+  }
+  function renderVault(){
+    var list=$('#vaultList');list.innerHTML='';
+    if(!notes.length){var empty=document.createElement('p');empty.textContent='아직 보관한 문장이 없습니다. 본문에서 마음에 드는 문장을 선택해 보세요.';list.appendChild(empty);return}
+    notes.forEach(function(n){
+      var item=document.createElement('div');item.className='vault-item';
+      var quote=document.createElement('q');quote.textContent=n.quote;item.appendChild(quote);
+      if(n.comment){var cm=document.createElement('p');cm.textContent='메모: '+n.comment;item.appendChild(cm)}
+      var meta=document.createElement('small');meta.textContent=(n.type==='note'?'메모':n.type==='underline'?'밑줄':'형광펜')+' · '+n.created;item.appendChild(meta);
+      var jump=document.createElement('button');jump.textContent='본문으로 돌아가기 ↗';jump.addEventListener('click',function(){closeVault();var el=document.getElementById(n.paragraphId);if(el){el.scrollIntoView({behavior:'smooth',block:'center'});history.replaceState(null,'','#'+n.paragraphId)}});item.appendChild(jump);
+      var remove=document.createElement('button');remove.textContent='삭제';remove.addEventListener('click',function(){notes=notes.filter(function(z){return z.id!==n.id});store();noteCount();renderVault();refreshHighlights()});item.appendChild(remove);
+      list.appendChild(item);
+    });
+  }
+  noteCount();refreshHighlights();
+})();
+</script>
+</body>
+</html>
