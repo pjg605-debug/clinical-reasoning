@@ -1,0 +1,1316 @@
+{
+  "id": "existing-visual-review-2026-10-19",
+  "startedOn": "2026-10-19",
+  "state": "in_progress",
+  "stage": "historical_figures_first",
+  "originalDailyWorkflow": "policy-driven text-first GitHub drafts and user-approved visual publishing",
+  "temporaryPriority": "audit and present EXISTING public-site article images for user review before new drafting; do not create unrelated new article during campaign",
+  "automationId": "6aaba98b901081919da79f748a4b681b",
+  "schedule": "08:00 Asia/Seoul daily, unchanged",
+  "resumeRule": "Once every existing in-article figure is explicitly approved or corrected/replaced with user approval and related authorized deployment verified, mark state completed and automatically resume standard text-first daily drafting next scheduled run. Do not auto-approve or mark completed based on elapsed time or showing previews.",
+  "protocol": "Each daily run: read latest policy and queue, audit specific article body src/href and binary Git paths/sizes; present original figure(s) in conversation for user review; wait for explicit approval/revise/reject, then update queue. Don't auto approve. 3-5 images per batch. Preserve original published files. Approval needed before modifying main. Include status and progress. Continue automation even if blocked.",
+  "reviewCriteria": [
+    "accurate realistic 3D anatomy and depth, vessels/nerves",
+    "realistic physical exam posture and sidedness",
+    "rehab/loading consistency and decision tree",
+    "clinical/needling safety",
+    "Korean captions, readable labels, source rights",
+    "actual embedded path and live HTTP 200"
+  ],
+  "count": {
+    "articles": 32,
+    "assets": 118,
+    "verifiedLinkedArticles": 5,
+    "userApproved": 0
+  },
+  "articles": [
+    {
+      "id": "2026-10-18-bfr-rehab",
+      "date": "2026-10-18",
+      "title": "고부하 운동을 못 견디면 혈류제한 저부하 운동으로 바로 바꿔도 될까?",
+      "file": "articles/2026-10-18-bfr-rehab.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": [
+        "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false
+    },
+    {
+      "id": "2026-10-17-carpal-tunnel-cpg",
+      "date": "2026-10-17",
+      "title": "야간 손저림이 남으면 보조기만 계속할까, 검사·운동·의뢰 기준을 바꿀까?",
+      "file": "articles/2026-10-17-carpal-tunnel-cpg.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": [
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
+      ],
+      "figuresVerified": true,
+      "needsRead": false
+    },
+    {
+      "id": "2026-10-16-ottawa-ankle-rules",
+      "date": "2026-10-16",
+      "title": "접질린 발목, Ottawa 규칙이 음성이면 바로 단순 염좌로 치료해도 될까?",
+      "file": "articles/2026-10-16-ottawa-ankle-rules.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": [
+        "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false
+    },
+    {
+      "id": "2026-10-15-slr-radicular-pain",
+      "date": "2026-10-15",
+      "title": "SLR이 양성이면 남은 다리 통증을 요천추 신경근병증으로 확정해도 될까?",
+      "file": "articles/2026-10-15-slr-radicular-pain.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": [
+        "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+        "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+        "assets/briefs/2026-10-15-slr-radicular-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false
+    },
+    {
+      "id": "2026-10-14-cervical-radiculopathy-tests",
+      "date": "2026-10-14",
+      "title": "Spurling이 양성이면 남은 팔 저림을 경추 신경근병증으로 확정해도 될까?",
+      "file": "articles/2026-10-14-cervical-radiculopathy-tests.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": [
+        "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false
+    },
+    {
+      "id": "2026-10-13-hip-osteonecrosis-mri",
+      "date": "2026-10-13",
+      "title": "고관절 통증이 남으면 근육통일까, MRI로 골괴사를 먼저 배제해야 할까?",
+      "file": "articles/2026-10-13-hip-osteonecrosis-mri.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-12-meniscus-exam-mri",
+      "date": "2026-10-12",
+      "title": "McMurray가 양성이면 MRI 없이 반월상연골 파열을 확정해도 될까?",
+      "file": "articles/2026-10-12-meniscus-exam-mri.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-11-elbow-function-update",
+      "date": "2026-10-11",
+      "title": "테니스엘보 통증은 줄었는데 왜 악력과 전완 기능은 회복되지 않을까?",
+      "file": "articles/2026-10-11-elbow-function-update.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-10-cuff-imaging-weight",
+      "date": "2026-10-10",
+      "title": "MRI 파열 소견이 있으면 남은 어깨 통증의 원인도 확정될까?",
+      "file": "articles/2026-10-10-cuff-imaging-weight.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-09-acute-lbp-imaging",
+      "date": "2026-10-09",
+      "title": "심하게 아픈 급성 요통, 다음 방문의 MRI는 무엇 때문에 선택할까?",
+      "file": "articles/2026-10-09-acute-lbp-imaging.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-08-tmd-chewing",
+      "date": "2026-10-08",
+      "title": "교근 통증은 줄었는데 왜 식사 기능과 개구 제한이 남을까?",
+      "file": "articles/2026-10-08-tmd-chewing.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-07-plantar-load-update",
+      "date": "2026-10-07",
+      "title": "첫발 통증은 줄었는데 왜 오래 서기는 여전히 어려울까?",
+      "file": "articles/2026-10-07-plantar-load-update.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-04-hip-activity",
+      "date": "2026-10-04",
+      "title": "고관절 운동은 하는데 왜 실제 걷는 시간은 그대로일까?",
+      "file": "articles/2026-10-04-hip-activity.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-03-radial-wrist",
+      "date": "2026-10-03",
+      "title": "드퀘르벵으로 치료했는데 왜 엄지쪽 저림과 다른 부하 통증이 남을까?",
+      "file": "articles/2026-10-03-radial-wrist.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-02-acl-return-control",
+      "date": "2026-10-02",
+      "title": "ACL 재건 후 대칭 hop만 좋아지면 방향 전환 복귀를 허가할까?",
+      "file": "articles/2026-10-02-acl-return-control.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-01-meniscus-root-rehab",
+      "date": "2026-10-01",
+      "title": "내측 반월상연골 후방근 봉합 후 통증이 낮으면 바로 더 걸어도 될까?",
+      "file": "articles/2026-10-01-meniscus-root-rehab.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-30-lbp-reweight",
+      "date": "2026-09-30",
+      "title": "요통이 줄어도 다시 허리를 못 쓰는 환자, 다음 방문에는 무엇을 분리할까?",
+      "file": "articles/2026-09-30-lbp-reweight.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-27-hamstring-sitting",
+      "date": "2026-09-27",
+      "title": "좌골 부위 통증은 줄었는데 왜 오래 앉기는 여전히 어려울까?",
+      "file": "articles/2026-09-27-hamstring-sitting.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-26-carpal-tinel",
+      "date": "2026-09-26",
+      "title": "Tinel은 음성인데 왜 밤마다 손이 저릴까?",
+      "file": "articles/2026-09-26-carpal-tinel.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-25-shoulder-passive-rom",
+      "date": "2026-09-25",
+      "title": "야간 어깨 통증은 줄었는데 왜 수동 외회전은 계속 막힐까?",
+      "file": "articles/2026-09-25-shoulder-passive-rom.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-06-patellar-load",
+      "date": "2026-10-06",
+      "title": "슬개건병증 통증은 줄었는데 왜 점프 복귀는 여전히 어려울까?",
+      "file": "articles/2026-10-06-patellar-load.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-29-pfp-stair-pain",
+      "date": "2026-09-29",
+      "title": "슬개대퇴 통증은 줄었는데 왜 계단 내려오기는 그대로일까?",
+      "file": "articles/2026-09-29-pfp-stair-pain.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-10-05-ankle-giving-way",
+      "date": "2026-10-05",
+      "title": "발목 염좌로 치료했는데 왜 통증은 줄었는데 계속 ‘휘청’할까?",
+      "file": "articles/2026-10-05-ankle-giving-way.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-28-achilles-function",
+      "date": "2026-09-28",
+      "title": "아킬레스건병증으로 치료했는데 왜 통증은 줄었는데 한 발 까치발이 회복되지 않을까?",
+      "file": "articles/2026-09-28-achilles-function.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-24-tmd-myalgia-opening",
+      "date": "2026-09-24",
+      "title": "교근 통증으로 치료했는데 왜 입 벌림 제한과 귀앞 통증이 남을까?",
+      "file": "articles/2026-09-24-tmd-myalgia-opening.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-23-gtps-lateral-hip",
+      "date": "2026-09-23",
+      "title": "대전자 통증으로 치료했는데 왜 옆으로 누우면 계속 아플까?",
+      "file": "articles/2026-09-23-gtps-lateral-hip.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-22-walking-leg-pain-stenosis",
+      "date": "2026-09-22",
+      "title": "요통으로 치료했는데 왜 걸으면 종아리 통증이 남을까?",
+      "file": "articles/2026-09-22-walking-leg-pain-stenosis.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-21-acute-neck-arm-tingling",
+      "date": "2026-09-21",
+      "title": "급성 경항통으로 치료했는데 왜 팔 저림이 새로 생기면 계획이 달라질까?",
+      "file": "articles/2026-09-21-acute-neck-arm-tingling.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-20-knee-oa-posterior-pain",
+      "date": "2026-09-20",
+      "title": "무릎 골관절염으로 치료했는데 왜 뒤쪽 무릎 통증이 남을까?",
+      "file": "articles/2026-09-20-knee-oa-posterior-pain.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-19-lateral-elbow",
+      "date": "2026-09-19",
+      "title": "테니스엘보로 치료했는데 왜 깊은 전완 통증이 남을까?",
+      "file": "articles/2026-09-19-lateral-elbow.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-18-shoulder",
+      "date": "2026-09-18",
+      "title": "회전근개 통증으로 치료했는데 왜 야간통과 팔 통증이 남을까?",
+      "file": "articles/2026-09-18-shoulder.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    },
+    {
+      "id": "2026-09-18-plantar",
+      "date": "2026-09-18",
+      "title": "족저근막병증으로 치료했는데 왜 계속 아플까?",
+      "file": "articles/2026-09-18-plantar.html",
+      "reviewStatus": "pending_user_review",
+      "figurePaths": null,
+      "figuresVerified": false,
+      "needsRead": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+      "size": 170484,
+      "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+      "size": 164174,
+      "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+      "size": 148222,
+      "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+      "size": 151992,
+      "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+      "size": 166766,
+      "gitBlobSha": "57f0a8f955ec0dc3478163788ffc7bec043c9c47",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-21-neck-exam-sequence.svg",
+      "size": 6009,
+      "gitBlobSha": "1b896797a3e1109a29032bd94eeb9fa08ea83c56",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-21-neck-painmap.svg",
+      "size": 6234,
+      "gitBlobSha": "5978160ee474a34cd1e8d203b0b941c227e5175d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-22-lss-outcomes.svg",
+      "size": 3951,
+      "gitBlobSha": "62f969f61df8017044a0a3c855ca5ede507ebe33",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-22-lss-painmap.svg",
+      "size": 7133,
+      "gitBlobSha": "b51939c9f101eb26554b0d832a052b4d6f60c8a7",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-22-lss-walk-test.svg",
+      "size": 7274,
+      "gitBlobSha": "0a3ee86b5f6651671a9a0f02aa4003c9f987dd2b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+      "size": 200650,
+      "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-23-gtps-anatomy-painmap.svg",
+      "size": 5906,
+      "gitBlobSha": "d8814b3967531957917c5b077b8482957ae41d7b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-23-gtps-exam-sequence.svg",
+      "size": 6632,
+      "gitBlobSha": "9340b478b93d094ebdbd430a4d392b0d1e240d6a",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+      "size": 160430,
+      "gitBlobSha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-24-tmd-differential.svg",
+      "size": 7037,
+      "gitBlobSha": "966ff771fdf2d16624096936f95c6f552a65398d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-24-tmd-exam-sequence.svg",
+      "size": 6159,
+      "gitBlobSha": "f6f55b2a082332f594c45e3021dfb6afd8f4c3b8",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+      "size": 194796,
+      "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+      "size": 164174,
+      "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+      "size": 1723,
+      "gitBlobSha": "4a0857fe5c1b5734cf1b1440076f3f0b4a3a467d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+      "size": 123256,
+      "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+      "size": 157380,
+      "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+      "size": 1741,
+      "gitBlobSha": "25428b8d553eba7439b515e741d62f1aedaec3ca",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+      "size": 103676,
+      "gitBlobSha": "b4f267b71afaa40bd3ce4be35129070f8be18e01",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+      "size": 204952,
+      "gitBlobSha": "0eb35dc37eac3c05f42cb26229e01494c6e90ce0",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+      "size": 1646,
+      "gitBlobSha": "34197ced854429f3c2c7147f077f34c004b72345",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+      "size": 110514,
+      "gitBlobSha": "71b677585539fc59b99ed6c51225cbe800c9ba2b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-28-achilles-anatomy-painmap.svg",
+      "size": 4994,
+      "gitBlobSha": "5e6f3ff5b9121f74c879a5226d2c31aac5f4a88f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+      "size": 133678,
+      "gitBlobSha": "f068070df79a3a436c65cb7e70a4f4fbd21db573",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-28-achilles-reassessment.svg",
+      "size": 5870,
+      "gitBlobSha": "99224c895ee9f767ff3ab48e144aac95d4fad4a1",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+      "size": 157668,
+      "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+      "size": 1901,
+      "gitBlobSha": "0cb0bce2b6ae3a9c6488bc52188e5b995f800f03",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+      "size": 163574,
+      "gitBlobSha": "b901f98e100fab66eeb966ed928fe45a87c1fa63",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+      "size": 200650,
+      "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
+      "size": 1590,
+      "gitBlobSha": "712256266ac1ed2340426e1fda59aacb3f2ce030",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+      "size": 123816,
+      "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+      "size": 151992,
+      "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+      "size": 1626,
+      "gitBlobSha": "8910134d9baa12b141f01341443d644003fa6ac9",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+      "size": 161370,
+      "gitBlobSha": "033654d0ded4883a9531c4d5b628a2e6a6692eb5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+      "size": 151992,
+      "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-decision.svg",
+      "size": 1652,
+      "gitBlobSha": "c525ed219bacdd29718460f0054ddd22b1ee2597",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+      "size": 132946,
+      "gitBlobSha": "b587798fdc8fd8b1fb390fb9f78e8b53a1d47a39",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+      "size": 157380,
+      "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-decision.svg",
+      "size": 1600,
+      "gitBlobSha": "023a09535c608bc721568234bdc43ff3276013b7",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+      "size": 119262,
+      "gitBlobSha": "87299ff2fd29fb4059a628cad164f2ac85d30257",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+      "size": 160430,
+      "gitBlobSha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-decision.svg",
+      "size": 1527,
+      "gitBlobSha": "a282b71225700736e08bdca92dfd89f7e8b41b5c",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-04-hip-activity-exam.webp",
+      "size": 127182,
+      "gitBlobSha": "7c18c6ed8af35baac130cb83c3d55f50c013dfa6",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+      "size": 145938,
+      "gitBlobSha": "f6d732afbf251c69681205d2da40dd1f9d1620fa",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+      "size": 150138,
+      "gitBlobSha": "bb7c0817741ef1e0c05f1b3850b9441da8d670a5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-05-cai-anatomy.svg",
+      "size": 5689,
+      "gitBlobSha": "4be79c1d2a011cc4ea3fba33885288d38f5a2764",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-05-cai-reassessment.svg",
+      "size": 5813,
+      "gitBlobSha": "99866e1597af7ad09537edb79cb1417d182361f2",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+      "size": 157668,
+      "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-decision.svg",
+      "size": 1773,
+      "gitBlobSha": "74385e12e097920765a6137728e118bd02264b76",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-exam.webp",
+      "size": 206026,
+      "gitBlobSha": "7d4367b73b63fbae8e030c62e578deafba9cf0c9",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+      "size": 144704,
+      "gitBlobSha": "4547da44a05f42eaa4f9735658e5c27fff6fb68a",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-imaging.svg",
+      "size": 1593,
+      "gitBlobSha": "e87a65d88e78880b3c438280993ce20e2b7dd095",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-06-patellar-load-progression.svg",
+      "size": 1575,
+      "gitBlobSha": "51d2c78aa4623f3fe2cf4ebcffb5ae352174a09f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+      "size": 170484,
+      "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+      "size": 1542,
+      "gitBlobSha": "3d51eb07c7004f47d4b17c0ee0c495171f064bcb",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+      "size": 176534,
+      "gitBlobSha": "30fbb75496736f36845baf12b0cdcce8974fc434",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+      "size": 194796,
+      "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+      "size": 1537,
+      "gitBlobSha": "058dcb2f75665e1876ccab73c0f5b7cd5aa2d543",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+      "size": 158940,
+      "gitBlobSha": "af440deeea9675286da20f405f0476fefb6e2606",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+      "size": 200650,
+      "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+      "size": 1579,
+      "gitBlobSha": "e400598a91c088ecfdbc852dc2186935236d9b52",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+      "size": 123816,
+      "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+      "size": 164174,
+      "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+      "size": 1626,
+      "gitBlobSha": "da6f91ba2f7372f38725c27bb9f4fb3aa1fc3403",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+      "size": 123256,
+      "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+      "size": 148222,
+      "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+      "size": 1576,
+      "gitBlobSha": "c7ef0ba97ab41a3cccc26043ab7562fc7148a10e",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+      "size": 126002,
+      "gitBlobSha": "0ac56b64777dd172b245fb3bbfc95daa21bc1d0f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
+      "size": 72008,
+      "gitBlobSha": "20dbc21ac9baf1a6573c518cf699bd5e5092eebe",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+      "size": 65518,
+      "gitBlobSha": "da1a106d4a1b11289f4164b1ff8611189e03b7be",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+      "size": 4332,
+      "gitBlobSha": "873ba89c2c48426cf9c2c90a259c9ab3345c4d41",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+      "size": 58294,
+      "gitBlobSha": "5cd0d8fa87b4f7c1dd6d559356509cc5d150018d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+      "size": 134658,
+      "gitBlobSha": "6dba523469195d3870317e488d9952033ac69e59",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+      "size": 3941,
+      "gitBlobSha": "de8554d38709e281e3202b1b60b1cf023f57a4e8",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+      "size": 78010,
+      "gitBlobSha": "4ea8f043adfee25223397234ae216cd39296d1c5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+      "size": 61874,
+      "gitBlobSha": "98b72ce7d36fcd4bfd3231841116496e77ec2f0b",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+      "size": 4788,
+      "gitBlobSha": "97538af826fb652e2d49b85791fbf7e3d7e37acb",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+      "size": 34512,
+      "gitBlobSha": "3eaa9b9eb2c9f87a8ca89b75a86e0a1c44a16a61",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+      "size": 49050,
+      "gitBlobSha": "d1f45761e165023b728a96f123620f85c2abe740",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
+      "size": 4814,
+      "gitBlobSha": "c7998b5d2c4bdbe9ed7d1a75cef022330a5cdccc",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+      "size": 41316,
+      "gitBlobSha": "a66fe4dbf1d22ada33dea7b05e3ecac01a20e831",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+      "size": 63344,
+      "gitBlobSha": "cf165577d02a2877cd08d6fe2936788986bc1077",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
+      "size": 5423,
+      "gitBlobSha": "28595b642a3fc410646e3f9735b8b962e6bb6519",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+      "size": 36796,
+      "gitBlobSha": "1e02254556de273cb6eebc06333ee6e2e61d941f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+      "size": 89196,
+      "gitBlobSha": "64af6d274dff3b4084589aeb09ceb52d8dd8b8a0",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+      "size": 86474,
+      "gitBlobSha": "038bfd9b971c8a76b66023607987db9387d37591",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp",
+      "size": 81860,
+      "gitBlobSha": "9d4cd6ec187c140b1878fe4e069395ced7b40de5",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+      "size": 28606,
+      "gitBlobSha": "8faca259a4662e9cbacb2ce118ae9bf781340d22",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+      "size": 38772,
+      "gitBlobSha": "80ca5fd0db094cfd078bb483579dbc57f334c05d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+      "size": 4384,
+      "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": true,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/elbow-exams-v3.jpg",
+      "size": 59667,
+      "gitBlobSha": "8be018e0acf8c1b67dfba4b91491e4546dc9e15c",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/elbow-exams-v4.jpg",
+      "size": 164462,
+      "gitBlobSha": "8473d3f9ccb5a31203758933713e9f7e8b6deed7",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/elbow-painmap-v3.jpg",
+      "size": 60363,
+      "gitBlobSha": "898c84bde6e1dd786353a6708a4898342f02248f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/elbow-painmap-v4.jpg",
+      "size": 164728,
+      "gitBlobSha": "f0f61ef6f7072746e6eaeb76054c375f93438b17",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/knee-exams-v3.jpg",
+      "size": 58237,
+      "gitBlobSha": "8d9273316c685716ccb8f8bebbeeedcb5671c5a9",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/knee-exams-v4.jpg",
+      "size": 159157,
+      "gitBlobSha": "45bade41fc25cf9ab6008a66f325d9074e10b819",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/knee-painmap-v3.jpg",
+      "size": 56000,
+      "gitBlobSha": "e9bdd22866ae36aba3cb2a99650a7342364903ab",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/knee-painmap-v4.jpg",
+      "size": 152862,
+      "gitBlobSha": "63a317eded0b5761d27535e893be96f7b66495b4",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
+      "size": 189089,
+      "gitBlobSha": "6ee3299e614dc34dd052b3d288d70e69098b76ea",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/lateral-elbow-radial-tunnel.webp",
+      "size": 11244,
+      "gitBlobSha": "3f09ef1f07ab61d41c31f3206a0e74d9f6d68cf1",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-exams-v3.jpg",
+      "size": 56597,
+      "gitBlobSha": "a2d2a879b5c4e86ed048a58ed9f22cefc0ebaf95",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-exams-v4.jpg",
+      "size": 152040,
+      "gitBlobSha": "60ffdd9c2c4217bcaa067b8325b3205918a21e7f",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-heel-differential-v2.jpg",
+      "size": 161964,
+      "gitBlobSha": "5b19be7f99ce36f42aa11673e9cda584a85c0cb2",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-heel-differential.webp",
+      "size": 15008,
+      "gitBlobSha": "4bcce5cab1adce64eae0381057e93f4552b17c83",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-painmap-v3.jpg",
+      "size": 50761,
+      "gitBlobSha": "414364b07e2b142f0532df4c688dbdec1cb5ce2c",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/plantar-painmap-v4.jpg",
+      "size": 134629,
+      "gitBlobSha": "101b01832fd5426e27edc36532022a279bebc60e",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/posterior-knee-differential-v2.jpg",
+      "size": 183167,
+      "gitBlobSha": "458d8a793d59a3da390ae836eb1cb8dfa89cfe2c",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/posterior-knee-differential.webp",
+      "size": 7506,
+      "gitBlobSha": "c6ea784babbbf634f7a7937ac818299a1c0cad64",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-cervical-differential-v2.jpg",
+      "size": 190253,
+      "gitBlobSha": "c76ee6bb1a18e0489dbb7c2957bb2c86dad0c9a4",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-cervical-differential.webp",
+      "size": 15009,
+      "gitBlobSha": "0827989b82ee28a0866e3d013b6a8700fbdf729c",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-exams-v3.jpg",
+      "size": 59093,
+      "gitBlobSha": "062a21f1dbc15052596eee4a5d62b3f6335c38b3",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-exams-v4.jpg",
+      "size": 160503,
+      "gitBlobSha": "4ec00c3b8786ad6f1dbc7fee024337a12caf6dd2",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-painmap-v3.jpg",
+      "size": 59900,
+      "gitBlobSha": "6bf8b01384670c357845fa8be6e9ead33ca91239",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    },
+    {
+      "path": "assets/briefs/shoulder-painmap-v4.jpg",
+      "size": 166465,
+      "gitBlobSha": "0804a200791626fc9d3f401cf4e3fede634ea53d",
+      "reviewStatus": "pending_user_review",
+      "linkedInRecentFive": false,
+      "userApproval": null
+    }
+  ],
+  "reviewLog": [],
+  "mainUnchangedUntilAuthorized": true
+}
