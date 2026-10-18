@@ -203,5 +203,19 @@
     },
     "ongoing": "Continue daily research + GitHub text draft creation even if visual review backlog exists. Never auto-promote an older draft solely because a new day arrived.",
     "legacy": "Do not retroactively unpublish earlier live articles; preserve current published IDs, assets, evidence, hashes, and existing PWA behavior."
+  },
+  "temporaryCampaign": {
+    "id": "existing-visual-review-2026-10-19",
+    "state": "active",
+    "source": "2026-10-19 explicit user request",
+    "queueBranch": "editorial-drafts",
+    "queueFile": "editorial/existing-visual-review-campaign.json",
+    "precedence": "Temporary priority over routine daily manuscript creation until all existing visuals are reviewed. Other medical, safety and approval gates remain.",
+    "task": "At daily 08:00 Asia/Seoul, review previously published article figures in manageable batches, physically open and inspect original GitHub image binaries, check article src/href + GitHub binary size + visual content against reliable anatomy/exam. Prepare in-chat actual visual previews, numbered by figure, for user approval/revision. Track every decision in queue.",
+    "mustRemainActive": true,
+    "publicChangeGate": "Never alter published article, assets, articles.json, or SW without explicit user approval of replacement and authorized release; do not silently swap past figures.",
+    "resumeCondition": "Only after user explicitly approves/rejects/revises all 118 catalogued historical visual assets (or explicitly resolves unused/duplicates as inapplicable) and all required replacement visuals approved and public corrections verified. If all user-review items are resolved, mark queue.completedAt and automatically resume stagedWorkflow original text-first daily-draft behavior at next 08:00 run.",
+    "originalTask": "stagedWorkflow in this policy; text-first completed draft to editorial-drafts, separate visual user review, and final public release only when specifically approved.",
+    "noDuplicate": "Do not produce new article drafts while temporary review campaign active; after campaign completion resume normal per-day drafts, check registry/date for duplicates."
   }
 }
