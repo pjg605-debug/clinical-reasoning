@@ -50,8 +50,8 @@
  });
  document.querySelectorAll('figure.figure').forEach(f=>{
   const label=f.querySelector('.figlabel')?.textContent||'';
-  if(label.includes('FIGURE 02'))f.replaceWith(figure('section04'));
-  if(label.includes('FIGURE 03'))f.replaceWith(figure('section07'));
+  // The same illustration appears at the end of each section; avoid duplicates.
+  if(label.includes('FIGURE 02')||label.includes('FIGURE 03'))f.remove();
  });
  const culture=document.querySelector('#argument h3'); if(culture)culture.insertAdjacentElement('beforebegin',figure('culture'));
  const method=document.querySelector('#practice h3'); if(method)method.insertAdjacentElement('beforebegin',figure('comb'));
