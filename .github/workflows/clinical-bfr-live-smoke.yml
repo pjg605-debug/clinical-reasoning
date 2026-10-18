@@ -1,0 +1,48 @@
+name: BFR approved visual live verification
+on:
+  push:
+    paths:
+      - 'assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp'
+      - 'articles/2026-10-18-bfr-rehab.html'
+      - 'review/2026-10-18-bfr-rehab/**'
+      - 'sw.js'
+      - '.github/workflows/clinical-bfr-live-smoke.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-published-bfr:
+    name: Verify approved figure and three live figures
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Verify Pages HTTP 200 and exact approved image SHA256
+        shell: bash
+        env:
+          BASE: https://pjg605-debug.github.io/clinical-reasoning
+          EXPECTED_SHA256: 902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 24); do
+            if curl --fail --silent --show-error --location --max-time 20 "$BASE/assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp" -o /tmp/approved.webp \
+              && echo "$EXPECTED_SHA256  /tmp/approved.webp" | sha256sum --check --status \
+              && curl --fail --silent --show-error --location --max-time 20 "$BASE/assets/briefs/2026-10-18-bfr-rehab-exam.webp" -o /tmp/approved-fig2.webp \
+              && curl --fail --silent --show-error --location --max-time 20 "$BASE/assets/briefs/2026-10-18-bfr-rehab-pathway.svg" -o /tmp/approved-fig3.svg \
+              && curl --fail --silent --show-error --location --max-time 20 "$BASE/articles/2026-10-18-bfr-rehab.html" -o /tmp/article.html \
+              && grep --quiet '2026-10-18-bfr-rehab-procedure-approved.webp' /tmp/article.html \
+              && curl --fail --silent --show-error --location --max-time 20 "$BASE/review/2026-10-18-bfr-rehab/" -o /tmp/review.html \
+              && grep --quiet '2026-10-18-bfr-rehab-procedure-approved.webp' /tmp/review.html \
+              && curl --fail --silent --show-error --location --max-time 20 "$BASE/sw.js" -o /tmp/sw.js \
+              && grep --quiet '2026-10-18-bfr-rehab-procedure-approved.webp' /tmp/sw.js; then
+              echo "PASS: exact approved WebP image is live with correct sha256; fig2/fig3, article, review page and SW are HTTP 200"
+              sha256sum /tmp/approved.webp
+              wc -c /tmp/approved.webp /tmp/approved-fig2.webp /tmp/approved-fig3.svg
+              exit 0
+            fi
+            echo "Pages not fully synchronized (attempt $attempt/24), retrying in 10 seconds"
+            sleep 10
+          done
+          echo "FAIL: Pages live image or references did not pass in time" >&2
+          exit 1
