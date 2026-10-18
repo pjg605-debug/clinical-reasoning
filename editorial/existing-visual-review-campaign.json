@@ -72,7 +72,19 @@
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
       ],
       "figuresVerified": true,
-      "needsRead": false
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-19",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: realistic style but the cross-section/depth relationship of Guyon's canal versus the flexor retinaculum/carpal tunnel and several leader-line targets are visually ambiguous; replace or correct rather than treating it as validated anatomy.",
+          "Figure 2: exam sequence is useful, but the median sensory map can be read as CTS sensory loss including the central palm, and the key-pinch pose is not clearly a lateral pinch; revise labels/pose.",
+          "Figure 3: decision logic is useful, but the illustrated 0–10 degree extension instruction is not identical to the article's near-neutral/0–5 degree wording; align the visual with the manuscript/guideline."
+        ]
+      }
     },
     {
       "id": "2026-10-16-ottawa-ankle-rules",
@@ -1098,7 +1110,11 @@
       "gitBlobSha": "64af6d274dff3b4084589aeb09ceb52d8dd8b8a0",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: anatomy depth/leader lines, especially Guyon's canal relationship, require correction. User decision pending."
+      ]
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
@@ -1106,7 +1122,11 @@
       "gitBlobSha": "038bfd9b971c8a76b66023607987db9387d37591",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: distinguish median nerve territory from CTS sensory-loss distribution/central palm sparing and clarify lateral key pinch. User decision pending."
+      ]
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp",
@@ -1114,7 +1134,11 @@
       "gitBlobSha": "9d4cd6ec187c140b1878fe4e069395ced7b40de5",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-19",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: align orthosis angle label (0–10 degrees extension) with article near-neutral/0–5 degrees. User decision pending."
+      ]
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
@@ -1468,6 +1492,24 @@
       },
       "mainHeadAtRecording": "e126bd0932035b03a61527f235c1e032ac34fd5d",
       "campaignState": "in_progress"
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-19",
+      "articleId": "2026-10-17-carpal-tunnel-cpg",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-17-carpal-tunnel-cpg",
+        "images": "complete=true; 800x600 each",
+        "pathsMatchArticleSrcHref": true
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated visual QA recommendations are advisory only. No approval inferred."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
