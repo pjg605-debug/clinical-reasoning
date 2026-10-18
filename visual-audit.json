@@ -483,5 +483,50 @@
     "publicationCommit": "bf8f56ad8e3fa5d0a04accd6db154c266d165066",
     "pagesRunId": 38981676068,
     "verifiedAt": "2026-10-17T08:30:56+09:00"
+  },
+  {
+    "id": "2026-10-18-bfr-rehab",
+    "completedBeforeWriting": true,
+    "anatomy_structure": "3D virtual dissection of proximal thigh, femoral neurovascular bundle, quadriceps, femur, patella and knee; proximal cuff position reviewed",
+    "pain_location": "case-specific medial knee load pain described in article; no pain point treated as diagnosis",
+    "competing_diagnosis": "management table separates standard exercise response, vascular/neurologic risk and urgent systemic symptoms",
+    "examination_posture": "realistic three-panel distal neurovascular check, seated low-load knee extension and supervised sit-to-stand",
+    "movement_sequence": "baseline check → low-load knee extension → sit-to-stand",
+    "loading_mechanics": "high-load tolerance assessed before BFR; low-load progression linked to 24-hour response",
+    "ultrasound_MRI_orientation": "not required; article is rehabilitation prescription, not imaging interpretation",
+    "finding_interpretation": "pain relief is not diagnosis or proof of vascular safety",
+    "rehabilitation_progression": "2-week safety/adherence and 4-week strength/function progression",
+    "decision_branch": "dedicated SVG plus management-changing table",
+    "red_flags": "DVT/PE, vascular disease/surgery, AV fistula, hypertension, neurologic and systemic symptoms",
+    "safety_boundary": "3D anatomy is location-only; no needle trajectory; tender point is not safe needle path; BFR is not full arterial occlusion",
+    "figuresPlanned": 3,
+    "figuresGenerated": 3,
+    "figuresEmbedded": 3,
+    "figuresUploaded": 0,
+    "assets": [
+      {
+        "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+        "type": "3D virtual anatomy",
+        "reviewed": true
+      },
+      {
+        "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "type": "realistic exam/rehab sequence",
+        "reviewed": true
+      },
+      {
+        "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+        "type": "decision/progression diagram",
+        "reviewed": true
+      }
+    ],
+    "publicationVerification": {
+      "state": "pending",
+      "githubBinary": false,
+      "srcHref": true,
+      "cacheCore": false,
+      "pages": false,
+      "https": false
+    }
   }
 ]

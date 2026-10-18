@@ -1,5 +1,9 @@
-const VERSION="clinical-reasoning-v42";
+const VERSION="clinical-reasoning-v43";
 const CORE=[
+  "./assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+  "./assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+  "./assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+  "./articles/2026-10-18-bfr-rehab.html",
   "./assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
   "./assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
   "./assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp",

@@ -766,5 +766,25 @@
     "interventionEvidence": "Manual dry needling was not recommended; electrical dry needling/electroacupuncture evidence was not used as manual-DN evidence.",
     "usedIn": "2026-10-17-carpal-tunnel-cpg",
     "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "42399091",
+    "title": "Do blood flow restriction exercises offer additional benefits when compared to conventional exercises in musculoskeletal rehabilitation? A systematic review and meta-analysis.",
+    "doi": "10.1136/bjsports-2025-111452",
+    "dateVerification": {
+      "pubmed_publication": "2026-09-24",
+      "earliest_identifiable_public": "2026-09-24"
+    },
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "id": "10.1186/s13102-026-01941-0",
+    "title": "Blood flow restriction training in musculoskeletal rehabilitation: a comprehensive scoping review of randomised controlled trials.",
+    "doi": "10.1186/s13102-026-01941-0",
+    "dateVerification": {
+      "published_online": "2026-08-05",
+      "earliest_identifiable_public": "2026-08-05"
+    },
+    "checkedAt": "2026-10-18"
   }
 ]
