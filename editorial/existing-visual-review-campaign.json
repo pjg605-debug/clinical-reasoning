@@ -29,7 +29,7 @@
       "date": "2026-10-18",
       "title": "고부하 운동을 못 견디면 혈류제한 저부하 운동으로 바로 바꿔도 될까?",
       "file": "articles/2026-10-18-bfr-rehab.html",
-      "reviewStatus": "presented_pending_user_review",
+      "reviewStatus": "approved_replacement_upload_pending",
       "figurePaths": [
         "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
         "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
@@ -37,7 +37,14 @@
       ],
       "figuresVerified": true,
       "needsRead": false,
-      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "pendingReplacementFigure": "1",
+      "approvedFigureNumbers": [
+        1,
+        2,
+        3
+      ],
+      "pendingPublication": true
     },
     {
       "id": "2026-10-17-carpal-tunnel-cpg",
@@ -1099,22 +1106,45 @@
       "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
       "size": 28606,
       "gitBlobSha": "8faca259a4662e9cbacb2ce118ae9bf781340d22",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "replacement_approved_pending_upload",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved",
+        "on": "2026-10-19",
+        "basis": "User approved the generated BFR procedure infographic after requesting removal of anatomy cutaways; prior instruction '이거로올려' authorizes replacement deployment.",
+        "source": "ChatGPT conversation"
+      },
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Actual original 3D image preview fetched from GitHub; cuff displayed proximally; no clear Korean structure labels; anatomical accuracy pending review"
       ],
-      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "replacement": {
+        "newPath": "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+        "originalSource": "ChatGPT imagegen generation d54d64b2-e3ed-4817-8137-4a4110012b00",
+        "generatedFile": "bfr_적용_위치와_시작_절차_인포그래픽.png",
+        "optimized": {
+          "width": 1200,
+          "height": 900,
+          "bytes": 124030,
+          "sha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359"
+        },
+        "binaryUploadVerified": false,
+        "liveVerified": false
+      }
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
       "size": 38772,
       "gitBlobSha": "80ca5fd0db094cfd078bb483579dbc57f334c05d",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved",
+        "on": "2026-10-19",
+        "basis": "User explicitly approved original figure 2 in review-page response.",
+        "source": "ChatGPT conversation"
+      },
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Actual original 3-panel image preview fetched from GitHub; band/cuff appears around distal thigh rather than intended proximal placement, potentially clinically misleading; request user review"
@@ -1125,9 +1155,14 @@
       "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
       "size": 4384,
       "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved",
+        "on": "2026-10-19",
+        "basis": "User explicitly approved original figure 3 in review-page response.",
+        "source": "ChatGPT conversation"
+      },
       "previewLinkProvided": "2026-10-19",
       "preliminaryVisualNotes": [
         "SVG original binary path known, inline renderer unavailable; requires preview via browser before decision"
@@ -1347,6 +1382,19 @@
       "page": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
       "pagesCommit": "bb0a855d7ab6b7230003cc1f9c04ef61aebbadc9",
       "note": "Visual candidates are original existing public figures; not user-approved; read-only review page does not edit articles or replace assets."
+    },
+    {
+      "event": "user-decisions-recorded",
+      "date": "2026-10-19",
+      "id": "2026-10-18-bfr-rehab",
+      "decisions": {
+        "1": "approved new three-panel external BFR procedure infographic, must replace legacy anatomy",
+        "2": "approve existing original",
+        "3": "approve existing original"
+      },
+      "releaseAuthorizedByUser": true,
+      "releaseInstruction": "이거로올려",
+      "currentReleaseStatus": "pending_asset_upload_and_live_verification"
     }
   ],
   "mainUnchangedUntilAuthorized": true,
@@ -1356,7 +1404,7 @@
       "source": "main",
       "createdAt": "2026-10-19",
       "pagesCommit": "bb0a855d7ab6b7230003cc1f9c04ef61aebbadc9",
-      "status": "presented_pending_user_verdict",
+      "status": "user_review_complete_replacement_upload_pending",
       "viewerIncludesOriginals": true,
       "figures": [
         "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
@@ -1364,7 +1412,7 @@
         "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
       ],
       "verdictPersistence": "Browser-local draft only; paste copied review into ChatGPT before GitHub review queue state is updated.",
-      "userApprovals": 0
+      "userApprovals": 3
     }
   }
 }
