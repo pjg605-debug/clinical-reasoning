@@ -29,14 +29,15 @@
       "date": "2026-10-18",
       "title": "고부하 운동을 못 견디면 혈류제한 저부하 운동으로 바로 바꿔도 될까?",
       "file": "articles/2026-10-18-bfr-rehab.html",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "presented_pending_user_review",
       "figurePaths": [
         "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
         "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
         "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
       ],
       "figuresVerified": true,
-      "needsRead": false
+      "needsRead": false,
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
     },
     {
       "id": "2026-10-17-carpal-tunnel-cpg",
@@ -1104,7 +1105,8 @@
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Actual original 3D image preview fetched from GitHub; cuff displayed proximally; no clear Korean structure labels; anatomical accuracy pending review"
-      ]
+      ],
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
@@ -1116,7 +1118,8 @@
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Actual original 3-panel image preview fetched from GitHub; band/cuff appears around distal thigh rather than intended proximal placement, potentially clinically misleading; request user review"
-      ]
+      ],
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
@@ -1128,7 +1131,8 @@
       "previewLinkProvided": "2026-10-19",
       "preliminaryVisualNotes": [
         "SVG original binary path known, inline renderer unavailable; requires preview via browser before decision"
-      ]
+      ],
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
     },
     {
       "path": "assets/briefs/elbow-exams-v3.jpg",
@@ -1336,7 +1340,31 @@
       ],
       "userApproved": [],
       "note": "First preview batch prepared. No user approvals recorded. Potential cuff placement inconsistency flagged."
+    },
+    {
+      "event": "review-page-created",
+      "id": "2026-10-18-bfr-rehab",
+      "page": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "pagesCommit": "bb0a855d7ab6b7230003cc1f9c04ef61aebbadc9",
+      "note": "Visual candidates are original existing public figures; not user-approved; read-only review page does not edit articles or replace assets."
     }
   ],
-  "mainUnchangedUntilAuthorized": true
+  "mainUnchangedUntilAuthorized": true,
+  "reviewPages": {
+    "2026-10-18-bfr-rehab": {
+      "page": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "source": "main",
+      "createdAt": "2026-10-19",
+      "pagesCommit": "bb0a855d7ab6b7230003cc1f9c04ef61aebbadc9",
+      "status": "presented_pending_user_verdict",
+      "viewerIncludesOriginals": true,
+      "figures": [
+        "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "verdictPersistence": "Browser-local draft only; paste copied review into ChatGPT before GitHub review queue state is updated.",
+      "userApprovals": 0
+    }
+  }
 }
