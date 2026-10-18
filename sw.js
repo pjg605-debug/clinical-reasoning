@@ -1,6 +1,6 @@
-const VERSION="clinical-reasoning-v43";
+const VERSION="clinical-reasoning-v44";
 const CORE=[
-  "./assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+  "./assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
   "./assets/briefs/2026-10-18-bfr-rehab-exam.webp",
   "./assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
   "./articles/2026-10-18-bfr-rehab.html",
