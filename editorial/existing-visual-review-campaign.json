@@ -19,9 +19,10 @@
   ],
   "count": {
     "articles": 32,
-    "assets": 118,
+    "assets": 119,
     "verifiedLinkedArticles": 5,
-    "userApproved": 0
+    "userApproved": 3,
+    "finishedArticles": 1
   },
   "articles": [
     {
@@ -29,22 +30,35 @@
       "date": "2026-10-18",
       "title": "고부하 운동을 못 견디면 혈류제한 저부하 운동으로 바로 바꿔도 될까?",
       "file": "articles/2026-10-18-bfr-rehab.html",
-      "reviewStatus": "approved_replacement_upload_pending",
+      "reviewStatus": "complete_approved_and_published",
       "figurePaths": [
-        "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
         "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
         "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
       ],
       "figuresVerified": true,
       "needsRead": false,
       "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
-      "pendingReplacementFigure": "1",
+      "pendingReplacementFigure": null,
       "approvedFigureNumbers": [
         1,
         2,
         3
       ],
-      "pendingPublication": true
+      "pendingPublication": false,
+      "releaseVerification": {
+        "date": "2026-10-19",
+        "source": "ChatGPT user explicit '사진 확인완료 승인함' following '이거로올려'",
+        "imageSha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359",
+        "imageGitBlob": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+        "assetBytes": 124030,
+        "articleReleaseCommit": "8c1ae58c2066a6cefc4cc249181be91a54b6a199",
+        "smokeRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655",
+        "pagesDeployRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145117748",
+        "smokeConclusion": "success",
+        "verification": "Public image HTTP 200 and exact SHA256; figure2/3, article, review page and SW references publicly reachable."
+      },
+      "completedOn": "2026-10-19"
     },
     {
       "id": "2026-10-17-carpal-tunnel-cpg",
@@ -1106,10 +1120,10 @@
       "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
       "size": 28606,
       "gitBlobSha": "8faca259a4662e9cbacb2ce118ae9bf781340d22",
-      "reviewStatus": "replacement_approved_pending_upload",
+      "reviewStatus": "replaced_and_archived",
       "linkedInRecentFive": true,
       "userApproval": {
-        "decision": "approved",
+        "decision": "replace_approved",
         "on": "2026-10-19",
         "basis": "User approved the generated BFR procedure infographic after requesting removal of anatomy cutaways; prior instruction '이거로올려' authorizes replacement deployment.",
         "source": "ChatGPT conversation"
@@ -1129,15 +1143,28 @@
           "bytes": 124030,
           "sha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359"
         },
-        "binaryUploadVerified": false,
-        "liveVerified": false
+        "binaryUploadVerified": true,
+        "liveVerified": true,
+        "approvedByUser": true,
+        "verification": {
+          "date": "2026-10-19",
+          "source": "ChatGPT user explicit '사진 확인완료 승인함' following '이거로올려'",
+          "imageSha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359",
+          "imageGitBlob": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+          "assetBytes": 124030,
+          "articleReleaseCommit": "8c1ae58c2066a6cefc4cc249181be91a54b6a199",
+          "smokeRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655",
+          "pagesDeployRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145117748",
+          "smokeConclusion": "success",
+          "verification": "Public image HTTP 200 and exact SHA256; figure2/3, article, review page and SW references publicly reachable."
+        }
       }
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
       "size": 38772,
       "gitBlobSha": "80ca5fd0db094cfd078bb483579dbc57f334c05d",
-      "reviewStatus": "approved",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
       "userApproval": {
         "decision": "approved",
@@ -1149,13 +1176,14 @@
       "preliminaryVisualNotes": [
         "Actual original 3-panel image preview fetched from GitHub; band/cuff appears around distal thigh rather than intended proximal placement, potentially clinically misleading; request user review"
       ],
-      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "liveVerification": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655"
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
       "size": 4384,
       "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
-      "reviewStatus": "approved",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
       "userApproval": {
         "decision": "approved",
@@ -1167,7 +1195,8 @@
       "preliminaryVisualNotes": [
         "SVG original binary path known, inline renderer unavailable; requires preview via browser before decision"
       ],
-      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/"
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "liveVerification": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655"
     },
     {
       "path": "assets/briefs/elbow-exams-v3.jpg",
@@ -1360,6 +1389,26 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null
+    },
+    {
+      "path": "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+      "size": 124030,
+      "gitBlobSha": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+      "reviewStatus": "approved_and_live_verified",
+      "linkedInRecentFive": true,
+      "userApproval": {
+        "decision": "approved",
+        "on": "2026-10-19",
+        "source": "ChatGPT user"
+      },
+      "usedBy": [
+        "2026-10-18-bfr-rehab"
+      ],
+      "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
+      "sha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359",
+      "notes": [
+        "Approved photo-style infographic: no exposed anatomy; shows proximal thigh BFR cuff placement, pre-exercise distal safety check and low-load rehabilitation; source image was approved by the user."
+      ]
     }
   ],
   "reviewLog": [
@@ -1395,6 +1444,30 @@
       "releaseAuthorizedByUser": true,
       "releaseInstruction": "이거로올려",
       "currentReleaseStatus": "pending_asset_upload_and_live_verification"
+    },
+    {
+      "event": "user-approved-published-live-verified",
+      "date": "2026-10-19",
+      "id": "2026-10-18-bfr-rehab",
+      "figures": {
+        "1": "replacement procedure webp: approved and live",
+        "2": "original approved unchanged",
+        "3": "original approved unchanged"
+      },
+      "releaseVerification": {
+        "date": "2026-10-19",
+        "source": "ChatGPT user explicit '사진 확인완료 승인함' following '이거로올려'",
+        "imageSha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359",
+        "imageGitBlob": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+        "assetBytes": 124030,
+        "articleReleaseCommit": "8c1ae58c2066a6cefc4cc249181be91a54b6a199",
+        "smokeRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655",
+        "pagesDeployRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145117748",
+        "smokeConclusion": "success",
+        "verification": "Public image HTTP 200 and exact SHA256; figure2/3, article, review page and SW references publicly reachable."
+      },
+      "mainHeadAtRecording": "e126bd0932035b03a61527f235c1e032ac34fd5d",
+      "campaignState": "in_progress"
     }
   ],
   "mainUnchangedUntilAuthorized": true,
@@ -1404,7 +1477,7 @@
       "source": "main",
       "createdAt": "2026-10-19",
       "pagesCommit": "bb0a855d7ab6b7230003cc1f9c04ef61aebbadc9",
-      "status": "user_review_complete_replacement_upload_pending",
+      "status": "approved_deployed_live_verified",
       "viewerIncludesOriginals": true,
       "figures": [
         "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
@@ -1412,7 +1485,14 @@
         "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
       ],
       "verdictPersistence": "Browser-local draft only; paste copied review into ChatGPT before GitHub review queue state is updated.",
-      "userApprovals": 3
+      "userApprovals": 3,
+      "publishedFigurePaths": [
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "verifiedAt": "2026-10-19",
+      "smokeRun": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655"
     }
   }
 }
