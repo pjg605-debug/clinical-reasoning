@@ -1,18 +1,10 @@
-# Choice Factory — publishing instructions
-
-Purpose: one Richard Shotton chapter per day as a starting point for creative, multidisciplinary inquiry into people. Original text preservation is less important than curiosity. Explain competing explanations, pros/cons, counterexamples, and practical clinic/patient/staff scenarios.
-
-Art direction (permanent):
-* Chiikawa: timid, gentle, very short remarks; small white body and rounded ears.
-* Hachiware: blue-headed cheerful friend who talks naturally and explains.
-* Usagi: energetic, yellow, long ears; mainly exclaims “우라!”, “야하!”.
-* Momonga: cute attention-seeker for funny counterpoints.
-* Do not replace these characters with generic bears, hamsters, or rabbits.
-* Rich pastel storyboard scenes, real expressions, distinct settings, playful accurate Korean dialogue.
-* Insert many explanatory illustrations WITHIN the prose. At the END OF EACH MAIN SECTION, insert a large visual summary with one-sentence takeaway.
-* Do not use ugly stick-figure diagrams. Keep quantitative experimental figures accurate and separate from fanciful examples.
-* Label new creative scenes as unofficial, mention Chiikawa's original creator Nagano. Do not imply official authorization.
-* Mobile-readable, clear text and speech bubbles, alt text, source citations.
-
-Release:
-Publish working HTML at https://pjg605-debug.github.io/clinical-reasoning/choice-factory/ and verify GitHub Pages succeeds. Preserve article navigation, text annotations, notes vault and back-to-source navigation. Revise layout and narrative based on reader feedback.
+# 선택하는 인간 — 그림 제작·검수·웹 발행 고정 규칙 (2026-10-19)
+1. 가장 중요한 것은 원저작자의 주장을 그대로 보전하는 것이 아니라 인간에 대한 폭넓은 지적 호기심이다. Richard Shotton의 장을 주제로 삼고 찬반·다학제 설명·환자와 직원 사례·반론·사고실험을 확장한다.
+2. 원고와 이미지 작업을 분리한다. 글을 먼저 완성하고 HTML 초안을 보관하며, 그림 설계표 → 그림 제작 → 시각 품질·대사·수치 검수 → 승인된 작품만 HTML과 결합한다. 미승인 이미지는 사이트에 게시하지 않는다.
+3. 그림은 사용자가 이전에 선택한 부드러운 파스텔 수채화풍의 작고 둥근 동물 캐릭터와 감정이 풍부한 한국어 말풍선이 있는 고해상도 래스터 PNG 또는 최적화 WebP로 제작한다. 엉성한 졸라맨, 단순 기하학 벡터 삽화를 기본값으로 사용하지 않는다.
+4. 캐릭터별 일관된 특징: 조심스럽고 다정한 작은 흰 캐릭터(짧은 감탄사), 밝고 설명을 잘하는 파란 고양이풍 캐릭터(공감하는 설명), 활기찬 긴 귀 노란 캐릭터(짧고 즐거운 외침). 팬아트풍의 비공식 새 상황 장면으로 창작하며 공식 승인 작품으로 오인되지 않게 한다.
+5. **각 주요 설명 중간에도 그림을 다수** 배치한다. **각 주요 절 마지막에는 반드시 핵심 요점을 귀여운 대사와 한 줄 요약으로 보여주는 그림**을 넣는다. 진료·한의원 운영에 적용하는 부분에는 현실적 사례 삽화를 붙인다.
+6. 인포그래픽은 수치나 임상 사실이 틀리면 폐기하고 수정한다. 예: Darley & Batson(1973) 원서 제1장 비율은 바쁨 10%, 중간 45%, 시간 여유 63%다. AI 이미지 안 숫자를 통계자료로 직접 신뢰하지 말고 HTML 차트의 검증된 수치와 일치시킨다.
+7. 출처가 필요한 실험과 창작 장면을 명확히 구분한다. 의료 분야에 행동경제학을 적용할 때 근거를 과장하지 않으며 환자 자율성을 존중한다.
+8. 배포 경로: choice-factory/ . 기존 글·목차·사용자 형광펜/메모 보관함은 유지한다. Github 원격 바이너리 이미지 파일이 올라갔는지, HTML 상대경로가 존재하는지, Pages 배포가 success인지, 비로그인 공개 주소 응답이 200인지 각각 확인한다.
+9. 이미지 게시 실패 시 이전 글 유지와 검수본 사이의 차이를 사용자에게 분명히 알린다.

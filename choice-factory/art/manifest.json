@@ -1,0 +1,71 @@
+{
+  "episode": "choice-factory-01",
+  "status": "reviewed-assets-published",
+  "releaseDate": "2026-10-19",
+  "images": [
+    {
+      "path": "art/hero.webp",
+      "gitBlobSha": "d679c1e772520931d0eb5ec69e0ff2a4ee6526c7"
+    },
+    {
+      "path": "art/section01.webp",
+      "gitBlobSha": "e61c56bbe6c9b30c1112c81c86851386f0036b4e"
+    },
+    {
+      "path": "art/section02.webp",
+      "gitBlobSha": "87ca1d54e1eb7b4930eda169803e6696397fbfde"
+    },
+    {
+      "path": "art/section03.webp",
+      "gitBlobSha": "93d761d60d8c08f85ab2683b74d997c79999b141"
+    },
+    {
+      "path": "art/section04.webp",
+      "gitBlobSha": "5f327b20ff1788cf880aa2dfb1e4b21b36965759"
+    },
+    {
+      "path": "art/section05.webp",
+      "gitBlobSha": "dd6b0975afc88b64fe12c213706cf1c24234cf8f"
+    },
+    {
+      "path": "art/section06.webp",
+      "gitBlobSha": "f47fda306a92ddd84353389e5f2ea60eef9f8a97"
+    },
+    {
+      "path": "art/section07.webp",
+      "gitBlobSha": "2c667b1d497093584134cbf78337aaf963a0323d"
+    },
+    {
+      "path": "art/section08.webp",
+      "gitBlobSha": "5f1876c37b053b85b2485e225d22d0191679e353"
+    },
+    {
+      "path": "art/section09.webp",
+      "gitBlobSha": "83f1ed1c9f27a642d96fda095244b16e08720234"
+    },
+    {
+      "path": "art/section10.webp",
+      "gitBlobSha": "a36495528d34ebd0ab8b394cd8fd94e729fb6735"
+    },
+    {
+      "path": "art/case01.webp",
+      "gitBlobSha": "21227688a8e32f63db52541220210c1ea92624ee"
+    },
+    {
+      "path": "art/case02.webp",
+      "gitBlobSha": "bf1b6975fe09ea84d9d8ada8c981a7550a1b6b9e"
+    },
+    {
+      "path": "art/case03.webp",
+      "gitBlobSha": "a0255b2303279f271c50be226eebe751275a0858"
+    },
+    {
+      "path": "art/culture.webp",
+      "gitBlobSha": "cff5fb2d3f9530fe8a6bae6500ae6e5a0233338e"
+    },
+    {
+      "path": "art/comb.webp",
+      "gitBlobSha": "82883a12aed40578784bdbdaadd403b01720b9de"
+    }
+  ]
+}
