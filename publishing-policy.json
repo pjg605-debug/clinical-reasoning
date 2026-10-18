@@ -1,6 +1,6 @@
 {
   "repository": "pjg605-debug/clinical-reasoning",
-  "effectiveDate": "2026-10-11",
+  "effectiveDate": "2026-10-19",
   "preserve": [
     "existing modular PWA",
     "index design",
@@ -20,8 +20,8 @@
     "GitHub history",
     "Pages deployment"
   ],
-  "deduplicate": "one actual article per date unless already distinct original articles; compare IDs/topics/DOIs; never duplicate existing registry entries",
-  "recovery": "reuse accessible drafts first, partially prepared next, completely missing last; retain original slot date and actual publishedAt/recoveredAt notice; never pretend earlier publication",
+  "deduplicate": "one actual article per date unless already distinct original articles; compare IDs/topics/DOIs; never duplicate existing registry entries; draft IDs also count as existing work, avoid another draft for the same slot",
+  "recovery": "First inspect published main + draft branch + backlog and recover failed text commits or visual review packages while preserving IDs. Do not hold future new-text drafting hostage to pending user visual approval. Missing dates become draft slots without false publishedAt; release date separately recorded at actual approval+publication.",
   "research": {
     "featuredEarliestPublic": "previous 12 months from actual work day; check epub/online/preprint, never late print issue",
     "olderEvidence": "explicit background evidence",
@@ -107,35 +107,101 @@
   "anatomy": "mandatory realistic 3D virtual anatomy/dissection; bone/tendon/ligament/muscle/deep structures/nerve/vessel and relative depth as relevant; verify leaders and orientation, repair errors before publication; no flat cartoon anatomy",
   "examVisual": "accurate patient/clinician position, hand placement, direction, supportive and lowering finding, safety; do not label weak tests as confirmation",
   "needlingSafety": "압통점은 통증 단서이지 안전한 자침 경로가 아니다. Anatomy is location understanding, not needling guidance. No blind deep directions, angle/depth/trajectory or danger structure penetration.",
-  "html": "existing readable CSS; every visual figure.brief-figure near relevant section; click full-size; short Korean caption; mobile table compatibility; sources stay in fragment",
-  "assets": "unique date/topic names; ~800px web optimization but retain legible Korean; reasonable WebP; upload actual Git binary blob; confirm repo path AND plausible nonzero binary size AND src/href exact reference",
+  "html": "Text-first draft HTML in editorial-drafts is complete and standalone without unapproved <figure> references. Final main article embeds ONLY approved figure.brief-figure close to corresponding paragraph with clickable full resolution, Korean caption, mobile compatible tables, and source links.",
+  "assets": "Candidate visuals under editorial-drafts/drafts/<id>/visuals; only user-approved binary files copied to main/assets/briefs/ with unique dated/topic names and exact src/href checks; prefer accurate 3D virtual anatomy, not cartoons.",
   "publish": [
-    "upload binary blobs",
-    "article fragment",
-    "prepend/update registry",
-    "actual cache version bump and CORE article/image paths",
-    "JSON/HTML/SW syntax audit",
-    "Publish clinical brief YYYY-MM-DD: <topic> commit",
-    "check GitHub Pages deployment for exact head",
-    "live registry/route/image200/cache version check"
+    "GATE: user explicitly approves all required visual candidates and release scope (never inferred)",
+    "copy the approved draft manuscript and only approved visuals from editorial-drafts to main",
+    "upload actual approved binary blobs and verify sizes/source rights",
+    "embed near relevant paragraph and update article fragment/registry",
+    "bump sw.js cache version and CORE article/approved image paths",
+    "validate HTML/JSON/SW and references",
+    "commit exact approved release to main",
+    "verify Pages deployment for main commit, live article, all approved image HTTP 200, cache version",
+    "mark published and report live link ONLY after verification"
   ],
-  "failure": "never silently remove missing figure; retry binary/blob/base64 method; if truly blocked mark VISUAL PUBLISH FAILURE in temporary text-only article and backlog; preserve package; next run visual recovery first",
+  "failure": "No preview approval -> retain draft and review queue, never public text-only fallback. Broken figure or failed binary -> revise/retry in draft, no release. Approved release deployment failures -> preserve package and retry next run; never silently drop visuals or claim success.",
   "automation": {
     "id": "6aaba98b901081919da79f748a4b681b",
     "timezone": "Asia/Seoul",
     "dailyLocalTime": "08:00",
     "neverDisableOnUploadFailure": true,
-    "onlyDisable": "explicit user request"
+    "onlyDisable": "explicit user request",
+    "branch": "editorial-drafts",
+    "state": "enabled",
+    "neverAutoPublishWithoutApproval": true,
+    "publishedReleaseOnlyAfterUserApproval": true,
+    "dailyTask": "finish and commit text draft, plan/generate visual review assets separately, report approval queue; release only on a separate explicit approval"
   },
-  "successClaim": "GitHub commit is not Pages success; if deployment unavailable say GitHub commit 완료, Pages final verification unavailable",
+  "successClaim": "Draft saved means committed+read-back on editorial-drafts, NOT publicly released. Public site published requires explicit user approval and actual main deploy + live HTTPS verification. If unavailable, accurately report the last successful step.",
   "statusFields": [
-    "article",
-    "visuals planned/generated/uploaded/embedded",
-    "article GitHub",
-    "articles.json",
-    "sw.js+version",
-    "Pages deployment",
-    "live link",
-    "exact failed step"
-  ]
+    "text draft id/commit/branch and read-back verification",
+    "visual plan/candidate ids/review statuses and pending approvals",
+    "user approval scope and timestamp if any",
+    "main article/registry/cache updated only after approval",
+    "main commit and Pages exact revision state (only if released)",
+    "live link and HTTPS image checks (only if released)",
+    "next action / specific failed step"
+  ],
+  "publicationMode": "user-approved-visuals-gated; text stored in non-deployment GitHub draft branch; final public site only after approval",
+  "branches": {
+    "publication": "main",
+    "draft": "editorial-drafts",
+    "draftDirectory": "drafts/<YYYY-MM-DD>-<slug>/",
+    "draftArticle": "drafts/<id>/article.html",
+    "visualPlan": "drafts/<id>/visual-plan.json",
+    "visualReview": "drafts/<id>/visual-review.json",
+    "visualAssets": "drafts/<id>/visuals/",
+    "caution": "This repository is public. Draft branch contents are not served by GitHub Pages but are visible through GitHub; never describe them as private or confidential."
+  },
+  "stagedWorkflow": {
+    "stage1_text": {
+      "gate": "Automatically research, fact-check, and finish the clinical manuscript FIRST. Commit only to editorial-drafts branch, preserving stable ID/date, evidence, and sources.",
+      "publicationStatus": "text_draft_saved",
+      "restrictions": [
+        "Do NOT touch main article fragments, articles.json, site index, sw.js or deployment",
+        "Do NOT place drafts under Pages-served directories of main",
+        "Do NOT set publishedAt or report public publication",
+        "Do NOT block next daily article because earlier visuals are pending review"
+      ],
+      "validation": [
+        "Review clinical safety, source freshness, intervention eligibility, statistics and references",
+        "Fetch draft back from draft branch and verify exact text",
+        "Provide GitHub draft link and visual plan separately; do not label as site link"
+      ]
+    },
+    "stage2_visual": {
+      "gate": "After text commit, prepare a separate planned visual package mapped to exact paragraphs/sections. Generate or acquire candidate visuals independently and present previews to USER for review.",
+      "publicationStatus": "visual_review_pending",
+      "qualityChecks": [
+        "anatomical accuracy: realistic 3D structures/depth, nerve/vessel safety boundaries",
+        "exam image: real plausible patient+examiner posture, hand placement, correct movement and left/right",
+        "labels/captions/source rights/size/legibility/mobile display",
+        "clinical safety, no blind needle trajectory or misleading diagnostic imagery"
+      ],
+      "restrictions": [
+        "Candidate/rejected/unreviewed photos and figures remain ONLY in draft branch or review attachments",
+        "Never embed, upload to live Pages branch, cache, or claim visuals approved without explicit approval",
+        "Maintain review ID, version, preview, source/license, placement, approve/reject/revise status for each image"
+      ],
+      "approvalRule": "Explicit user approval of each item or clearly defined batch is REQUIRED; silence, scheduled run, upload success, and automated quality check are not approval."
+    },
+    "stage3_release": {
+      "gate": "ONLY after the user explicitly approves all required visuals and the corresponding manuscript release, promote exactly the approved revision to main.",
+      "publicationStatus": "published",
+      "steps": [
+        "Compare draft and approved visual versions and ensure no post-approval alterations slipped in",
+        "Copy approved article fragment to articles/<id>.html, embedding approved visual files precisely at related paragraphs",
+        "Upload approved binaries to assets/briefs/<id>-*.webp/svg with rights/source captions",
+        "Update articles.json with final publishedAt (actual release time), date, type, title, keywords, publicationStatus=published",
+        "Update and bump sw.js cache version and paths while keeping PWA/offline/install/export",
+        "Validate JSON/HTML/links/image files and nonzero binary Git blobs",
+        "Commit on main; verify Pages deployment for exact commit and HTTPS article/visual URLs and cache",
+        "Set publishing-backlog.json published only after live confirmation; retain full provenance and approval records in draft branch"
+      ],
+      "fallback": "If approval is incomplete, keep draft/review pending and DO NOT release a text-only site version. If deployment fails after approval, preserve package and retry, but do not report published."
+    },
+    "ongoing": "Continue daily research + GitHub text draft creation even if visual review backlog exists. Never auto-promote an older draft solely because a new day arrived.",
+    "legacy": "Do not retroactively unpublish earlier live articles; preserve current published IDs, assets, evidence, hashes, and existing PWA behavior."
+  }
 }
