@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta name="theme-color" content="#112b3b">
+  <title>기존 그림 검수 · 2026-10-18 BFR | Clinical Reasoning</title>
+  <style>
+    :root { color-scheme:light; font-family: "Pretendard","Noto Sans KR",system-ui,-apple-system,"Segoe UI",sans-serif; --ink:#193444; --muted:#54707d; --blue:#1b617b; --line:#d9e6ea; --surface:#fff; --bg:#f1f6f8; --soft:#e9f3f7; --ok:#0c6b59; --warn:#855420; --danger:#99483f }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);line-height:1.7;font-size:16px}
+    button,textarea{font:inherit}
+    a{color:#176582}
+    .top{background:#112b3b;color:white;padding:34px max(18px,calc((100% - 1024px)/2)) 30px}
+    .eyebrow{font-size:12px;letter-spacing:.13em;color:#b1d3e2;font-weight:700}
+    h1{font-size:clamp(25px,4.5vw,38px);letter-spacing:-.04em;line-height:1.35;margin:10px 0 12px}
+    .subtitle{color:#d4e7ed;margin:0;max-width:760px}
+    .top-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+    .pill{font-size:12px;border:1px solid #678391;color:#e6f6fa;border-radius:999px;padding:4px 11px}
+    .body{max-width:1024px;margin:auto;padding:16px 16px 70px}
+    .notice,.summary{background:#fff;border:1px solid var(--line);border-radius:15px;padding:16px 18px;margin:16px 0}
+    .notice{border-left:4px solid #518ba2}
+    .notice p{margin:4px 0}
+    .nav{position:sticky;top:0;z-index:3;display:flex;gap:8px;background:#eff5f8eb;backdrop-filter:blur(15px);padding:12px 0;overflow:auto}
+    .nav a{text-decoration:none;border:1px solid #d5e4e9;white-space:nowrap;background:#fff;color:#2d5867;border-radius:30px;padding:6px 13px;font-size:13px;font-weight:700}
+    .figure{scroll-margin-top:85px;margin:22px 0 28px;border:1px solid var(--line);background:var(--surface);border-radius:18px;overflow:hidden;box-shadow:0 10px 30px #183d4910}
+    .figure-head{padding:21px 22px 15px}
+    .index{font-size:12px;color:#32768c;font-weight:750;letter-spacing:.07em}
+    h2{font-size:clamp(19px,3.2vw,25px);margin:5px 0 7px;line-height:1.4;letter-spacing:-.025em}
+    .intro{margin:0;color:var(--muted);font-size:14px}
+    .canvas{background:#edf4f7;text-align:center;padding:12px}
+    .canvas a{display:block;cursor:zoom-in}
+    .canvas img{display:block;margin:0 auto;max-width:100%;width:800px;height:auto;min-height:200px;object-fit:contain;border:1px solid #cbdbe0;border-radius:9px;background:white}
+    .imghint{text-align:center;font-size:12px;color:#54707d;margin:9px 0 0}
+    .details{padding:14px 22px 21px}
+    .caption{font-size:14px;background:#f2f7f8;border-radius:10px;padding:11px 13px;margin:0 0 15px}
+    .focus{font-size:14px;margin:0 0 18px;padding-left:20px}
+    .focus li{margin:3px 0}
+    .review-label{font-weight:750;margin-bottom:8px;font-size:14px}
+    .choices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+    .choices button{min-height:41px;white-space:nowrap;border:1px solid #cad9df;background:white;border-radius:9px;color:#315062;font-weight:700;cursor:pointer;font-size:13px}
+    .choices button[aria-pressed=true]{background:#1c5f79;color:white;border-color:#1c5f79;box-shadow:0 0 0 2px #c2dce8}
+    .comment{width:100%;border:1px solid #cbdde3;background:#fff;border-radius:9px;resize:vertical;min-height:65px;margin-top:11px;padding:12px;color:#203b4c}
+    .summary h2{font-size:20px}
+    .summary pre{font-family:inherit;white-space:pre-wrap;word-break:break-word;background:#f0f6f8;border:1px solid var(--line);border-radius:11px;padding:12px;font-size:14px;line-height:1.7}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}
+    .action{border:0;border-radius:9px;background:#1b5f7b;color:#fff;font-weight:750;cursor:pointer;padding:12px 19px}
+    .action.secondary{border:1px solid #c4d8de;background:white;color:#1c536a}
+    .footnote{font-size:13px;color:var(--muted);margin-top:12px}
+    .sourcebar{font-size:13px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap}
+    .alert{margin:12px 0;font-size:13px;color:var(--warn)}
+    @media(max-width:540px){.top{padding:28px 18px}.figure-head,.details{padding-left:14px;padding-right:14px}.canvas{padding:7px}.choices{grid-template-columns:repeat(2,minmax(0,1fr))}.canvas img{min-height:100px}.body{padding-left:11px;padding-right:11px}}
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="eyebrow">CLINICAL REASONING · ORIGINAL IMAGE REVIEW</div>
+    <h1>혈류제한운동(BFR)<br>기존 그림 검수</h1>
+    <p class="subtitle">2026년 10월 18일 발행 글에 실제 삽입된 원본 그림 3점을 한 페이지에서 비교·검수합니다. 승인하지 않은 그림은 그대로 유지하며 자동 교체하지 않습니다.</p>
+    <div class="top-meta"><span class="pill">원문 그림 3점</span><span class="pill">원본 보존</span><span class="pill">사용자 검수 전</span></div>
+  </header>
+  <main class="body">
+    <section class="notice" aria-label="검수 방법">
+      <strong>검수 방법</strong>
+      <p>세 그림을 아래로 내리며 살펴보고 각각 <b>승인 / 수정 / 제외 / 보류</b>를 선택하세요. 잘못된 부분은 메모에 적으시면 됩니다. 마지막 <b>‘결과 복사’</b>를 누른 뒤 ChatGPT 대화에 붙여넣어 주시면 제가 검수 기록에 반영합니다.</p>
+      <p class="alert">선택은 이 기기의 브라우저에만 임시 저장됩니다. 버튼만 누른 것으로 GitHub 검수 기록이 자동 갱신되거나 기존 사이트 그림이 교체되지는 않습니다.</p>
+    </section>
+    <nav class="nav" aria-label="그림 이동"><a href="#fig1">① 해부학</a><a href="#fig2">② 검사·재활</a><a href="#fig3">③ 의사결정</a><a href="#review-result">검수 결과</a></nav>
+
+    <article class="figure" id="fig1" data-id="1">
+      <div class="figure-head"><div class="index">FIGURE 01 / ANATOMY</div><h2>대퇴부 커프와 주변 해부학</h2><p class="intro">2026-10-18-bfr-rehab-anatomy.webp · 원본 28,606 bytes</p></div>
+      <div class="canvas"><a href="../../assets/briefs/2026-10-18-bfr-rehab-anatomy.webp" target="_blank" rel="noopener" aria-label="해부학 그림 원본 확대"><img alt="기존 사이트에 삽입된 BFR 대퇴부 3D 해부학 그림" src="../../assets/briefs/2026-10-18-bfr-rehab-anatomy.webp" loading="eager" decoding="async"></a><p class="imghint">그림을 누르면 원본 확대 · 다운로드 필요 없음</p></div>
+      <div class="details">
+        <p class="caption">원고의 설명: 커프는 근위 대퇴에 위치해야 하며 대퇴사두근·뼈·혈관·신경의 상대 위치를 보여주는 교육용 그림입니다.</p>
+        <div class="review-label">중점 확인</div>
+        <ul class="focus"><li>커프가 무릎 위가 아닌 <b>대퇴 근위부</b>에 있는지</li><li>대퇴골·슬개골·대퇴사두근·동정맥/신경의 실제 상대 위치</li><li>지나치게 단순하거나 잘못 표시된 조직·한글 라벨</li></ul>
+        <div class="review-label">그림 1 판정</div><div class="choices" role="group" aria-label="그림 1 검수 선택">
+          <button data-v="승인" type="button">승인</button><button data-v="수정" type="button">수정</button><button data-v="제외" type="button">제외</button><button data-v="보류" type="button">보류</button>
+        </div><textarea class="comment" placeholder="틀린 해부학적 위치, 수정 요청 사항을 적어주세요" aria-label="그림 1 의견"></textarea>
+      </div>
+    </article>
+
+    <article class="figure" id="fig2" data-id="2">
+      <div class="figure-head"><div class="index">FIGURE 02 / CLINICAL EXAM + REHAB</div><h2>안전 확인과 저부하 재활 순서</h2><p class="intro">2026-10-18-bfr-rehab-exam.webp · 원본 38,772 bytes</p></div>
+      <div class="canvas"><a href="../../assets/briefs/2026-10-18-bfr-rehab-exam.webp" target="_blank" rel="noopener" aria-label="검사 재활 그림 원본 확대"><img alt="기존 사이트에 삽입된 BFR 검사와 재활 순서 그림" src="../../assets/briefs/2026-10-18-bfr-rehab-exam.webp" loading="lazy" decoding="async"></a><p class="imghint">그림을 누르면 원본 확대 · 다운로드 필요 없음</p></div>
+      <div class="details">
+        <p class="caption">원고의 설명: ① 원위 피부·감각·색·온도 ② 낮은 부하 무릎 폄 ③ 감독된 의자에서 일어서기 순서입니다.</p>
+        <div class="review-label">중점 확인</div>
+        <ul class="focus"><li>커프 위치가 실제로 <b>대퇴 근위부</b>인지 특히 확인</li><li>운동 시 커프·무릎·운동 방향과 신체 비례, 손 위치</li><li>원위 감각·혈액순환 상태 확인, 검사와 운동 단계 구분</li></ul>
+        <div class="review-label">그림 2 판정</div><div class="choices" role="group" aria-label="그림 2 검수 선택">
+          <button data-v="승인" type="button">승인</button><button data-v="수정" type="button">수정</button><button data-v="제외" type="button">제외</button><button data-v="보류" type="button">보류</button>
+        </div><textarea class="comment" placeholder="예: 커프를 더 근위부로 수정, 손 위치 변경" aria-label="그림 2 의견"></textarea>
+      </div>
+    </article>
+
+    <article class="figure" id="fig3" data-id="3">
+      <div class="figure-head"><div class="index">FIGURE 03 / DECISION PATHWAY</div><h2>BFR 시행 전 선별과 재평가 분기</h2><p class="intro">2026-10-18-bfr-rehab-pathway.svg · 원본 4,384 bytes</p></div>
+      <div class="canvas"><a href="../../assets/briefs/2026-10-18-bfr-rehab-pathway.svg" target="_blank" rel="noopener" aria-label="의사결정 도해 원본 확대"><img alt="기존 사이트에 삽입된 BFR 의사결정과 4주 재평가 도해" src="../../assets/briefs/2026-10-18-bfr-rehab-pathway.svg" loading="lazy" decoding="async"></a><p class="imghint">SVG 글자는 확대해도 깨지지 않습니다</p></div>
+      <div class="details">
+        <p class="caption">원고의 설명: 고부하 적응 가능 여부 → 위험 선별 → 개별 동맥폐색압(AOP) → 저부하 시험 → 2주 안전·4주 기능 재평가입니다.</p>
+        <div class="review-label">중점 확인</div>
+        <ul class="focus"><li>위험군에서 BFR을 바로 시행하지 않도록 분기되는지</li><li>AOP 측정 및 안전 중단 기준 표현이 적절한지</li><li>2주와 4주 추적 지표 및 한글 가독성</li></ul>
+        <div class="review-label">그림 3 판정</div><div class="choices" role="group" aria-label="그림 3 검수 선택">
+          <button data-v="승인" type="button">승인</button><button data-v="수정" type="button">수정</button><button data-v="제외" type="button">제외</button><button data-v="보류" type="button">보류</button>
+        </div><textarea class="comment" placeholder="분기/금기/문구 수정이 필요하면 적어주세요" aria-label="그림 3 의견"></textarea>
+      </div>
+    </article>
+
+    <section class="summary" id="review-result">
+      <h2>세 그림 검수 결과</h2>
+      <p class="intro">검수 후 아래 내용을 복사해 지금 ChatGPT 채팅에 붙여넣으면 됩니다.</p>
+      <pre id="review-text" aria-live="polite">그림 1: 미선택
+그림 2: 미선택
+그림 3: 미선택</pre>
+      <div class="actions"><button class="action" id="copy" type="button">검수 결과 복사</button><button class="action secondary" id="share" type="button">공유하기</button><a class="action secondary" href="../../#2026-10-18-bfr-rehab" style="text-decoration:none">원문 글 보기</a></div>
+      <p class="footnote" id="notice">원본 게시물은 이 페이지의 선택으로 바뀌지 않습니다. 저장된 판정은 사용자가 ChatGPT에 회신하면 반영합니다.</p>
+      <div class="sourcebar"><a href="https://github.com/pjg605-debug/clinical-reasoning/tree/main/assets/briefs" target="_blank" rel="noopener">그림 원본 출처 · GitHub</a><a href="../../#2026-10-18-bfr-rehab">원고 본문</a><a href="../">검수 페이지 위치</a></div>
+    </section>
+  </main>
+  <script>
+  (() => {
+    const key = "clinical-review-2026-10-18-bfr-rehab-v1";
+    const all = [...document.querySelectorAll(".figure")];
+    let state = {};
+    try { state = JSON.parse(localStorage.getItem(key) || "{}") || {}; } catch {}
+    const collect = () => "2026-10-18 BFR 기존 그림 검수 결과\\n" + all.map(el => {
+      const id = el.dataset.id, item = state[id] || {};
+      return "그림 " + id + ": " + (item.value || "미선택") + (item.note ? "\\n  의견: " + item.note : "");
+    }).join("\\n") + "\\n(검수 페이지에서 선택, ChatGPT 기록 반영 요청)";
+    const update = () => {
+      all.forEach(el => {
+        const item = state[el.dataset.id] || {};
+        el.querySelectorAll(".choices button").forEach(b => b.setAttribute("aria-pressed", String(item.value === b.dataset.v)));
+        const t = el.querySelector("textarea");
+        if(document.activeElement !== t) t.value = item.note || "";
+      });
+      document.querySelector("#review-text").textContent = collect();
+      try { localStorage.setItem(key, JSON.stringify(state)); } catch {}
+    };
+    all.forEach(el => {
+      const id = el.dataset.id;
+      el.querySelectorAll(".choices button").forEach(b => b.addEventListener("click", () => {
+        state[id] = { ...(state[id] || {}), value: b.dataset.v }; update();
+      }));
+      el.querySelector("textarea").addEventListener("input", e => {
+        state[id] = { ...(state[id] || {}), note: e.target.value }; update();
+      });
+    });
+    document.querySelector("#copy").addEventListener("click", async () => {
+      const t = collect(); let ok = false;
+      try { await navigator.clipboard.writeText(t); ok = true; } catch {}
+      if(!ok){ const ta = document.createElement("textarea");ta.value=t;document.body.append(ta);ta.select();try{ok=document.execCommand("copy")}catch{}ta.remove();}
+      document.querySelector("#notice").textContent=ok?"복사했습니다. ChatGPT 대화창으로 돌아가 붙여넣어 주세요.":"자동 복사가 제한됐습니다. 위 결과를 길게 눌러 선택·복사해 주세요.";
+    });
+    document.querySelector("#share").addEventListener("click", async () => {
+      if(navigator.share){try{await navigator.share({title:"BFR 기존 그림 검수",text:collect()});return}catch{}}
+      document.querySelector("#copy").click();
+    });
+    update();
+  })();
+  </script>
+</body>
+</html>
