@@ -502,7 +502,7 @@
     "figuresPlanned": 3,
     "figuresGenerated": 3,
     "figuresEmbedded": 3,
-    "figuresUploaded": 0,
+    "figuresUploaded": 3,
     "assets": [
       {
         "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
@@ -521,12 +521,20 @@
       }
     ],
     "publicationVerification": {
-      "state": "pending",
-      "githubBinary": false,
+      "state": "verified",
+      "githubBinary": true,
       "srcHref": true,
-      "cacheCore": false,
-      "pages": false,
-      "https": false
+      "cacheCore": true,
+      "pages": true,
+      "https": true,
+      "publicationCommit": "fa48f215e3351f600aa51b42e18b3dc2ae3b8fc0",
+      "pagesRun": 39081282711,
+      "liveImageDimensions": [
+        "800x600",
+        "800x600",
+        "800x600 SVG"
+      ]
     }
   }
 ]
+

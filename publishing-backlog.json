@@ -266,18 +266,18 @@
     {
       "id": "2026-10-18-bfr-rehab",
       "date": "2026-10-18",
-      "state": "publishing",
+      "state": "published",
       "visuals": 3,
-      "commit": null,
-      "pagesDeploymentHead": null,
-      "pages": "pending",
+      "commit": "fa48f215e3351f600aa51b42e18b3dc2ae3b8fc0",
+      "pagesDeploymentHead": "fa48f215e3351f600aa51b42e18b3dc2ae3b8fc0",
+      "pages": "success",
       "liveRoute": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-18-bfr-rehab",
       "assets": [
         "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
         "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
         "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
       ],
-      "binaryPathSizeSrcHrefVerified": false
+      "binaryPathSizeSrcHrefVerified": true
     }
   ],
   "incompletePublished": [
@@ -305,3 +305,4 @@
   "verifiedAt": "2026-10-17T08:30:56+09:00",
   "pendingVisuals": []
 }
+
