@@ -125,10 +125,10 @@
     const all = [...document.querySelectorAll(".figure")];
     let state = {};
     try { state = JSON.parse(localStorage.getItem(key) || "{}") || {}; } catch {}
-    const collect = () => "2026-10-18 BFR 기존 그림 검수 결과\\n" + all.map(el => {
+    const collect = () => "2026-10-18 BFR 기존 그림 검수 결과\n" + all.map(el => {
       const id = el.dataset.id, item = state[id] || {};
-      return "그림 " + id + ": " + (item.value || "미선택") + (item.note ? "\\n  의견: " + item.note : "");
-    }).join("\\n") + "\\n(검수 페이지에서 선택, ChatGPT 기록 반영 요청)";
+      return "그림 " + id + ": " + (item.value || "미선택") + (item.note ? "\n  의견: " + item.note : "");
+    }).join("\n") + "\n(검수 페이지에서 선택, ChatGPT 기록 반영 요청)";
     const update = () => {
       all.forEach(el => {
         const item = state[el.dataset.id] || {};
