@@ -108,7 +108,19 @@
         "assets/briefs/2026-10-16-ottawa-ankle-decision.svg"
       ],
       "figuresVerified": true,
-      "needsRead": false
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-20",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: anatomy context and safety boundary are useful, but the distal 6 cm posterior edges of both malleoli are reduced to point-like highlights; show the full posterior-edge palpation strips. Correct the Korean tendon label typo ('활줄' -> '힘줄').",
+          "Figure 2: sequence accurately separates malleolar zone, midfoot landmarks and four-step weight bearing; positive means regional radiography, not fracture confirmation. Approve recommended.",
+          "Figure 3: correctly separates emergency screening, rule applicability, ankle/foot radiograph branches and 3–7 day reassessment after a negative result. Approve recommended."
+        ]
+      }
     },
     {
       "id": "2026-10-15-slr-radicular-pain",
@@ -1096,7 +1108,12 @@
       "gitBlobSha": "cf165577d02a2877cd08d6fe2936788986bc1077",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-20",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: posterior distal 6 cm malleolar palpation areas are shown as single points rather than full posterior-edge segments; tendon label contains '활줄' typo. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
@@ -1104,7 +1121,12 @@
       "gitBlobSha": "28595b642a3fc410646e3f9735b8b962e6bb6519",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-20",
+      "preliminaryVisualNotes": [
+        "Original GitHub SVG rendered live. Preliminary approve recommendation: emergency screen, applicability, ankle/foot radiography and negative-rule reassessment branches are coherent. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
@@ -1112,7 +1134,12 @@
       "gitBlobSha": "1e02254556de273cb6eebc06333ee6e2e61d941f",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-20",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary approve recommendation: malleolar zone, navicular/base of fifth metatarsal and four-step sequence are clear; positive is correctly framed as radiography indication. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
@@ -1563,6 +1590,44 @@
       "releaseRequired": false,
       "mainModified": false,
       "note": "User explicitly requested retaining existing 3 images unchanged; recorded review approval without implying suggested clinical corrections have been made."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-20",
+      "articleId": "2026-10-16-ottawa-ankle-rules",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-16-ottawa-ankle-rules",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 500
+          },
+          {
+            "path": "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 500
+          },
+          {
+            "path": "assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 860
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": "none among this batch"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
