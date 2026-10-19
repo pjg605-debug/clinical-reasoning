@@ -21,8 +21,8 @@
     "articles": 32,
     "assets": 119,
     "verifiedLinkedArticles": 5,
-    "userApproved": 6,
-    "finishedArticles": 2
+    "userApproved": 9,
+    "finishedArticles": 3
   },
   "articles": [
     {
@@ -101,7 +101,7 @@
       "date": "2026-10-16",
       "title": "접질린 발목, Ottawa 규칙이 음성이면 바로 단순 염좌로 치료해도 될까?",
       "file": "articles/2026-10-16-ottawa-ankle-rules.html",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "complete_approved_unchanged",
       "figurePaths": [
         "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
         "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
@@ -114,13 +114,23 @@
         "figure1": "revise_recommended",
         "figure2": "approve_recommended",
         "figure3": "approve_recommended",
-        "status": "advisory_only_user_decision_pending",
+        "status": "advisory_only_overridden_by_explicit_user_approval",
         "notes": [
           "Figure 1: anatomy context and safety boundary are useful, but the distal 6 cm posterior edges of both malleoli are reduced to point-like highlights; show the full posterior-edge palpation strips. Correct the Korean tendon label typo ('활줄' -> '힘줄').",
           "Figure 2: sequence accurately separates malleolar zone, midfoot landmarks and four-step weight bearing; positive means regional radiography, not fracture confirmation. Approve recommended.",
           "Figure 3: correctly separates emergency screening, rule applicability, ankle/foot radiograph branches and 3–7 day reassessment after a negative result. Approve recommended."
-        ]
-      }
+        ],
+        "finalDecision": "User approved all three original figures with no requested changes."
+      },
+      "approvedFigureNumbers": [
+        1,
+        2,
+        3
+      ],
+      "userDecision": "approve_all_three_keep_as_is",
+      "reviewedOn": "2026-10-20",
+      "completedOn": "2026-10-20",
+      "pendingPublication": false
     },
     {
       "id": "2026-10-15-slr-radicular-pain",
@@ -1106,40 +1116,64 @@
       "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
       "size": 63344,
       "gitBlobSha": "cf165577d02a2877cd08d6fe2936788986bc1077",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-20",
+        "source": "ChatGPT user explicit '123승인'",
+        "basis": "User explicitly approved all three existing 2026-10-16 Ottawa ankle images; no revisions requested.",
+        "scope": "figure_1_2_3"
+      },
       "previewDisplayed": "2026-10-20",
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: posterior distal 6 cm malleolar palpation areas are shown as single points rather than full posterior-edge segments; tendon label contains '활줄' typo. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewedByUserAt": "2026-10-20",
+      "userDecisionNotes": "User accepted figure unchanged, including figure 1 despite preliminary editorial recommendation. Keep original visual and retain preliminary notes for provenance."
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
       "size": 5423,
       "gitBlobSha": "28595b642a3fc410646e3f9735b8b962e6bb6519",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-20",
+        "source": "ChatGPT user explicit '123승인'",
+        "basis": "User explicitly approved all three existing 2026-10-16 Ottawa ankle images; no revisions requested.",
+        "scope": "figure_1_2_3"
+      },
       "previewDisplayed": "2026-10-20",
       "preliminaryVisualNotes": [
         "Original GitHub SVG rendered live. Preliminary approve recommendation: emergency screen, applicability, ankle/foot radiography and negative-rule reassessment branches are coherent. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewedByUserAt": "2026-10-20",
+      "userDecisionNotes": "User accepted figure unchanged, including figure 1 despite preliminary editorial recommendation. Keep original visual and retain preliminary notes for provenance."
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
       "size": 36796,
       "gitBlobSha": "1e02254556de273cb6eebc06333ee6e2e61d941f",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-20",
+        "source": "ChatGPT user explicit '123승인'",
+        "basis": "User explicitly approved all three existing 2026-10-16 Ottawa ankle images; no revisions requested.",
+        "scope": "figure_1_2_3"
+      },
       "previewDisplayed": "2026-10-20",
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary approve recommendation: malleolar zone, navicular/base of fifth metatarsal and four-step sequence are clear; positive is correctly framed as radiography indication. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewedByUserAt": "2026-10-20",
+      "userDecisionNotes": "User accepted figure unchanged, including figure 1 despite preliminary editorial recommendation. Keep original visual and retain preliminary notes for provenance."
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
@@ -1628,6 +1662,39 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred."
+    },
+    {
+      "event": "user-approved-keep-unchanged",
+      "date": "2026-10-20",
+      "articleId": "2026-10-16-ottawa-ankle-rules",
+      "decision": "123승인",
+      "figures": {
+        "1": "existing anatomy approved unchanged",
+        "2": "existing exam approved unchanged",
+        "3": "existing decision flow approved unchanged"
+      },
+      "figurePaths": [
+        "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+        "assets/briefs/2026-10-16-ottawa-ankle-decision.svg"
+      ],
+      "originalBlobs": [
+        {
+          "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
+          "sha": "cf165577d02a2877cd08d6fe2936788986bc1077"
+        },
+        {
+          "path": "assets/briefs/2026-10-16-ottawa-ankle-exam.webp",
+          "sha": "1e02254556de273cb6eebc06333ee6e2e61d941f"
+        },
+        {
+          "path": "assets/briefs/2026-10-16-ottawa-ankle-decision.svg",
+          "sha": "28595b642a3fc410646e3f9735b8b962e6bb6519"
+        }
+      ],
+      "releaseRequired": false,
+      "mainModified": false,
+      "note": "Approved unchanged by user. Earlier figure-1 revision recommendation remains advisory, not implemented. No public-site modification."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
