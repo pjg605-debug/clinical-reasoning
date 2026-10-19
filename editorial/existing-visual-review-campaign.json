@@ -21,8 +21,8 @@
     "articles": 32,
     "assets": 119,
     "verifiedLinkedArticles": 5,
-    "userApproved": 3,
-    "finishedArticles": 1
+    "userApproved": 6,
+    "finishedArticles": 2
   },
   "articles": [
     {
@@ -65,7 +65,7 @@
       "date": "2026-10-17",
       "title": "야간 손저림이 남으면 보조기만 계속할까, 검사·운동·의뢰 기준을 바꿀까?",
       "file": "articles/2026-10-17-carpal-tunnel-cpg.html",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "complete_approved_unchanged",
       "figurePaths": [
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
         "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
@@ -78,13 +78,23 @@
         "figure1": "revise_recommended",
         "figure2": "revise_recommended",
         "figure3": "revise_recommended",
-        "status": "advisory_only_user_decision_pending",
+        "status": "advisory_only_overridden_by_user_keep_as_is",
         "notes": [
           "Figure 1: realistic style but the cross-section/depth relationship of Guyon's canal versus the flexor retinaculum/carpal tunnel and several leader-line targets are visually ambiguous; replace or correct rather than treating it as validated anatomy.",
           "Figure 2: exam sequence is useful, but the median sensory map can be read as CTS sensory loss including the central palm, and the key-pinch pose is not clearly a lateral pinch; revise labels/pose.",
           "Figure 3: decision logic is useful, but the illustrated 0–10 degree extension instruction is not identical to the article's near-neutral/0–5 degree wording; align the visual with the manuscript/guideline."
-        ]
-      }
+        ],
+        "finalDecision": "User explicitly chose keep unchanged for all 3 figures."
+      },
+      "approvedFigureNumbers": [
+        1,
+        2,
+        3
+      ],
+      "pendingPublication": false,
+      "userDecision": "keep_all_original_figures",
+      "reviewedOn": "2026-10-19",
+      "completedOn": "2026-10-19"
     },
     {
       "id": "2026-10-16-ottawa-ankle-rules",
@@ -1108,37 +1118,61 @@
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
       "size": 89196,
       "gitBlobSha": "64af6d274dff3b4084589aeb09ceb52d8dd8b8a0",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-19",
+        "basis": "User replied '그대로 유지' to the complete 2026-10-17 CTS three-image review; keep the original, no change requested",
+        "source": "ChatGPT conversation",
+        "scope": "all_three_originals"
+      },
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: anatomy depth/leader lines, especially Guyon's canal relationship, require correction. User decision pending."
-      ]
+      ],
+      "reviewedByUserAt": "2026-10-19",
+      "userDecisionNotes": "User chose to retain the existing figure without changes despite advisory revision points; advisory QA notes kept as historical observations only."
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
       "size": 86474,
       "gitBlobSha": "038bfd9b971c8a76b66023607987db9387d37591",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-19",
+        "basis": "User replied '그대로 유지' to the complete 2026-10-17 CTS three-image review; keep the original, no change requested",
+        "source": "ChatGPT conversation",
+        "scope": "all_three_originals"
+      },
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: distinguish median nerve territory from CTS sensory-loss distribution/central palm sparing and clarify lateral key pinch. User decision pending."
-      ]
+      ],
+      "reviewedByUserAt": "2026-10-19",
+      "userDecisionNotes": "User chose to retain the existing figure without changes despite advisory revision points; advisory QA notes kept as historical observations only."
     },
     {
       "path": "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp",
       "size": 81860,
       "gitBlobSha": "9d4cd6ec187c140b1878fe4e069395ced7b40de5",
-      "reviewStatus": "pending_user_review",
+      "reviewStatus": "approved_live_unchanged",
       "linkedInRecentFive": true,
-      "userApproval": null,
+      "userApproval": {
+        "decision": "approved_keep_as_is",
+        "on": "2026-10-19",
+        "basis": "User replied '그대로 유지' to the complete 2026-10-17 CTS three-image review; keep the original, no change requested",
+        "source": "ChatGPT conversation",
+        "scope": "all_three_originals"
+      },
       "previewDisplayed": "2026-10-19",
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: align orthosis angle label (0–10 degrees extension) with article near-neutral/0–5 degrees. User decision pending."
-      ]
+      ],
+      "reviewedByUserAt": "2026-10-19",
+      "userDecisionNotes": "User chose to retain the existing figure without changes despite advisory revision points; advisory QA notes kept as historical observations only."
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-anatomy.webp",
@@ -1510,6 +1544,25 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated visual QA recommendations are advisory only. No approval inferred."
+    },
+    {
+      "event": "user-approved-keep-unchanged",
+      "date": "2026-10-19",
+      "articleId": "2026-10-17-carpal-tunnel-cpg",
+      "decision": "그대로 유지",
+      "figures": {
+        "1": "existing anatomy approved as-is",
+        "2": "existing exam approved as-is",
+        "3": "existing pathway approved as-is"
+      },
+      "figurePaths": [
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-anatomy.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-exam.webp",
+        "assets/briefs/2026-10-17-carpal-tunnel-cpg-pathway.webp"
+      ],
+      "releaseRequired": false,
+      "mainModified": false,
+      "note": "User explicitly requested retaining existing 3 images unchanged; recorded review approval without implying suggested clinical corrections have been made."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
