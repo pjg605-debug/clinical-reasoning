@@ -140,7 +140,7 @@ jobs:
           done
           echo "PASS: Episode 03 public HTML, reading JS and all 3 reviewed illustrations."
 
-      - name: Verify episode 04 published text and reading tools
+      - name: Verify episode 04 published text, reading tools and seven approved images
         shell: bash
         env:
           SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory/04-distinctiveness
@@ -148,13 +148,15 @@ jobs:
           set -euo pipefail
           for attempt in {1..24}; do
             status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory-04.html -w '%{http_code}' "$SITE/" || true)"
-            if [[ "$status" == 200 ]] && grep -Fq 'data-edition="essay04-20261020-v1"' /tmp/choice-factory-04.html; then
+            if [[ "$status" == 200 ]] && grep -Fq 'data-illustrations="episode04-approved-7-v2"' /tmp/choice-factory-04.html; then
               break
             fi
             sleep 10
           done
           test "$status" = 200
           grep -Fq 'data-edition="essay04-20261020-v1"' /tmp/choice-factory-04.html
+          grep -Fq 'data-illustrations="episode04-approved-7-v2"' /tmp/choice-factory-04.html
+          test "$(grep -o '<figure class="essay-figure"' /tmp/choice-factory-04.html | wc -l)" -eq 7
           test "$(grep -o '<section id="' /tmp/choice-factory-04.html | wc -l)" -eq 12
           test "$(grep -o '<p id="para-' /tmp/choice-factory-04.html | wc -l)" -eq 36
           grep -Fq '<script src="./reader.js"></script>' /tmp/choice-factory-04.html
@@ -165,4 +167,21 @@ jobs:
           curl -fsSL --retry 3 "$SITE/manuscript.md" -o /tmp/choice-factory-04-manuscript.md
           curl -fsSL --retry 3 "$SITE/verification.md" -o /tmp/choice-factory-04-verification.md
           grep -Fq '눈에 띈 다음에는 무엇이 남을까' /tmp/choice-factory-04-manuscript.md
-          echo 'PASS: episode 04 public text, manuscript, verification and reader.'
+          curl -fsSL --retry 3 "$SITE/illustration-approvals.json" -o /tmp/choice-factory-04-approvals.json
+          python - <<'PY'
+          import hashlib, json, os, urllib.request
+          from pathlib import Path
+          manifest = json.loads(Path('/tmp/choice-factory-04-approvals.json').read_text())
+          assert len(manifest['images']) == 7
+          page = Path('/tmp/choice-factory-04.html').read_text()
+          for row in manifest['images']:
+              name = Path(row['repository_path']).name
+              assert f'src="./art/{name}"' in page
+              with urllib.request.urlopen(os.environ['SITE'] + '/art/' + name, timeout=40) as response:
+                  assert response.status == 200
+                  content = response.read()
+              assert content.startswith(b'\x89PNG\r\n\x1a\n')
+              assert hashlib.sha256(content).hexdigest() == row['sha256'], name
+              print('PASS approved original', row['image_id'], name)
+          PY
+          echo 'PASS: episode 04 public text, reader and seven approved image originals.'

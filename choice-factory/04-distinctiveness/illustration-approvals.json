@@ -1,0 +1,56 @@
+{
+  "episode": 4,
+  "approved_at": "2026-10-20T13:01:00+09:00",
+  "approval_evidence": "User message: 이제 업로드해",
+  "images": [
+    {
+      "image_id": "04-01",
+      "title": "차이는 배경에서 생긴다",
+      "sha256": "274c90d8c0c50bfdab59c61a0559a52fa419e3883be10e14061020cb18b1aa6a",
+      "repository_path": "choice-factory/04-distinctiveness/art/context-cards.png",
+      "planned_after_paragraph": "para-cards-1"
+    },
+    {
+      "image_id": "04-02",
+      "title": "무엇이 기억에 남았을까?",
+      "sha256": "104ff94aa4bf28d678f4096207088ce4cb941a4dab5c68bf0933c74f1b16ea35",
+      "repository_path": "choice-factory/04-distinctiveness/art/memory-bookshop.png",
+      "planned_after_paragraph": "para-connection-2"
+    },
+    {
+      "image_id": "04-03",
+      "title": "눈길보다 이해를 확인하기",
+      "sha256": "d30795e957642bcda4e03f109c4ce3b01b612f9fc7b6eab828d2c28df94ef366",
+      "repository_path": "choice-factory/04-distinctiveness/art/clinic-understanding.png",
+      "planned_after_paragraph": "para-clinic-2"
+    },
+    {
+      "image_id": "04-04",
+      "title": "같은 글자도 주변이 다르면?",
+      "sha256": "dc05ffc8ff02acb85137f1da41eab50edc2e0cdffb1f7272375a9fdae5721600",
+      "repository_path": "choice-factory/04-distinctiveness/art/memory-study-v2.png",
+      "planned_after_paragraph": "para-research-1"
+    },
+    {
+      "image_id": "04-05",
+      "title": "같은 성과로 묶지 말기",
+      "sha256": "4d0c873acfa876934c0ab3d395e7cca1717cd7375c7f7000e55100992e72f89a",
+      "repository_path": "choice-factory/04-distinctiveness/art/separate-questions.png",
+      "planned_after_paragraph": "para-stages-3"
+    },
+    {
+      "image_id": "04-06",
+      "title": "같다는 이유만으로 바꾸지 않기",
+      "sha256": "2e9f932943ae065c029ebcee57eb2766a408d10ee721983ac68bfb7a98d4a8ca",
+      "repository_path": "choice-factory/04-distinctiveness/art/standards-customs.png",
+      "planned_after_paragraph": "para-organization-2"
+    },
+    {
+      "image_id": "04-07",
+      "title": "모두 중요하면 무엇부터 볼까?",
+      "sha256": "cc6646ca49847dc79a58b2919719397890db470622d84d65d93075b8cb3d0d21",
+      "repository_path": "choice-factory/04-distinctiveness/art/handover-priorities.png",
+      "planned_after_paragraph": "para-operations-2"
+    }
+  ]
+}
