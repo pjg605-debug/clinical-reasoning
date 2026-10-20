@@ -99,3 +99,43 @@ jobs:
             echo "PASS $name.webp: HTTP $status, $bytes bytes, valid WEBP"
           done
           echo 'PASS: episode 02 public HTML, reader and all 7 approved illustrations.'
+
+      - name: Verify episode 03 live HTML, reading tools and three reviewed illustrations
+        shell: bash
+        env:
+          SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory/03-negative-social-proof
+        run: |
+          set -euo pipefail
+          for attempt in {1..24}; do
+            status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory-03.html -w '%{http_code}' "$SITE/" || true)"
+            if [[ "$status" == 200 ]] && grep -Fq 'src="./art/clinic.webp"' /tmp/choice-factory-03.html; then
+              echo "Episode 03 illustrated HTML is public (attempt $attempt, HTTP 200)"
+              break
+            fi
+            sleep 10
+          done
+          test "$status" = 200
+          test "$(grep -o '<figure class="essay-figure"' /tmp/choice-factory-03.html | wc -l)" -eq 3
+          test "$(grep -o '<section id="' /tmp/choice-factory-03.html | wc -l)" -eq 13
+          test "$(grep -o '<p id="para-' /tmp/choice-factory-03.html | wc -l)" -eq 52
+          grep -Fq '<script src="./reader.js"></script>' /tmp/choice-factory-03.html
+          ! grep -Eq 'INSERT_TOC|INSERT_SECTIONS|storyboard.webp' /tmp/choice-factory-03.html
+          curl -fsSL --retry 3 "$SITE/reader.js" -o /tmp/choice-factory-03-reader.js
+          node --check /tmp/choice-factory-03-reader.js
+          mkdir -p /tmp/choice-factory-03-art
+          for item in forest:291808 energy:219946 clinic:227154; do
+            IFS=: read -r name expected <<< "$item"
+            grep -Fq "src=\"./art/$name.webp\"" /tmp/choice-factory-03.html
+            target="/tmp/choice-factory-03-art/$name.webp"
+            status="$(curl -sS -L --max-time 30 -o "$target" -w '%{http_code}' "$SITE/art/$name.webp" || true)"
+            test "$status" = 200
+            signature="$(head -c 4 "$target")"
+            format="$(dd if="$target" bs=1 skip=8 count=4 status=none)"
+            bytes="$(wc -c < "$target" | tr -d ' ')"
+            if [[ "$signature" != RIFF || "$format" != WEBP || "$bytes" -ne "$expected" ]]; then
+              echo "FAIL $name: HTTP $status, $bytes bytes, expected $expected; $signature/$format" >&2
+              exit 1
+            fi
+            echo "PASS episode03 $name.webp: HTTP $status, $bytes bytes, valid WEBP"
+          done
+          echo "PASS: Episode 03 public HTML, reading JS and all 3 reviewed illustrations."
