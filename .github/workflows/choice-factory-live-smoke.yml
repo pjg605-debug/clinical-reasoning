@@ -139,3 +139,30 @@ jobs:
             echo "PASS episode03 $name.webp: HTTP $status, $bytes bytes, valid WEBP"
           done
           echo "PASS: Episode 03 public HTML, reading JS and all 3 reviewed illustrations."
+
+      - name: Verify episode 04 published text and reading tools
+        shell: bash
+        env:
+          SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory/04-distinctiveness
+        run: |
+          set -euo pipefail
+          for attempt in {1..24}; do
+            status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory-04.html -w '%{http_code}' "$SITE/" || true)"
+            if [[ "$status" == 200 ]] && grep -Fq 'data-edition="essay04-20261020-v1"' /tmp/choice-factory-04.html; then
+              break
+            fi
+            sleep 10
+          done
+          test "$status" = 200
+          grep -Fq 'data-edition="essay04-20261020-v1"' /tmp/choice-factory-04.html
+          test "$(grep -o '<section id="' /tmp/choice-factory-04.html | wc -l)" -eq 12
+          test "$(grep -o '<p id="para-' /tmp/choice-factory-04.html | wc -l)" -eq 36
+          grep -Fq '<script src="./reader.js"></script>' /tmp/choice-factory-04.html
+          ! grep -Eq 'INSERT_TOC|INSERT_SECTIONS' /tmp/choice-factory-04.html
+          curl -fsSL --retry 3 "$SITE/reader.js" -o /tmp/choice-factory-04-reader.js
+          node --check /tmp/choice-factory-04-reader.js
+          grep -Fq 'choice-human-v2-essay04-' /tmp/choice-factory-04-reader.js
+          curl -fsSL --retry 3 "$SITE/manuscript.md" -o /tmp/choice-factory-04-manuscript.md
+          curl -fsSL --retry 3 "$SITE/verification.md" -o /tmp/choice-factory-04-verification.md
+          grep -Fq '눈에 띈 다음에는 무엇이 남을까' /tmp/choice-factory-04-manuscript.md
+          echo 'PASS: episode 04 public text, manuscript, verification and reader.'
