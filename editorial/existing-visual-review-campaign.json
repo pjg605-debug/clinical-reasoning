@@ -144,7 +144,44 @@
         "assets/briefs/2026-10-15-slr-radicular-decision.svg"
       ],
       "figuresVerified": true,
-      "needsRead": false
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-21",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: realistic 3D depth cue and a clear no-needling-path warning are useful, but only the sciatic nerve is labeled. It does not distinguish L4/L5/S1 roots from the sacral plexus/peripheral sciatic nerve or show nearby vessels; the generic bilateral pain map can blur root-level and peripheral-nerve distributions. Revise recommended before treating it as a structure-specific anatomy figure.",
+          "Figure 2: supine SLR, symptom-angle recording, ankle-dorsiflexion structural differentiation, and contralateral crossed SLR are shown in the correct sequence; the article/caption correctly says the angle alone is not diagnostic and warns against forced end range. Approve recommended.",
+          "Figure 3: the flow correctly puts cauda-equina/progressive-deficit/systemic-risk screening first, then a repeated segmental neurologic bundle, and separates conservative reassessment from MRI/referral escalation. It explicitly states SLR/MRI/immediate pain change do not identify a single cause. Approve recommended."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-21",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-15-slr-radicular-pain",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 900
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-14-cervical-radiculopathy-tests",
@@ -1094,7 +1131,12 @@
       "gitBlobSha": "d1f45761e165023b728a96f123620f85c2abe740",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-21",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: realistic 3D overview, but root-level anatomy and nearby vessels are not identified; generic pain map may blur nerve-root and peripheral-sciatic distributions. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
@@ -1102,7 +1144,12 @@
       "gitBlobSha": "c7998b5d2c4bdbe9ed7d1a75cef022330a5cdccc",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-21",
+      "preliminaryVisualNotes": [
+        "Original live GitHub SVG rendered. Preliminary approve recommendation: emergency screening, segmental neurologic bundle, conservative reassessment, and MRI/referral escalation are coherent. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
@@ -1110,7 +1157,12 @@
       "gitBlobSha": "a66fe4dbf1d22ada33dea7b05e3ecac01a20e831",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-21",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary approve recommendation: SLR, ankle-dorsiflexion structural differentiation, and crossed SLR sequence/posture are coherent; angle alone is explicitly not diagnostic. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
@@ -1695,6 +1747,44 @@
       "releaseRequired": false,
       "mainModified": false,
       "note": "Approved unchanged by user. Earlier figure-1 revision recommendation remains advisory, not implemented. No public-site modification."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-21",
+      "articleId": "2026-10-15-slr-radicular-pain",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+        "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+        "assets/briefs/2026-10-15-slr-radicular-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-15-slr-radicular-pain",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 900
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": "none among this batch or full asset catalog by exact SHA"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision recommendation concerns root-versus-peripheral localization and omitted vessel/safety anatomy; no needle trajectory is shown."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
