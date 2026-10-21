@@ -195,7 +195,44 @@
         "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg"
       ],
       "figuresVerified": true,
-      "needsRead": false
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-22",
+      "preliminaryRecommendation": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: realistic 3D virtual-dissection view plausibly shows the C6–7 disc, foramen, exiting C7 root, spinal cord and nearby vertebral artery; side/depth context and the no-needling-path warning are useful. Approve recommended, with the caveat that it is an educational rendering rather than a patient scan.",
+          "Figure 2: Spurling and shoulder-abduction relief postures are recognizable, but the panel labelled ULNT1 does not visibly reproduce the full standard sequence or structural differentiation: shoulder girdle control/depression, abduction, wrist/finger extension, forearm supination, external rotation, progressive elbow extension, and remote cervical differentiation are not clearly shown. Revise recommended to a multi-step sequence before treating it as a technique guide.",
+          "Figure 3: correctly prioritizes progressive weakness, myelopathy and systemic-risk screening; then uses C5–T1 neurologic findings plus Spurling/ULNT evidence to separate conservative monitoring from MRI/referral. Approve recommended."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-22",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-14-cervical-radiculopathy-tests",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 533
+          },
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 900
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-13-hip-osteonecrosis-mri",
@@ -1107,7 +1144,12 @@
       "gitBlobSha": "98b72ce7d36fcd4bfd3231841116496e77ec2f0b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-22",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary approve recommendation: 3D C6–7 disc/foramen/C7 root/spinal cord/vertebral-artery context is plausible and explicitly not a needling route. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
@@ -1115,7 +1157,12 @@
       "gitBlobSha": "97538af826fb652e2d49b85791fbf7e3d7e37acb",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-22",
+      "preliminaryVisualNotes": [
+        "Original live GitHub SVG rendered. Preliminary approve recommendation: myelopathy/progressive-deficit screening, neurologic test bundle, reassessment and MRI/referral branches are coherent. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
@@ -1123,7 +1170,12 @@
       "gitBlobSha": "3eaa9b9eb2c9f87a8ca89b75a86e0a1c44a16a61",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": true,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-22",
+      "preliminaryVisualNotes": [
+        "Original GitHub binary preview displayed. Preliminary revise recommendation: ULNT1 panel does not clearly show the full movement sequence or remote structural differentiation and may be mistaken for a complete technique guide. User decision pending."
+      ],
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
@@ -1785,6 +1837,44 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision recommendation concerns root-versus-peripheral localization and omitted vessel/safety anatomy; no needle trajectory is shown."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-22",
+      "articleId": "2026-10-14-cervical-radiculopathy-tests",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-14-cervical-radiculopathy-tests",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 533
+          },
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 400
+          },
+          {
+            "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 900
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": "none among this batch or full asset catalog by exact SHA"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 2 revision recommendation concerns incomplete ULNT1 sequence/structural differentiation representation."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
