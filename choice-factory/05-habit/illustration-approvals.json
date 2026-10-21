@@ -1,0 +1,115 @@
+{
+  "episode": 5,
+  "publication_authorization": "사용자: 삽입해서 본문 완성",
+  "date": "2026-10-21",
+  "images": [
+    {
+      "image_id": "05-01",
+      "title": "같은 결심, 다른 단서",
+      "version": 1,
+      "sha256": "259d8137df1d763fceea284f051d4cd399eced1588b388a77789945d435ea261",
+      "bytes": 2718976,
+      "repository_path": "choice-factory/05-habit/art/cues.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T09:59:29.964988+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "2번 글자 검수 나머지는 승인",
+        "scope": "05-01, 05-03, 05-04 originals identified by hashes"
+      },
+      "alt": "소파에 앉은 토끼가 휴대전화와 책에 각각 손을 뻗는 두 가상 거실.",
+      "caption": "같은 결심과 다른 시작 조건을 비교한 가상 장면입니다. 물건 배치의 효과를 검증한 실험 결과가 아닙니다.",
+      "after_paragraph": "para-cues-1"
+    },
+    {
+      "image_id": "05-02",
+      "title": "환경이 바뀌면, 다시 살펴볼 기회",
+      "version": 3,
+      "sha256": "2fa3d83aadcd87a2e46cc0258d3aaa65d8659f8295f7defee625a010616ba61f",
+      "bytes": 2509338,
+      "repository_path": "choice-factory/05-habit/art/context-change-v3.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T10:57:29.792811+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "2번 승인할게 삽화는 총 4개인지 삽화삽입 기준 재검토",
+        "scope": "05-02 V3 only, file hash 2fa3d83aadcd87a2e46cc0258d3aaa65d8659f8295f7defee625a010616ba61f"
+      },
+      "alt": "옛집의 익숙한 출근길과 새집에서 다시 살피는 버스·지하철 동선을 비교한 가상 장면.",
+      "caption": "환경 변화 뒤 선택을 다시 살펴보는 가상 예시입니다. 이사나 환경 변화가 행동 변화를 보장하지 않습니다.",
+      "after_paragraph": "para-transition-1"
+    },
+    {
+      "image_id": "05-03",
+      "title": "새 행동을 익숙한 일 뒤에",
+      "version": 1,
+      "sha256": "853ca7d9b4c6ad9fa86c94228f8a983ee59ac91fb6d0e89e0e5577839b6bfa19",
+      "bytes": 2747509,
+      "repository_path": "choice-factory/05-habit/art/repeat-start.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T09:59:29.964988+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "2번 글자 검수 나머지는 승인",
+        "scope": "05-01, 05-03, 05-04 originals identified by hashes"
+      },
+      "alt": "커튼을 연 뒤 화분의 상태를 살피고 같은 자리에서 반복하는 세 컷의 가상 장면.",
+      "caption": "반복할 시작 동작을 정해 보는 가상 예시입니다. 매번 물 주기를 뜻하지 않으며 정해진 횟수나 기간의 습관 완성을 보장하지 않습니다.",
+      "after_paragraph": "para-practice-1"
+    },
+    {
+      "image_id": "05-04",
+      "title": "주의하라는 말에, 시작할 자리를 더하기",
+      "version": 1,
+      "sha256": "8b3f406180a83bf8fc5ebe60060654cc4998f2d995bcd1087949295bf391ef78",
+      "bytes": 2540126,
+      "repository_path": "choice-factory/05-habit/art/clinic-workflow.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T09:59:29.964988+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "2번 글자 검수 나머지는 승인",
+        "scope": "05-01, 05-03, 05-04 originals identified by hashes"
+      },
+      "alt": "가상 접수대에서 동료와 통화 뒤 전달 사항을 기록할 자리를 함께 정하는 장면.",
+      "caption": "가상 업무 개선 예시입니다. 실제 환자 기록이나 검증된 운영 성과가 아닙니다. 적용 시 정보 보호와 기존 업무 절차를 함께 검토합니다.",
+      "after_paragraph": "para-workflow-2"
+    },
+    {
+      "image_id": "05-05",
+      "title": "습관은 어떻게 조사했을까?",
+      "version": 1,
+      "sha256": "f3234b3261789eedba40c82e607fddb75b6727ea324942322a82d88634e1b393",
+      "bytes": 2487162,
+      "repository_path": "choice-factory/05-habit/art/habit-diary-study.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T11:46:56.750450+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "5번은 승인, 6번은 3가지 버전중 처음 둘 중 아무거나 쓰면돼 승인",
+        "scope": "05-05 V1; SHA256 f3234b3261789eedba40c82e607fddb75b6727ea324942322a82d88634e1b393"
+      },
+      "alt": "연구 1 방법을 시계 알림, 행동과 생각 기록, 빈도와 장소 확인의 세 단계로 설명한 도해.",
+      "caption": "Wood 외(2002) 연구 1의 방법을 설명한 도해입니다. 동물 인물과 일지 행은 창작 예시이며 실제 응답이나 결과 비율이 아닙니다.",
+      "after_paragraph": "para-diary-1"
+    },
+    {
+      "image_id": "05-06",
+      "title": "멈춘 줄 알아도, 몸은 익숙한 대로",
+      "version": 1,
+      "sha256": "9bec3eab4ba8583fc6b88e6ceac19e683ff55b06cc989da33c7e230713b5322e",
+      "bytes": 2841760,
+      "repository_path": "choice-factory/05-habit/art/stopped-escalator.png",
+      "approval": "approved",
+      "approved_at": "2026-10-21T11:46:56.750450+09:00",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "5번은 승인, 6번은 3가지 버전중 처음 둘 중 아무거나 쓰면돼 승인",
+        "scope": "05-06 V1; SHA256 9bec3eab4ba8583fc6b88e6ceac19e683ff55b06cc989da33c7e230713b5322e"
+      },
+      "alt": "멈춘 에스컬레이터를 확인하고 첫발을 내딛는 토끼의 일상 체감 예시.",
+      "caption": "일상의 체감을 설명하는 장면입니다. 실제 연구의 이동 발판 장치를 재현한 그림이 아니며 모든 사람의 반응을 뜻하지 않습니다.",
+      "after_paragraph": "para-opening-2"
+    }
+  ]
+}
