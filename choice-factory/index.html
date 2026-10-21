@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#f7f5ef">
-<meta name="description" content="선택하는 인간 01. 기본적 귀인 오류를 출발점으로 성격과 상황, 선한 사마리아인 실험, 반론, 진료실과 한의원 운영까지 확장하는 지적 탐구.">
+<meta name="description" content="같은 행동을 보고도 남에게는 성격을, 자신에게는 상황을 이유로 드는 경우가 있다. 행동의 원인을 판단할 때 개인의 특성과 상황을 어떻게 함께 살펴야 하는지 알아본다.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="선택하는 인간 01 — 사람인가, 상황인가">
+<meta property="og:title" content="선택하는 인간 01 — 같은 행동을 보고 왜 남의 성격부터 판단할까">
 <meta property="og:description" content="왜 친절한 사람도 돕지 않고, 왜 좋은 의도만으로 좋은 행동을 예측할 수 없는가. Richard Shotton의 The Choice Factory에서 출발하는 첫 번째 탐구.">
-<title>01 · 사람인가, 상황인가 — 선택하는 인간</title>
+<title>01 · 같은 행동을 보고 왜 남의 성격부터 판단할까 — 선택하는 인간</title>
 <style>
 :root{--paper:#f8f6f0;--panel:#fffdf7;--ink:#20312f;--muted:#6d7972;--rule:#dcded4;--accent:#b36047;--green:#416c5d;--sage:#e6ede3;--sun:#e7c57c;--bodySize:18px;--shadow:0 12px 45px rgba(24,38,34,.08)}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Pretendard","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",system-ui,sans-serif;-webkit-font-smoothing:antialiased}body.dark{--paper:#17231f;--panel:#202d27;--ink:#e9e9dc;--muted:#afb9ae;--rule:#405148;--accent:#e19b80;--green:#8db6a0;--sage:#2b4037;--sun:#e3bd70;--shadow:0 15px 40px rgba(0,0,0,.22)}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}svg{max-width:100%}.progress{height:3px;background:transparent;position:fixed;top:0;left:0;right:0;z-index:50}.progress span{display:block;height:100%;background:var(--accent);width:0;transition:width .15s}
@@ -32,9 +32,9 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
 .vault-screen{display:none;position:fixed;inset:0;background:#101b17a8;z-index:58}.vault-screen.open{display:block}.vault{position:fixed;right:0;top:0;bottom:0;width:min(480px,100%);background:var(--panel);color:var(--ink);z-index:59;transform:translateX(105%);transition:transform .25s;box-shadow:-10px 0 50px #0002;overflow:auto;padding:26px}.vault.open{transform:translateX(0)}.vault h2{font-family:Georgia,"Noto Serif KR",serif;font-size:27px}.vault p{font-size:13px;color:var(--muted);line-height:1.7}.vault-item{padding:17px 0;border-bottom:1px solid var(--rule)}.vault-item q{display:block;font-size:16px;line-height:1.8;quotes:none}.vault-item small{display:block;color:var(--accent);margin-top:9px}.vault-item button{border:1px solid var(--rule);background:var(--paper);color:var(--ink);padding:5px 9px;border-radius:6px;margin-top:8px;margin-right:7px;font-size:12px}.vault-head{display:flex;align-items:center;justify-content:space-between}.tagline{font-size:12px;color:var(--muted);margin-top:18px}
 @media(max-width:1060px){.shell{grid-template-columns:190px minmax(0,800px);gap:25px;padding:0 25px 80px}.side nav a{font-size:12px}}@media(max-width:760px){.mobile-menu{display:inline-block}.brand{font-size:15px}.topbar{padding:10px 14px}.shell{display:block;padding:0 22px 80px}.side{position:fixed;z-index:49;left:0;top:57px;bottom:0;width:min(300px,85vw);overflow:auto;background:var(--panel);box-shadow:var(--shadow);padding:28px;transform:translateX(-110%);transition:transform .2s}.side.open{transform:translateX(0)}.side-sticky{position:static;max-height:none}.hero{padding-top:43px}.hero h1{font-size:clamp(41px,10vw,59px)}.hero-art{margin-top:28px}.prose p,.prose li{line-height:1.93}.dual,.twocol{grid-template-columns:1fr}.triple{grid-template-columns:1fr 1fr}.figure{padding:17px}.case{padding:22px}.tool-pill{padding:6px 9px}.hidetiny{display:none}.prose section{padding:28px 0 20px}.hero-art figcaption{font-size:11px}}@media(max-width:390px){.triple{grid-template-columns:1fr}.shell{padding:0 16px 65px}.tools{gap:0}.iconbtn{min-width:31px;padding:0 6px}}
 @media print{.topbar,.side,.selection-tools,.vault,.vault-screen,.progress,.tools,.tryit .choices{display:none!important}.shell{display:block;padding:0}.hero{padding-top:20px}.prose{max-width:none}.figure,.case,.sidecard{break-inside:avoid}body{--paper:#fff;--ink:#171717;--panel:#fff}a{color:#111!important}}
-</style>
+.hero h1{word-break:keep-all;overflow-wrap:break-word;text-wrap:balance}</style>
 </head>
-<body id="top">
+<body data-prose-revision="explicit-20261021-v1" id="top">
 <div class="progress"><span id="progress"></span></div>
 <header class="topbar">
   <button class="iconbtn mobile-menu" id="menuBtn" aria-label="목차 열기">☰</button>
@@ -51,17 +51,17 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
   <aside class="side" id="side"><div class="side-sticky">
     <h4>01 / Table of Contents</h4>
     <nav id="toc" aria-label="글의 목차">
-      <a href="#opening">들어가며 · 닫히기 직전의 문</a>
-      <a href="#story">01 · 장면 하나, 두 가지 설명</a>
-      <a href="#study">02 · 신학생들이 지나친 사람</a>
-      <a href="#interpret">03 · 무슨 일이 벌어진 걸까</a>
-      <a href="#person">04 · 상황 속에서도 남는 성격</a>
-      <a href="#argument">05 · 반론이 필요한 이유</a>
-      <a href="#clinic">06 · 진료실이라는 실험실</a>
-      <a href="#organization">07 · 조직을 바꾸는 시선</a>
-      <a href="#thought">08 · 당신이라면 누구 탓을 할까</a>
-      <a href="#practice">09 · 작게 시험하는 방법</a>
-      <a href="#ending">맺으며 · 끝나지 않은 질문</a>
+      <a href="#opening">들어가며 · 행동을 성격으로 설명하기 전에</a>
+      <a href="#story">같은 행동을 성격과 상황으로 다르게 설명하는 이유</a>
+      <a href="#study">시간에 쫓기는 신학생은 왜 도움을 주지 못했을까</a>
+      <a href="#interpret">시간 압박이 도움 행동을 바꾼 이유는 무엇일까</a>
+      <a href="#person">상황의 영향과 개인의 성격을 함께 설명할 수 있을까</a>
+      <a href="#argument">성격과 상황에 관한 설명은 어디까지 적용될까</a>
+      <a href="#clinic">환자의 행동을 판단하기 전에 어떤 상황을 확인할까</a>
+      <a href="#organization">직원의 행동을 판단할 때 업무 조건을 함께 확인하기</a>
+      <a href="#thought">예약 안내가 빠졌다면 어떤 원인부터 확인할까</a>
+      <a href="#practice">안내와 업무 조건의 변화를 어떻게 평가할까</a>
+      <a href="#ending">행동의 원인을 판단할 때 사람과 상황을 함께 살피기</a>
       <a href="#sources">읽기의 근거</a>
     </nav>
     <div class="series">
@@ -73,8 +73,8 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
   <main>
     <header class="hero">
       <div class="eyebrow">Essay 01 / 25 · Fundamental Attribution Error</div>
-      <h1>사람인가,<br><em>상황인가.</em></h1>
-      <div class="dek">우리는 타인의 행동을 보고 그 사람을 판단한다. 그러나 그가 놓여 있던 상황을 바꾸면, 우리가 알던 '그 사람'도 달라질까?</div>
+      <h1>같은 행동을 보고<br><em>왜 남의 성격부터 판단할까</em></h1>
+      <div class="dek">같은 행동을 보고도 남에게는 성격을, 자신에게는 상황을 이유로 드는 경우가 있다. 행동의 원인을 판단할 때 개인의 특성과 상황을 어떻게 함께 살펴야 하는지 알아본다.</div>
       <div class="meta"><span>2026. 10. 18.</span><span>약 23~28분 읽기</span><span>원서 기반 · 비판 · 확장 · 임상 적용</span></div>
       <figure class="hero-art">
         <svg viewBox="0 0 900 415" role="img" aria-label="두 개의 다른 시간표 사이에서 지나가는 사람을 묘사한 창작 삽화">
@@ -95,27 +95,27 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
       </figure>
     </header>
     <div class="article-intro prose" id="opening">
-      <div class="abstract">한 사람의 행동은 그 사람에게서만 나오지 않는다. <em>그 사람과 그 순간이 만나는 자리에서</em> 만들어진다.</div>
+      <div class="abstract">사람의 행동을 설명하려면 <em>성격과 그 행동이 일어난 상황</em>을 함께 확인해야 한다.</div>
       <div class="source-legend"><span class="legend book">원서의 문제 제기</span><span class="legend review">연구와 반론</span><span class="legend idea">새로운 해석·생활 적용</span></div>
-      <p>어떤 환자는 치료 시간을 잘 지키고, 어떤 환자는 항상 늦는다. 어떤 직원은 마감 직전까지 친절하고, 어떤 직원은 퇴근 시간이 가까워지면 설명을 짧게 끝낸다. 우리는 빠르게 결론을 내린다. '성실한 환자', '불친절한 직원', '책임감 있는 사람'. 사람을 이해하는 가장 쉬운 방법은 그에게 형용사를 붙이는 일이다.</p>
-      <p>그런데 그 형용사는 사람이 원래 가지고 있던 속성일까? 아니면 우리가 특정한 날, 특정한 환경에서 본 행동에 대한 이름일까? 《The Choice Factory》의 첫 장은 이 작은 의심에서 시작한다. 저자 리처드 쇼튼은 마케팅에서 <strong>누구에게 말하느냐 못지않게, 언제 어떤 상황에서 말하느냐</strong>가 중요하다고 주장한다.</p>
-      <p>이 글은 그 주장을 그대로 받아들이지 않는다. 반대로 뒤집어 보고, 다른 학문을 불러오고, 진료실의 하루 속에 넣어 볼 것이다. 목표는 쇼튼의 정답을 암기하는 것이 아니라, 인간을 설명하는 언어를 하나 더 얻는 것이다.</p>
+      <p>어떤 환자는 치료 시간을 잘 지키고, 어떤 환자는 항상 늦는다. 어떤 직원은 마감 직전까지 친절하고, 어떤 직원은 퇴근 시간이 가까워지면 설명을 짧게 끝낸다. 우리는 빠르게 결론을 내린다. '성실한 환자', '불친절한 직원', '책임감 있는 사람'. 이런 판단은 행동의 원인을 성격으로 설명한다. 그러나 관찰한 행동만으로 상황의 영향을 배제할 수 있는지는 별도 문제다.</p>
+      <p>그런데 그 형용사는 사람이 원래 가지고 있던 속성일까? 아니면 우리가 특정한 날, 특정한 환경에서 본 행동에 대한 이름일까? 《The Choice Factory》의 첫 장은 행동을 성격으로 설명할 때 상황을 얼마나 고려하는지 묻는다. 저자 리처드 쇼튼은 마케팅에서 <strong>누구에게 말하느냐 못지않게, 언제 어떤 상황에서 말하느냐</strong>가 중요하다고 주장한다.</p>
+      <p>이 글에서는 시간 압박과 도움 행동을 다룬 연구를 살펴보고, 상황의 영향만으로 설명할 수 없는 부분도 검토한다. 환자와 직원의 행동을 해석할 때 성격·업무 조건·정보·선택권을 어떻게 함께 확인할지 생각해 보려 한다.</p>
     </div>
     <div class="prose">
       <section id="story">
         <div class="sect-num">01 / THE SCENE</div>
-        <h2>장면 하나, 두 가지 설명</h2>
+        <h2>같은 행동을 성격과 상황으로 다르게 설명하는 이유</h2>
         <p>길가에 웅크린 사람이 있다. 잘 차려입은 직장인이 그의 앞을 그냥 지나간다. 당신은 생각한다. '인정이 없군.' 몇 초 뒤 당신도 같은 사람을 지나친다. 당신에게는 사정이 있다. 주머니에 잔돈이 없었고, 지금은 늦어서는 안 되는 날이다.</p>
-        <p>누군가를 판단할 때 우리는 <strong>그가 어떤 사람인가</strong>에 주목하고, 자신을 설명할 때는 <strong>무슨 일이 있었는가</strong>를 먼저 떠올리기 쉽다. 쇼튼이 제시하는 첫 번째 편향, 기본적 귀인 오류(fundamental attribution error)다.</p>
-        <p>이 일화가 교묘한 이유는 두 사람이 사실상 같은 행동을 했기 때문이다. 행동 자체에는 '성격'이라는 꼬리표가 달려 있지 않다. 우리는 관찰한 행동과 자신이 상상한 원인 사이의 빈칸을 서둘러 채운다. <em>관찰은 사실일 수 있지만 설명은 이야기일 수 있다.</em></p>
+        <p>다른 사람의 행동을 설명할 때는 <strong>그가 어떤 사람인가</strong>에 주목하고, 자신을 설명할 때는 <strong>무슨 일이 있었는가</strong>를 먼저 떠올리기 쉽다. 쇼튼의 첫 번째 주제인 기본적 귀인 오류(fundamental attribution error)는 행동을 설명할 때 성격에 치우치고 상황을 충분히 고려하지 않는 문제를 다룬다. 자기 행동과 남의 행동을 다르게 설명하는 현상과의 구별은 뒤에서 살펴본다.</p>
+        <p>앞의 두 사람은 모두 길가의 사람을 지나쳤다. 그러나 관찰자는 다른 사람에게는 성격을, 자신에게는 상황을 이유로 들었다. 관찰한 행동만으로 그 원인까지 확인한 것은 아니다. <em>관찰한 행동과 그 원인에 대한 해석을 구분해야 한다.</em></p>
         <div class="pullquote">“저 사람은 원래 그래.”라는 말은<br>설명이 아니라 탐색의 종료일지도 모른다.</div>
-        <p>물론 사람의 성격을 추론하는 일이 언제나 잘못은 아니다. 평생 수천 번의 만남을 모두 상황별로 분석할 수는 없다. 성격에 대한 추정은 복잡한 사회생활을 가능하게 하는 유용한 압축이다. 문제는 그 압축이 <strong>설명을 더 이상 수정할 수 없는 낙인</strong>이 되는 순간이다.</p>
+        <p>물론 사람의 성격을 추론하는 일이 언제나 잘못은 아니다. 평생 수천 번의 만남을 모두 상황별로 분석할 수는 없다. 성격에 대한 추정은 매번 모든 사정을 조사하지 않고도 상대의 행동을 예상하게 해준다. 문제는 그런 추정이 <strong>설명을 더 이상 수정할 수 없는 낙인</strong>이 되는 순간이다.</p>
       </section>
       <section id="study">
         <div class="sect-num">02 / THE EXPERIMENT</div>
-        <h2>선한 사마리아인은 왜 멈추지 않았는가</h2>
-        <p>1973년 존 달리와 대니얼 뱃슨은 프린스턴 신학교 학생들을 대상으로 기억할 만한 실험을 진행했다. 학생들은 다른 건물에서 짧은 발표를 해야 했다. 연구자는 출발 직전에 시간을 알려주었다. 어떤 학생에게는 이미 늦었다고 재촉했고, 어떤 학생에게는 여유가 있다고 했다.</p>
-        <p>학생들이 이동하는 길목에는 고통스러워하는 듯한 사람이 웅크리고 있었다. 참가자가 도움을 주는지가 관찰 대상이었다. 중요한 것은 학생들이 종교적 가르침을 알고 있었느냐가 아니다. <strong>그 지식을 행동으로 옮길 여건이 있었느냐</strong>라는 질문이다.</p>
+        <h2>시간에 쫓기는 신학생은 왜 도움을 주지 못했을까</h2>
+        <p>1973년 존 달리와 대니얼 뱃슨은 프린스턴 신학교 학생들을 대상으로 시간 압박에 따라 도움 행동이 달라지는지 실험했다. 학생들은 다른 건물에서 짧은 발표를 해야 했다. 연구자는 출발 직전에 시간을 알려주었다. 어떤 학생에게는 이미 늦었다고 재촉했고, 어떤 학생에게는 여유가 있다고 했다.</p>
+        <p>학생들이 이동하는 길목에는 고통스러워하는 듯한 사람이 웅크리고 있었다. 참가자가 도움을 주는지가 관찰 대상이었다. 이 실험에서는 종교적 가르침을 알고 있다는 사실과 실제 도움 행동을 구별해 볼 수 있다. <strong>그 지식을 행동으로 옮길 여건이 있었는지</strong>를 함께 확인해야 한다.</p>
         <figure class="figure">
           <div class="figlabel">FIGURE 01 / 실험에서 관찰된 도움 행동</div>
           <div class="bars" role="img" aria-label="시간 여유 조건 63%, 중간 45%, 매우 바쁨 10%의 도움 행동 비율">
@@ -127,17 +127,17 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
         </figure>
         <p>도움을 주는 비율은 매우 바쁜 조건에서 10%, 여유가 있는 조건에서 63%였다. 쇼튼은 상황의 힘을 보여주는 장면으로 이 차이를 강조한다. 말로만 선의를 약속하는 것과, 실제로 선의를 발휘하는 것은 서로 다른 문제일 수 있다.</p>
         <p>이 실험에는 흥미로운 추가 조건이 있다. 일부 학생은 발표 주제가 '선한 사마리아인'이었고, 다른 학생은 신학생의 진로에 관한 것이었다. 전자에서 53%, 후자에서 29%가 도움을 줬다. 관찰된 차이는 있었지만 원 연구의 분석에서 이 효과는 통계적으로 유의하지 않았다. <strong>'도움에 관한 이야기를 한다고 더 잘 돕는 것은 아니다'는 표현은 가능하지만, '발표 주제는 아무 영향도 없다'는 단정과는 다르다.</strong></p>
-        <p>또 하나. 원 연구에 참여한 학생들은 일반 인구를 대표하지 않는다. 측정한 개인차도 성격 전체가 아니라 주로 종교적 동기의 측면이다. 이런 제약을 기억하면서도, 우리는 실험에서 충분히 흥미로운 질문을 건질 수 있다. <em>도움을 주지 못한 사람을 이해하려면 그의 도덕성보다 먼저 그가 무엇에 쫓기고 있었는지 물어야 할까?</em></p>
+        <p>표본과 측정 범위에도 한계가 있다. 원 연구에 참여한 학생들은 일반 인구를 대표하지 않는다. 측정한 개인차도 성격 전체가 아니라 주로 종교적 동기의 측면이다. 이 한계를 고려하면서 도움을 주지 않은 행동을 성격만으로 설명할 수 있는지 검토해야 한다. <em>도움을 주지 못한 사람을 이해하려면 그의 도덕성보다 먼저 그가 무엇에 쫓기고 있었는지 물어야 할까?</em></p>
         <div class="layer">
-          <div class="l-head">생각을 흔드는 작은 역전</div>
+          <div class="l-head">저자의 설문과 실제 도움 행동 연구를 구분하기</div>
           <p>쇼튼은 433명에게 누가 더 도움을 줄 것 같은지 가상 상황을 물었다. 책에 따르면 81%가 '배려심은 있으나 서두르는 사람'을 택했고 19%가 '배려심은 덜하지만 여유가 있는 사람'을 택했다.</p>
-          <p>여기서 조심할 점도 있다. <strong>가상 인물에 대한 예상과 실제 도움 행동을 관찰한 실험은 동일한 검사가 아니다.</strong> 그럼에도 우리는 성품이라는 설명에 얼마나 매력을 느끼는지 떠올려 볼 수 있다. <small>— Shotton, 《The Choice Factory》, 제1장</small></p>
+          <p>저자의 설문과 앞의 현장 실험은 측정한 대상이 다르다. <strong>가상 인물에 대한 예상과 실제 도움 행동을 관찰한 실험은 동일한 검사가 아니다.</strong> 두 자료는 각각 사람들이 어떤 행동을 예상하는지와 실제로 어떻게 행동했는지를 구분해 읽어야 한다. <small>— Shotton, 《The Choice Factory》, 제1장</small></p>
         </div>
       </section>
       <section id="interpret">
         <div class="sect-num">03 / BEYOND A SINGLE EXPLANATION</div>
-        <h2>도대체 무엇이 바뀐 것일까?</h2>
-        <p>시간 압박이 행동을 바꿨다고 해서 그 작동 원인까지 하나로 결정되는 것은 아니다. 같은 결과에는 몇 가지 서로 다른 설명이 들어갈 수 있다.</p>
+        <h2>시간 압박이 도움 행동을 바꾼 이유는 무엇일까</h2>
+        <p>시간 압박이 행동을 바꿨다고 해서 어떤 심리 과정이 그 차이를 만들었는지까지 확인한 것은 아니다. 주의, 약속에 대한 책임, 낯선 상황에 대한 불확실성 등 여러 설명을 검토할 수 있다.</p>
         <div class="matrix">
           <div class="quadrant"><b>주의력의 협소화</b><p>급한 일에 주의를 빼앗겨 눈앞의 고통을 충분히 해석하지 못했을 수 있다. 보는 것과 의미를 파악하는 것은 다르다.</p></div>
           <div class="quadrant"><b>책임의 충돌</b><p>도움을 주고 싶어도 다른 장소에서 기다리는 사람과의 약속을 어기는 일이 부담스러웠을 수 있다.</p></div>
@@ -145,12 +145,12 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
           <div class="quadrant"><b>자기정당화</b><p>'지금은 할 수 없다'라는 설명을 만들어 심리적 불편함을 줄였을 수도 있다. 단, 이 실험만으로 확인된 동기는 아니다.</p></div>
         </div>
         <p>어느 해석이 옳을까? 첫 번째일 수도 있고, 여러 원인이 동시에 작동했을 수도 있다. 실험에서 조작한 것은 주로 <strong>시간 압박</strong>이지, 참가자의 머릿속에서 실제로 작동한 모든 심리 과정이 아니다. 따라서 우리는 결과와 원인을 구별해야 한다.</p>
-        <p>이 구별은 임상에서도 중요하다. 통증이 호전되지 않았다는 관찰과 '환자가 의지가 부족해서 그렇다'는 설명 사이에는 커다란 간극이 있다. 설명을 서둘러 확정하면 다음에 무엇을 확인해야 하는지가 사라진다.</p>
+        <p>이 구별은 임상에서도 중요하다. 통증이 호전되지 않았다는 관찰과 '환자가 의지가 부족해서 그렇다'는 설명은 서로 다른 판단이다. 의지 부족으로 원인을 확정하면 치료 계획이나 생활 조건 등 다른 원인을 확인하지 못할 수 있다.</p>
       </section>
       <section id="person">
         <div class="sect-num">04 / PERSONALITY RETURNS</div>
-        <h2>그렇다면 성격은 존재하지 않는가</h2>
-        <p>상황의 힘을 설명하는 글은 쉽게 반대편 극단으로 미끄러진다. 인간은 환경에 의해 움직이는 존재이고, 성격은 착각이라는 주장이다. 그러나 이는 첫 장의 교훈을 지나치게 단순화한 해석이다.</p>
+        <h2>상황의 영향과 개인의 성격을 함께 설명할 수 있을까</h2>
+        <p>상황을 강조하다 보면 성격의 영향을 모두 부정하는 결론에 이를 수 있다. 인간은 환경에 의해 움직이는 존재이고, 성격은 착각이라는 주장이다. 그러나 이는 앞의 실험 결과를 지나치게 단순화한 해석이다.</p>
         <p>월터 미셸과 유이치 쇼다는 1995년 사람마다 <strong>어떤 상황에서 어떤 반응을 보이는지의 패턴</strong> 자체가 비교적 특징적일 수 있다고 제안했다. '언제나 침착한 사람'보다는 '공개적인 비판 앞에서는 방어적이지만, 일대일 피드백 앞에서는 유연한 사람'이라는 설명이 더 정교할 수 있다는 뜻이다. 이른바 <em>if–then 행동 서명(behavioral signature)</em>이라는 관점이다.</p>
         <figure class="figure">
           <div class="figlabel">FIGURE 02 / 같은 사람에게도 반응의 지도가 있다</div>
@@ -168,12 +168,12 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
           </svg>
           <figcaption>개념 설명을 위한 임의의 선과 값이다. 실제 연구 데이터가 아니다. 핵심은 두 사람의 평균 점수뿐 아니라 상황에 따른 변화의 '모양'도 성격의 표현일 수 있다는 것이다. <a class="external" href="https://pubmed.ncbi.nlm.nih.gov/7740090/" target="_blank" rel="noopener">Mischel &amp; Shoda(1995) ↗</a></figcaption>
         </figure>
-        <p>또 하나의 역설이 있다. 상황이 행동을 결정한다는 설명과, 사람은 자기 상황을 선택한다는 설명은 서로 충돌하면서 동시에 연결된다. 늘 시간에 쫓기는 사람이 우연히 매번 바쁜 것은 아닐 수 있다. 과도한 약속을 잡는 성향, 거절하지 못하는 습관, 직업 구조, 사회적 기대가 함께 그 시간을 만들어냈을 수 있기 때문이다.</p>
+        <p>사람이 처한 상황을 어떻게 선택했는지도 살펴야 한다. 상황이 행동을 결정한다는 설명과, 사람은 자기 상황을 선택한다는 설명은 함께 검토할 수 있다. 늘 시간에 쫓기는 사람이 우연히 매번 바쁜 것은 아닐 수 있다. 과도한 약속을 잡는 성향, 거절하지 못하는 습관, 직업 구조, 사회적 기대가 함께 그 시간을 만들어냈을 수 있기 때문이다.</p>
         <p>따라서 사람과 상황은 둘 중 하나를 선택해야 하는 경쟁자가 아니다. <strong>사람이 환경을 만들고, 환경이 행동을 만들며, 그 행동의 결과가 다음 환경을 만든다.</strong> 이렇게 순환하는 모형이 실제 인간의 일상에 더 가까울지도 모른다.</p>
       </section>
       <section id="argument">
         <div class="sect-num">05 / PROS &amp; CONS</div>
-        <h2>설득력 있는 주장일수록 반론이 필요하다</h2>
+        <h2>성격과 상황에 관한 설명은 어디까지 적용될까</h2>
         <div class="dual">
           <div class="sidecard good"><div class="mini">PRO</div><h4>상황에 주목할 이유</h4><p>행동을 바꾸고 싶다면 사람을 바꾸기보다 환경을 바꾸는 것이 빠르고 실용적일 수 있다. 업무 흐름, 대기시간 안내, 약 복용의 편의처럼 조정 가능한 조건은 실제로 많다.</p></div>
           <div class="sidecard warn"><div class="mini">CON</div><h4>상황 만능론의 위험</h4><p>모든 행동을 상황 탓으로 돌리면 개인의 선택과 책임, 장기간에 걸친 습관, 가치관의 지속성을 놓친다. 때로는 능력이나 동기 자체에 개입해야 한다.</p></div>
@@ -187,12 +187,12 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
         <h3>반론 3. 상황을 바꾸는 일이 언제나 쉽거나 윤리적인 것은 아니다</h3>
         <p>사람을 설득하기 쉬운 순간을 노리는 것과 상대가 충분히 생각할 수 있는 여건을 만드는 것은 방향이 다르다. 고객이 피곤할 때 결제를 유도하는 설계도, 고객의 상황을 활용하는 기술이다. 하지만 그것이 바람직한 선택을 돕는 것은 아니다.</p>
         <p>의료에서 목표는 환자의 선택을 빼앗는 것이 아니라, 판단에 필요한 이해와 시간을 회복시키는 데 있어야 한다. 행동과학은 그 목적에 따라 설계의 윤리성이 크게 달라진다.</p>
-        <div class="layer"><div class="l-head">여기까지의 잠정 결론</div><p>상황은 중요하다. 그러나 상황만이 중요하지는 않다. '성격을 탓하지 말자'보다 정교한 명제는 이것이다. <strong>행동을 해석할 때, 사람에 관한 설명과 상황에 관한 설명을 경쟁하는 가설로 놓고 검증하자.</strong></p></div>
+        <div class="layer"><div class="l-head">여기까지의 잠정 결론</div><p>성격과 상황 중 하나를 먼저 정답으로 고르면 다른 원인을 놓칠 수 있다. <strong>행동을 해석할 때, 사람에 관한 설명과 상황에 관한 설명을 경쟁하는 가설로 놓고 검증하자.</strong></p></div>
       </section>
       <section id="clinic">
         <div class="sect-num">06 / AT THE CLINIC</div>
-        <h2>진료실이라는 작은 인간 연구실</h2>
-        <p>진료실은 인간 행동을 살펴보기에 특별한 곳이다. 증상과 통증이라는 불확실성, 비용과 시간의 제약, 의사와 환자의 정보 비대칭, 회복에 대한 기대가 좁은 공간에 함께 들어온다. 원서의 광고 사례를 의료로 기계적으로 옮길 수는 없다. 대신 상황의 힘을 묻는 질문을 응용할 수 있다.</p>
+        <h2>환자의 행동을 판단하기 전에 어떤 상황을 확인할까</h2>
+        <p>진료실에서 환자의 행동을 이해하려면 건강 상태와 진료 환경을 함께 살펴야 한다. 증상과 통증이라는 불확실성, 비용과 시간의 제약, 의사와 환자의 정보 비대칭, 회복에 대한 기대가 동시에 영향을 줄 수 있기 때문이다. 원서의 광고 사례를 의료로 기계적으로 옮길 수는 없다. 대신 상황의 힘을 묻는 질문을 응용할 수 있다.</p>
         <div class="casegrid">
           <div class="case">
             <div class="case-head"><span class="case-id">CASE 01</span><h4>설명을 여러 번 하는데도 기억하지 못하는 환자</h4></div>
@@ -216,8 +216,8 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
       </section>
       <section id="organization">
         <div class="sect-num">07 / THE ORGANIZATION</div>
-        <h2>사람을 탓하기 전에 제도를 볼 수 있을까?</h2>
-        <p>조직에서도 상황을 무시한 성격 설명이 자주 등장한다. 직원이 마감 직전의 예약을 부담스러워한다고 하자. 이를 '환자를 배려하지 않는 태도'라고 설명하기는 쉽다. 하지만 접수 마감 기준, 실제 퇴근 시간, 늦은 예약으로 생기는 추가 업무, 진료실과 접수대 사이의 정보 흐름을 함께 보면 전혀 다른 그림이 나온다.</p>
+        <h2>직원의 행동을 판단할 때 업무 조건을 함께 확인하기</h2>
+        <p>조직에서도 상황을 무시한 성격 설명이 자주 등장한다. 직원이 마감 직전의 예약을 부담스러워한다고 하자. 이를 '환자를 배려하지 않는 태도'라고 설명하기는 쉽다. 하지만 접수 마감 기준, 실제 퇴근 시간, 늦은 예약으로 생기는 추가 업무, 진료실과 접수대 사이의 정보 흐름을 함께 보면 태도만으로 설명하지 못한 이유를 찾을 수 있다.</p>
         <p>그렇다고 구조만 고치면 모든 문제가 사라지지는 않는다. 같은 환경에서도 역할에 대한 이해, 숙련도, 개인의 책임감에 따라 행동은 달라진다. 핵심은 누가 옳으냐를 성급히 결론 내리는 대신 <strong>역할·보상·업무량·정보·재량권</strong>을 차례로 확인하는 것이다.</p>
         <figure class="figure">
           <div class="figlabel">FIGURE 03 / 한 가지 행동에서 네 개의 원인으로</div>
@@ -231,11 +231,11 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
           </svg>
           <figcaption>저자의 도식이 아닌 이 글의 실무 확장 모델. 어느 한 원인으로 단정하기 전에 상호작용하는 요소를 확인하도록 설계했다.</figcaption>
         </figure>
-        <p>좋은 관리자는 사람의 책임을 묻지 않는 사람이 아니라, 책임을 묻기 전에 <strong>책임을 제대로 수행할 조건이 갖추어졌는지</strong> 확인하는 사람일 수 있다. 한편 조건을 개선한 뒤에도 문제가 반복된다면 그때는 교육, 역할 조정, 업무 기준과 책임의 문제를 더 분명히 다룰 수 있다.</p>
+        <p>직원의 책임을 논의하기 전에는 <strong>책임을 제대로 수행할 조건이 갖추어졌는지</strong> 확인해야 한다. 한편 조건을 개선한 뒤에도 문제가 반복된다면 그때는 교육, 역할 조정, 업무 기준과 책임의 문제를 더 분명히 다룰 수 있다.</p>
       </section>
       <section id="thought">
         <div class="sect-num">08 / INTERACTIVE THOUGHT EXPERIMENT</div>
-        <h2>당신이라면 누구 탓을 할까?</h2>
+        <h2>예약 안내가 빠졌다면 어떤 원인부터 확인할까</h2>
         <div class="tryit">
           <div class="label">THOUGHT EXPERIMENT · 정답이 없는 선택</div>
           <h3>퇴근 직전, 직원이 마지막 환자의 예약을 적극적으로 안내하지 않았다.</h3>
@@ -247,13 +247,13 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
           </div>
           <div class="answer" id="thoughtAnswer" aria-live="polite"></div>
         </div>
-        <p>이 사고실험이 드러내려는 것은 어느 선택이 옳다는 사실이 아니다. 우리가 처음 선택한 설명이 다음에 어떤 정보를 수집할지까지 결정한다는 점이다. <strong>성격을 먼저 의심하면 교육 기록을 보고, 구조를 먼저 의심하면 업무표를 보고, 환자 안전을 먼저 생각하면 임상적 긴급도를 확인한다.</strong></p>
+        <p>이 사고실험에서는 첫 번째로 떠올린 원인이 이후의 확인 과정에 어떤 영향을 주는지 살펴본다. 처음 의심한 원인에 따라 수집하는 정보가 달라질 수 있기 때문이다. <strong>성격을 먼저 의심하면 교육 기록을 보고, 구조를 먼저 의심하면 업무표를 보고, 환자 안전을 먼저 생각하면 임상적 긴급도를 확인한다.</strong></p>
         <p>같은 사건을 해석하는 첫 문장이 조사 방향을 바꾸고, 그렇게 수집한 자료는 다시 첫 가설을 강화하기 쉽다. 이는 제12장 확증편향으로 자연스럽게 이어지는 문제이기도 하다.</p>
       </section>
       <section id="practice">
         <div class="sect-num">09 / A SMALL, ETHICAL EXPERIMENT</div>
-        <h2>내 주변에서 어떻게 시험할까?</h2>
-        <p>이론이 흥미로워도 현실의 변화로 연결되지 않으면 한 편의 좋은 이야기에 그칠 수 있다. 그렇다고 임상 진료를 환자의 동의 없는 실험으로 만들어서는 안 된다. 처음에는 <strong>의료적 판단이나 처치를 바꾸지 않는 안내·운영의 질 개선</strong>에서 출발하는 편이 적절하다.</p>
+        <h2>안내와 업무 조건의 변화를 어떻게 평가할까</h2>
+        <p>상황이 행동에 영향을 준다는 설명을 현장에 적용하려면 바꿀 조건과 확인할 결과를 정해야 한다. 그렇다고 임상 진료를 환자의 동의 없는 실험으로 만들어서는 안 된다. 처음에는 <strong>의료적 판단이나 처치를 바꾸지 않는 안내·운영의 질 개선</strong>에서 출발하는 편이 적절하다.</p>
         <h3>작은 시험 ① 대기 불확실성 줄이기</h3>
         <p>문제: 환자는 예상한 것보다 오래 기다리고, 언제 자신의 차례가 올지 모른다.</p>
         <p>가설: 총 대기시간이 같더라도, 정확하고 갱신되는 예상 대기 정보를 제공하면 불안과 반복 문의가 줄어들 수 있다. 다만 실제 시간이 반복해서 틀리면 신뢰가 더 낮아질 수 있다.</p>
@@ -261,7 +261,7 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
           <thead><tr><th>관찰 항목</th><th>현재 운영</th><th>변경 후</th></tr></thead>
           <tbody><tr><td>실제 대기시간</td><td>기준값 기록</td><td>동일하게 기록</td></tr><tr><td>대기 문의</td><td>하루 문의 횟수</td><td>동일 기준의 문의 횟수</td></tr><tr><td>환자 평가</td><td>익명·자발적 평가</td><td>동일한 질문</td></tr><tr><td>동시 변화</td><td>진료 인원·요일 기록</td><td>차이를 해석할 때 함께 고려</td></tr></tbody>
         </table>
-        <p>운영 개선에서 핵심은 '통계적으로 엄밀한 실험'이라는 이름보다, <strong>해석을 잘못할 가능성을 스스로 열어두는 태도</strong>다. 대기 환자 수가 다른 두 요일을 단순 비교하거나, 직원이 더 바빴던 날을 무시하면 결과를 오독할 수 있다.</p>
+        <p>운영 개선을 평가할 때 필요한 것은 비교 조건을 확인하고, <strong>해석을 잘못할 가능성을 스스로 열어두는 태도</strong>다. 대기 환자 수가 다른 두 요일을 단순 비교하거나, 직원이 더 바빴던 날을 무시하면 결과를 오독할 수 있다.</p>
         <h3>작은 시험 ② 환자에게 기억을 요구하지 않기</h3>
         <p>진료가 끝날 때 정보를 한꺼번에 전달하는 방식 대신, 꼭 필요한 두세 가지를 짧게 나누어 설명하고 환자가 본인 말로 다시 표현하도록 돕는다. 서면 안내가 필요한 경우에는 함께 제공한다. 이후 반복 설명이 필요한 빈도나 환자의 실제 이해도를 살펴볼 수 있다. 이해도 확인은 평가나 질책의 도구가 되어서는 안 된다.</p>
         <figure class="figure">
@@ -277,10 +277,10 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
       </section>
       <section id="ending">
         <div class="sect-num">10 / AN OPEN ENDING</div>
-        <h2>좋은 사람인가보다,<br>언제 좋은 사람이 되는가</h2>
-        <p>우리는 누군가를 이해했다고 느끼고 싶어 한다. 사람을 한마디로 규정하면 세상은 단순해진다. 그 사람은 이기적이고, 그 사람은 게으르고, 그 사람은 원래 친절하다. 하지만 사람이 매 순간 같은 사람으로 행동하지 않는다면, 이 명쾌한 세계관은 균열을 일으킨다.</p>
+        <h2>행동의 원인을 판단할 때 사람과 상황을 함께 살피기</h2>
+        <p>한 번의 행동만으로 상대의 성격을 확정하면 다른 원인을 확인하기 어렵다. 사람을 한마디로 규정하면 세상은 단순해진다. 그 사람은 이기적이고, 그 사람은 게으르고, 그 사람은 원래 친절하다. 하지만 사람이 매 순간 같은 사람으로 행동하지 않는다면, 성격만으로 내린 설명도 수정해야 한다.</p>
         <p>달리와 뱃슨의 신학생들은 특별히 악한 사람들이 아니었을 것이다. 어떤 조건에서는 멈췄고 어떤 조건에서는 지나쳤다. 이 차이는 도덕성이 무의미하다는 뜻이 아니라, <strong>선한 의도가 행동으로 나타나는 데에도 조건이 필요할 수 있다</strong>는 사실을 떠올리게 한다.</p>
-        <p>쇼튼의 원래 질문은 '어떤 맥락에서 광고를 보여줄 것인가'였다. 우리가 도달한 질문은 조금 더 넓다. <em>사람이 자신의 좋은 가능성을 발휘할 수 있도록, 우리는 어떤 환경과 관계를 만들 수 있을까?</em> 그리고 그런 환경에서도 끝내 개인에게 남는 선택과 책임은 무엇일까?</p>
+        <p>쇼튼의 원래 질문은 '어떤 맥락에서 광고를 보여줄 것인가'였다. 우리가 도달한 질문은 조금 더 넓다. <em>사람이 하려던 행동을 실제로 실행할 수 있도록 시간과 정보, 업무 조건을 어떻게 마련할 수 있을까?</em> 그리고 그런 환경에서도 끝내 개인에게 남는 선택과 책임은 무엇일까?</p>
         <div class="pullquote">행동은 성격을 보여줄 때도 있다.<br>그러나 행동 하나가 그 사람 전체는 아니다.</div>
         <h3>다음 장으로 가져갈 세 개의 질문</h3>
         <ol class="questions"><li>내가 '그 사람은 원래 그렇다'고 판단했던 사례 중, 상황을 바꾸면 설명이 달라질 것은 무엇인가?</li><li>환자와 직원의 행동을 개선할 때, 성격을 고치려는 시도와 환경을 바꾸는 시도 중 무엇을 먼저 검토해야 하는가?</li><li>우리는 자유롭게 선택하는 사람인가, 아니면 스스로 선택했다고 느끼는 상황의 산물인가?</li></ol>
@@ -302,7 +302,7 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
         </ol>
         <p><small>저작권 및 연구 해석: 원서 문장을 길게 재현하지 않았고, 실험 수치 외 그래픽은 직접 제작했다. 실무 사례는 사고실험·운영 개선 아이디어이며 개인 환자에 대한 진료 지침이나 치료 효과에 관한 근거로 사용해서는 안 된다.</small></p>
       </div>
-      <footer class="next"><div><span>NEXT ESSAY / 02</span><br><strong>우리는 왜 다수를 따라가는가?</strong><div class="soon">제2편·제3편 발간 완료</div></div><a href="02-social-proof/" class="tool-pill">제2편 읽기 →</a><a href="03-negative-social-proof/" class="tool-pill">제3편 읽기 →</a><a href="#top" class="tool-pill">맨 위로 ↑</a></footer>
+      <footer class="next"><div><span>NEXT ESSAY / 02</span><br><strong>다른 사람의 선택을 왜 내 판단의 근거로 삼는가</strong><div class="soon">제2편·제3편 발간 완료</div></div><a href="02-social-proof/" class="tool-pill">제2편 읽기 →</a><a href="03-negative-social-proof/" class="tool-pill">제3편 읽기 →</a><a href="#top" class="tool-pill">맨 위로 ↑</a></footer>
     </div>
   </main>
 </div>
@@ -381,7 +381,7 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
     while((n=walker.nextNode())){nodes.push({node:n,start:full.length,end:full.length+n.textContent.length});full+=n.textContent}
     var q=quote.replace(/\s+/g,' ');
     var norm=full.replace(/\s+/g,' ');
-    var index=norm.indexOf(q);if(index<0)return null;
+    var index=norm.indexOf(q);if(index<0||norm.indexOf(q,index+1)>=0)return null;
     var search=0,start=-1,end=-1,inSpace=false;
     for(var i=0;i<full.length;i++){var ch=full.charAt(i);if(/\s/.test(ch)){if(inSpace)continue;inSpace=true}else inSpace=false;if(search===index)start=i;if(search===index+q.length-1)end=i+1;search++;if(search>index+q.length)break}
     if(start<0||end<0)return null;
@@ -394,7 +394,7 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
       ['choice-highlight','choice-underline','choice-note'].forEach(function(key){CSS.highlights.delete(key)});
       [['highlight','choice-highlight'],['underline','choice-underline'],['note','choice-note']].forEach(function(kv){var ranges=notes.filter(function(n){return n.type===kv[0]}).map(function(n){var el=document.getElementById(n.paragraphId);return el?rangeForText(el,n.quote):null}).filter(Boolean);if(ranges.length)CSS.highlights.set(kv[1],new Highlight(...ranges))});
     }else{
-      notes.forEach(function(n){var el=document.getElementById(n.paragraphId);if(el)el.classList.add('annotated-fallback')});
+      notes.forEach(function(n){var el=document.getElementById(n.paragraphId);if(el&&rangeForText(el,n.quote))el.classList.add('annotated-fallback')});
     }
   }
   function renderVault(){
@@ -402,7 +402,7 @@ main{min-width:0}.hero{padding:73px 0 42px;border-bottom:1px solid var(--rule)}.
     if(!notes.length){var empty=document.createElement('p');empty.textContent='아직 보관한 문장이 없습니다. 본문에서 마음에 드는 문장을 선택해 보세요.';list.appendChild(empty);return}
     notes.forEach(function(n){
       var item=document.createElement('div');item.className='vault-item';
-      var quote=document.createElement('q');quote.textContent=n.quote;item.appendChild(quote);
+      var quote=document.createElement('q');quote.textContent=n.quote;item.appendChild(quote);var originalParagraph=document.getElementById(n.paragraphId);if(!originalParagraph||!rangeForText(originalParagraph,n.quote)){var status=document.createElement('small');status.textContent='본문이 수정되어 일치하는 문구를 찾지 못했습니다. 인용문과 메모는 보존됩니다.';item.appendChild(status)}
       if(n.comment){var cm=document.createElement('p');cm.textContent='메모: '+n.comment;item.appendChild(cm)}
       var meta=document.createElement('small');meta.textContent=(n.type==='note'?'메모':n.type==='underline'?'밑줄':'형광펜')+' · '+n.created;item.appendChild(meta);
       var jump=document.createElement('button');jump.textContent='본문으로 돌아가기 ↗';jump.addEventListener('click',function(){closeVault();var el=document.getElementById(n.paragraphId);if(el){el.scrollIntoView({behavior:'smooth',block:'center'});history.replaceState(null,'','#'+n.paragraphId)}});item.appendChild(jump);

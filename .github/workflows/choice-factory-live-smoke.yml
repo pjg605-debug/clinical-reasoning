@@ -148,7 +148,7 @@ jobs:
           set -euo pipefail
           for attempt in {1..24}; do
             status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory-04.html -w '%{http_code}' "$SITE/" || true)"
-            if [[ "$status" == 200 ]] && grep -Fq 'data-illustrations="episode04-approved-7-v2"' /tmp/choice-factory-04.html; then
+            if [[ "$status" == 200 ]] && grep -Fq 'data-illustrations="episode04-approved-7-v2"' /tmp/choice-factory-04.html && grep -Fq 'data-prose-revision="explicit-20261021-v1"' /tmp/choice-factory-04.html; then
               break
             fi
             sleep 10
@@ -166,7 +166,7 @@ jobs:
           grep -Fq 'choice-human-v2-essay04-' /tmp/choice-factory-04-reader.js
           curl -fsSL --retry 3 "$SITE/manuscript.md" -o /tmp/choice-factory-04-manuscript.md
           curl -fsSL --retry 3 "$SITE/verification.md" -o /tmp/choice-factory-04-verification.md
-          grep -Fq '눈에 띈 다음에는 무엇이 남을까' /tmp/choice-factory-04-manuscript.md
+          grep -Fq '눈에 띄는 광고는 왜 제품 이름까지 기억시키지 못할까' /tmp/choice-factory-04-manuscript.md
           curl -fsSL --retry 3 "$SITE/illustration-approvals.json" -o /tmp/choice-factory-04-approvals.json
           python - <<'PY'
           import hashlib, json, os, urllib.request
@@ -223,4 +223,34 @@ jobs:
               assert data.startswith(b'\x89PNG\r\n\x1a\n')
               assert hashlib.sha256(data).hexdigest() == row['sha256'], name
               print('PASS episode05 approved original', row['image_id'], name)
+          PY
+
+      - name: Verify all five prose revisions and annotation compatibility
+        shell: bash
+        env:
+          SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/choice-prose/tests
+          curl -fsSL --retry 3 "$SITE/prose-anchors.js" -o /tmp/choice-prose/prose-anchors.js
+          curl -fsSL --retry 3 "$SITE/tests/prose-anchors.test.cjs" -o /tmp/choice-prose/tests/prose-anchors.test.cjs
+          node --test /tmp/choice-prose/tests/prose-anchors.test.cjs
+          python - <<'PY'
+          import os, urllib.request
+          from html.parser import HTMLParser
+          class Inspect(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.ids=[]; self.marker=False; self.title=False
+              def handle_starttag(self, tag, attrs):
+                  attrs=dict(attrs)
+                  if attrs.get('id'): self.ids.append(attrs['id'])
+                  if tag=='body': self.marker=attrs.get('data-prose-revision')=='explicit-20261021-v1'
+          for path, title in [('', '같은 행동을 보고 왜 남의 성격부터 판단할까'), ('02-social-proof/', '다른 사람의 선택을 왜 내 판단의 근거로 삼는가'), ('03-negative-social-proof/', '잘못된 행동을 경고했는데 왜 더 흔한 일로 받아들일까'), ('04-distinctiveness/', '눈에 띄는 광고는 왜 제품 이름까지 기억시키지 못할까'), ('05-habit/', '행동을 수정하겠다고 마음먹은 뒤에도 손은 왜 습관대로 움직이는가')]:
+              url=os.environ['SITE']+'/'+path
+              with urllib.request.urlopen(url,timeout=30) as r: page=r.read().decode()
+              p=Inspect(); p.feed(page)
+              assert p.marker and len(p.ids)==len(set(p.ids)), path
+              with urllib.request.urlopen(url+'manuscript.md',timeout=30) as r: manuscript=r.read().decode()
+              assert manuscript.startswith('# '+title), path
+              print('PASS revised prose',path or 'episode01')
           PY

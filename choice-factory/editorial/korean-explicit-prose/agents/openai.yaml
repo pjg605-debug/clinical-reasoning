@@ -1,0 +1,4 @@
+interface:
+  display_name: "명확한 한국어 설명문"
+  short_description: "모호한 비유를 구체화하고 주제와 설명 원리를 분명히 하는 한국어 교정"
+  default_prompt: "$korean-explicit-prose 기준으로 이 글의 제목과 도입, 본문을 독자가 바로 이해하도록 수정해 주세요."
