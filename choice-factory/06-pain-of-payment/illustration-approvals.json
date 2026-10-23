@@ -1,0 +1,139 @@
+{
+  "episode": 6,
+  "publication_authorization": "전체 삽입하여 업로드",
+  "images": [
+    {
+      "image_id": "06-01",
+      "title": "같은 금액, 다른 결제 과정",
+      "sha256": "2abc3c214ef00a1188368ee6e24eba78e8ad036e9a9e485278949c63afd85d59",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "일괄 승인",
+        "date": "2026-10-23",
+        "scope": "All four episode 06 original previews presented immediately before this approval: 06-01 through 06-04, version 1",
+        "sha256": "2abc3c214ef00a1188368ee6e24eba78e8ad036e9a9e485278949c63afd85d59"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/payment-actions.png",
+      "bytes": 2614828,
+      "after_paragraph": "para-intro-1",
+      "alt": "현금과 휴대폰으로 같은 9,000원을 결제하는 두 가상 장면.",
+      "caption": "동일 금액의 결제 동작을 비교한 가상 장면입니다. 지출이나 부담의 차이를 입증한 실험 결과가 아닙니다."
+    },
+    {
+      "image_id": "06-02",
+      "title": "기억한 금액과 실제 지출",
+      "sha256": "6072af4dc2a11cce98bd45f95b13d08126ee49c31d8905362753f55ba3528bf8",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "일괄 승인",
+        "date": "2026-10-23",
+        "scope": "All four episode 06 original previews presented immediately before this approval: 06-01 through 06-04, version 1",
+        "sha256": "6072af4dc2a11cce98bd45f95b13d08126ee49c31d8905362753f55ba3528bf8"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/memory-receipt.png",
+      "bytes": 2708142,
+      "after_paragraph": "para-memory-3",
+      "alt": "한 사람이 8,000원으로 기억한 금액과 9,000원 영수증을 비교하는 가상 장면.",
+      "caption": "본문 연구와 별개의 가상 예시입니다. 8,000원과 9,000원은 설명용 숫자이며 결제 수단별 연구 결과가 아닙니다."
+    },
+    {
+      "image_id": "06-03",
+      "title": "하루 비용과 총액 함께 보기",
+      "sha256": "3518ca7b53cc728918816bac5d05e4eb8458464154799ff0b1333a4d31150d4b",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "일괄 승인",
+        "date": "2026-10-23",
+        "scope": "All four episode 06 original previews presented immediately before this approval: 06-01 through 06-04, version 1",
+        "sha256": "3518ca7b53cc728918816bac5d05e4eb8458464154799ff0b1333a4d31150d4b"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/daily-total.png",
+      "bytes": 2497286,
+      "after_paragraph": "para-period-2",
+      "alt": "30일 총액 90,000원, 하루 환산 3,000원과 총액 일괄 결제를 함께 확인하는 가상 장면.",
+      "caption": "부가 비용 없는 가상 서비스의 산술 예시입니다. 하루 환산액은 하루마다 결제할 수 있다는 뜻이 아닙니다."
+    },
+    {
+      "image_id": "06-04",
+      "title": "편리한 결제, 충분한 설명",
+      "sha256": "cdfe1c0926f304544e774fff787dabd7ec4058ca0d62cc3990a110328f02bcc8",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "일괄 승인",
+        "date": "2026-10-23",
+        "scope": "All four episode 06 original previews presented immediately before this approval: 06-01 through 06-04, version 1",
+        "sha256": "cdfe1c0926f304544e774fff787dabd7ec4058ca0d62cc3990a110328f02bcc8"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/clinic-cost-explanation.png",
+      "bytes": 2557595,
+      "after_paragraph": "para-clinic-2",
+      "alt": "한의원 가상 안내에서 총액과 선택 조건을 설명하고 질문과 보류 기회를 제공하는 장면.",
+      "caption": "가상 운영안입니다. 실제 가격표나 법률 요건 안내가 아니며 치료·매출 성과를 보장하지 않습니다."
+    },
+    {
+      "image_id": "06-05",
+      "title": "입찰액과 지불액은 다릅니다",
+      "sha256": "22d110426e9620d2663fb7a73f1f32b01af19e0a912f2ef86fba76cc29448b46",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "전체 삽입하여 업로드",
+        "date": "2026-10-23",
+        "scope": "all seven presented images including 06-05 through 06-07 originals",
+        "sha256": "22d110426e9620d2663fb7a73f1f32b01af19e0a912f2ef86fba76cc29448b46"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/auction-method.png",
+      "bytes": 2594946,
+      "after_paragraph": "para-auction-1",
+      "alt": "현금과 카드 조건 안내문, 최대 입찰액 기록, 안내된 경매 규칙을 구별하는 방법 도해.",
+      "caption": "Prelec·Simester(2001) 연구 1의 일부 방법 요약입니다. 인물은 설명용이며 안내된 규칙과 실제 정산을 구별합니다. [B1]"
+    },
+    {
+      "image_id": "06-06",
+      "title": "같은 이용, 다른 결제 시점",
+      "sha256": "f6fcc061b8d135a6b45f30dcd67d23745c319c7db313ed6646bf940fb2353d8d",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "전체 삽입하여 업로드",
+        "date": "2026-10-23",
+        "scope": "all seven presented images including 06-05 through 06-07 originals",
+        "sha256": "f6fcc061b8d135a6b45f30dcd67d23745c319c7db313ed6646bf940fb2353d8d"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/payment-use-timing.png",
+      "bytes": 2523488,
+      "after_paragraph": "para-timing-1",
+      "alt": "세 번 이용에 매회 3,000원을 내는 경우와 미리 9,000원을 내는 경우의 가상 시간표.",
+      "caption": "같은 총액과 이용 횟수를 가정한 예시입니다. 결제 시점만 비교하며 이용량·만족도·지출 증가를 입증하지 않습니다."
+    },
+    {
+      "image_id": "06-07",
+      "title": "9 가격, 두 가지 설명",
+      "sha256": "0e50fe3601a2029383980483ff68faba07308d555abd80837af5ea6265be73c2",
+      "version": 1,
+      "approval": "approved",
+      "approval_evidence": {
+        "source": "human user message in this chat",
+        "quote": "전체 삽입하여 업로드",
+        "date": "2026-10-23",
+        "scope": "all seven presented images including 06-05 through 06-07 originals",
+        "sha256": "0e50fe3601a2029383980483ff68faba07308d555abd80837af5ea6265be73c2"
+      },
+      "repository_path": "choice-factory/06-pain-of-payment/art/nine-price-explanations.png",
+      "bytes": 2645595,
+      "after_paragraph": "para-nine-2",
+      "alt": "4.00달러와 3.99달러의 앞자리 비교와 할인 신호 해석 가설을 나눈 가상 예시.",
+      "caption": "실제 가격 차이 0.01달러를 표시한 가상 개념 예시입니다. 원논문의 가격 조건이나 판매 결과를 재현한 그림이 아닙니다."
+    }
+  ]
+}

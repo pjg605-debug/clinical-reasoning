@@ -254,3 +254,51 @@ jobs:
               assert manuscript.startswith('# '+title), path
               print('PASS revised prose',path or 'episode01')
           PY
+
+      - name: Verify episode 06 and seven approved illustration originals
+        shell: bash
+        env:
+          SITE: https://pjg605-debug.github.io/clinical-reasoning/choice-factory/06-pain-of-payment
+        run: |
+          set -euo pipefail
+          for attempt in {1..24}; do
+            status="$(curl -sS -L --max-time 20 -o /tmp/choice-factory-06.html -w '%{http_code}' "$SITE/" || true)"
+            if [[ "$status" == 200 ]] && grep -Fq 'data-illustrations="episode06-approved-7-v1"' /tmp/choice-factory-06.html; then
+              break
+            fi
+            sleep 10
+          done
+          test "$status" = 200
+          curl -fsSL --retry 3 "$SITE/reader.js" -o /tmp/choice-factory-06-reader.js
+          node --check /tmp/choice-factory-06-reader.js
+          grep -Fq 'choice-human-v2-essay06-' /tmp/choice-factory-06-reader.js
+          curl -fsSL --retry 3 "$SITE/illustration-approvals.json" -o /tmp/choice-factory-06-approvals.json
+          python - <<'PY'
+          import hashlib, json, os, urllib.request
+          from pathlib import Path
+          from html.parser import HTMLParser
+          class Inspect(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.ids=[]; self.paragraphs=0; self.sections=0; self.images=[]
+              def handle_starttag(self, tag, attrs):
+                  a=dict(attrs)
+                  if a.get('id'): self.ids.append(a['id'])
+                  if tag=='section': self.sections+=1
+                  if tag=='p' and a.get('id','').startswith('para-'): self.paragraphs+=1
+                  if tag=='img': self.images.append(a)
+          page=Path('/tmp/choice-factory-06.html').read_text()
+          p=Inspect(); p.feed(page)
+          assert p.sections==12 and p.paragraphs==38 and len(p.images)==7
+          assert len(p.ids)==len(set(p.ids))
+          manifest=json.loads(Path('/tmp/choice-factory-06-approvals.json').read_text())
+          assert len(manifest['images'])==7
+          for row in manifest['images']:
+              assert row['approval']=='approved'
+              name=Path(row['repository_path']).name
+              assert f'src="./art/{name}"' in page
+              with urllib.request.urlopen(os.environ['SITE']+'/art/'+name,timeout=40) as r: data=r.read()
+              assert hashlib.sha256(data).hexdigest()==row['sha256']
+              print('PASS episode06 approved original',row['image_id'])
+          for name in ['manuscript.md','verification.md','illustration-plan.md']:
+              with urllib.request.urlopen(os.environ['SITE']+'/'+name,timeout=30) as r: assert r.status==200
+          PY
