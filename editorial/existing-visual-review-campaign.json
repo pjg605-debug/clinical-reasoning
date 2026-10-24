@@ -2155,11 +2155,21 @@
           }
         ],
         "pathsMatchArticleSrcHref": true,
-        "duplicateGitBlobs": "none among this batch or full asset catalog by exact SHA"
+        "duplicateGitBlobs": {
+          "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
+          "paths": [
+            "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+            "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp"
+          ],
+          "usageContexts": [
+            "2026-10-11-elbow-function-update: structure versus function reassessment",
+            "2026-09-19-lateral-elbow: lateral epicondyle versus radial tunnel location/depth"
+          ]
+        }
       },
       "userDecision": "pending",
       "mainModified": false,
-      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision concerns the proximal depth/course of the superficial radial nerve; Figure 3 needs a true conditional pathway with neurologic escalation."
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision concerns the proximal depth/course of the superficial radial nerve; Figure 3 needs a true conditional pathway with neurologic escalation. Figure 1 is an exact Git-blob reuse in the 2026-09-19 lateral-elbow article; both contexts require the user's disposition."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
