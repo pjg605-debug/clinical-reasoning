@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 7,
+    "verifiedLinkedArticles": 8,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -342,9 +342,59 @@
       "title": "테니스엘보 통증은 줄었는데 왜 악력과 전완 기능은 회복되지 않을까?",
       "file": "articles/2026-10-11-elbow-function-update.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+        "assets/briefs/2026-10-11-elbow-function-update-rehab.webp"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-25",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "figure4": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D rendering usefully separates the common extensor tendon/ECRB from the radial nerve deep branch and PIN at the supinator and explicitly says it is not a needling path. However, the superficial radial sensory branch appears too superficial in the proximal forearm; normally it remains covered by brachioradialis for much of the proximal/mid forearm and becomes subcutaneous more distally. Revise the proximal depth/course and surface inset before treating this as validated anatomy.",
+          "Figure 2: seated supported pain-free grip, resisted wrist extension with forearm stabilization, and objective finger-extension comparison are recognizable and clinically plausible. The bottom warning correctly separates pain-limited performance from true motor weakness and rejects single-test confirmation. Approve recommended, provided the same posture/device settings are repeated at reassessment.",
+          "Figure 3: the four management states correspond to the manuscript table, but the image is a vertical list rather than a decision pathway: it has no conditional arrows, no explicit findings leading to maintain/differential/referral branches, and no urgent or progressive neurologic escalation criterion. Revise to a real branch flow, especially objective finger/thumb extension weakness or progressive sensory change leading to early neurologic/orthopaedic assessment.",
+          "Figure 4: supported wrist-extension loading, towel-supported band external rotation, and band row/scapular retraction are plausible examples. The caption correctly states that load and frequency are individualized and that the image does not reproduce the RCT protocol. Approve recommended as exercise examples, not a fixed progression; record next-day response and adjust load."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-25",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-11-elbow-function-update",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 500
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-10-cuff-imaging-weight",
@@ -1146,7 +1196,12 @@
       "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-25",
+      "preliminaryVisualNotes": "Figure 1: the realistic 3D rendering usefully separates the common extensor tendon/ECRB from the radial nerve deep branch and PIN at the supinator and explicitly says it is not a needling path. However, the superficial radial sensory branch appears too superficial in the proximal forearm; normally it remains covered by brachioradialis for much of the proximal/mid forearm and becomes subcutaneous more distally. Revise the proximal depth/course and surface inset before treating this as validated anatomy.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
@@ -1154,7 +1209,10 @@
       "gitBlobSha": "c7ef0ba97ab41a3cccc26043ab7562fc7148a10e",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-25",
+      "preliminaryVisualNotes": "Figure 3: the four management states correspond to the manuscript table, but the image is a vertical list rather than a decision pathway: it has no conditional arrows, no explicit findings leading to maintain/differential/referral branches, and no urgent or progressive neurologic escalation criterion. Revise to a real branch flow, especially objective finger/thumb extension weakness or progressive sensory change leading to early neurologic/orthopaedic assessment.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
@@ -1162,7 +1220,10 @@
       "gitBlobSha": "0ac56b64777dd172b245fb3bbfc95daa21bc1d0f",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-25",
+      "preliminaryVisualNotes": "Figure 2: seated supported pain-free grip, resisted wrist extension with forearm stabilization, and objective finger-extension comparison are recognizable and clinically plausible. The bottom warning correctly separates pain-limited performance from true motor weakness and rejects single-test confirmation. Approve recommended, provided the same posture/device settings are repeated at reassessment.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
@@ -1170,7 +1231,10 @@
       "gitBlobSha": "20dbc21ac9baf1a6573c518cf699bd5e5092eebe",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-25",
+      "preliminaryVisualNotes": "Figure 4: supported wrist-extension loading, towel-supported band external rotation, and band row/scapular retraction are plausible examples. The caption correctly states that load and frequency are individualized and that the image does not reproduce the RCT protocol. Approve recommended as exercise examples, not a fixed progression; record next-day response and adjust load.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
@@ -2051,6 +2115,51 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 2 revision recommendation concerns incomplete McMurray sequence and insufficiently explicit flat-foot repeated two-way Thessaly movement."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-25",
+      "articleId": "2026-10-11-elbow-function-update",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+        "assets/briefs/2026-10-11-elbow-function-update-rehab.webp"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-11-elbow-function-update",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          },
+          {
+            "path": "assets/briefs/2026-10-11-elbow-function-update-rehab.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 500
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": "none among this batch or full asset catalog by exact SHA"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision concerns the proximal depth/course of the superficial radial nerve; Figure 3 needs a true conditional pathway with neurologic escalation."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
