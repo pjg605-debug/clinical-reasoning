@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 8,
+    "verifiedLinkedArticles": 9,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -402,9 +402,50 @@
       "title": "MRI 파열 소견이 있으면 남은 어깨 통증의 원인도 확정될까?",
       "file": "articles/2026-10-10-cuff-imaging-weight.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-26",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the image is a realistic educational 3D rendering rather than a patient MRI or cadaveric photograph. It usefully shows the glenoid, humeral head, capsule, subacromial bursa, infraspinatus/subscapularis, long-head biceps, suprascapular nerve, axillary nerve and vessels. However, for a rotator-cuff MRI reweighting article it omits/obscures the clinically central supraspinatus tendon and footprint, does not map all four cuff tendons, and labels an internal cross-section as sagittal without a clear orientation marker. Revise before treating it as a validated cuff/MRI anatomy map; the same exact Git blob is also used in the 2026-09-18 shoulder and 2026-09-25 adhesive-capsulitis contexts.",
+          "Figure 2: the three photo-style panels are recognizable as active elevation, passive external rotation and resisted external rotation, and the safety footer correctly separates pain, ROM and strength. But the manuscript asks for active-versus-passive elevation in the same plane, resisted abduction/external rotation, functional lifting and cervical/neurologic screening. Comparing active elevation with passive external rotation cannot demonstrate the claimed active/passive gap, and the image is reused unchanged in the 2026-09-25 adhesive-capsulitis article. Revise to matched active/passive planes and add the management-changing strength/function elements rather than implying this three-panel set is the full exam bundle.",
+          "Figure 3: the four colored boxes reproduce the manuscript's diagnostic-weighting table, but the SVG is a vertical list rather than a decision pathway. It has no arrows or explicit conditions linking non-traumatic improving function to maintain, acute trauma plus objective weakness/active-passive gap to early US/MRI and orthopaedic review, global active/passive restriction to capsular/joint evaluation, or progressive neurologic findings/systemic red flags to urgent escalation. Revise to a true conditional flow."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-26",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-10-cuff-imaging-weight",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-09-acute-lbp-imaging",
@@ -1172,7 +1213,13 @@
       "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-26",
+      "preliminaryVisualNotes": "Figure 1: the image is a realistic educational 3D rendering rather than a patient MRI or cadaveric photograph. It usefully shows the glenoid, humeral head, capsule, subacromial bursa, infraspinatus/subscapularis, long-head biceps, suprascapular nerve, axillary nerve and vessels. However, for a rotator-cuff MRI reweighting article it omits/obscures the clinically central supraspinatus tendon and footprint, does not map all four cuff tendons, and labels an internal cross-section as sagittal without a clear orientation marker. Revise before treating it as a validated cuff/MRI anatomy map; the same exact Git blob is also used in the 2026-09-18 shoulder and 2026-09-25 adhesive-capsulitis contexts.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
@@ -1180,7 +1227,10 @@
       "gitBlobSha": "da6f91ba2f7372f38725c27bb9f4fb3aa1fc3403",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-26",
+      "preliminaryVisualNotes": "Figure 3: the four colored boxes reproduce the manuscript's diagnostic-weighting table, but the SVG is a vertical list rather than a decision pathway. It has no arrows or explicit conditions linking non-traumatic improving function to maintain, acute trauma plus objective weakness/active-passive gap to early US/MRI and orthopaedic review, global active/passive restriction to capsular/joint evaluation, or progressive neurologic findings/systemic red flags to urgent escalation. Revise to a true conditional flow.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
@@ -1188,7 +1238,12 @@
       "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-26",
+      "preliminaryVisualNotes": "Figure 2: the three photo-style panels are recognizable as active elevation, passive external rotation and resisted external rotation, and the safety footer correctly separates pain, ROM and strength. But the manuscript asks for active-versus-passive elevation in the same plane, resisted abduction/external rotation, functional lifting and cervical/neurologic screening. Comparing active elevation with passive external rotation cannot demonstrate the claimed active/passive gap, and the image is reused unchanged in the 2026-09-25 adhesive-capsulitis article. Revise to matched active/passive planes and add the management-changing strength/function elements rather than implying this three-panel set is the full exam bundle.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp",
@@ -2170,6 +2225,69 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 revision concerns the proximal depth/course of the superficial radial nerve; Figure 3 needs a true conditional pathway with neurologic escalation. Figure 1 is an exact Git-blob reuse in the 2026-09-19 lateral-elbow article; both contexts require the user's disposition."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-26",
+      "articleId": "2026-10-10-cuff-imaging-weight",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-10-cuff-imaging-weight",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-10-cuff-imaging-weight-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+            "paths": [
+              "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+              "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-shoulder: persistent shoulder/night and arm pain differential",
+              "2026-09-25-shoulder-passive-rom: adhesive-capsulitis/passive-ROM reassessment",
+              "2026-10-10-cuff-imaging-weight: rotator-cuff MRI finding reweighting"
+            ]
+          },
+          {
+            "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
+            "paths": [
+              "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-25-shoulder-passive-rom: passive external-rotation restriction",
+              "2026-10-10-cuff-imaging-weight: active/passive gap and cuff strength/function"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 needs cuff-specific anatomy/orientation; Figure 2 does not show matched active/passive planes or the full management-changing exam bundle; Figure 3 is a list rather than a conditional pathway. Exact Git-blob reuse across earlier shoulder articles is recorded so each usage context remains subject to user disposition."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
