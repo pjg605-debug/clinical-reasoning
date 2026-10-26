@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 9,
+    "verifiedLinkedArticles": 10,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -453,9 +453,50 @@
       "title": "심하게 아픈 급성 요통, 다음 방문의 MRI는 무엇 때문에 선택할까?",
       "file": "articles/2026-10-09-acute-lbp-imaging.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-27",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic educational 3D rendering usefully shows L3-S1 vertebrae/discs, the spinal canal, cauda equina, exiting nerve roots, ligamentum flavum, facet joints and an axial disc-level orientation. However, the cauda equina is rendered as a cluster of large bead-like nodules rather than fine root fascicles, which can be mistaken for literal MRI morphology, and the safety/depth context omits the major anterior vessels, psoas/retroperitoneal structures and kidneys. Revise the neural rendering and add relevant deep safety boundaries before treating this as validated anatomy. The exact blob is also used in the 2026-09-22 stenosis and 2026-09-30 low-back-pain reassessment articles.",
+          "Figure 2: heel/toe walking, symptom-concordant SLR, a permitted functional lifting task, and the footer separating strength/sensation/reflex and cauda-equina warning signs are clinically coherent. Approve recommended as a compact reassessment overview, provided the illustrated high SLR angle is not interpreted as a fixed positive cutoff and the actual visit still documents bilateral myotomes, dermatomes and reflexes separately. The exact blob is also used in the 2026-09-30 low-back-pain reassessment article.",
+          "Figure 3: the four boxes accurately echo the manuscript's weighting categories, but the SVG is a vertical list rather than a decision pathway. It lacks conditional arrows from no red flags/no deficit to no routine imaging and safety-netting, progressive neurologic deficit to urgent imaging/specialist assessment, bladder retention/saddle sensory change/bilateral deficit to immediate cauda-equina evaluation, and infection/cancer/fracture risk to cause-specific testing. Revise to a true branching flow; also prevent the awkward mobile line break in 'safety-net'."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-27",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-09-acute-lbp-imaging",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-08-tmd-chewing",
@@ -1189,7 +1230,13 @@
       "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-27",
+      "preliminaryVisualNotes": "Figure 1: the realistic educational 3D rendering usefully shows L3-S1 vertebrae/discs, the spinal canal, cauda equina, exiting nerve roots, ligamentum flavum, facet joints and an axial disc-level orientation. However, the cauda equina is rendered as a cluster of large bead-like nodules rather than fine root fascicles, which can be mistaken for literal MRI morphology, and the safety/depth context omits the major anterior vessels, psoas/retroperitoneal structures and kidneys. Revise the neural rendering and add relevant deep safety boundaries before treating this as validated anatomy. The exact blob is also used in the 2026-09-22 stenosis and 2026-09-30 low-back-pain reassessment articles.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
@@ -1197,7 +1244,10 @@
       "gitBlobSha": "e400598a91c088ecfdbc852dc2186935236d9b52",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-27",
+      "preliminaryVisualNotes": "Figure 3: the four boxes accurately echo the manuscript's weighting categories, but the SVG is a vertical list rather than a decision pathway. It lacks conditional arrows from no red flags/no deficit to no routine imaging and safety-netting, progressive neurologic deficit to urgent imaging/specialist assessment, bladder retention/saddle sensory change/bilateral deficit to immediate cauda-equina evaluation, and infection/cancer/fracture risk to cause-specific testing. Revise to a true branching flow; also prevent the awkward mobile line break in 'safety-net'.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
@@ -1205,7 +1255,12 @@
       "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-27",
+      "preliminaryVisualNotes": "Figure 2: heel/toe walking, symptom-concordant SLR, a permitted functional lifting task, and the footer separating strength/sensation/reflex and cauda-equina warning signs are clinically coherent. Approve recommended as a compact reassessment overview, provided the illustrated high SLR angle is not interpreted as a fixed positive cutoff and the actual visit still documents bilateral myotomes, dermatomes and reflexes separately. The exact blob is also used in the 2026-09-30 low-back-pain reassessment article.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-30-lbp-reweight-exam.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp",
@@ -2288,6 +2343,69 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 needs cuff-specific anatomy/orientation; Figure 2 does not show matched active/passive planes or the full management-changing exam bundle; Figure 3 is a list rather than a conditional pathway. Exact Git-blob reuse across earlier shoulder articles is recorded so each usage context remains subject to user disposition."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-27",
+      "articleId": "2026-10-09-acute-lbp-imaging",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-09-acute-lbp-imaging",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-09-acute-lbp-imaging-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+            "paths": [
+              "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+              "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-22-walking-leg-pain-stenosis: spinal-canal/nerve-root depth in walking-provoked leg pain",
+              "2026-09-30-lbp-reweight: persistent low-back-pain structural reweighting",
+              "2026-10-09-acute-lbp-imaging: acute low-back-pain imaging and red-flag decisions"
+            ]
+          },
+          {
+            "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
+            "paths": [
+              "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-30-lbp-reweight: pain, neurologic status and function reassessment",
+              "2026-10-09-acute-lbp-imaging: acute imaging/red-flag reassessment"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 needs more anatomically faithful cauda-equina rendering and deep safety boundaries; Figure 2 is broadly usable with SLR-angle and full-neurologic-exam caveats; Figure 3 is a list rather than a conditional imaging/referral pathway. Exact Git-blob reuse across earlier lumbar articles is recorded so every usage context remains subject to user disposition."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
