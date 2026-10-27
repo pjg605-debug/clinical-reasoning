@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 10,
+    "verifiedLinkedArticles": 11,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -504,9 +504,50 @@
       "title": "교근 통증은 줄었는데 왜 식사 기능과 개구 제한이 남을까?",
       "file": "articles/2026-10-08-tmd-chewing.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+        "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+        "assets/briefs/2026-10-08-tmd-chewing-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-28",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: revise recommended. The image is an AI-generated 3D educational rendering, not clinical imaging or a cadaveric dissection. It usefully shows the right-sided masseter, temporalis, mandibular condyle, disc/capsule, parotid gland, facial nerve and facial artery relationships, but the large-panel label ‘관절궁’ points to the zygomatic arch and is not acceptable Korean anatomy terminology (use 관골궁/광대활). The safety inset can also be over-read because it omits the auriculotemporal nerve and other deep TMJ-adjacent structures while showing only selected superficial structures. Correct the label, clarify that the depicted neural/vascular branches are schematic rather than a safe procedural map, and add the clinically relevant deep boundary if this is retained. The exact Git blob is reused in the 2026-09-24 TMD article, so both usage contexts require the same user disposition.",
+          "Figure 2: revise recommended. The three-panel synthetic clinical reenactment usefully separates opening, location discrimination and an actual chewing task, but panel 1 is labeled maximum unassisted opening while the ruler is visually held outside the lips in an oblique plane. The DC/TMD protocol measures the inter-incisal distance between selected maxillary and mandibular reference teeth; this rendering can be misread as a lip-to-lip measurement. Panel 2 also combines patient pointing and examiner contact without showing a standardized one-side-at-a-time palpation force/duration or the familiar-pain question, and the image is not explicitly labeled AI-generated. Replace with a faithful inter-incisal measurement view, separate muscle/TMJ palpation steps, and add an AI-reenactment label.",
+          "Figure 3: revise recommended. The SVG accurately repeats the manuscript’s four weighting categories and the no-force-opening warning, but it is a stacked list rather than the promised decision flow. It does not connect the starting findings to conditional branches, does not define what keeps the muscular hypothesis versus what triggers dental/TMJ or urgent evaluation, and uses the broad phrase ‘원판/관절 문제 가능’ without the manuscript’s specific sudden persistent locking/marked opening-limitation condition. Convert it to a true branch with arrows and explicit trigger/action pairs; retain the infection/dental and airway/swallow emergency boundary."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-28",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-08-tmd-chewing",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-07-plantar-load-update",
@@ -1206,7 +1247,12 @@
       "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-28",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. The image is an AI-generated 3D educational rendering, not clinical imaging or a cadaveric dissection. It usefully shows the right-sided masseter, temporalis, mandibular condyle, disc/capsule, parotid gland, facial nerve and facial artery relationships, but the large-panel label ‘관절궁’ points to the zygomatic arch and is not acceptable Korean anatomy terminology (use 관골궁/광대활). The safety inset can also be over-read because it omits the auriculotemporal nerve and other deep TMJ-adjacent structures while showing only selected superficial structures. Correct the label, clarify that the depicted neural/vascular branches are schematic rather than a safe procedural map, and add the clinically relevant deep boundary if this is retained. The exact Git blob is reused in the 2026-09-24 TMD article, so both usage contexts require the same user disposition.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
@@ -1214,7 +1260,10 @@
       "gitBlobSha": "058dcb2f75665e1876ccab73c0f5b7cd5aa2d543",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-28",
+      "preliminaryVisualNotes": "Figure 3: revise recommended. The SVG accurately repeats the manuscript’s four weighting categories and the no-force-opening warning, but it is a stacked list rather than the promised decision flow. It does not connect the starting findings to conditional branches, does not define what keeps the muscular hypothesis versus what triggers dental/TMJ or urgent evaluation, and uses the broad phrase ‘원판/관절 문제 가능’ without the manuscript’s specific sudden persistent locking/marked opening-limitation condition. Convert it to a true branch with arrows and explicit trigger/action pairs; retain the infection/dental and airway/swallow emergency boundary.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
@@ -1222,7 +1271,10 @@
       "gitBlobSha": "af440deeea9675286da20f405f0476fefb6e2606",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-28",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The three-panel synthetic clinical reenactment usefully separates opening, location discrimination and an actual chewing task, but panel 1 is labeled maximum unassisted opening while the ruler is visually held outside the lips in an oblique plane. The DC/TMD protocol measures the inter-incisal distance between selected maxillary and mandibular reference teeth; this rendering can be misread as a lip-to-lip measurement. Panel 2 also combines patient pointing and examiner contact without showing a standardized one-side-at-a-time palpation force/duration or the familiar-pain question, and the image is not explicitly labeled AI-generated. Replace with a faithful inter-incisal measurement view, separate muscle/TMJ palpation steps, and add an AI-reenactment label.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp",
@@ -2406,6 +2458,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only. No approval inferred. Figure 1 needs more anatomically faithful cauda-equina rendering and deep safety boundaries; Figure 2 is broadly usable with SLR-angle and full-neurologic-exam caveats; Figure 3 is a list rather than a conditional imaging/referral pathway. Exact Git-blob reuse across earlier lumbar articles is recorded so every usage context remains subject to user disposition."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-28",
+      "articleId": "2026-10-08-tmd-chewing",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+        "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+        "assets/briefs/2026-10-08-tmd-chewing-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-08-tmd-chewing",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-08-tmd-chewing-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
+            "paths": [
+              "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+              "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-24-tmd-myalgia-opening: persistent opening limitation and preauricular pain differential",
+              "2026-10-08-tmd-chewing: persistent chewing function and opening limitation after masseter-pain improvement"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs terminology and deep-safety-context repair, Figure 2 needs a faithful inter-incisal measurement and separated standardized palpation depiction, and Figure 3 needs a true conditional branch. Exact Git-blob reuse with the 2026-09-24 TMD article is recorded so both usage contexts remain subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
