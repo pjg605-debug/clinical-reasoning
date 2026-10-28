@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 11,
+    "verifiedLinkedArticles": 12,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -555,9 +555,50 @@
       "title": "첫발 통증은 줄었는데 왜 오래 서기는 여전히 어려울까?",
       "file": "articles/2026-10-07-plantar-load-update.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-29",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: revise recommended. This is an AI-generated 3D educational rendering rather than clinical imaging or a cadaveric dissection. It usefully shows the right medial/plantar view, Achilles tendon, calcaneus, medial calcaneal tubercle, plantar fascia, heel fat pad, posterior tibial vessels, tibial nerve and plantar branches. However, the labeled inferior calcaneal (Baxter) branch is not carried through its clinically important deep course between abductor hallucis and quadratus plantae and then laterally beneath the calcaneus; the abductor-hallucis deep fascia/flexor retinaculum and adjacent tendons that define the distal tarsal tunnel are not identified. The current exposed nerve/vessel rendering can therefore be over-read as a superficial procedural map. Revise the Baxter-nerve origin/course and deep tunnel boundaries, keep the no-needle-path warning, and state explicitly that the branches are schematic. The exact Git blob is reused in the 2026-09-18 plantar-fasciopathy article, so both usage contexts require the same user disposition.",
+          "Figure 2: approve recommended with labeling caveat. The synthetic clinical reenactment separates first-step symptom location, a supported symptom-limited single-leg heel raise, and same-footwear gait/next-day standing tolerance. These are coherent functional reassessment elements and the footer correctly says palpation or the Windlass test alone does not confirm plantar fasciopathy. The 2023 heel-pain CPG includes gait, heel raise, medial calcaneal-tubercle palpation and Windlass testing within a broader foot/ankle examination. Retain the stop/additional-assessment warning for recent trauma, inability to bear weight or sensory change, and label the image as AI-generated reenactment rather than a real patient photograph. The heel-raise panel should also make the non-test foot clearly unloaded if revised later.",
+          "Figure 3: revise recommended. The SVG accurately repeats four diagnostic-weighting categories, but it is a stacked list rather than a decision pathway. It does not connect first-step medial heel pain plus load response to maintaining the plantar-fasciopathy hypothesis, central heel bruised pain to fat-pad loading modification, burning/tingling or sensory change to a neurologic screen, or sudden load-related pain/inability to bear weight to stress-injury imaging or referral. Convert it to a true arrowed branch with explicit trigger/action pairs, and replace mixed Korean/English ‘fat pad’ wording with a consistent Korean label while preserving the same-condition next-day reassessment step."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-29",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-07-plantar-load-update",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-04-hip-activity",
@@ -1223,7 +1264,12 @@
       "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-29",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. This is an AI-generated 3D educational rendering rather than clinical imaging or a cadaveric dissection. It usefully shows the right medial/plantar view, Achilles tendon, calcaneus, medial calcaneal tubercle, plantar fascia, heel fat pad, posterior tibial vessels, tibial nerve and plantar branches. However, the labeled inferior calcaneal (Baxter) branch is not carried through its clinically important deep course between abductor hallucis and quadratus plantae and then laterally beneath the calcaneus; the abductor-hallucis deep fascia/flexor retinaculum and adjacent tendons that define the distal tarsal tunnel are not identified. The current exposed nerve/vessel rendering can therefore be over-read as a superficial procedural map. Revise the Baxter-nerve origin/course and deep tunnel boundaries, keep the no-needle-path warning, and state explicitly that the branches are schematic. The exact Git blob is reused in the 2026-09-18 plantar-fasciopathy article, so both usage contexts require the same user disposition.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
@@ -1231,7 +1277,10 @@
       "gitBlobSha": "3d51eb07c7004f47d4b17c0ee0c495171f064bcb",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-29",
+      "preliminaryVisualNotes": "Figure 3: revise recommended. The SVG accurately repeats four diagnostic-weighting categories, but it is a stacked list rather than a decision pathway. It does not connect first-step medial heel pain plus load response to maintaining the plantar-fasciopathy hypothesis, central heel bruised pain to fat-pad loading modification, burning/tingling or sensory change to a neurologic screen, or sudden load-related pain/inability to bear weight to stress-injury imaging or referral. Convert it to a true arrowed branch with explicit trigger/action pairs, and replace mixed Korean/English ‘fat pad’ wording with a consistent Korean label while preserving the same-condition next-day reassessment step.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
@@ -1239,7 +1288,10 @@
       "gitBlobSha": "30fbb75496736f36845baf12b0cdcce8974fc434",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-29",
+      "preliminaryVisualNotes": "Figure 2: approve recommended with labeling caveat. The synthetic clinical reenactment separates first-step symptom location, a supported symptom-limited single-leg heel raise, and same-footwear gait/next-day standing tolerance. These are coherent functional reassessment elements and the footer correctly says palpation or the Windlass test alone does not confirm plantar fasciopathy. The 2023 heel-pain CPG includes gait, heel raise, medial calcaneal-tubercle palpation and Windlass testing within a broader foot/ankle examination. Retain the stop/additional-assessment warning for recent trauma, inability to bear weight or sensory change, and label the image as AI-generated reenactment rather than a real patient photograph. The heel-raise panel should also make the non-test foot clearly unloaded if revised later.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp",
@@ -2508,6 +2560,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs terminology and deep-safety-context repair, Figure 2 needs a faithful inter-incisal measurement and separated standardized palpation depiction, and Figure 3 needs a true conditional branch. Exact Git-blob reuse with the 2026-09-24 TMD article is recorded so both usage contexts remain subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-29",
+      "articleId": "2026-10-07-plantar-load-update",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-07-plantar-load-update",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-07-plantar-load-update-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
+            "paths": [
+              "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+              "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-plantar: persistent plantar-heel pain differential after treatment",
+              "2026-10-07-plantar-load-update: persistent standing tolerance after first-step pain improvement"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a faithful deep Baxter-nerve/tarsal-tunnel relationship, Figure 2 is broadly usable as a functional reassessment overview with an explicit AI-reenactment label, and Figure 3 needs a true conditional branch. Exact Git-blob reuse with the 2026-09-18 plantar article is recorded so both contexts remain subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
