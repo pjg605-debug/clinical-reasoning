@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 12,
+    "verifiedLinkedArticles": 13,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -606,9 +606,50 @@
       "title": "고관절 운동은 하는데 왜 실제 걷는 시간은 그대로일까?",
       "file": "articles/2026-10-04-hip-activity.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+        "assets/briefs/2026-10-04-hip-activity-exam.webp",
+        "assets/briefs/2026-10-04-hip-activity-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-30",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated 3D-style view usefully separates the femoral head/acetabulum/capsule and anterior femoral neurovascular bundle from the lateral gluteus medius/minimus tendons and greater trochanter, and it says it is not a needling-path guide. However, it is the exact Git blob used for the 2026-09-23 GTPS article, while this article is framed as hip OA and real-world walking activity. It does not show OA-specific cartilage loss, joint-space change or osteophytes and the mixed anterior/lateral views are not explicitly oriented. Revise or retitle with verified joint-centred anatomy; do not represent it as a cadaver photograph or patient imaging.",
+          "Figure 2: the passive-ROM, chair-rise and timed-walking sequence is recognizable, but the rotation direction, bilateral comparison and examiner hand positions are not sufficiently explicit for a technique guide. It also omits a named repeatable performance measure and does not visually separate clinic performance from device- or diary-measured real-world activity, which is the article's central outcome distinction. Revise to show a defined measure such as 6MWT/30-second chair stand/TUG or timed stair performance plus a separate actual-activity measure. Label the people as an AI reenactment, not a clinical photograph.",
+          "Figure 3: the four colored boxes restate OA/GTPS/lumbar-neural/fracture-infection possibilities but have no decision nodes, arrows or result-dependent routes. It therefore cannot function as the promised decision branch. Replace with a conditional pathway that screens urgent inability to bear weight/systemic risk first, then separates concordant joint, lateral-load and lumbar-neurologic patterns, and finally distinguishes clinic-function reassessment from real-world activity progression."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-30",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-04-hip-activity",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-03-radial-wrist",
@@ -1160,7 +1201,12 @@
       "gitBlobSha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-30",
+      "preliminaryVisualNotes": "AI-generated 3D-style joint/anterior neurovascular/lateral tendon map; not a patient image or cadaver photograph. Exact Git-blob reuse from the 2026-09-23 GTPS article makes OA topic specificity weak; revise or retitle with verified orientation and joint-centred OA detail.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-04-hip-activity-decision.svg",
@@ -1168,7 +1214,9 @@
       "gitBlobSha": "a282b71225700736e08bdca92dfd89f7e8b41b5c",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-30",
+      "preliminaryVisualNotes": "Readable list but not a conditional decision pathway; lacks decision nodes, arrows and routes linking findings to actions. Revise."
     },
     {
       "path": "assets/briefs/2026-10-04-hip-activity-exam.webp",
@@ -1176,7 +1224,9 @@
       "gitBlobSha": "7c18c6ed8af35baac130cb83c3d55f50c013dfa6",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-30",
+      "preliminaryVisualNotes": "Recognizable passive-ROM, chair-rise and timed-walk overview, but examiner mechanics and sidedness are incomplete; lacks a named repeatable performance measure and separate real-world activity measurement. Revise; label as AI reenactment."
     },
     {
       "path": "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
@@ -2610,6 +2660,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a faithful deep Baxter-nerve/tarsal-tunnel relationship, Figure 2 is broadly usable as a functional reassessment overview with an explicit AI-reenactment label, and Figure 3 needs a true conditional branch. Exact Git-blob reuse with the 2026-09-18 plantar article is recorded so both contexts remain subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-30",
+      "articleId": "2026-10-04-hip-activity",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+        "assets/briefs/2026-10-04-hip-activity-exam.webp",
+        "assets/briefs/2026-10-04-hip-activity-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-04-hip-activity",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-04-hip-activity-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "ce582d984b1c3007d1fbffbe13a121bd1addd8a5",
+            "paths": [
+              "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+              "assets/briefs/2026-10-04-hip-activity-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-23-gtps-lateral-hip: lateral-hip pain/GTPS structure and depth differential",
+              "2026-10-04-hip-activity: hip OA clinic performance versus real-world walking activity"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs topic-specific verified orientation/OA detail and is an exact Git-blob reuse from the 2026-09-23 GTPS article; Figure 2 needs defined performance measures plus a separate real-world activity measure; Figure 3 needs a true conditional branch. Both duplicate usage contexts remain subject to the user's disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
