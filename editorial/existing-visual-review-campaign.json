@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 13,
+    "verifiedLinkedArticles": 14,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -657,9 +657,50 @@
       "title": "드퀘르벵으로 치료했는데 왜 엄지쪽 저림과 다른 부하 통증이 남을까?",
       "file": "articles/2026-10-03-radial-wrist.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+        "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+        "assets/briefs/2026-10-03-radial-wrist-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-10-31",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated 3D-style image shows a palmar carpal-tunnel view plus a dorsoradial view containing the radial styloid, APL/EPB, superficial radial nerve and thumb CMC joint. The dorsoradial panel is useful, but the image is the exact Git blob used as the 2026-09-26 carpal-tunnel anatomy map; much of the palmar median-nerve/ulnar neurovascular content is not central to this article. It also does not show first-extensor-compartment septation or the variable superficial radial nerve branches crossing the compartment. Revise to a verified radial-wrist-focused rendering with explicit side/view orientation; do not present it as a cadaver photograph or patient imaging.",
+          "Figure 2: the pain-location, resisted thumb-abduction and infant-lifting panels are recognizable and the warning against repeated forceful Eichhoff testing is appropriate. However, '위치·감각' points to wrist locations rather than clearly mapping the superficial radial nerve sensory territory; the figure omits a separate thumb-CMC load/function check and an intersection-region comparison despite these being management-changing branches in the article. Revise to separate tendon-load reproduction, dorsoradial sensory mapping, thumb-base/CMC function and proximal intersection-region palpation. Label the people as an AI educational reenactment, not a clinical photograph.",
+          "Figure 3: the four boxes restate de Quervain, superficial-radial-nerve, thumb-CMC and imaging-discordance possibilities but have no question nodes, arrows or result-dependent routes. Replace with a conditional pathway that first screens acute trauma/progressive sensory or motor loss, then separates radial-styloid tendon-load pain, dorsoradial numbness linked to compression, thumb-base pinch/rotation pain and discordant ultrasound findings, with explicit reassessment or referral actions."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-10-31",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-03-radial-wrist",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-02-acl-return-control",
@@ -1177,7 +1218,12 @@
       "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-31",
+      "preliminaryVisualNotes": "AI-generated 3D-style carpal/radial-wrist map; dorsoradial APL/EPB/SRN/CMC content is useful, but it is an exact Git-blob reuse from the 2026-09-26 carpal-tunnel article and lacks first-compartment septum/SRN branch variability. Revise to a radial-wrist-focused verified view.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-03-radial-wrist-decision.svg",
@@ -1185,7 +1231,9 @@
       "gitBlobSha": "023a09535c608bc721568234bdc43ff3276013b7",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-31",
+      "preliminaryVisualNotes": "Readable diagnostic list but not a conditional pathway; lacks decision nodes, arrows, urgent screening and finding-to-action routes. Revise."
     },
     {
       "path": "assets/briefs/2026-10-03-radial-wrist-exam.webp",
@@ -1193,7 +1241,9 @@
       "gitBlobSha": "87299ff2fd29fb4059a628cad164f2ac85d30257",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-10-31",
+      "preliminaryVisualNotes": "Recognizable tendon-load and infant-lifting overview with a useful warning against forceful repeated Eichhoff testing, but the sensory map is ambiguous and thumb-CMC/intersection comparisons are omitted. Revise; label as AI educational reenactment."
     },
     {
       "path": "assets/briefs/2026-10-04-hip-activity-anatomy.webp",
@@ -2710,6 +2760,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs topic-specific verified orientation/OA detail and is an exact Git-blob reuse from the 2026-09-23 GTPS article; Figure 2 needs defined performance measures plus a separate real-world activity measure; Figure 3 needs a true conditional branch. Both duplicate usage contexts remain subject to the user's disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-10-31",
+      "articleId": "2026-10-03-radial-wrist",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+        "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+        "assets/briefs/2026-10-03-radial-wrist-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-03-radial-wrist",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-03-radial-wrist-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
+            "paths": [
+              "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+              "assets/briefs/2026-10-03-radial-wrist-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-26-carpal-tinel: carpal-tunnel/median-nerve anatomy for persistent nocturnal hand numbness",
+              "2026-10-03-radial-wrist: first-extensor-compartment, superficial-radial-nerve and thumb-CMC differential"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse from the 2026-09-26 carpal-tunnel article and needs a radial-wrist-focused verified view; Figure 2 needs distinct sensory, CMC and intersection-region comparisons; Figure 3 needs a true conditional branch. Both duplicate usage contexts remain subject to the user's disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
