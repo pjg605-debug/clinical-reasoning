@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 14,
+    "verifiedLinkedArticles": 15,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -708,9 +708,50 @@
       "title": "ACL 재건 후 대칭 hop만 좋아지면 방향 전환 복귀를 허가할까?",
       "file": "articles/2026-10-02-acl-return-control.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+        "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+        "assets/briefs/2026-10-02-acl-return-control-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-01",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated 3D-style posterior/intercondylar and popliteal views visibly include the native ACL/PCL, menisci, collateral ligaments, biceps femoris, popliteus and popliteal neurovascular bundle, with medial/lateral and anterior/posterior orientation plus a no-needling-route disclaimer. However, it is a generic native-knee map rather than a postoperative graft/tunnel or graft-healing image, and the exact Git blob is reused in three different articles (2026-09-20 posterior knee pain, 2026-10-01 meniscus-root rehabilitation, and this ACL-return article). Revise to an ACL-reconstruction-focused, anatomically verified 3D view or explicitly retain it as a shared generic orientation figure after the user reviews all three contexts; do not add needling depth or trajectory.",
+          "Figure 2: the three panels sensibly progress from strength testing to landing/repetition and a sport-specific cutting task, and the bottom warning correctly rejects calendar-only clearance. However, the photorealistic AI educational reenactment is not explicitly identified as AI-generated, panel 2 does not define the landing task or observable quality criteria, and panel 3 does not state speed, direction, fatigue or reaction conditions. Revise the disclosure and labels so the figure cannot be mistaken for a clinical photograph and so movement-quality observations are explicit.",
+          "Figure 3: the four readable boxes correctly warn against a single symmetry or time criterion and mention reinjury/joint problems and psychological readiness. They are stacked statements rather than a true result-dependent decision branch, with no question nodes, arrows, thresholds, or ordered path from effusion/instability screening to strength, movement quality, psychological readiness and graded sport exposure. Replace with a conditional pathway tied to the article's management actions."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-01",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-02-acl-return-control",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-01-meniscus-root-rehab",
@@ -1194,7 +1235,13 @@
       "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-01",
+      "preliminaryVisualNotes": "AI-generated 3D-style native-knee map with useful ACL/PCL, meniscal, collateral and popliteal neurovascular relationships and orientation labels. It is not a postoperative graft/tunnel or graft-healing image and is an exact Git-blob reuse across three different article contexts. Revise to an ACL-reconstruction-focused verified view or explicitly retain as a shared generic orientation map after user review.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-02-acl-return-control-decision.svg",
@@ -1202,7 +1249,9 @@
       "gitBlobSha": "c525ed219bacdd29718460f0054ddd22b1ee2597",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-01",
+      "preliminaryVisualNotes": "Readable management statements but not a conditional decision pathway; lacks question nodes, arrows, thresholds and ordered finding-to-action routes. Revise."
     },
     {
       "path": "assets/briefs/2026-10-02-acl-return-control-exam.webp",
@@ -1210,7 +1259,9 @@
       "gitBlobSha": "b587798fdc8fd8b1fb390fb9f78e8b53a1d47a39",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-01",
+      "preliminaryVisualNotes": "Clinically sensible strength → landing/repetition → cutting progression with a calendar-only warning, but the photorealistic AI reenactment lacks an explicit AI disclosure and does not define landing-quality, speed, direction, fatigue or reaction conditions. Revise."
     },
     {
       "path": "assets/briefs/2026-10-03-radial-wrist-anatomy.webp",
@@ -2810,6 +2861,58 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse from the 2026-09-26 carpal-tunnel article and needs a radial-wrist-focused verified view; Figure 2 needs distinct sensory, CMC and intersection-region comparisons; Figure 3 needs a true conditional branch. Both duplicate usage contexts remain subject to the user's disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-01",
+      "articleId": "2026-10-02-acl-return-control",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+        "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+        "assets/briefs/2026-10-02-acl-return-control-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-02-acl-return-control",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-02-acl-return-control-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+            "paths": [
+              "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+              "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+              "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-20-knee-oa-posterior-pain: posterior-knee pain structures and popliteal differential",
+              "2026-10-01-meniscus-root-rehab: meniscal-root repair anatomy and loading restrictions",
+              "2026-10-02-acl-return-control: ACL reconstruction rehabilitation and cutting-return control"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse across three article contexts and needs topic-specific verification or explicit shared-figure disposition; Figure 2 needs explicit AI-reenactment disclosure and defined movement-quality conditions; Figure 3 needs a true conditional branch. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
