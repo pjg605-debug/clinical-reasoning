@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 15,
+    "verifiedLinkedArticles": 16,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -759,9 +759,50 @@
       "title": "내측 반월상연골 후방근 봉합 후 통증이 낮으면 바로 더 걸어도 될까?",
       "file": "articles/2026-10-01-meniscus-root-rehab.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-02",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated 3D-style native-knee map shows the medial posterior root, menisci, ACL/PCL, MCL and popliteal neurovascular bundle with useful orientation and a no-needling-route disclaimer. However, it does not depict the transtibial repair tunnel, suture/button construct, repair footprint or how deep flexion/axial loading relates to the healing root. It is also the exact Git blob reused for the 2026-09-20 posterior-knee pain article and the 2026-10-02 ACL-return article. Revise to a root-repair-focused anatomically verified 3D view, or explicitly retain it as a shared generic orientation figure after all three contexts are reviewed.",
+          "Figure 2: the sequence—verify the surgeon-specific protocol, measure only permitted ROM/effusion, then observe prescribed weight-bearing with brace and two crutches—is clinically coherent. It explicitly warns against deep squat, forced flexion and shortening protection based on an average timetable, and shows infection/VTE warning symptoms. Approve recommended as a usable educational overview, while recording that the photorealistic scene is an AI educational reenactment rather than a clinical photograph and that the exact ROM/WB limits remain surgeon- and repair-specific.",
+          "Figure 3: the four statements broadly match the article (routine recovery, unknown load allowance, possible reinjury, infection/VTE), but they are stacked text boxes rather than a result-dependent pathway. Replace with an ordered branch: urgent wound/VTE screen first; then confirm operative report/protocol; then assess effusion, allowed ROM, extension control and prescribed gait; maintain only within the documented phase, otherwise contact the surgical team."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-02",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-01-meniscus-root-rehab",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-30-lbp-reweight",
@@ -1211,7 +1252,13 @@
       "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-02",
+      "preliminaryVisualNotes": "Useful AI-generated 3D-style native-knee orientation with a visible medial posterior root and popliteal safety structures, but not a root-repair construct. Exact Git-blob reuse across three article contexts. Revise to a repair-focused verified view or explicitly approve it as a shared generic orientation figure after reviewing all contexts.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
@@ -1219,7 +1266,9 @@
       "gitBlobSha": "8910134d9baa12b141f01341443d644003fa6ac9",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-02",
+      "preliminaryVisualNotes": "Readable management categories but not a conditional pathway; lacks ordered urgent screening, operative-protocol confirmation, decision nodes, arrows and finding-to-action routes. Revise."
     },
     {
       "path": "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
@@ -1227,7 +1276,9 @@
       "gitBlobSha": "033654d0ded4883a9531c4d5b628a2e6a6692eb5",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-02",
+      "preliminaryVisualNotes": "Clinically coherent protocol → permitted ROM/effusion → prescribed weight-bearing sequence with deep-flexion and infection/VTE warnings. Approve recommended as an educational overview; identify it as an AI reenactment and keep all ROM/WB limits surgeon- and repair-specific."
     },
     {
       "path": "assets/briefs/2026-10-02-acl-return-control-anatomy.webp",
@@ -2913,6 +2964,58 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse across three article contexts and needs topic-specific verification or explicit shared-figure disposition; Figure 2 needs explicit AI-reenactment disclosure and defined movement-quality conditions; Figure 3 needs a true conditional branch. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-02",
+      "articleId": "2026-10-01-meniscus-root-rehab",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg"
+      ],
+      "liveVerification": {
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-01-meniscus-root-rehab",
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667
+          },
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800
+          },
+          {
+            "path": "assets/briefs/2026-10-01-meniscus-root-rehab-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801
+          }
+        ],
+        "pathsMatchArticleSrcHref": true,
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+            "paths": [
+              "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+              "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+              "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-20-knee-oa-posterior-pain: posterior-knee pain structures and popliteal differential",
+              "2026-10-01-meniscus-root-rehab: meniscal-root repair anatomy and protected ROM/weight-bearing",
+              "2026-10-02-acl-return-control: ACL reconstruction rehabilitation and cutting-return control"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse across three contexts and needs root-repair-specific verification or explicit shared-figure disposition; Figure 2 is clinically coherent and recommended for approval with AI-reenactment and protocol-specific caveats; Figure 3 needs a true ordered conditional branch. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
