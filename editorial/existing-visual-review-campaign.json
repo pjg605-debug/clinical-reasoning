@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 16,
+    "verifiedLinkedArticles": 17,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -810,9 +810,84 @@
       "title": "요통이 줄어도 다시 허리를 못 쓰는 환자, 다음 방문에는 무엇을 분리할까?",
       "file": "articles/2026-09-30-lbp-reweight.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-03",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D-style sagittal and axial lumbar views clearly orient the vertebral bodies, discs, canal, roots, facet joints, ligamentum flavum and paraspinal muscles. However, the cauda-equina roots are rendered as uniform bead-like structures, and the axial/sagittal views omit key anterior/deep safety context such as the aorta/IVC and branches, psoas, retroperitoneum and kidneys. Revise before treating it as a verified deep-anatomy or safety-boundary figure; it remains an educational AI rendering, not a patient scan or cadaver image.",
+          "Figure 2: heel/toe walking, supported supine SLR with familiar-leg-symptom recording, a real lifting task, bilateral strength/sensation/reflex comparison, and urgent bladder/perineal/progressive-deficit screening are clinically coherent. Approve recommended as an AI reenactment, with the article's caveats that an SLR angle or any one positive test is not diagnostic and the full bilateral neurologic bundle must be documented separately.",
+          "Figure 3: the four management categories match the article, but the image is a stacked list rather than a true conditional flow and does not display the specific input criteria that lead to each branch. Replace or revise with visible decision arrows/branch conditions and explicit cauda-equina triggers; retain the rule that imaging is selected only when it is likely to change management."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-03",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-30-lbp-reweight",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 200650,
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+          },
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 123816,
+            "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397"
+          },
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767,
+            "bytes": 1590,
+            "gitBlobSha": "712256266ac1ed2340426e1fda59aacb3f2ce030"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+            "paths": [
+              "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+              "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-22-walking-leg-pain-stenosis: spinal-canal/nerve-root depth in walking-provoked leg pain",
+              "2026-09-30-lbp-reweight: pain, neurologic status and function reassessment",
+              "2026-10-09-acute-lbp-imaging: acute low-back-pain imaging and red-flag decisions"
+            ]
+          },
+          {
+            "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
+            "paths": [
+              "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-30-lbp-reweight: pain, neurologic status and function reassessment",
+              "2026-10-09-acute-lbp-imaging: acute imaging/red-flag reassessment"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false
     },
     {
       "id": "2026-09-27-hamstring-sitting",
@@ -1228,7 +1303,15 @@
       "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-03",
+      "liveHttpsVerified": true,
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Deep-anatomy safety context incomplete; cauda-equina rendering is schematic. Exact Git blob reused in 2026-09-22 and 2026-10-09 articles.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
@@ -1236,7 +1319,12 @@
       "gitBlobSha": "712256266ac1ed2340426e1fda59aacb3f2ce030",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-03",
+      "liveHttpsVerified": true,
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Stacked list lacks conditional arrows/input criteria and explicit cauda-equina triggers.",
+      "duplicatePaths": []
     },
     {
       "path": "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
@@ -1244,7 +1332,14 @@
       "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-03",
+      "liveHttpsVerified": true,
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Clinically coherent AI reenactment; keep single-test/non-diagnostic and full bilateral neurologic-bundle caveats. Exact Git blob reused in 2026-10-09.",
+      "duplicatePaths": [
+        "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp"
+      ]
     },
     {
       "path": "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
@@ -3016,6 +3111,76 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is an exact Git-blob reuse across three contexts and needs root-repair-specific verification or explicit shared-figure disposition; Figure 2 is clinically coherent and recommended for approval with AI-reenactment and protocol-specific caveats; Figure 3 needs a true ordered conditional branch. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-03",
+      "articleId": "2026-09-30-lbp-reweight",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+        "assets/briefs/2026-09-30-lbp-reweight-decision.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-03",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-30-lbp-reweight",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 200650,
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+          },
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 123816,
+            "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397"
+          },
+          {
+            "path": "assets/briefs/2026-09-30-lbp-reweight-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 767,
+            "bytes": 1590,
+            "gitBlobSha": "712256266ac1ed2340426e1fda59aacb3f2ce030"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+            "paths": [
+              "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+              "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-22-walking-leg-pain-stenosis: spinal-canal/nerve-root depth in walking-provoked leg pain",
+              "2026-09-30-lbp-reweight: pain, neurologic status and function reassessment",
+              "2026-10-09-acute-lbp-imaging: acute low-back-pain imaging and red-flag decisions"
+            ]
+          },
+          {
+            "gitBlobSha": "e743b903baab3c9527a460586d6a72c08eed0397",
+            "paths": [
+              "assets/briefs/2026-09-30-lbp-reweight-exam.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-30-lbp-reweight: pain, neurologic status and function reassessment",
+              "2026-10-09-acute-lbp-imaging: acute imaging/red-flag reassessment"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs more faithful cauda-equina rendering and complete deep safety boundaries; Figure 2 is recommended for approval with explicit AI-reenactment, SLR and full-neurologic-exam caveats; Figure 3 needs a true conditional branch with explicit emergency triggers. Exact Git-blob reuse across earlier lumbar articles is recorded so every usage context remains subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
