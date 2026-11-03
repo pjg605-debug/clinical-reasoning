@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 17,
+    "verifiedLinkedArticles": 18,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -895,9 +895,59 @@
       "title": "좌골 부위 통증은 줄었는데 왜 오래 앉기는 여전히 어려울까?",
       "file": "articles/2026-09-27-hamstring-sitting.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+        "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+        "assets/briefs/2026-09-27-hamstring-sitting-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-04",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D-style posterior view clearly identifies the ischial tuberosity, gluteus maximus, piriformis, ischial bursa, proximal hamstring tendons and sciatic nerve, and the sitting-pressure inset is clinically relevant. However, a single posterior view does not demonstrate the key anterolateral semimembranosus footprint versus the posterolateral conjoined-tendon footprint in depth, and the nearby inferior-gluteal neurovascular structures/safety boundary are not identified despite visible unlabeled vessels. Revise before treating it as verified procedural anatomy; retain the explicit no-needling-path warning.",
+          "Figure 2: sitting location/time, prone resisted knee flexion with pelvic stabilization, and a tolerated bridge are clinically coherent for comparing familiar pain, strength and function. The rupture/large-weakness stop warning and neurologic screen reminder are appropriate. Approve recommended as an AI educational reenactment, not a patient photograph; the full lumbar/neurologic screen and progressive loading criteria remain text-based and must be documented separately.",
+          "Figure 3: the four diagnostic-weighting categories agree with the article but are a stacked list rather than a conditional pathway. Revise with visible branch conditions and actions: acute pop/bruising/major weakness to urgent imaging/orthopaedic assessment; distal radiation or neurologic change to lumbar/nerve evaluation; concordant sitting-plus-hamstring loading to staged management; discordant or negative ultrasound to operator/image-quality review and MRI only when it changes management."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-04",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-27-hamstring-sitting",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 949,
+            "naturalHeight": 1000,
+            "bytes": 204952,
+            "gitBlobSha": "0eb35dc37eac3c05f42cb26229e01494c6e90ce0"
+          },
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 110514,
+            "gitBlobSha": "71b677585539fc59b99ed6c51225cbe800c9ba2b"
+          },
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801,
+            "bytes": 1646,
+            "gitBlobSha": "34197ced854429f3c2c7147f077f34c004b72345"
+          }
+        ],
+        "duplicateGitBlobs": []
+      },
+      "userDecision": "pending",
+      "mainModified": false
     },
     {
       "id": "2026-09-26-carpal-tinel",
@@ -1231,7 +1281,12 @@
       "gitBlobSha": "0eb35dc37eac3c05f42cb26229e01494c6e90ce0",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-04",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Realistic posterior anatomy and sitting-pressure context are useful, but tendon-footprint depth and inferior-gluteal neurovascular safety boundaries are not adequately distinguished."
     },
     {
       "path": "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
@@ -1239,7 +1294,12 @@
       "gitBlobSha": "34197ced854429f3c2c7147f077f34c004b72345",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-04",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Stacked list lacks conditional arrows, explicit rupture/neurologic triggers and result-to-action links."
     },
     {
       "path": "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
@@ -1247,7 +1307,12 @@
       "gitBlobSha": "71b677585539fc59b99ed6c51225cbe800c9ba2b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-04",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Clinically coherent AI educational reenactment of sitting tolerance, resisted knee flexion and bridge; full lumbar/neurologic screen and loading criteria remain text-based."
     },
     {
       "path": "assets/briefs/2026-09-28-achilles-anatomy-painmap.svg",
@@ -3181,6 +3246,51 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs more faithful cauda-equina rendering and complete deep safety boundaries; Figure 2 is recommended for approval with explicit AI-reenactment, SLR and full-neurologic-exam caveats; Figure 3 needs a true conditional branch with explicit emergency triggers. Exact Git-blob reuse across earlier lumbar articles is recorded so every usage context remains subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-04",
+      "articleId": "2026-09-27-hamstring-sitting",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+        "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+        "assets/briefs/2026-09-27-hamstring-sitting-decision.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-04",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-27-hamstring-sitting",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 949,
+            "naturalHeight": 1000,
+            "bytes": 204952,
+            "gitBlobSha": "0eb35dc37eac3c05f42cb26229e01494c6e90ce0"
+          },
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 110514,
+            "gitBlobSha": "71b677585539fc59b99ed6c51225cbe800c9ba2b"
+          },
+          {
+            "path": "assets/briefs/2026-09-27-hamstring-sitting-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 801,
+            "bytes": 1646,
+            "gitBlobSha": "34197ced854429f3c2c7147f077f34c004b72345"
+          }
+        ],
+        "duplicateGitBlobs": []
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs tendon-footprint depth and adjacent neurovascular safety-boundary repair; Figure 2 is recommended for approval with explicit AI-reenactment and full-screen caveats; Figure 3 needs a true conditional pathway. No exact Git-blob duplicates were found among the 119 tracked assets. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
