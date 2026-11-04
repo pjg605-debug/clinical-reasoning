@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 18,
+    "verifiedLinkedArticles": 19,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -955,9 +955,69 @@
       "title": "Tinel은 음성인데 왜 밤마다 손이 저릴까?",
       "file": "articles/2026-09-26-carpal-tinel.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+        "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+        "assets/briefs/2026-09-26-carpal-tinel-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-05",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the palmar 3D view plausibly places the median nerve beneath the flexor retinaculum beside the flexor tendons and keeps the ulnar neurovascular bundle outside the tunnel. However, the entire radial-wrist panel (APL/EPB, superficial radial nerve and thumb CMC) is unrelated to the CTS question, the exact same Git blob is reused in the 2026-10-03 radial-wrist article, and the palmar cutaneous branch/thenar-sensory sparing is not depicted. Replace with a CTS-focused verified view before treating it as a structure-specific anatomy figure.",
+          "Figure 2: the sensory-history, percussion-method and thumb palmar-abduction sequence is clinically recognizable, and the text correctly warns that a negative Tinel does not exclude CTS. The red sensory overlay extends broadly through the central palm/thenar area and can be read as a classic CTS sensory field, although the palmar cutaneous branch bypasses the tunnel and thenar skin sensation is usually spared. Revise the map, explicitly spare the thenar eminence, and label the panel as an AI educational reenactment.",
+          "Figure 3: the visual correctly separates maintaining CTS despite one negative sign, increasing weight without claiming confirmation, urgent escalation for persistent sensorimotor deficit, and alternative cervical/ulnar/polyneuropathy screening. It is a condition-to-action checklist rather than a single linear diagnosis flow; approve recommended."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-05",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-26-carpal-tinel",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 157380,
+            "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0"
+          },
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 103676,
+            "gitBlobSha": "b4f267b71afaa40bd3ce4be35129070f8be18e01"
+          },
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 835,
+            "bytes": 1741,
+            "gitBlobSha": "25428b8d553eba7439b515e741d62f1aedaec3ca"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
+            "paths": [
+              "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+              "assets/briefs/2026-10-03-radial-wrist-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-26-carpal-tinel: carpal-tunnel/median-nerve anatomy for persistent nocturnal hand numbness",
+              "2026-10-03-radial-wrist: first-extensor-compartment, superficial-radial-nerve and thumb-CMC differential"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-25-shoulder-passive-rom",
@@ -1257,7 +1317,14 @@
       "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-05",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [
+        "assets/briefs/2026-10-03-radial-wrist-anatomy.webp"
+      ],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "CTS-relevant palmar anatomy shares an exact blob with the radial-wrist article, includes an unrelated radial-wrist panel, and omits the palmar cutaneous branch/thenar-sensory-sparing cue."
     },
     {
       "path": "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
@@ -1265,7 +1332,12 @@
       "gitBlobSha": "25428b8d553eba7439b515e741d62f1aedaec3ca",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-05",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Accurate condition-to-action checklist that avoids diagnosis from one sign and includes sensorimotor escalation plus competing-neuropathy screening."
     },
     {
       "path": "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
@@ -1273,7 +1345,12 @@
       "gitBlobSha": "b4f267b71afaa40bd3ce4be35129070f8be18e01",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-05",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Recognizable Tinel and thumb-abduction sequence, but the broad palm/thenar sensory overlay can misstate the usual CTS cutaneous distribution."
     },
     {
       "path": "assets/briefs/2026-09-27-hamstring-sitting-anatomy.webp",
@@ -3291,6 +3368,63 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs tendon-footprint depth and adjacent neurovascular safety-boundary repair; Figure 2 is recommended for approval with explicit AI-reenactment and full-screen caveats; Figure 3 needs a true conditional pathway. No exact Git-blob duplicates were found among the 119 tracked assets. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-05",
+      "articleId": "2026-09-26-carpal-tinel",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+        "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+        "assets/briefs/2026-09-26-carpal-tinel-decision.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-05",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-26-carpal-tinel",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 157380,
+            "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0"
+          },
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 103676,
+            "gitBlobSha": "b4f267b71afaa40bd3ce4be35129070f8be18e01"
+          },
+          {
+            "path": "assets/briefs/2026-09-26-carpal-tinel-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 835,
+            "bytes": 1741,
+            "gitBlobSha": "25428b8d553eba7439b515e741d62f1aedaec3ca"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "26d4d5763bc23a8afdef89269cd081ddf6afa5c0",
+            "paths": [
+              "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
+              "assets/briefs/2026-10-03-radial-wrist-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-26-carpal-tinel: carpal-tunnel/median-nerve anatomy for persistent nocturnal hand numbness",
+              "2026-10-03-radial-wrist: first-extensor-compartment, superficial-radial-nerve and thumb-CMC differential"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a CTS-focused verified anatomy view, Figure 2 needs a faithful digital sensory map with thenar skin sparing, and Figure 3 is recommended for approval as a condition-to-action checklist. Exact Git-blob reuse with the 2026-10-03 radial-wrist article is recorded so both usage contexts remain subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
