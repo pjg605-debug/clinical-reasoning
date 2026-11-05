@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 19,
+    "verifiedLinkedArticles": 20,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1025,9 +1025,82 @@
       "title": "야간 어깨 통증은 줄었는데 왜 수동 외회전은 계속 막힐까?",
       "file": "articles/2026-09-25-shoulder-passive-rom.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-06",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D rendering gives useful orientation for the rotator cuff, glenohumeral capsule, subacromial bursa, long-head biceps tendon and nearby axillary/suprascapular nerves. However, it is a generic shoulder/cuff anatomy plate rather than an adhesive-capsulitis-specific verified view: the rotator interval, coracohumeral ligament, capsular thickening/contracture and axillary recess are not distinguished, visible vessels are unlabeled, and the exact same Git blob is reused in the 2026-09-18 shoulder and 2026-10-10 cuff-imaging articles. Revise or explicitly approve it as a shared general-orientation plate, not disease-specific anatomy.",
+          "Figure 2: active elevation, supine passive external rotation with proximal stabilization, and seated resisted external rotation are recognizable and match the article's active-versus-passive-versus-strength separation. Approve recommended as an overview, provided it is labeled as an AI educational reenactment and not treated as a standardized goniometric technique: the figure itself does not show bilateral identical-position measurement, goniometer placement, scapular substitution/end-feel or the pain-versus-resistance stopping reason. The exact same Git blob is also used in the 2026-10-10 cuff-imaging article.",
+          "Figure 3: the four management categories are clinically appropriate, but they are stacked without decision arrows or priority. Revise to a true pathway that screens fever/hot joint/rapid deterioration first, then trauma with major weakness, then progressive neurologic deficit, and only then weighs global passive restriction with external-rotation loss against OA/other causes and selects imaging when it changes management."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-06",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-25-shoulder-passive-rom",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 164174,
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+          },
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 123256,
+            "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494"
+          },
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 835,
+            "bytes": 1723,
+            "gitBlobSha": "4a0857fe5c1b5734cf1b1440076f3f0b4a3a467d"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+            "paths": [
+              "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+              "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-shoulder: persistent night pain/arm pain after rotator-cuff treatment",
+              "2026-09-25-shoulder-passive-rom: adhesive-capsulitis hypothesis with persistent passive external-rotation loss",
+              "2026-10-10-cuff-imaging-weight: weighting MRI cuff-tear findings against symptoms and function"
+            ]
+          },
+          {
+            "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
+            "paths": [
+              "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-25-shoulder-passive-rom: separating active elevation, passive external rotation and resisted external rotation",
+              "2026-10-10-cuff-imaging-weight: separating passive restriction from resisted cuff weakness when weighting imaging"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-06-patellar-load",
@@ -1293,7 +1366,15 @@
       "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-06",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+      ],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Realistic general shoulder anatomy, but not adhesive-capsulitis-specific; rotator interval/coracohumeral ligament/capsular contracture and axillary recess are not distinguished, and the blob is reused across three contexts."
     },
     {
       "path": "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
@@ -1301,7 +1382,12 @@
       "gitBlobSha": "4a0857fe5c1b5734cf1b1440076f3f0b4a3a467d",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-06",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Accurate categories but no true conditional order, arrows or priority for infection, trauma, neurologic deficit and passive-restriction branches."
     },
     {
       "path": "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
@@ -1309,7 +1395,14 @@
       "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-06",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [
+        "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp"
+      ],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Clinically coherent active/passive/resisted overview; retain AI-reenactment and standardized bilateral/goniometric-measurement caveats."
     },
     {
       "path": "assets/briefs/2026-09-26-carpal-tinel-anatomy.webp",
@@ -3425,6 +3518,76 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a CTS-focused verified anatomy view, Figure 2 needs a faithful digital sensory map with thenar skin sparing, and Figure 3 is recommended for approval as a condition-to-action checklist. Exact Git-blob reuse with the 2026-10-03 radial-wrist article is recorded so both usage contexts remain subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-06",
+      "articleId": "2026-09-25-shoulder-passive-rom",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-06",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-25-shoulder-passive-rom",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 164174,
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+          },
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 123256,
+            "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494"
+          },
+          {
+            "path": "assets/briefs/2026-09-25-shoulder-passive-rom-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 835,
+            "bytes": 1723,
+            "gitBlobSha": "4a0857fe5c1b5734cf1b1440076f3f0b4a3a467d"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+            "paths": [
+              "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+              "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-shoulder: persistent night pain/arm pain after rotator-cuff treatment",
+              "2026-09-25-shoulder-passive-rom: adhesive-capsulitis hypothesis with persistent passive external-rotation loss",
+              "2026-10-10-cuff-imaging-weight: weighting MRI cuff-tear findings against symptoms and function"
+            ]
+          },
+          {
+            "gitBlobSha": "5856a0f5143c9cd4287bafe16a881cee47804494",
+            "paths": [
+              "assets/briefs/2026-09-25-shoulder-passive-rom-exam.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-exam.webp"
+            ],
+            "usageContexts": [
+              "2026-09-25-shoulder-passive-rom: separating active elevation, passive external rotation and resisted external rotation",
+              "2026-10-10-cuff-imaging-weight: separating passive restriction from resisted cuff weakness when weighting imaging"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs adhesive-capsulitis-specific anatomy or explicit approval as a shared general plate, Figure 2 is recommended for approval as an AI educational overview with standardized measurement caveats, and Figure 3 needs a true prioritized conditional pathway. Exact Git-blob reuse across the older shoulder/cuff articles is recorded so every usage context remains subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
