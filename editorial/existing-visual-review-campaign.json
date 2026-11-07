@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 21,
+    "verifiedLinkedArticles": 22,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1200,9 +1200,69 @@
       "title": "슬개대퇴 통증은 줄었는데 왜 계단 내려오기는 그대로일까?",
       "file": "articles/2026-09-29-pfp-stair-pain.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+        "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+        "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-08",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D anterior-knee view usefully separates peripatellar, inferior-pole and joint-line regions and shows the patellar tendon superficial to Hoffa fat pad. However, it is a shared general anterior-knee plate—the exact Git blob is reused in the 2026-10-06 patellar-tendinopathy article—and it does not distinctly show retropatellar/trochlear articular surfaces, flexion-dependent patellofemoral contact, or a clearly visible orange inferior-pole marker despite that legend entry. Revise to a PFP-focused plate or explicitly approve it only as shared orientation.",
+          "Figure 2: the bilateral squat and supported 15-cm step-down are clinically recognizable; the same height, repetitions, speed and pain location can be recorded before and after one load change. Approve recommended as an AI educational reenactment, provided dynamic alignment is treated as an observed task feature rather than proof of cause, and the support/step-height conditions remain standardized.",
+          "Figure 3: the PFP, patellar-tendon, Hoffa and intra-articular categories match the article but are stacked without arrows or screening priority. Revise to screen acute extensor loss, true locking and major effusion first, then branch by peripatellar flexion-load pain versus focal inferior-pole tendon pain versus terminal-extension/fat-pad pattern, with each branch tied to the next action."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-08",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-29-pfp-stair-pain",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 833,
+            "bytes": 157668,
+            "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258"
+          },
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 163574,
+            "gitBlobSha": "b901f98e100fab66eeb966ed928fe45a87c1fa63"
+          },
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 903,
+            "bytes": 1901,
+            "gitBlobSha": "0cb0bce2b6ae3a9c6488bc52188e5b995f800f03"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258",
+            "paths": [
+              "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+              "assets/briefs/2026-10-06-patellar-load-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-29-pfp-stair-pain: diffuse peripatellar/retropatellar pain during squat and stair descent",
+              "2026-10-06-patellar-load: focal inferior-patellar-pole tendon-loading pain and return-to-jump reassessment"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-10-05-ankle-giving-way",
@@ -1596,7 +1656,14 @@
       "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-08",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [
+        "assets/briefs/2026-10-06-patellar-load-anatomy.webp"
+      ],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Realistic shared anterior-knee orientation, but not PFP-specific; retropatellar/trochlear surfaces and flexion-dependent contact are not distinct, the inferior-pole legend marker is not clearly visible, and the exact blob is reused in the patellar-tendinopathy article."
     },
     {
       "path": "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
@@ -1604,7 +1671,12 @@
       "gitBlobSha": "0cb0bce2b6ae3a9c6488bc52188e5b995f800f03",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-08",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Accurate categories but no true conditional order, arrows or priority for extensor-loss/locking/effusion red flags versus PFP, tendon and Hoffa patterns."
     },
     {
       "path": "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
@@ -1612,7 +1684,12 @@
       "gitBlobSha": "b901f98e100fab66eeb966ed928fe45a87c1fa63",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-08",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Clinically coherent standardized squat/15-cm step-down comparison; retain AI-reenactment, non-diagnostic and dynamic-alignment-is-not-causation caveats."
     },
     {
       "path": "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
@@ -3772,6 +3849,63 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figures 1, 3 and 5 need revision; Figures 2 and 4 are recommended for approval with their existing AI-educational/non-diagnostic caveats. Exact Git-blob reuse with the 2026-09-29 patellofemoral-pain article is recorded so both usage contexts remain subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-08",
+      "articleId": "2026-09-29-pfp-stair-pain",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+        "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+        "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-08",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-29-pfp-stair-pain",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 833,
+            "bytes": 157668,
+            "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258"
+          },
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 163574,
+            "gitBlobSha": "b901f98e100fab66eeb966ed928fe45a87c1fa63"
+          },
+          {
+            "path": "assets/briefs/2026-09-29-pfp-stair-pain-decision.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 903,
+            "bytes": 1901,
+            "gitBlobSha": "0cb0bce2b6ae3a9c6488bc52188e5b995f800f03"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "a2b2368ccf17915e40f788e56930477edbbad258",
+            "paths": [
+              "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
+              "assets/briefs/2026-10-06-patellar-load-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-29-pfp-stair-pain: diffuse peripatellar/retropatellar pain during squat and stair descent",
+              "2026-10-06-patellar-load: focal inferior-patellar-pole tendon-loading pain and return-to-jump reassessment"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs PFP-specific anatomy or explicit approval as a shared general plate, Figure 2 is recommended for approval with AI-educational/standardized-task caveats, and Figure 3 needs a true prioritized conditional pathway. Exact Git-blob reuse with the 2026-10-06 patellar-tendinopathy article is recorded so both contexts remain subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
