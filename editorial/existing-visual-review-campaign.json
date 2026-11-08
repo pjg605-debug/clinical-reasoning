@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 22,
+    "verifiedLinkedArticles": 23,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1270,9 +1270,57 @@
       "title": "발목 염좌로 치료했는데 왜 통증은 줄었는데 계속 ‘휘청’할까?",
       "file": "articles/2026-10-05-ankle-giving-way.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+        "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+        "assets/briefs/2026-10-05-cai-reassessment.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-09",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "approve_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the realistic 3D lateral-ankle rendering usefully shows the ATFL and CFL, syndesmosis, peroneal tendons and sural nerve, and its inset correctly emphasizes that the CFL lies deep to the peroneal tendons. Revise before approval because the illustrated superficial fibular nerve appears to descend too close to the lateral-malleolar/peroneal corridor rather than clearly emerging and crossing the anterolateral ankle; nearby vessels are not identified. Keep it as location orientation only, not a verified safe needling map.",
+          "Figure 2: the knee-to-wall panel and supported single-leg reach are recognizable, but revise the anterior-drawer panel. With the toes pointing right, anterior translation should be shown along the foot's anterior axis while the distal tibia is stabilized and the calcaneus/talus complex is drawn forward; the current vertical arrow can be read as lifting the heel upward. Also state ankle position/end-feel and compare sides without treating one test as diagnostic.",
+          "Figure 3: approve recommended as a compact reassessment sequence, not as a stand-alone diagnostic or management algorithm. It coherently separates history, dorsiflexion/basic function, mechanical laxity, sensorimotor/dynamic function and competing lesions, consistent with using CAIT/validated self-report plus a functional-test battery. Preserve standardized directions/conditions for SEBT or Y-Balance and hop tasks, and keep urgent imaging/referral criteria in the surrounding article text."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-09",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-05-ankle-giving-way",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 800,
+            "bytes": 150138,
+            "gitBlobSha": "bb7c0817741ef1e0c05f1b3850b9441da8d670a5"
+          },
+          {
+            "path": "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 145938,
+            "gitBlobSha": "f6d732afbf251c69681205d2da40dd1f9d1620fa"
+          },
+          {
+            "path": "assets/briefs/2026-10-05-cai-reassessment.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 5813,
+            "gitBlobSha": "99866e1597af7ad09537edb79cb1417d182361f2"
+          }
+        ],
+        "duplicateGitBlobs": []
+      }
     },
     {
       "id": "2026-09-28-achilles-function",
@@ -1875,7 +1923,12 @@
       "gitBlobSha": "f6d732afbf251c69681205d2da40dd1f9d1620fa",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-09",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Knee-to-wall and supported reach are recognizable, but the anterior-drawer arrow is vertical rather than along anterior translation and can misteach the maneuver; ankle position and end-feel are also unspecified."
     },
     {
       "path": "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
@@ -1883,7 +1936,12 @@
       "gitBlobSha": "bb7c0817741ef1e0c05f1b3850b9441da8d670a5",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-09",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Realistic 3D orientation and useful CFL–peroneal depth inset, but the superficial fibular nerve course is not clearly anatomically faithful and vessels are unlabeled; not a safe-needling map."
     },
     {
       "path": "assets/briefs/2026-10-05-cai-anatomy.svg",
@@ -1899,7 +1957,12 @@
       "gitBlobSha": "99866e1597af7ad09537edb79cb1417d182361f2",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-09",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Clinically coherent staged reassessment checklist; approve as a sequence aid only, with standardized functional-test conditions and referral/red-flag decisions retained in surrounding text."
     },
     {
       "path": "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
@@ -3906,6 +3969,51 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs PFP-specific anatomy or explicit approval as a shared general plate, Figure 2 is recommended for approval with AI-educational/standardized-task caveats, and Figure 3 needs a true prioritized conditional pathway. Exact Git-blob reuse with the 2026-10-06 patellar-tendinopathy article is recorded so both contexts remain subject to user disposition. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-09",
+      "articleId": "2026-10-05-ankle-giving-way",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+        "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+        "assets/briefs/2026-10-05-cai-reassessment.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-09",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-05-ankle-giving-way",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 800,
+            "bytes": 150138,
+            "gitBlobSha": "bb7c0817741ef1e0c05f1b3850b9441da8d670a5"
+          },
+          {
+            "path": "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 800,
+            "bytes": 145938,
+            "gitBlobSha": "f6d732afbf251c69681205d2da40dd1f9d1620fa"
+          },
+          {
+            "path": "assets/briefs/2026-10-05-cai-reassessment.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 5813,
+            "gitBlobSha": "99866e1597af7ad09537edb79cb1417d182361f2"
+          }
+        ],
+        "duplicateGitBlobs": []
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a safer, anatomically verified superficial-fibular-nerve/vessel depiction, Figure 2 needs correction of the anterior-drawer translation direction and examination details, and Figure 3 is recommended for approval as a reassessment checklist with standardized-task caveats. No exact Git-blob duplicates were found for this batch. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
