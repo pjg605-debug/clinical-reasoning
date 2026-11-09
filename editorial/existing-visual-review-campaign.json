@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 23,
+    "verifiedLinkedArticles": 24,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1328,9 +1328,46 @@
       "title": "아킬레스건병증으로 치료했는데 왜 통증은 줄었는데 한 발 까치발이 회복되지 않을까?",
       "file": "articles/2026-09-28-achilles-function.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+        "assets/briefs/2026-09-28-achilles-reassessment.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-10",
+      "preliminaryRecommendation": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: approve recommended as a realistic 3D posterolateral-location orientation. It correctly relates the Achilles tendon and calcaneal insertion to soleus, sural nerve, small saphenous vein, Kager fat pad, retrocalcaneal bursa and superficial calcaneal bursa. Keep the current AI-generated/location-only disclaimer; this single posterolateral view does not establish an individually safe needling corridor and does not show the full medial neurovascular bundle.",
+          "Figure 2: revise recommended. The sequence usefully separates pain location, dorsiflexion, single-leg heel-rise capacity, rupture warning, 24-hour load response and keep/change criteria, but the named Thompson-type rupture screen is only an abstract arrow and does not show prone patient position, knee flexion, calf squeeze, observed plantarflexion or side comparison. The long KEEP/CHANGE strings extend beyond their colored boxes and are visibly clipped on the live/mobile-scaled rendering. Replace with wrapped text and a real exam-position panel; retain the decision sequence and explicitly separate midportion from insertional loading."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-10",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-28-achilles-function",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 133678,
+            "gitBlobSha": "f068070df79a3a436c65cb7e70a4f4fbd21db573"
+          },
+          {
+            "path": "assets/briefs/2026-09-28-achilles-reassessment.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 5870,
+            "gitBlobSha": "99224c895ee9f767ff3ab48e144aac95d4fad4a1"
+          }
+        ],
+        "duplicateGitBlobs": []
+      }
     },
     {
       "id": "2026-09-24-tmd-myalgia-opening",
@@ -1688,7 +1725,12 @@
       "gitBlobSha": "f068070df79a3a436c65cb7e70a4f4fbd21db573",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-10",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "approve_recommended",
+      "issueSummary": "Realistic posterolateral Achilles orientation with coherent tendon, calcaneal insertion, sural nerve/small saphenous vein, Kager fat pad and bursal relationships; location-only, not a safe-needling map."
     },
     {
       "path": "assets/briefs/2026-09-28-achilles-reassessment.svg",
@@ -1696,7 +1738,12 @@
       "gitBlobSha": "99224c895ee9f767ff3ab48e144aac95d4fad4a1",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-10",
+      "liveHttpsVerified": true,
+      "duplicatePaths": [],
+      "preliminaryRecommendation": "revise_recommended",
+      "issueSummary": "Useful reassessment sequence, but the Thompson-type screen lacks actual patient/examiner posture and squeeze/plantarflexion comparison, and long KEEP/CHANGE text visibly overflows its boxes on the live rendering."
     },
     {
       "path": "assets/briefs/2026-09-29-pfp-stair-pain-anatomy.webp",
@@ -4014,6 +4061,42 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a safer, anatomically verified superficial-fibular-nerve/vessel depiction, Figure 2 needs correction of the anterior-drawer translation direction and examination details, and Figure 3 is recommended for approval as a reassessment checklist with standardized-task caveats. No exact Git-blob duplicates were found for this batch. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-10",
+      "articleId": "2026-09-28-achilles-function",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+        "assets/briefs/2026-09-28-achilles-reassessment.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-10",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-28-achilles-function",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 133678,
+            "gitBlobSha": "f068070df79a3a436c65cb7e70a4f4fbd21db573"
+          },
+          {
+            "path": "assets/briefs/2026-09-28-achilles-reassessment.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 5870,
+            "gitBlobSha": "99224c895ee9f767ff3ab48e144aac95d4fad4a1"
+          }
+        ],
+        "duplicateGitBlobs": []
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is recommended for approval as a posterolateral orientation plate with its location-only/no-needling-path caveat. Figure 2 needs a real Thompson-test posture/movement panel plus wrapped mobile-safe text. This article contains only two linked visuals, so both were reviewed rather than substituting unrelated or unembedded files. No exact Git-blob duplicates were found. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
