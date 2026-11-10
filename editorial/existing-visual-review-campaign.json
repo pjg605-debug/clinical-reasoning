@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 24,
+    "verifiedLinkedArticles": 25,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1375,9 +1375,58 @@
       "title": "교근 통증으로 치료했는데 왜 입 벌림 제한과 귀앞 통증이 남을까?",
       "file": "articles/2026-09-24-tmd-myalgia-opening.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+        "assets/briefs/2026-09-24-tmd-exam-sequence.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-11",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: this AI-generated 3D plate is useful for general right-lateral orientation of the masseter, temporalis, condyle, articular disc/capsule, parotid gland, facial nerve and facial artery, and the article correctly labels it as location-only rather than a needling route. However, the large-panel Korean label '관절궁' points to the zygomatic arch and should be corrected to 관골궁/광대활. For a TMD myalgia/opening-limitation context, the plate also omits the lateral-pterygoid/disc relationship, auriculotemporal nerve and maxillary-artery/deep vascular boundary. Revise before treating it as a structure-specific or safety-complete anatomy figure. The exact Git blob is reused in the 2026-10-08 TMD article, so both contexts require the same user disposition.",
+          "Figure 2: the sequence correctly separates pain-free opening from maximum opening, checks deviation/noise/open and closed lock, asks whether masseter/temporalis and TMJ provocation reproduces familiar pain, and ends with red-flag referral. Revise recommended because the palpation and measurement panels are symbolic rather than an actual patient/examiner posture with clear hand/ruler placement, and the 800×1120 SVG uses a 14 px minimum source font that scales to about 5.6 px at 320 px inline mobile width. Preserve the clinical sequence but rebuild as mobile-readable stacked panels with explicit posture, hand placement and inter-incisal measurement landmarks."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-11",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-24-tmd-myalgia-opening",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 194796,
+            "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2"
+          },
+          {
+            "path": "assets/briefs/2026-09-24-tmd-exam-sequence.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 6159,
+            "gitBlobSha": "f6f55b2a082332f594c45e3021dfb6afd8f4c3b8"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
+            "paths": [
+              "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+              "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-24-tmd-myalgia-opening: residual opening limitation and preauricular pain after myalgia-focused care",
+              "2026-10-08-tmd-chewing: persistent chewing-function loss and mouth-opening limitation in muscular TMD"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-23-gtps-lateral-hip",
@@ -1577,7 +1626,13 @@
       "gitBlobSha": "f6f55b2a082332f594c45e3021dfb6afd8f4c3b8",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-11",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The familiar-pain, pain-free/max-opening, joint-lock/noise and red-flag sequence is clinically coherent, but the exam panels are symbolic rather than an actual patient/examiner posture with explicit hand/ruler landmarks. At 320 px inline mobile width, the SVG's 14 px minimum source font scales to about 5.6 px. Rebuild as mobile-readable stacked panels while preserving the sequence.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-24-tmd-myalgia-opening"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
@@ -1585,7 +1640,16 @@
       "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-11",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. Useful AI-generated right-lateral orientation plate, but the '관절궁' label should be 관골궁/광대활; the plate omits the lateral-pterygoid/disc relationship, auriculotemporal nerve and maxillary-artery/deep vascular boundary. It is not a clinical image or a needling map. The exact Git blob is reused in the 2026-10-08 TMD article, so both contexts remain pending explicit user disposition.",
+      "duplicatePaths": [
+        "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-24-tmd-myalgia-opening",
+        "2026-10-08-tmd-chewing"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
@@ -4097,6 +4161,54 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is recommended for approval as a posterolateral orientation plate with its location-only/no-needling-path caveat. Figure 2 needs a real Thompson-test posture/movement panel plus wrapped mobile-safe text. This article contains only two linked visuals, so both were reviewed rather than substituting unrelated or unembedded files. No exact Git-blob duplicates were found. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-11",
+      "articleId": "2026-09-24-tmd-myalgia-opening",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+        "assets/briefs/2026-09-24-tmd-exam-sequence.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-11",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-24-tmd-myalgia-opening",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 194796,
+            "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2"
+          },
+          {
+            "path": "assets/briefs/2026-09-24-tmd-exam-sequence.svg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1120,
+            "bytes": 6159,
+            "gitBlobSha": "f6f55b2a082332f594c45e3021dfb6afd8f4c3b8"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "511b99eb712ddaa465cbbdf2b9b8de2699bbfbe2",
+            "paths": [
+              "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+              "assets/briefs/2026-10-08-tmd-chewing-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-24-tmd-myalgia-opening: residual opening limitation and preauricular pain after myalgia-focused care",
+              "2026-10-08-tmd-chewing: persistent chewing-function loss and mouth-opening limitation in muscular TMD"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs Korean label correction plus clinically relevant deep TMJ boundaries or explicit approval as a shared general lateral-orientation plate. Figure 2 should preserve its sound familiar-pain/opening/red-flag sequence but needs actual posture/hand/ruler landmarks and a mobile-readable layout. This article contains only two linked visuals, so both were reviewed rather than substituting unembedded files. Exact Git-blob reuse with the 2026-10-08 TMD article is recorded so both contexts remain subject to user disposition. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
