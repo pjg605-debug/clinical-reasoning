@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 26,
+    "verifiedLinkedArticles": 27,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1493,9 +1493,71 @@
       "title": "요통으로 치료했는데 왜 걸으면 종아리 통증이 남을까?",
       "file": "articles/2026-09-22-walking-leg-pain-stenosis.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+        "assets/briefs/2026-09-22-lss-walk-test.svg",
+        "assets/briefs/2026-09-22-lss-outcomes.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-13",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated 3D plate is a useful general orientation to lumbar vertebral bodies/discs, the spinal canal, cauda equina, exiting nerve roots, ligamentum flavum, facet joints and posterior paraspinal muscle. Revise recommended because it is not stenosis-specific: it does not show the dural sac/epidural space, central versus lateral-recess/foraminal narrowing, level-specific neural compression or the extension/flexion-dependent change relevant to neurogenic claudication. It must remain a general educational model rather than a patient image, diagnostic scan or needling-safety map. The exact Git blob is reused in the 2026-09-30 and 2026-10-09 low-back-pain articles, so all three contexts require the same user disposition.",
+          "Figure 2: the content is clinically coherent and appropriately states that the corridor walk is a repeatable functional outcome rather than a stand-alone diagnostic test. It separates back and leg symptoms, standardizes walking conditions, records first-symptom time/distance and recovery, compares standing rest with sitting/flexion, and prompts post-walk neurologic recheck. Revise recommended because it lacks explicit stop/assist criteria for progressive weakness, unsafe gait, cardiopulmonary symptoms or fall risk, and the 1200×850 SVG uses a 14 px minimum source font that scales to about 3.7 px at 320 px inline mobile width. Preserve the sequence but rebuild as mobile-readable stacked panels with safety-stop criteria.",
+          "Figure 3: the decision message accurately separates low-certainty short-term pain/function signals from the absence of clear walking-distance benefit in the 2026 network meta-analysis, and it does not present acupuncture as definitively superior. Revise recommended because the exact effect-size and certainty text is too small for the intended inline/mobile use: the 1200×650 SVG uses a 15 px minimum source font, about 4.0 px at 320 px width. Rebuild as mobile-readable cards, retain the substantial-uncertainty caveat, and keep walking distance as an independent outcome."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-13",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-22-walking-leg-pain-stenosis",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 200650,
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+          },
+          {
+            "path": "assets/briefs/2026-09-22-lss-walk-test.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 850,
+            "bytes": 7274,
+            "gitBlobSha": "0a3ee86b5f6651671a9a0f02aa4003c9f987dd2b"
+          },
+          {
+            "path": "assets/briefs/2026-09-22-lss-outcomes.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 650,
+            "bytes": 3951,
+            "gitBlobSha": "62f969f61df8017044a0a3c855ca5ede507ebe33"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+            "paths": [
+              "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+              "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-22-walking-leg-pain-stenosis: walking-provoked leg symptoms and lumbar spinal stenosis/neurogenic claudication",
+              "2026-09-30-lbp-reweight: residual movement avoidance and functional reweighting after low-back-pain improvement",
+              "2026-10-09-acute-lbp-imaging: acute low-back-pain imaging decision and red-flag reassessment"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-21-acute-neck-arm-tingling",
@@ -1611,7 +1673,13 @@
       "gitBlobSha": "62f969f61df8017044a0a3c855ca5ede507ebe33",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-13",
+      "preliminaryVisualNotes": "Figure 3: revise recommended. It accurately separates low-certainty short-term pain/function signals from the absence of clear walking-distance improvement, but the 1200×650 SVG's 15 px minimum source font scales to about 4.0 px at 320 px mobile width. Rebuild as mobile-readable cards and retain the substantial-uncertainty caveat.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-22-walking-leg-pain-stenosis"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-22-lss-painmap.svg",
@@ -1627,7 +1695,13 @@
       "gitBlobSha": "0a3ee86b5f6651671a9a0f02aa4003c9f987dd2b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-13",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The repeatable walking-outcome sequence is clinically coherent and explicitly non-diagnostic, but it needs explicit stop/assist criteria for progressive weakness, unsafe gait, cardiopulmonary symptoms and fall risk. At 320 px inline mobile width, the SVG's 14 px minimum source font scales to about 3.7 px. Rebuild as mobile-readable stacked panels.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-22-walking-leg-pain-stenosis"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
@@ -1635,7 +1709,18 @@
       "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-13",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. Useful AI-generated general lumbar orientation, but it is not LSS-specific and does not show the dural sac/epidural space, central/lateral-recess/foraminal narrowing, level-specific compression or extension/flexion-dependent change. It is not a patient image, diagnostic scan or needling-safety map. Exact Git-blob reuse with the 2026-09-30 and 2026-10-09 low-back-pain articles remains pending joint disposition.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+        "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-22-walking-leg-pain-stenosis",
+        "2026-09-30-lbp-reweight",
+        "2026-10-09-acute-lbp-imaging"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-23-gtps-anatomy-painmap.svg",
@@ -4321,6 +4406,65 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 needs a GTPS-specific lateral orientation with the multi-bursa/tendon-facet/IT-band and safety context, or explicit approval only as a shared general plate. Figure 2 preserves a clinically coherent test bundle and action criteria but needs actual examination postures plus mobile-readable text. This article contains only two linked visuals, so both were reviewed rather than substituting unrelated or unembedded files. Exact Git-blob reuse with the 2026-10-04 hip-OA/activity article is recorded. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-13",
+      "articleId": "2026-09-22-walking-leg-pain-stenosis",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+        "assets/briefs/2026-09-22-lss-walk-test.svg",
+        "assets/briefs/2026-09-22-lss-outcomes.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-13",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-22-walking-leg-pain-stenosis",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 200650,
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1"
+          },
+          {
+            "path": "assets/briefs/2026-09-22-lss-walk-test.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 850,
+            "bytes": 7274,
+            "gitBlobSha": "0a3ee86b5f6651671a9a0f02aa4003c9f987dd2b"
+          },
+          {
+            "path": "assets/briefs/2026-09-22-lss-outcomes.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 650,
+            "bytes": 3951,
+            "gitBlobSha": "62f969f61df8017044a0a3c855ca5ede507ebe33"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "fb508718439455de29673d3d67f683f26c1bd4e1",
+            "paths": [
+              "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+              "assets/briefs/2026-09-30-lbp-reweight-anatomy.webp",
+              "assets/briefs/2026-10-09-acute-lbp-imaging-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-22-walking-leg-pain-stenosis: walking-provoked leg symptoms and lumbar spinal stenosis/neurogenic claudication",
+              "2026-09-30-lbp-reweight: residual movement avoidance and functional reweighting after low-back-pain improvement",
+              "2026-10-09-acute-lbp-imaging: acute low-back-pain imaging decision and red-flag reassessment"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is a reusable general lumbar anatomy plate rather than an LSS-specific or safety-complete map. Figure 2 preserves a sound repeatable walking-outcome sequence but needs safety-stop criteria and mobile-readable stacked panels. Figure 3 accurately separates low-certainty pain/function signals from walking-distance results but also needs mobile-readable typography. This article contains exactly three linked visuals, and all three were reviewed without substituting unembedded files. Exact Git-blob reuse across three low-back-pain contexts is recorded. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
