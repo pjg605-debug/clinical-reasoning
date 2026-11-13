@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 27,
+    "verifiedLinkedArticles": 28,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1565,9 +1565,46 @@
       "title": "급성 경항통으로 치료했는데 왜 팔 저림이 새로 생기면 계획이 달라질까?",
       "file": "articles/2026-09-21-acute-neck-arm-tingling.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+        "assets/briefs/2026-09-21-neck-exam-sequence.svg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-14",
+      "preliminaryRecommendation": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: approve recommended only as an AI-generated general orientation plate. It clearly relates the C4–T1 vertebra/disc levels, spinal cord, exiting roots/brachial plexus, anterior and middle scalene region, vertebral artery, carotid artery, internal jugular vein and lung apex, and the caption explicitly says it is not a needling route. Conditions: retain the AI-educational label, do not present it as a patient image or diagnostic scan, and do not treat it as a complete safety map because the phrenic nerve, smaller neurovascular branches, fascial planes and individual anatomic variation are not shown. No needling depth or trajectory may be inferred.",
+          "Figure 2: revise recommended. Its core reasoning is appropriate: start with symptom distribution and neurologic screen, then interpret cervical ROM, Spurling and ULNT as a bundle rather than a single definitive test, and prioritize referral for progressive deficit. However, the drawings do not actually demonstrate examination technique. The Spurling panel omits the patient/examiner posture, sided extension/rotation/lateral flexion, hand placement and controlled axial load; the ULNT panel omits the ordered scapular/shoulder/elbow/forearm/wrist components and structural differentiation; the neuro screen uses abstract color bars rather than myotome/sensory/reflex landmarks. The 1200×760 SVG also uses a 15 px minimum source font, which scales to about 4.0 px at 320 px inline mobile width. Rebuild as mobile-readable stacked technique panels with real posture, hand placement, sidedness and a clear stop rule."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-14",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-21-acute-neck-arm-tingling",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 166766,
+            "gitBlobSha": "57f0a8f955ec0dc3478163788ffc7bec043c9c47"
+          },
+          {
+            "path": "assets/briefs/2026-09-21-neck-exam-sequence.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 760,
+            "bytes": 6009,
+            "gitBlobSha": "1b896797a3e1109a29032bd94eeb9fa08ea83c56"
+          }
+        ],
+        "duplicateGitBlobs": []
+      }
     },
     {
       "id": "2026-09-20-knee-oa-posterior-pain",
@@ -1649,7 +1686,13 @@
       "gitBlobSha": "57f0a8f955ec0dc3478163788ffc7bec043c9c47",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-14",
+      "preliminaryVisualNotes": "Figure 1: approve recommended only as an AI-generated general orientation plate. It clearly shows the major cervical root/plexus and large-vessel/lung-apex relationships, and the caption states that it is not a needling route. Retain that limitation: the phrenic nerve, smaller branches, fascial planes and individual variation are not shown, so it is not a patient image, diagnostic scan or complete needling-safety map.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-21-acute-neck-arm-tingling"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-21-neck-exam-sequence.svg",
@@ -1657,7 +1700,13 @@
       "gitBlobSha": "1b896797a3e1109a29032bd94eeb9fa08ea83c56",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-14",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The test-bundle message is clinically appropriate, but the Spurling, ULNT and neurologic-screen panels are symbolic rather than actual examination postures with examiner hand placement, sidedness, ordered limb components and stop rules. At 320 px inline mobile width, the SVG's 15 px minimum source font scales to about 4.0 px. Rebuild as mobile-readable stacked technique panels.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-21-acute-neck-arm-tingling"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-21-neck-painmap.svg",
@@ -4465,6 +4514,42 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is a reusable general lumbar anatomy plate rather than an LSS-specific or safety-complete map. Figure 2 preserves a sound repeatable walking-outcome sequence but needs safety-stop criteria and mobile-readable stacked panels. Figure 3 accurately separates low-certainty pain/function signals from walking-distance results but also needs mobile-readable typography. This article contains exactly three linked visuals, and all three were reviewed without substituting unembedded files. Exact Git-blob reuse across three low-back-pain contexts is recorded. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-14",
+      "articleId": "2026-09-21-acute-neck-arm-tingling",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+        "assets/briefs/2026-09-21-neck-exam-sequence.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-14",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-21-acute-neck-arm-tingling",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 166766,
+            "gitBlobSha": "57f0a8f955ec0dc3478163788ffc7bec043c9c47"
+          },
+          {
+            "path": "assets/briefs/2026-09-21-neck-exam-sequence.svg",
+            "complete": true,
+            "naturalWidth": 1200,
+            "naturalHeight": 760,
+            "bytes": 6009,
+            "gitBlobSha": "1b896797a3e1109a29032bd94eeb9fa08ea83c56"
+          }
+        ],
+        "duplicateGitBlobs": []
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is suitable only as a general AI orientation plate with its existing non-needling limitation. Figure 2 preserves a sound multi-test reasoning sequence but does not actually demonstrate Spurling, ULNT or neurologic-screen technique and is not mobile-readable. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. No exact Git-blob duplicates were found. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
