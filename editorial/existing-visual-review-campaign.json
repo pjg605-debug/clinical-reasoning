@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 28,
+    "verifiedLinkedArticles": 29,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1612,9 +1612,60 @@
       "title": "무릎 골관절염으로 치료했는데 왜 뒤쪽 무릎 통증이 남을까?",
       "file": "articles/2026-09-20-knee-oa-posterior-pain.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-15",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: the AI-generated posterior-knee plate gives a useful general orientation and correctly warns that it is not a needling route. However, it is not a patient image or diagnostic study, does not show the common fibular nerve or anatomical variation, and its two-panel composition does not unambiguously communicate the superficial-to-deep tibial-nerve → popliteal-vein → popliteal-artery relationship. The exact Git blob is also reused in meniscus-root-rehabilitation and ACL-return contexts. Revise recommended before treating it as a content-specific anatomy or complete safety map.",
+          "Figure 2: revise/replace required. Its Foucher-sign panel and lower branch state that posterior fullness increases with knee flexion, which reverses the recognized finding: a Baker cyst is generally firm/more evident in extension and softens or decreases around 45° flexion. The Garrick panel also omits the complete resisted-internal-rotation/passive-external-rotation sequence and does not disclose that diagnostic accuracy has not been established. The DVT/PE red-flag branch is directionally useful, but these errors make the full sheet unsafe to approve unchanged."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-15",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-20-knee-oa-posterior-pain",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 151992,
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd"
+          },
+          {
+            "path": "assets/briefs/knee-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 159157,
+            "gitBlobSha": "45bade41fc25cf9ab6008a66f325d9074e10b819"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+            "paths": [
+              "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+              "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+              "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-20-knee-oa-posterior-pain: posterior-knee pain, Baker cyst/fluid, popliteus and neurovascular safety",
+              "2026-10-01-meniscus-root-rehab: medial meniscus posterior-root repair and rehabilitation",
+              "2026-10-02-acl-return-control: ACL reconstruction and return-to-change-of-direction control"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-19-lateral-elbow",
@@ -1678,7 +1729,19 @@
       "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-15",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. The AI-generated plate is acceptable only as a general posterior-knee orientation with the existing no-needling warning. It is not a patient image or diagnostic study; it omits the common fibular nerve and anatomical variation, and the superficial-to-deep neurovascular relationship is not unambiguous. The exact Git blob is reused across three different knee contexts.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+        "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-20-knee-oa-posterior-pain",
+        "2026-10-01-meniscus-root-rehab",
+        "2026-10-02-acl-return-control"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
@@ -2935,7 +2998,13 @@
       "gitBlobSha": "45bade41fc25cf9ab6008a66f325d9074e10b819",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-15",
+      "preliminaryVisualNotes": "Figure 2: revise/replace required. The Foucher-sign panel reverses the recognized behavior of a Baker cyst by depicting/stating increased posterior fullness with knee flexion; it should be more evident/firm in extension and soften or decrease near 45° flexion. The Garrick panel also omits the complete resisted internal-rotation/passive external-rotation sequence and the test's unestablished diagnostic accuracy. The DVT/PE red-flag branch is useful but does not rescue these errors.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-20-knee-oa-posterior-pain"
+      ]
     },
     {
       "path": "assets/briefs/knee-painmap-v3.jpg",
@@ -4550,6 +4619,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is suitable only as a general AI orientation plate with its existing non-needling limitation. Figure 2 preserves a sound multi-test reasoning sequence but does not actually demonstrate Spurling, ULNT or neurologic-screen technique and is not mobile-readable. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. No exact Git-blob duplicates were found. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-15",
+      "articleId": "2026-09-20-knee-oa-posterior-pain",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-15",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-20-knee-oa-posterior-pain",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 151992,
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd"
+          },
+          {
+            "path": "assets/briefs/knee-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 159157,
+            "gitBlobSha": "45bade41fc25cf9ab6008a66f325d9074e10b819"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dc9eb0bcc45aa21551bae12103c848a0513346bd",
+            "paths": [
+              "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+              "assets/briefs/2026-10-01-meniscus-root-rehab-anatomy.webp",
+              "assets/briefs/2026-10-02-acl-return-control-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-20-knee-oa-posterior-pain: posterior-knee pain, Baker cyst/fluid, popliteus and neurovascular safety",
+              "2026-10-01-meniscus-root-rehab: medial meniscus posterior-root repair and rehabilitation",
+              "2026-10-02-acl-return-control: ACL reconstruction and return-to-change-of-direction control"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 remains only a general AI orientation plate and is an exact Git-blob duplicate reused in three distinct knee contexts. Figure 2 requires correction because its Foucher-sign direction is reversed; the Garrick sequence and accuracy limitation are also incomplete. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
