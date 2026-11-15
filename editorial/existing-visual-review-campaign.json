@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 29,
+    "verifiedLinkedArticles": 30,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1673,9 +1673,58 @@
       "title": "테니스엘보로 치료했는데 왜 깊은 전완 통증이 남을까?",
       "file": "articles/2026-09-19-lateral-elbow.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-16",
+      "preliminaryRecommendation": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: approve recommended only as an AI-generated general orientation plate. The lateral-epicondyle/common-extensor origin, ECRB, radial nerve division, superficial sensory branch, deep branch traversing the supinator and continuation as PIN are directionally coherent, and the existing caption correctly says it is not a needling route. It is not a patient image, diagnostic study or complete safety map; individual nerve/vessel variation and fascial depth are simplified. The exact Git blob is reused in the 2026-10-11 elbow-function article, so both usage contexts require explicit review.",
+          "Figure 2: revise recommended. The one-finger palpation, Cozen, middle-finger extension, resisted supination and bilateral finger/thumb-extension motor screen are recognizable and generally plausible. However, Maudsley and resisted-supination findings are presented in a way that may be read as a radial-tunnel diagnosis despite substantial diagnostic heterogeneity and unclear validity of the traditional Maudsley test. The five dense columns also become too small to read at mobile inline width. Rebuild as stacked mobile panels and state explicitly that pain location plus a test bundle raises or lowers a hypothesis rather than confirming RTS/PIN pathology."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-16",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-19-lateral-elbow",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 148222,
+            "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b"
+          },
+          {
+            "path": "assets/briefs/elbow-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 164462,
+            "gitBlobSha": "8473d3f9ccb5a31203758933713e9f7e8b6deed7"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
+            "paths": [
+              "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+              "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-19-lateral-elbow: residual distal deep forearm pain, radial tunnel/PIN differential and cervical screen",
+              "2026-10-11-elbow-function-update: residual grip and forearm-function limitation after lateral-elbow pain improvement"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-18-shoulder",
@@ -1721,7 +1770,17 @@
       "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-16",
+      "preliminaryVisualNotes": "Figure 1: approve recommended only as an AI-generated general orientation plate. The lateral epicondyle/common extensor origin, ECRB and radial-nerve superficial/deep branching through the supinator to PIN are directionally coherent. Retain the existing non-needling limitation: it is not a patient image, diagnostic study or complete safety map, and individual nerve/vessel variation and fascial depth are simplified. The exact Git blob is reused in two different elbow contexts.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-19-lateral-elbow",
+        "2026-10-11-elbow-function-update"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
@@ -2966,7 +3025,13 @@
       "gitBlobSha": "8473d3f9ccb5a31203758933713e9f7e8b6deed7",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-16",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The five examination postures are generally recognizable, but Maudsley and resisted-supination findings can be overread as confirmation of radial tunnel syndrome despite heterogeneous definitions and unclear validity. At mobile inline width the dense five-column Korean text becomes too small. Rebuild as stacked mobile panels and frame each maneuver as hypothesis weighting, not diagnosis.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-19-lateral-elbow"
+      ]
     },
     {
       "path": "assets/briefs/elbow-painmap-v3.jpg",
@@ -4669,6 +4734,54 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 remains only a general AI orientation plate and is an exact Git-blob duplicate reused in three distinct knee contexts. Figure 2 requires correction because its Foucher-sign direction is reversed; the Garrick sequence and accuracy limitation are also incomplete. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-16",
+      "articleId": "2026-09-19-lateral-elbow",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-16",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-19-lateral-elbow",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 148222,
+            "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b"
+          },
+          {
+            "path": "assets/briefs/elbow-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 164462,
+            "gitBlobSha": "8473d3f9ccb5a31203758933713e9f7e8b6deed7"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "e2203ebb2a7a526dfc83b24a4194701cebfe7e5b",
+            "paths": [
+              "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+              "assets/briefs/2026-10-11-elbow-function-update-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-19-lateral-elbow: residual distal deep forearm pain, radial tunnel/PIN differential and cervical screen",
+              "2026-10-11-elbow-function-update: residual grip and forearm-function limitation after lateral-elbow pain improvement"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is suitable only as a shared AI-generated general orientation plate with its existing non-needling limitation and exact Git-blob reuse across two elbow contexts. Figure 2 contains recognizable examination postures but needs mobile-readable stacked panels and stronger diagnostic-uncertainty wording for Maudsley/resisted supination. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
