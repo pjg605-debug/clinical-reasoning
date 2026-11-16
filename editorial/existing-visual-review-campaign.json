@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 30,
+    "verifiedLinkedArticles": 31,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1732,9 +1732,60 @@
       "title": "회전근개 통증으로 치료했는데 왜 야간통과 팔 통증이 남을까?",
       "file": "articles/2026-09-18-shoulder.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-17",
+      "preliminaryRecommendation": {
+        "figure1": "revise_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: revise recommended. The AI-generated posterior/anterior/cross-sectional shoulder orientation is useful for locating the cuff, bursa, glenoid and nearby nerves, and the existing caption correctly says it is not a needling route. However, the leader labelled '상완골두' terminates on the lateral proximal humeral bone/greater-tuberosity region rather than the articular humeral head, which can teach an incorrect landmark. The diagram also simplifies neurovascular depth and individual variation, so it is not a complete safety map, patient image or diagnostic study. The exact Git blob is reused in three distinct shoulder contexts, so all three usages need explicit review.",
+          "Figure 2: revise recommended. Active-versus-passive ROM, resisted external rotation, scapular-plane elevation, Spurling and a supine ULNT1 sequence are recognizable and broadly consistent with a shoulder-versus-cervical-neural screen. However, the dense 800×1131 Korean text is too small at mobile inline width, and Spurling/ULNT1 must be framed as adjuncts to history and bedside neurological examination rather than diagnostic confirmation; published diagnostic evidence is sparse and very low certainty. Rebuild as stacked mobile panels, retain symptom reproduction/side-to-side comparison, and explicitly separate a positive maneuver from a diagnosis."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-17",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-18-shoulder",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 164174,
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+          },
+          {
+            "path": "assets/briefs/shoulder-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 160503,
+            "gitBlobSha": "4ec00c3b8786ad6f1dbc7fee024337a12caf6dd2"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+            "paths": [
+              "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+              "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-shoulder: residual night pain and distal arm pain; shoulder-loading versus cervical-neural differentiation",
+              "2026-09-25-shoulder-passive-rom: adhesive-capsulitis hypothesis and persistent passive external-rotation restriction",
+              "2026-10-10-cuff-imaging-weight: rotator-cuff imaging findings and reweighting the source of persistent symptoms"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "2026-09-18-plantar",
@@ -1762,7 +1813,19 @@
       "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-17",
+      "preliminaryVisualNotes": "Figure 1: revise recommended. The shared AI orientation plate broadly depicts cuff/bursa/nerve relationships, but the '상완골두' leader lands on the lateral proximal humerus/greater-tuberosity region rather than the articular head. Correct that label and preserve the explicit non-needling, non-diagnostic limitation. Neurovascular depth and anatomic variation remain simplified. Exact Git blob reuse spans three different shoulder articles.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+        "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-18-shoulder",
+        "2026-09-25-shoulder-passive-rom",
+        "2026-10-10-cuff-imaging-weight"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
@@ -3197,7 +3260,13 @@
       "gitBlobSha": "4ec00c3b8786ad6f1dbc7fee024337a12caf6dd2",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-17",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The five shoulder/cervical screening postures are recognizable, but the text is too dense for mobile inline use. Rebuild as stacked panels and state that Spurling and ULNT1 only reweight a cervical-radiculopathy hypothesis alongside history and neurological examination; they do not confirm it.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-18-shoulder"
+      ]
     },
     {
       "path": "assets/briefs/shoulder-painmap-v3.jpg",
@@ -4782,6 +4851,56 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is suitable only as a shared AI-generated general orientation plate with its existing non-needling limitation and exact Git-blob reuse across two elbow contexts. Figure 2 contains recognizable examination postures but needs mobile-readable stacked panels and stronger diagnostic-uncertainty wording for Maudsley/resisted supination. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-17",
+      "articleId": "2026-09-18-shoulder",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-17",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-18-shoulder",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 164174,
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de"
+          },
+          {
+            "path": "assets/briefs/shoulder-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 160503,
+            "gitBlobSha": "4ec00c3b8786ad6f1dbc7fee024337a12caf6dd2"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "dcf6d0d9977d7fa6575273a55d06c1c0c34a68de",
+            "paths": [
+              "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+              "assets/briefs/2026-09-25-shoulder-passive-rom-anatomy.webp",
+              "assets/briefs/2026-10-10-cuff-imaging-weight-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-shoulder: residual night pain and distal arm pain; shoulder-loading versus cervical-neural differentiation",
+              "2026-09-25-shoulder-passive-rom: adhesive-capsulitis hypothesis and persistent passive external-rotation restriction",
+              "2026-10-10-cuff-imaging-weight: rotator-cuff imaging findings and reweighting the source of persistent symptoms"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 should be corrected because its '상완골두' leader targets the lateral proximal humerus/greater-tuberosity region, and its exact Git blob is reused in three distinct shoulder contexts. Figure 2 contains recognizable screening postures but needs mobile-readable stacked panels and explicit diagnostic-uncertainty wording for Spurling/ULNT1. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
