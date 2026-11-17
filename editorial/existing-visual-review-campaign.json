@@ -20,7 +20,7 @@
   "count": {
     "articles": 32,
     "assets": 119,
-    "verifiedLinkedArticles": 31,
+    "verifiedLinkedArticles": 32,
     "userApproved": 9,
     "finishedArticles": 3
   },
@@ -1793,9 +1793,58 @@
       "title": "족저근막병증으로 치료했는데 왜 계속 아플까?",
       "file": "articles/2026-09-18-plantar.html",
       "reviewStatus": "pending_user_review",
-      "figurePaths": null,
-      "figuresVerified": false,
-      "needsRead": true
+      "figurePaths": [
+        "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+        "assets/briefs/plantar-exams-v4.jpg"
+      ],
+      "figuresVerified": true,
+      "needsRead": false,
+      "lastReviewBatchAt": "2026-11-18",
+      "preliminaryRecommendation": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "status": "advisory_only_user_decision_pending",
+        "notes": [
+          "Figure 1: approve recommended only as an AI-generated general orientation plate. The medial/plantar right-foot view broadly shows the plantar fascia, calcaneal tubercle, heel fat pad, Achilles tendon, tibial nerve division, medial/lateral plantar nerves and an inferior-calcaneal/Baxter-nerve branch in directionally plausible relationships. It is not a patient image, diagnostic study or complete safety map: the first branch of the lateral plantar nerve normally courses laterally in relation to the deep fascia of abductor hallucis, while individual branching and depth vary and are simplified here. The existing caption correctly states that it is not a needling route. The exact Git blob is reused in the 2026-10-07 plantar-load article, so both contexts require explicit review.",
+          "Figure 2: revise recommended. The seated Windlass/Jack test, double-to-single heel raise, tibial-nerve/tarsal-tunnel percussion and mediolateral calcaneal squeeze postures are recognizable. However, the dense 800×1131 Korean text is too small at mobile inline width, the heel-raise panel does not specify repetitions/height/endurance needed for functional comparison, and wording such as '가능성 높음' can overstate single-test diagnostic value. Tarsal-tunnel literature lacks standardized diagnostic criteria and has low-quality, heterogeneous accuracy evidence. Rebuild as stacked mobile panels and frame Windlass, Tinel and calcaneal squeeze as hypothesis-weighting findings alongside symptom location, load history, neurological examination and imaging when indicated."
+        ]
+      },
+      "liveVerification": {
+        "checkedOn": "2026-11-18",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-18-plantar",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 170484,
+            "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17"
+          },
+          {
+            "path": "assets/briefs/plantar-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 152040,
+            "gitBlobSha": "60ffdd9c2c4217bcaa067b8325b3205918a21e7f"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
+            "paths": [
+              "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+              "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-plantar: persistent plantar heel pain; plantar fasciopathy versus neural, heel-pad, Achilles and calcaneal stress-injury hypotheses",
+              "2026-10-07-plantar-load-update: residual standing intolerance after first-step pain improvement and progressive load planning"
+            ]
+          }
+        ]
+      }
     }
   ],
   "assets": [
@@ -1805,7 +1854,17 @@
       "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-18",
+      "preliminaryVisualNotes": "Figure 1: approve recommended only as a shared AI-generated general orientation plate. The plantar fascia, calcaneal tubercle, heel fat pad, Achilles tendon and tibial/plantar nerve branching are directionally plausible. Baxter/inferior-calcaneal nerve origin, course through the abductor-hallucis region, depth and individual variation are simplified, so this is not a diagnostic image or needling safety map. Exact Git blob reuse spans two plantar-pain contexts.",
+      "duplicatePaths": [
+        "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+        "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp"
+      ],
+      "usedBy": [
+        "2026-09-18-plantar",
+        "2026-10-07-plantar-load-update"
+      ]
     },
     {
       "path": "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
@@ -3180,7 +3239,13 @@
       "gitBlobSha": "60ffdd9c2c4217bcaa067b8325b3205918a21e7f",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-18",
+      "preliminaryVisualNotes": "Figure 2: revise recommended. The four examination postures are recognizable, but the page is too dense for mobile inline use and single-test labels can be read as diagnostic confirmation. Rebuild as stacked panels, quantify single-leg heel-raise performance, and describe Windlass/Tinel/calcaneal squeeze as hypothesis weighting rather than proof.",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-09-18-plantar"
+      ]
     },
     {
       "path": "assets/briefs/plantar-heel-differential-v2.jpg",
@@ -4901,6 +4966,54 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 should be corrected because its '상완골두' leader targets the lateral proximal humerus/greater-tuberosity region, and its exact Git blob is reused in three distinct shoulder contexts. Figure 2 contains recognizable screening postures but needs mobile-readable stacked panels and explicit diagnostic-uncertainty wording for Spurling/ULNT1. This article contains exactly two linked visuals, and both were reviewed without substituting unembedded files. Public main was not modified."
+    },
+    {
+      "event": "review-batch-prepared",
+      "date": "2026-11-18",
+      "articleId": "2026-09-18-plantar",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+        "assets/briefs/plantar-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-18",
+        "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-09-18-plantar",
+        "pathsMatchArticleSrcHref": true,
+        "images": [
+          {
+            "path": "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+            "complete": true,
+            "naturalWidth": 1000,
+            "naturalHeight": 667,
+            "bytes": 170484,
+            "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17"
+          },
+          {
+            "path": "assets/briefs/plantar-exams-v4.jpg",
+            "complete": true,
+            "naturalWidth": 800,
+            "naturalHeight": 1131,
+            "bytes": 152040,
+            "gitBlobSha": "60ffdd9c2c4217bcaa067b8325b3205918a21e7f"
+          }
+        ],
+        "duplicateGitBlobs": [
+          {
+            "gitBlobSha": "d93f8c6f18089098602503a4cf3ed9394e695a17",
+            "paths": [
+              "assets/briefs/2026-09-18-plantar-virtual-anatomy.webp",
+              "assets/briefs/2026-10-07-plantar-load-update-anatomy.webp"
+            ],
+            "usageContexts": [
+              "2026-09-18-plantar: persistent plantar heel pain; plantar fasciopathy versus neural, heel-pad, Achilles and calcaneal stress-injury hypotheses",
+              "2026-10-07-plantar-load-update: residual standing intolerance after first-step pain improvement and progressive load planning"
+            ]
+          }
+        ]
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is acceptable only as a shared AI-generated general orientation plate with its existing non-needling limitation and exact Git-blob reuse across two plantar-pain contexts. Figure 2 contains recognizable examination postures but needs mobile-readable stacked panels, quantified heel-raise performance and stronger diagnostic-uncertainty wording for Windlass, tarsal-tunnel Tinel and calcaneal squeeze. This was the final article-level src/href linkage check (32/32); unresolved user decisions, unreviewed legacy/uninserted assets and any approved correction deployments still prevent campaign completion. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
