@@ -1958,7 +1958,26 @@
       "gitBlobSha": "5978160ee474a34cd1e8d203b0b941c227e5175d",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-19",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-21-acute-neck-arm-tingling",
+      "visualType": "clinical branching / pain-pattern map",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Legacy SVG displayed from the live GitHub Pages asset. It is not referenced by the current article body; the article now uses the virtual-anatomy and neck-exam-sequence visuals. The local-versus-radicular split, neurological red flags and warning that a single dermatome does not confirm a root are directionally appropriate, but C5-C8 leader lines are schematic rather than anatomical territories and the three-column text is dense at mobile inline width. Keep only as a historical candidate or revise before any reuse; do not treat pain distribution alone as diagnostic.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+        "assets/briefs/2026-09-21-neck-exam-sequence.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-19",
+        "complete": true,
+        "renderedWidth": 1200,
+        "renderedHeight": 900,
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-09-21-neck-painmap.svg"
+      }
     },
     {
       "path": "assets/briefs/2026-09-22-lss-outcomes.svg",
@@ -1980,7 +1999,27 @@
       "gitBlobSha": "b51939c9f101eb26554b0d832a052b4d6f60c8a7",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-19",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-22-walking-leg-pain-stenosis",
+      "visualType": "clinical differential / claudication map",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Legacy SVG displayed from the live GitHub Pages asset. It is not referenced by the current article body; the article now uses virtual anatomy, a walk-test sequence and outcomes visual. Its walking/standing versus sitting/flexion distinction and vascular differential are clinically useful, but the four-column layout is crowded at mobile width and the symptom silhouettes are too simplified to identify disease. Archive/exclude is recommended unless rebuilt as a mobile-first decision aid with explicit pulse/vascular and cauda-equina escalation wording.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+        "assets/briefs/2026-09-22-lss-walk-test.svg",
+        "assets/briefs/2026-09-22-lss-outcomes.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-19",
+        "complete": true,
+        "renderedWidth": 1200,
+        "renderedHeight": 860,
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-09-22-lss-painmap.svg"
+      }
     },
     {
       "path": "assets/briefs/2026-09-22-lss-walk-test.svg",
@@ -2021,7 +2060,26 @@
       "gitBlobSha": "d8814b3967531957917c5b077b8482957ae41d7b",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-19",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-23-gtps-lateral-hip",
+      "visualType": "schematic anatomy / pain-pattern map",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Legacy SVG displayed from the live GitHub Pages asset. It is not referenced by the current article body; the article now uses a 3D virtual-anatomy visual and examination sequence. The layered message (gluteus medius/minimus tendons, bursa and IT band, not one tender point) is clinically appropriate, and the non-needling warning is appropriate. However, the simplified lateral-hip drawing is not realistic depth anatomy and its tendon/bursa relationships should not be used for procedural safety. Archive/exclude is recommended unless rebuilt and revalidated.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+        "assets/briefs/2026-09-23-gtps-exam-sequence.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-19",
+        "complete": true,
+        "renderedWidth": 800,
+        "renderedHeight": 920,
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-09-23-gtps-anatomy-painmap.svg"
+      }
     },
     {
       "path": "assets/briefs/2026-09-23-gtps-exam-sequence.svg",
@@ -2060,7 +2118,26 @@
       "gitBlobSha": "966ff771fdf2d16624096936f95c6f552a65398d",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-19",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-24-tmd-myalgia-opening",
+      "visualType": "clinical differential / examination map",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Legacy SVG displayed from the live GitHub Pages asset. It is not referenced by the current article body; the article now uses a 3D virtual-anatomy visual and examination sequence. The familiar-pain distinction between temporalis/masseter myalgia and TMJ arthralgia is directionally aligned with DC/TMD, and the red-flag section is useful. The 800x1120 page is text-heavy at mobile inline width, uses mixed Korean/English, and the deep lateral-pterygoid panel is only schematic—not procedural anatomy. Archive/exclude is recommended unless rebuilt with standardized DC/TMD wording and a clearer non-procedural safety label.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+        "assets/briefs/2026-09-24-tmd-exam-sequence.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-19",
+        "complete": true,
+        "renderedWidth": 800,
+        "renderedHeight": 1120,
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-09-24-tmd-differential.svg"
+      }
     },
     {
       "path": "assets/briefs/2026-09-24-tmd-exam-sequence.svg",
@@ -2223,7 +2300,26 @@
       "gitBlobSha": "5e6f3ff5b9121f74c879a5226d2c31aac5f4a88f",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-19",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-28-achilles-function",
+      "visualType": "schematic anatomy / pain-location branching",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Legacy SVG displayed from the live GitHub Pages asset. It is not referenced by the current article body; the article now uses a virtual-anatomy visual and reassessment sequence. The midportion 2-6 cm versus insertional distinction and load-provoked familiar pain are clinically useful, and the rupture branch is present. The surface-landmark drawing is not realistic depth anatomy, mixed-language labels reduce readability, and suspected rupture requires a defined continuity examination rather than location alone. Archive/exclude is recommended unless rebuilt; no needling route should be inferred.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+        "assets/briefs/2026-09-28-achilles-reassessment.svg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-19",
+        "complete": true,
+        "renderedWidth": 800,
+        "renderedHeight": 920,
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-09-28-achilles-anatomy-painmap.svg"
+      }
     },
     {
       "path": "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
@@ -5014,6 +5110,120 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Automated QA recommendations are advisory only; no approval is inferred. Figure 1 is acceptable only as a shared AI-generated general orientation plate with its existing non-needling limitation and exact Git-blob reuse across two plantar-pain contexts. Figure 2 contains recognizable examination postures but needs mobile-readable stacked panels, quantified heel-raise performance and stronger diagnostic-uncertainty wording for Windlass, tarsal-tunnel Tinel and calcaneal squeeze. This was the final article-level src/href linkage check (32/32); unresolved user decisions, unreviewed legacy/uninserted assets and any approved correction deployments still prevent campaign completion. Public main was not modified."
+    },
+    {
+      "event": "legacy-uninserted-batch-prepared",
+      "date": "2026-11-19",
+      "previewsDisplayed": [
+        "assets/briefs/2026-09-21-neck-painmap.svg",
+        "assets/briefs/2026-09-22-lss-painmap.svg",
+        "assets/briefs/2026-09-23-gtps-anatomy-painmap.svg",
+        "assets/briefs/2026-09-24-tmd-differential.svg",
+        "assets/briefs/2026-09-28-achilles-anatomy-painmap.svg"
+      ],
+      "inventoryClassification": "legacy_uninserted_candidates",
+      "currentBodyReferences": {
+        "2026-09-21-acute-neck-arm-tingling": [
+          "assets/briefs/2026-09-21-acute-neck-arm-tingling-virtual-anatomy.webp",
+          "assets/briefs/2026-09-21-neck-exam-sequence.svg"
+        ],
+        "2026-09-22-walking-leg-pain-stenosis": [
+          "assets/briefs/2026-09-22-walking-leg-pain-stenosis-virtual-anatomy.webp",
+          "assets/briefs/2026-09-22-lss-walk-test.svg",
+          "assets/briefs/2026-09-22-lss-outcomes.svg"
+        ],
+        "2026-09-23-gtps-lateral-hip": [
+          "assets/briefs/2026-09-23-gtps-lateral-hip-virtual-anatomy.webp",
+          "assets/briefs/2026-09-23-gtps-exam-sequence.svg"
+        ],
+        "2026-09-24-tmd-myalgia-opening": [
+          "assets/briefs/2026-09-24-tmd-myalgia-opening-virtual-anatomy.webp",
+          "assets/briefs/2026-09-24-tmd-exam-sequence.svg"
+        ],
+        "2026-09-28-achilles-function": [
+          "assets/briefs/2026-09-28-achilles-function-virtual-anatomy.webp",
+          "assets/briefs/2026-09-28-achilles-reassessment.svg"
+        ]
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-09-21-neck-painmap.svg",
+          "gitBlobSha": "5978160ee474a34cd1e8d203b0b941c227e5175d",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-09-22-lss-painmap.svg",
+          "gitBlobSha": "b51939c9f101eb26554b0d832a052b4d6f60c8a7",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-09-23-gtps-anatomy-painmap.svg",
+          "gitBlobSha": "d8814b3967531957917c5b077b8482957ae41d7b",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-09-24-tmd-differential.svg",
+          "gitBlobSha": "966ff771fdf2d16624096936f95c6f552a65398d",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-09-28-achilles-anatomy-painmap.svg",
+          "gitBlobSha": "5e6f3ff5b9121f74c879a5226d2c31aac5f4a88f",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-09-21-neck-painmap.svg",
+          "complete": true,
+          "renderedWidth": 1200,
+          "renderedHeight": 900,
+          "bytes": 6234,
+          "gitBlobSha": "5978160ee474a34cd1e8d203b0b941c227e5175d"
+        },
+        {
+          "path": "assets/briefs/2026-09-22-lss-painmap.svg",
+          "complete": true,
+          "renderedWidth": 1200,
+          "renderedHeight": 860,
+          "bytes": 7133,
+          "gitBlobSha": "b51939c9f101eb26554b0d832a052b4d6f60c8a7"
+        },
+        {
+          "path": "assets/briefs/2026-09-23-gtps-anatomy-painmap.svg",
+          "complete": true,
+          "renderedWidth": 800,
+          "renderedHeight": 920,
+          "bytes": 5906,
+          "gitBlobSha": "d8814b3967531957917c5b077b8482957ae41d7b"
+        },
+        {
+          "path": "assets/briefs/2026-09-24-tmd-differential.svg",
+          "complete": true,
+          "renderedWidth": 800,
+          "renderedHeight": 1120,
+          "bytes": 7037,
+          "gitBlobSha": "966ff771fdf2d16624096936f95c6f552a65398d"
+        },
+        {
+          "path": "assets/briefs/2026-09-28-achilles-anatomy-painmap.svg",
+          "complete": true,
+          "renderedWidth": 800,
+          "renderedHeight": 920,
+          "bytes": 4994,
+          "gitBlobSha": "5e6f3ff5b9121f74c879a5226d2c31aac5f4a88f"
+        }
+      ],
+      "evidenceSources": [
+        "https://bjgp.org/content/bjgp/68/666/44.full.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10447202/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10234389/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4478082/",
+        "https://www.apta.org/patient-care/evidence-based-practice-resources/cpgs/achilles-pain-stiffness-and-muscle-power-deficits-midportion-achilles-tendinopathy-revision-2024-cpg"
+      ],
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Five live legacy SVG originals were displayed and classified as uninserted candidates. Exact filename checks and the corresponding current article HTML src/href show that none is used by its associated current article; each article now uses later visuals listed above. Exact Git-blob comparison found no duplicate path for these five assets. Automated archive/exclude recommendations are advisory only: reviewStatus remains pending_user_review and no approval, rejection or revision request is inferred. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
