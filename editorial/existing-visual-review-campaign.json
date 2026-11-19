@@ -3235,7 +3235,26 @@
       "gitBlobSha": "8be018e0acf8c1b67dfba4b91491e4546dc9e15c",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-20",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-19-lateral-elbow",
+      "visualType": "physical examination sequence / legacy version",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Live original displayed. This 480x678 predecessor is not referenced by any of the 32 current article bodies; the associated article uses elbow-exams-v4.jpg. Palpation, Cozen, resisted middle-finger extension, resisted supination and motor/sensory screening are recognizable, but the five-column text is unreadably dense at mobile inline size and Maudsley/resisted-supination findings can be overread as diagnostic confirmation of radial tunnel syndrome despite uncertain validity. Archive/exclude this superseded low-resolution version.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-20",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/elbow-exams-v3.jpg",
+        "complete": true,
+        "naturalWidth": 480,
+        "naturalHeight": 678
+      }
     },
     {
       "path": "assets/briefs/elbow-exams-v4.jpg",
@@ -3257,7 +3276,26 @@
       "gitBlobSha": "898c84bde6e1dd786353a6708a4898342f02248f",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-20",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-19-lateral-elbow",
+      "visualType": "pain-location differential map / legacy version",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Live original displayed. It is absent from all 32 current article bodies and is a low-resolution predecessor of elbow-painmap-v4.jpg. It usefully separates lateral elbow tendinopathy, radial-tunnel pain, PIN motor syndrome and cervical referral, but the 480x678 page is too dense for mobile reading and pain-location silhouettes cannot establish a diagnosis. Archive/exclude this superseded version.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-20",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/elbow-painmap-v3.jpg",
+        "complete": true,
+        "naturalWidth": 480,
+        "naturalHeight": 678
+      }
     },
     {
       "path": "assets/briefs/elbow-painmap-v4.jpg",
@@ -3265,7 +3303,26 @@
       "gitBlobSha": "f0f61ef6f7072746e6eaeb76054c375f93438b17",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-20",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-19-lateral-elbow",
+      "visualType": "pain-location differential map / later legacy version",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Live original displayed. It is absent from all 32 current article bodies. This is the clearest of the two pain-map versions and correctly distinguishes distal radial-tunnel tenderness, PIN-pattern motor deficit and cervical referral as separate hypotheses. However, it remains a crowded AI-generated educational composite, uses provocative tests with limited diagnostic certainty and is redundant with the current article's anatomy plus exam figures. Archive/exclude is recommended unless the user specifically wants a revised mobile-first differential map.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-20",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/elbow-painmap-v4.jpg",
+        "complete": true,
+        "naturalWidth": 800,
+        "naturalHeight": 1131
+      }
     },
     {
       "path": "assets/briefs/knee-exams-v3.jpg",
@@ -3311,7 +3368,26 @@
       "gitBlobSha": "6ee3299e614dc34dd052b3d288d70e69098b76ea",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-20",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-19-lateral-elbow",
+      "visualType": "anatomy + examination + decision sequence / legacy composite",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Live original displayed. It is absent from all 32 current article bodies. The posterior interosseous nerve, supinator/arcade region, lateral epicondyle versus more distal tenderness, motor screening and cervical differential are broadly recognizable. The page is excessively dense for mobile use and presents Maudsley/resisted-supination findings with more certainty than the heterogeneous radial-tunnel literature supports. Archive/exclude is recommended; revise substantially before any reuse.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-20",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
+        "complete": true,
+        "naturalWidth": 800,
+        "naturalHeight": 1131
+      }
     },
     {
       "path": "assets/briefs/lateral-elbow-radial-tunnel.webp",
@@ -3319,7 +3395,29 @@
       "gitBlobSha": "3f09ef1f07ab61d41c31f3206a0e74d9f6d68cf1",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-20",
+      "inventoryRole": "corrupt_legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-19-lateral-elbow",
+      "visualType": "legacy infographic / corrupt binary",
+      "preliminaryRecommendation": "exclude_recommended",
+      "preliminaryVisualNotes": "The live URL loaded with nominal 600x848 dimensions but rendered as a completely blank image. The downloaded 11,244-byte WebP has the expected RIFF/WEBP header, yet ImageMagick reported 'insufficient image data' and could not decode it. It is absent from all 32 current article bodies, so there is no current article breakage. Mark as a corrupt legacy candidate and recommend exclusion; do not treat file existence or HTTP delivery as visual integrity.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+        "assets/briefs/elbow-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-20",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/lateral-elbow-radial-tunnel.webp",
+        "complete": true,
+        "naturalWidth": 600,
+        "naturalHeight": 848,
+        "renderedBlank": true,
+        "decoderCheck": "ImageMagick: insufficient image data"
+      },
+      "technicalIssue": "corrupt_or_truncated_webp"
     },
     {
       "path": "assets/briefs/plantar-exams-v3.jpg",
@@ -5224,6 +5322,117 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Five live legacy SVG originals were displayed and classified as uninserted candidates. Exact filename checks and the corresponding current article HTML src/href show that none is used by its associated current article; each article now uses later visuals listed above. Exact Git-blob comparison found no duplicate path for these five assets. Automated archive/exclude recommendations are advisory only: reviewStatus remains pending_user_review and no approval, rejection or revision request is inferred. Public main was not modified."
+    },
+    {
+      "event": "legacy-uninserted-batch-prepared",
+      "date": "2026-11-20",
+      "articleContext": "2026-09-19-lateral-elbow",
+      "previewsDisplayed": [
+        "assets/briefs/elbow-exams-v3.jpg",
+        "assets/briefs/elbow-painmap-v3.jpg",
+        "assets/briefs/elbow-painmap-v4.jpg",
+        "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
+        "assets/briefs/lateral-elbow-radial-tunnel.webp"
+      ],
+      "inventoryClassification": "legacy_uninserted_candidates",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/elbow-exams-v3.jpg": [],
+          "assets/briefs/elbow-painmap-v3.jpg": [],
+          "assets/briefs/elbow-painmap-v4.jpg": [],
+          "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg": [],
+          "assets/briefs/lateral-elbow-radial-tunnel.webp": []
+        },
+        "currentAssociatedArticleReferences": [
+          "assets/briefs/2026-09-19-lateral-elbow-virtual-anatomy.webp",
+          "assets/briefs/elbow-exams-v4.jpg"
+        ]
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/elbow-exams-v3.jpg",
+          "gitBlobSha": "8be018e0acf8c1b67dfba4b91491e4546dc9e15c",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/elbow-painmap-v3.jpg",
+          "gitBlobSha": "898c84bde6e1dd786353a6708a4898342f02248f",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/elbow-painmap-v4.jpg",
+          "gitBlobSha": "f0f61ef6f7072746e6eaeb76054c375f93438b17",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
+          "gitBlobSha": "6ee3299e614dc34dd052b3d288d70e69098b76ea",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/lateral-elbow-radial-tunnel.webp",
+          "gitBlobSha": "3f09ef1f07ab61d41c31f3206a0e74d9f6d68cf1",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/elbow-exams-v3.jpg",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "bytes": 59667,
+          "gitBlobSha": "8be018e0acf8c1b67dfba4b91491e4546dc9e15c",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/elbow-painmap-v3.jpg",
+          "complete": true,
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "bytes": 60363,
+          "gitBlobSha": "898c84bde6e1dd786353a6708a4898342f02248f",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/elbow-painmap-v4.jpg",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "bytes": 164728,
+          "gitBlobSha": "f0f61ef6f7072746e6eaeb76054c375f93438b17",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "bytes": 189089,
+          "gitBlobSha": "6ee3299e614dc34dd052b3d288d70e69098b76ea",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/lateral-elbow-radial-tunnel.webp",
+          "complete": true,
+          "naturalWidth": 600,
+          "naturalHeight": 848,
+          "bytes": 11244,
+          "gitBlobSha": "3f09ef1f07ab61d41c31f3206a0e74d9f6d68cf1",
+          "renderedBlank": true
+        }
+      ],
+      "evidenceSources": [
+        "https://www.sciencedirect.com/science/article/pii/S0894113021000399",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9222841/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9896270/",
+        "https://pubmed.ncbi.nlm.nih.gov/38782802/",
+        "https://www.ncbi.nlm.nih.gov/books/NBK541046/"
+      ],
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Five elbow-related legacy binaries were displayed and checked against every current article body. None is inserted. Four are superseded low-resolution/dense concept variants; the old 600x848 WebP visibly renders blank and fails independent decoding despite a nonzero Git blob. Automated archive/exclude recommendations are advisory only: all reviewStatus values remain pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
