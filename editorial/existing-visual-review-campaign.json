@@ -3330,7 +3330,29 @@
       "gitBlobSha": "8d9273316c685716ccb8f8bebbeeedcb5671c5a9",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-21",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-20-knee-oa-posterior-pain",
+      "visualType": "physical_exam_and_triage",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 480x678 predecessor. The Foucher-sign panel is worded/illustrated so that flexion can be read as making the posterior mass more prominent, reversing the accepted behavior (prominent/firm in full extension, softening or disappearing near 45° flexion). Garrick/resisted-flexion/heel-raise panels compress dynamic maneuvers into single stills and can be overread diagnostically. Mobile text is too dense. Exclude/archive this version; if reused, rebuild and re-review rather than treating it as an exam technique guide.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-21",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-exams-v3.jpg",
+        "complete": true,
+        "bytes": 58237,
+        "gitBlobSha": "8d9273316c685716ccb8f8bebbeeedcb5671c5a9",
+        "naturalWidth": 480,
+        "naturalHeight": 678,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/knee-exams-v4.jpg",
@@ -3352,7 +3374,29 @@
       "gitBlobSha": "e9bdd22866ae36aba3cb2a99650a7342364903ab",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-21",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-20-knee-oa-posterior-pain",
+      "visualType": "posterior_knee_anatomy_painmap",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted low-resolution 480x678 predecessor. It separates cyst, musculotendinous and neurovascular hypotheses, but depicts the deep popliteus as a broad superficial colored target and simplifies the tibial nerve/popliteal vessels into a pain-map layer. This may obscure real depth and safe anatomy. Dense Korean labels are not reliably mobile-readable. Archive/exclude this superseded version; do not use it as a palpation or procedural map.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-21",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-painmap-v3.jpg",
+        "complete": true,
+        "bytes": 56000,
+        "gitBlobSha": "e9bdd22866ae36aba3cb2a99650a7342364903ab",
+        "naturalWidth": 480,
+        "naturalHeight": 678,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/knee-painmap-v4.jpg",
@@ -3360,7 +3404,29 @@
       "gitBlobSha": "63a317eded0b5761d27535e893be96f7b66495b4",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-21",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-20-knee-oa-posterior-pain",
+      "visualType": "posterior_knee_anatomy_painmap",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x1131 higher-resolution pain-map variant. Red-flag categories are useful, but the superficial view still exaggerates popliteus accessibility and visually groups deep tibial nerve/popliteal vessels with pain regions without sufficient layer/depth cues. Special tests are listed as differentiators without clear limits on diagnostic accuracy. If retained for future reuse it needs layered anatomy, explicit non-procedural wording and mobile panel redesign; archive/exclude as the current legacy candidate.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-21",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-painmap-v4.jpg",
+        "complete": true,
+        "bytes": 152862,
+        "gitBlobSha": "63a317eded0b5761d27535e893be96f7b66495b4",
+        "naturalWidth": 800,
+        "naturalHeight": 1131,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/lateral-elbow-radial-tunnel-v2.jpg",
@@ -3479,7 +3545,29 @@
       "gitBlobSha": "458d8a793d59a3da390ae836eb1cb8dfa89cfe2c",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-21",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-20-knee-oa-posterior-pain",
+      "visualType": "anatomy_exam_differential_pathway",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x1131 composite. It usefully names Baker cyst, popliteus, gastrocnemius/hamstring and neurovascular red flags, but the synthetic patient/anatomy panels and six-step exam compress posture, hand position and dynamic response into small stills. Deep popliteal structures are not layered clearly enough for safe spatial interpretation, and several tests may be overread as diagnosis rather than probability modifiers. Mobile density is high. Archive/exclude this legacy composite; any reuse should be split into corrected, source-labelled panels and re-reviewed.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-21",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/posterior-knee-differential-v2.jpg",
+        "complete": true,
+        "bytes": 183167,
+        "gitBlobSha": "458d8a793d59a3da390ae836eb1cb8dfa89cfe2c",
+        "naturalWidth": 800,
+        "naturalHeight": 1131,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/posterior-knee-differential.webp",
@@ -3487,7 +3575,31 @@
       "gitBlobSha": "c6ea784babbbf634f7a7937ac818299a1c0cad64",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-21",
+      "inventoryRole": "corrupt_legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-20-knee-oa-posterior-pain",
+      "visualType": "anatomy_exam_differential_pathway",
+      "preliminaryRecommendation": "exclude_recommended",
+      "preliminaryVisualNotes": "Uninserted nonzero WebP that reports 680x961 in Chrome but renders as a uniform blank gray image. Independent ImageMagick decoding fails with 'insufficient image data'; the 7,506-byte RIFF/VP8 payload is therefore technically corrupt or truncated. Exclude this candidate from the review queue; do not treat file existence or browser-reported dimensions as a valid visual.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+        "assets/briefs/knee-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-21",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/posterior-knee-differential.webp",
+        "complete": true,
+        "bytes": 7506,
+        "gitBlobSha": "c6ea784babbbf634f7a7937ac818299a1c0cad64",
+        "naturalWidth": 680,
+        "naturalHeight": 961,
+        "renderedBlank": true,
+        "decoderCheck": "ImageMagick identify failed: insufficient image data",
+        "technicalIssue": "corrupt_or_truncated_webp"
+      }
     },
     {
       "path": "assets/briefs/shoulder-cervical-differential-v2.jpg",
@@ -5433,6 +5545,128 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Five elbow-related legacy binaries were displayed and checked against every current article body. None is inserted. Four are superseded low-resolution/dense concept variants; the old 600x848 WebP visibly renders blank and fails independent decoding despite a nonzero Git blob. Automated archive/exclude recommendations are advisory only: all reviewStatus values remain pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
+    },
+    {
+      "event": "legacy-uninserted-batch-prepared",
+      "date": "2026-11-21",
+      "articleContext": "2026-09-20-knee-oa-posterior-pain",
+      "previewsDisplayed": [
+        "assets/briefs/knee-exams-v3.jpg",
+        "assets/briefs/knee-painmap-v3.jpg",
+        "assets/briefs/knee-painmap-v4.jpg",
+        "assets/briefs/posterior-knee-differential-v2.jpg",
+        "assets/briefs/posterior-knee-differential.webp"
+      ],
+      "inventoryClassification": "legacy_uninserted_candidates",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/knee-exams-v3.jpg": [],
+          "assets/briefs/knee-painmap-v3.jpg": [],
+          "assets/briefs/knee-painmap-v4.jpg": [],
+          "assets/briefs/posterior-knee-differential-v2.jpg": [],
+          "assets/briefs/posterior-knee-differential.webp": []
+        },
+        "currentAssociatedArticleReferences": [
+          "assets/briefs/2026-09-20-knee-oa-posterior-pain-virtual-anatomy.webp",
+          "assets/briefs/knee-exams-v4.jpg"
+        ]
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/knee-exams-v3.jpg",
+          "gitBlobSha": "8d9273316c685716ccb8f8bebbeeedcb5671c5a9",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/knee-painmap-v3.jpg",
+          "gitBlobSha": "e9bdd22866ae36aba3cb2a99650a7342364903ab",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/knee-painmap-v4.jpg",
+          "gitBlobSha": "63a317eded0b5761d27535e893be96f7b66495b4",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/posterior-knee-differential-v2.jpg",
+          "gitBlobSha": "458d8a793d59a3da390ae836eb1cb8dfa89cfe2c",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/posterior-knee-differential.webp",
+          "gitBlobSha": "c6ea784babbbf634f7a7937ac818299a1c0cad64",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/knee-exams-v3.jpg",
+          "checkedOn": "2026-11-21",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-exams-v3.jpg",
+          "complete": true,
+          "bytes": 58237,
+          "gitBlobSha": "8d9273316c685716ccb8f8bebbeeedcb5671c5a9",
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/knee-painmap-v3.jpg",
+          "checkedOn": "2026-11-21",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-painmap-v3.jpg",
+          "complete": true,
+          "bytes": 56000,
+          "gitBlobSha": "e9bdd22866ae36aba3cb2a99650a7342364903ab",
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/knee-painmap-v4.jpg",
+          "checkedOn": "2026-11-21",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/knee-painmap-v4.jpg",
+          "complete": true,
+          "bytes": 152862,
+          "gitBlobSha": "63a317eded0b5761d27535e893be96f7b66495b4",
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/posterior-knee-differential-v2.jpg",
+          "checkedOn": "2026-11-21",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/posterior-knee-differential-v2.jpg",
+          "complete": true,
+          "bytes": 183167,
+          "gitBlobSha": "458d8a793d59a3da390ae836eb1cb8dfa89cfe2c",
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/posterior-knee-differential.webp",
+          "checkedOn": "2026-11-21",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/posterior-knee-differential.webp",
+          "complete": true,
+          "bytes": 7506,
+          "gitBlobSha": "c6ea784babbbf634f7a7937ac818299a1c0cad64",
+          "naturalWidth": 680,
+          "naturalHeight": 961,
+          "renderedBlank": true,
+          "decoderCheck": "ImageMagick identify failed: insufficient image data",
+          "technicalIssue": "corrupt_or_truncated_webp"
+        }
+      ],
+      "evidenceSources": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK430774/",
+        "https://pubmed.ncbi.nlm.nih.gov/3579388/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2941578/",
+        "https://www.cdc.gov/blood-clots/about/"
+      ],
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Five knee/posterior-knee legacy binaries were displayed and checked against all 32 current article bodies. None is inserted; the associated current article uses the two later visuals recorded above. Exact Git-blob comparison found no duplicate paths. The 480x678 exam predecessor reverses or ambiguously reverses the accepted Foucher-sign behavior; the pain-map/composite variants need clearer deep-anatomy layers and mobile redesign. The old 680x961 WebP visibly renders blank and independently fails decoding despite a nonzero Git blob. Recommendations are advisory only: every reviewStatus remains pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
