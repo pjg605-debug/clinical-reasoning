@@ -3719,7 +3719,29 @@
       "gitBlobSha": "c76ee6bb1a18e0489dbb7c2957bb2c86dad0c9a4",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-23",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-18-shoulder",
+      "visualType": "anatomy_exam_differential_pathway",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x1131 composite predecessor. It clearly separates shoulder and cervical hypotheses and shows active/passive ROM, resisted external rotation, scaption, Spurling, ULNT1 and a neurologic screen, but the synthetic anatomy and photographed-looking figures are educational composites rather than patient imaging or verified clinical photographs. The very dense mobile layout and single-still maneuvers can be mistaken for technique or diagnostic confirmation. Spurling and ULNT1 should modify probability only; the current evidence for cervical-radiculopathy physical tests is sparse and low/very-low certainty. Archive/exclude this predecessor unless rebuilt with explicit synthetic-illustration provenance, full maneuver sequences, readable labels and uncertainty wording.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-23",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-cervical-differential-v2.jpg",
+        "complete": true,
+        "bytes": 190253,
+        "gitBlobSha": "c76ee6bb1a18e0489dbb7c2957bb2c86dad0c9a4",
+        "naturalWidth": 800,
+        "naturalHeight": 1131,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/shoulder-cervical-differential.webp",
@@ -3727,7 +3749,31 @@
       "gitBlobSha": "0827989b82ee28a0866e3d013b6a8700fbdf729c",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-23",
+      "inventoryRole": "corrupt_legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-18-shoulder",
+      "visualType": "anatomy_exam_differential_pathway",
+      "preliminaryRecommendation": "exclude_recommended",
+      "preliminaryVisualNotes": "Uninserted nonzero WebP that reports 680x961 in Chrome but renders as a uniform blank gray image. Independent ImageMagick decoding fails with 'insufficient image data'; the 15,009-byte RIFF/VP8 payload is technically corrupt or truncated. Exclude this candidate; file existence and browser-reported dimensions do not establish a valid visual.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-23",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-cervical-differential.webp",
+        "complete": true,
+        "bytes": 15009,
+        "gitBlobSha": "0827989b82ee28a0866e3d013b6a8700fbdf729c",
+        "naturalWidth": 680,
+        "naturalHeight": 961,
+        "renderedBlank": true,
+        "decoderCheck": "ImageMagick identify failed: insufficient image data",
+        "technicalIssue": "corrupt_or_truncated_webp"
+      }
     },
     {
       "path": "assets/briefs/shoulder-exams-v3.jpg",
@@ -3735,7 +3781,29 @@
       "gitBlobSha": "062a21f1dbc15052596eee4a5d62b3f6335c38b3",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-23",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-18-shoulder",
+      "visualType": "physical_exam_sequence",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 480x678 exam predecessor. Active/passive ROM, resisted external rotation, scapular-plane abduction, Spurling and ULNT1 are recognizable, but the small dense text is not reliably mobile-readable. Spurling is shown as a single loaded end-position still; ULNT1 compresses a staged neurodynamic examination into one row without clearly communicating shoulder-girdle control, symptom reproduction, structural differentiation or stopping criteria. The bottom summary visually pushes findings toward 'cervical radiculopathy likely' or 'rotator-cuff pathology likely', which overstates tests that should only modify a history-plus-neurologic-exam hypothesis. Archive/exclude; rebuild and re-review before reuse.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-23",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-exams-v3.jpg",
+        "complete": true,
+        "bytes": 59093,
+        "gitBlobSha": "062a21f1dbc15052596eee4a5d62b3f6335c38b3",
+        "naturalWidth": 480,
+        "naturalHeight": 678,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/shoulder-exams-v4.jpg",
@@ -3757,7 +3825,29 @@
       "gitBlobSha": "6bf8b01384670c357845fa8be6e9ead33ca91239",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-23",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-18-shoulder",
+      "visualType": "pain_map_anatomy_exam_differential",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 480x678 pain-map predecessor. It usefully warns that pain location alone does not establish the source, but overlapping colored regions then label rotator-cuff and cervical-radicular patterns with more specificity than a pain map can support. The map does not separate dermatomal sensory change, peripheral-nerve findings, motor/reflex deficits or mixed shoulder-neck pathology. Dense text, low resolution and single-still tests reduce mobile clarity. Archive/exclude; a replacement should frame distributions as non-diagnostic clues and require a concordant neurologic and shoulder examination.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-23",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-painmap-v3.jpg",
+        "complete": true,
+        "bytes": 59900,
+        "gitBlobSha": "6bf8b01384670c357845fa8be6e9ead33ca91239",
+        "naturalWidth": 480,
+        "naturalHeight": 678,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/shoulder-painmap-v4.jpg",
@@ -3765,7 +3855,29 @@
       "gitBlobSha": "0804a200791626fc9d3f401cf4e3fede634ea53d",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-23",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-09-18-shoulder",
+      "visualType": "pain_map_anatomy_exam_differential",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x1131 higher-resolution pain-map predecessor, but it preserves the same conceptual overreach as v3. Red and green regions may be read as structure-specific or nerve-root-specific diagnosis even though shoulder and cervical presentations overlap and physical tests lack stand-alone precision. The structural-tear panel and red-flag wording are useful, yet the visual still needs explicit synthetic-illustration provenance, clearer neurologic-exam requirements, non-diagnostic uncertainty language and a mobile redesign. Archive/exclude this superseded variant unless rebuilt and re-reviewed.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+        "assets/briefs/shoulder-exams-v4.jpg"
+      ],
+      "liveVerification": {
+        "checkedOn": "2026-11-23",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-painmap-v4.jpg",
+        "complete": true,
+        "bytes": 166465,
+        "gitBlobSha": "0804a200791626fc9d3f401cf4e3fede634ea53d",
+        "naturalWidth": 800,
+        "naturalHeight": 1131,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
@@ -5901,6 +6013,129 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Five plantar-heel legacy binaries were displayed and checked against all 32 current article bodies. None is inserted; the associated current article uses the two later visuals recorded above. Exact Git-blob comparison found no duplicate paths. Four visible variants overstate differentiation by pain location or a single provocative test; the pain maps also combine heel-pad and calcaneal bone-stress pain. The old 680x961 WebP visibly renders blank and independently fails decoding despite a nonzero blob. Recommendations are advisory only: every reviewStatus remains pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
+    },
+    {
+      "event": "legacy-uninserted-batch-prepared",
+      "date": "2026-11-23",
+      "articleContext": "2026-09-18-shoulder",
+      "previewsDisplayed": [
+        "assets/briefs/shoulder-cervical-differential-v2.jpg",
+        "assets/briefs/shoulder-cervical-differential.webp",
+        "assets/briefs/shoulder-exams-v3.jpg",
+        "assets/briefs/shoulder-painmap-v3.jpg",
+        "assets/briefs/shoulder-painmap-v4.jpg"
+      ],
+      "inventoryClassification": "legacy_uninserted_candidates",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/shoulder-cervical-differential-v2.jpg": [],
+          "assets/briefs/shoulder-cervical-differential.webp": [],
+          "assets/briefs/shoulder-exams-v3.jpg": [],
+          "assets/briefs/shoulder-painmap-v3.jpg": [],
+          "assets/briefs/shoulder-painmap-v4.jpg": []
+        },
+        "currentAssociatedArticleReferences": [
+          "assets/briefs/2026-09-18-shoulder-virtual-anatomy.webp",
+          "assets/briefs/shoulder-exams-v4.jpg"
+        ]
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/shoulder-cervical-differential-v2.jpg",
+          "gitBlobSha": "c76ee6bb1a18e0489dbb7c2957bb2c86dad0c9a4",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/shoulder-cervical-differential.webp",
+          "gitBlobSha": "0827989b82ee28a0866e3d013b6a8700fbdf729c",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/shoulder-exams-v3.jpg",
+          "gitBlobSha": "062a21f1dbc15052596eee4a5d62b3f6335c38b3",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/shoulder-painmap-v3.jpg",
+          "gitBlobSha": "6bf8b01384670c357845fa8be6e9ead33ca91239",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/shoulder-painmap-v4.jpg",
+          "gitBlobSha": "0804a200791626fc9d3f401cf4e3fede634ea53d",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/shoulder-cervical-differential-v2.jpg",
+          "checkedOn": "2026-11-23",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-cervical-differential-v2.jpg",
+          "complete": true,
+          "bytes": 190253,
+          "gitBlobSha": "c76ee6bb1a18e0489dbb7c2957bb2c86dad0c9a4",
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/shoulder-cervical-differential.webp",
+          "checkedOn": "2026-11-23",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-cervical-differential.webp",
+          "complete": true,
+          "bytes": 15009,
+          "gitBlobSha": "0827989b82ee28a0866e3d013b6a8700fbdf729c",
+          "naturalWidth": 680,
+          "naturalHeight": 961,
+          "renderedBlank": true,
+          "decoderCheck": "ImageMagick identify failed: insufficient image data",
+          "technicalIssue": "corrupt_or_truncated_webp"
+        },
+        {
+          "path": "assets/briefs/shoulder-exams-v3.jpg",
+          "checkedOn": "2026-11-23",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-exams-v3.jpg",
+          "complete": true,
+          "bytes": 59093,
+          "gitBlobSha": "062a21f1dbc15052596eee4a5d62b3f6335c38b3",
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/shoulder-painmap-v3.jpg",
+          "checkedOn": "2026-11-23",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-painmap-v3.jpg",
+          "complete": true,
+          "bytes": 59900,
+          "gitBlobSha": "6bf8b01384670c357845fa8be6e9ead33ca91239",
+          "naturalWidth": 480,
+          "naturalHeight": 678,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/shoulder-painmap-v4.jpg",
+          "checkedOn": "2026-11-23",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/shoulder-painmap-v4.jpg",
+          "complete": true,
+          "bytes": 166465,
+          "gitBlobSha": "0804a200791626fc9d3f401cf4e3fede634ea53d",
+          "naturalWidth": 800,
+          "naturalHeight": 1131,
+          "renderedBlank": false
+        }
+      ],
+      "evidenceSources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41680685/",
+        "https://pubmed.ncbi.nlm.nih.gov/39938056/",
+        "https://pubmed.ncbi.nlm.nih.gov/40165544/",
+        "https://www.orthopt.org/uploads/content_files/files/Rotator_Cuff_CPG.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/24720325/"
+      ],
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "Five shoulder/cervical legacy binaries were displayed and checked against all 32 current article bodies. None is inserted; the associated current article uses the two later visuals recorded above. Exact Git-blob comparison found no duplicate paths. Four visible variants are superseded dense composites that overstate differentiation by pain location or single provocative tests; the old 680x961 WebP visibly renders blank and independently fails decoding despite a nonzero blob. Recommendations are advisory only: every reviewStatus remains pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
