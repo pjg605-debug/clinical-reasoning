@@ -2598,7 +2598,30 @@
       "gitBlobSha": "4be79c1d2a011cc4ea3fba33885288d38f5a2764",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-24",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-10-05-ankle-giving-way",
+      "visualType": "schematic_anatomy_and_reassessment",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x1080 SVG predecessor. It responsibly separates perceived giving-way, mechanical laxity, sensorimotor deficits and competing causes, and it says CAIT, one ultrasound image or one anterior-drawer result should not determine the conclusion. The simplified lateral-ankle drawing is not realistic 3D anatomy: talus/calcaneus, layer depth and vessels are absent, and the sural-nerve/peroneal-tendon relationships are only schematic. Its explicit statement that it is not a safe needling pathway must be preserved. Archive/exclude this predecessor because the current article uses a later virtual-anatomy image plus exam and reassessment figures; rebuild and re-review if reused.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+        "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+        "assets/briefs/2026-10-05-cai-reassessment.svg"
+      ],
+      "liveDisplay": {
+        "checkedOn": "2026-11-24",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-05-cai-anatomy.svg",
+        "complete": true,
+        "bytes": 5689,
+        "gitBlobSha": "4be79c1d2a011cc4ea3fba33885288d38f5a2764",
+        "naturalWidth": 800,
+        "naturalHeight": 1080,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/2026-10-05-cai-reassessment.svg",
@@ -2673,7 +2696,32 @@
       "gitBlobSha": "e87a65d88e78880b3c438280993ce20e2b7dd095",
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
-      "userApproval": null
+      "userApproval": null,
+      "previewDisplayed": "2026-11-24",
+      "inventoryRole": "legacy_uninserted_candidate",
+      "associatedArticle": "2026-10-06-patellar-load",
+      "visualType": "imaging_interpretation_checklist",
+      "preliminaryRecommendation": "exclude_or_archive_recommended",
+      "preliminaryVisualNotes": "Uninserted 800x767 SVG predecessor. The four questions—confirm imaging plane and anisotropy, compare tendon continuity and surrounding structures, correlate with symptoms, and ask whether the result changes management—are clinically coherent and explicitly reject confirmation from one signal. It contains no actual patient US/MRI and should not be presented as diagnostic imaging. Archive/exclude as a superseded checklist because the current article uses the later imaging-orientation WebP and progression SVG; reuse would require explicit educational-diagram labeling and article-specific referral/imaging thresholds.",
+      "duplicatePaths": [],
+      "usedBy": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+        "assets/briefs/2026-10-06-patellar-load-exam.webp",
+        "assets/briefs/2026-10-06-patellar-load-decision.svg",
+        "assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+        "assets/briefs/2026-10-06-patellar-load-progression.svg"
+      ],
+      "liveDisplay": {
+        "checkedOn": "2026-11-24",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-06-patellar-load-imaging.svg",
+        "complete": true,
+        "bytes": 1593,
+        "gitBlobSha": "e87a65d88e78880b3c438280993ce20e2b7dd095",
+        "naturalWidth": 800,
+        "naturalHeight": 767,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/2026-10-06-patellar-load-progression.svg",
@@ -3223,11 +3271,33 @@
         "source": "ChatGPT conversation"
       },
       "previewLinkProvided": "2026-10-19",
-      "preliminaryVisualNotes": [
-        "SVG original binary path known, inline renderer unavailable; requires preview via browser before decision"
-      ],
+      "preliminaryVisualNotes": "Actual 800x600 SVG original was displayed. It places high-load tolerance first, separates absolute vascular exclusions from medical-review risks, requires individualized AOP rather than a fixed mmHg value, and includes immediate stop/change criteria plus 2- and 4-week functional reassessment. This is consistent with risk-screening and individualized-pressure guidance. The list is not exhaustive, so the surrounding article/clinical assessment must retain broader contraindication screening. Existing explicit user approval from 2026-10-19 is preserved; no new approval is inferred or requested.",
       "reviewPage": "https://pjg605-debug.github.io/clinical-reasoning/review/2026-10-18-bfr-rehab/",
-      "liveVerification": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655"
+      "liveVerification": "https://github.com/pjg605-debug/clinical-reasoning/actions/runs/39145267655",
+      "previewDisplayed": "2026-11-24",
+      "inventoryRole": "current_inserted_user_approved",
+      "associatedArticle": "2026-10-18-bfr-rehab",
+      "visualType": "bfr_screening_and_reassessment_pathway",
+      "preliminaryRecommendation": "approved_status_preserved",
+      "duplicatePaths": [],
+      "usedBy": [
+        "2026-10-18-bfr-rehab"
+      ],
+      "currentBodyReferences": [
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "liveDisplay": {
+        "checkedOn": "2026-11-24",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+        "complete": true,
+        "bytes": 4384,
+        "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
+        "naturalWidth": 800,
+        "naturalHeight": 600,
+        "renderedBlank": false
+      }
     },
     {
       "path": "assets/briefs/elbow-exams-v3.jpg",
@@ -3897,7 +3967,29 @@
       "sha256": "902a3f15b9046434cecac56cb0d529e92ceb5a28975b6c7bf8f63cd3a5705359",
       "notes": [
         "Approved photo-style infographic: no exposed anatomy; shows proximal thigh BFR cuff placement, pre-exercise distal safety check and low-load rehabilitation; source image was approved by the user."
-      ]
+      ],
+      "previewDisplayed": "2026-11-24",
+      "inventoryRole": "current_inserted_user_approved_live_verified",
+      "associatedArticle": "2026-10-18-bfr-rehab",
+      "visualType": "bfr_procedure_photo_style_infographic",
+      "preliminaryRecommendation": "approved_status_preserved",
+      "preliminaryVisualNotes": "Actual 1200x900 photo-style educational infographic was displayed. It correctly places the cuff at the proximal thigh rather than immediately above the knee, shows a distal color/sensation/pain safety check, pairs BFR with low-load exercise, and says to confirm individual pressure. It is an educational photo-style composite rather than evidence of a real patient's treatment session. Existing explicit user approval and live-verification status from 2026-10-19 are preserved; no new approval is inferred or requested.",
+      "duplicatePaths": [],
+      "currentBodyReferences": [
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+      ],
+      "liveDisplay": {
+        "checkedOn": "2026-11-24",
+        "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+        "complete": true,
+        "bytes": 124030,
+        "gitBlobSha": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+        "naturalWidth": 1200,
+        "naturalHeight": 900,
+        "renderedBlank": false
+      }
     }
   ],
   "reviewLog": [
@@ -6136,6 +6228,138 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "Five shoulder/cervical legacy binaries were displayed and checked against all 32 current article bodies. None is inserted; the associated current article uses the two later visuals recorded above. Exact Git-blob comparison found no duplicate paths. Four visible variants are superseded dense composites that overstate differentiation by pain location or single provocative tests; the old 680x961 WebP visibly renders blank and independently fails decoding despite a nonzero blob. Recommendations are advisory only: every reviewStatus remains pending_user_review and no approval, revision request or exclusion is inferred. Public main was not modified."
+    },
+    {
+      "event": "inventory-preview-completion-batch",
+      "date": "2026-11-24",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-05-cai-anatomy.svg",
+        "assets/briefs/2026-10-06-patellar-load-imaging.svg",
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp"
+      ],
+      "pendingUserDecisionPaths": [
+        "assets/briefs/2026-10-05-cai-anatomy.svg",
+        "assets/briefs/2026-10-06-patellar-load-imaging.svg"
+      ],
+      "previouslyApprovedPaths": [
+        "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+        "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp"
+      ],
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/2026-10-05-cai-anatomy.svg": [],
+          "assets/briefs/2026-10-06-patellar-load-imaging.svg": [],
+          "assets/briefs/2026-10-18-bfr-rehab-pathway.svg": [
+            "2026-10-18-bfr-rehab"
+          ],
+          "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp": [
+            "2026-10-18-bfr-rehab"
+          ]
+        },
+        "currentAssociatedArticleReferences": {
+          "assets/briefs/2026-10-05-cai-anatomy.svg": [
+            "assets/briefs/2026-10-05-ankle-virtual-anatomy.webp",
+            "assets/briefs/2026-10-05-ankle-giving-way-exam.webp",
+            "assets/briefs/2026-10-05-cai-reassessment.svg"
+          ],
+          "assets/briefs/2026-10-06-patellar-load-imaging.svg": [
+            "assets/briefs/2026-10-06-patellar-load-anatomy.webp",
+            "assets/briefs/2026-10-06-patellar-load-exam.webp",
+            "assets/briefs/2026-10-06-patellar-load-decision.svg",
+            "assets/briefs/2026-10-06-patellar-load-imaging-orientation.webp",
+            "assets/briefs/2026-10-06-patellar-load-progression.svg"
+          ],
+          "assets/briefs/2026-10-18-bfr-rehab-pathway.svg": [
+            "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+            "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+            "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+          ],
+          "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp": [
+            "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+            "assets/briefs/2026-10-18-bfr-rehab-exam.webp",
+            "assets/briefs/2026-10-18-bfr-rehab-pathway.svg"
+          ]
+        }
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-10-05-cai-anatomy.svg",
+          "gitBlobSha": "4be79c1d2a011cc4ea3fba33885288d38f5a2764",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-06-patellar-load-imaging.svg",
+          "gitBlobSha": "e87a65d88e78880b3c438280993ce20e2b7dd095",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+          "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+          "gitBlobSha": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-10-05-cai-anatomy.svg",
+          "checkedOn": "2026-11-24",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-05-cai-anatomy.svg",
+          "complete": true,
+          "bytes": 5689,
+          "gitBlobSha": "4be79c1d2a011cc4ea3fba33885288d38f5a2764",
+          "naturalWidth": 800,
+          "naturalHeight": 1080,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-06-patellar-load-imaging.svg",
+          "checkedOn": "2026-11-24",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-06-patellar-load-imaging.svg",
+          "complete": true,
+          "bytes": 1593,
+          "gitBlobSha": "e87a65d88e78880b3c438280993ce20e2b7dd095",
+          "naturalWidth": 800,
+          "naturalHeight": 767,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+          "checkedOn": "2026-11-24",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-18-bfr-rehab-pathway.svg",
+          "complete": true,
+          "bytes": 4384,
+          "gitBlobSha": "b1ad0cf83538de8412539a4c8402b2760cf0b2c3",
+          "naturalWidth": 800,
+          "naturalHeight": 600,
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+          "checkedOn": "2026-11-24",
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-18-bfr-rehab-procedure-approved.webp",
+          "complete": true,
+          "bytes": 124030,
+          "gitBlobSha": "16b697feea0c8e7852ce4bbf4521432f144cf30b",
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "renderedBlank": false
+        }
+      ],
+      "evidenceSources": [
+        "https://www.orthopt.org/uploads/content_files/files/jospt.2021.0302.pdf",
+        "https://bjsm.bmj.com/content/early/2019/08/08/bjsports-2019-100885",
+        "https://www.ausport.gov.au/ais/position_statements/blood-flow-restriction-training-guidelines",
+        "https://acsm.org/blood-flow-restriction-bfr-resistance-exercise-101-infographic/"
+      ],
+      "userDecision": "pending_for_two_legacy_assets; prior approvals preserved for two BFR assets",
+      "mainModified": false,
+      "note": "The four remaining not-yet-displayed inventory items were opened from their live original URLs. The two legacy SVGs are uninserted and remain pending_user_review; the two current BFR assets were already explicitly user-approved and their statuses were preserved. Every one of the 119 inventory assets now has previewDisplayed metadata, but the campaign remains in_progress because 109 assets still await an explicit user decision. Public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
