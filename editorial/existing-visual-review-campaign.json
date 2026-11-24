@@ -145,7 +145,7 @@
       ],
       "figuresVerified": true,
       "needsRead": false,
-      "lastReviewBatchAt": "2026-10-21",
+      "lastReviewBatchAt": "2026-11-25",
       "preliminaryRecommendation": {
         "figure1": "revise_recommended",
         "figure2": "approve_recommended",
@@ -158,30 +158,55 @@
         ]
       },
       "liveVerification": {
-        "checkedOn": "2026-10-21",
+        "checkedOn": "2026-11-25",
         "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-15-slr-radicular-pain",
         "pathsMatchArticleSrcHref": true,
+        "articleBodyScan": {
+          "srcAndHrefConfirmedForAllThree": true,
+          "articleBlobSha": "e2d9d8becfd55b07885dad41ef76a2b2f232ca73"
+        },
         "images": [
           {
             "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 400
+            "naturalHeight": 400,
+            "bytes": 49050,
+            "gitBlobSha": "d1f45761e165023b728a96f123620f85c2abe740",
+            "usedBy": [
+              "2026-10-15-slr-radicular-pain"
+            ],
+            "duplicatePaths": []
           },
           {
             "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 400
+            "naturalHeight": 400,
+            "bytes": 41316,
+            "gitBlobSha": "a66fe4dbf1d22ada33dea7b05e3ecac01a20e831",
+            "usedBy": [
+              "2026-10-15-slr-radicular-pain"
+            ],
+            "duplicatePaths": []
           },
           {
             "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
             "complete": true,
             "naturalWidth": 1200,
-            "naturalHeight": 900
+            "naturalHeight": 900,
+            "liveRenderedViewportWidth": 1363,
+            "liveRenderedViewportHeight": 936,
+            "bytes": 4814,
+            "gitBlobSha": "c7998b5d2c4bdbe9ed7d1a75cef022330a5cdccc",
+            "usedBy": [
+              "2026-10-15-slr-radicular-pain"
+            ],
+            "duplicatePaths": []
           }
         ]
-      }
+      },
+      "reviewPacketRefreshed": "2026-11-25"
     },
     {
       "id": "2026-10-14-cervical-radiculopathy-tests",
@@ -3044,7 +3069,8 @@
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: realistic 3D overview, but root-level anatomy and nearby vessels are not identified; generic pain map may blur nerve-root and peripheral-sciatic distributions. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-25"
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
@@ -3057,7 +3083,8 @@
       "preliminaryVisualNotes": [
         "Original live GitHub SVG rendered. Preliminary approve recommendation: emergency screening, segmental neurologic bundle, conservative reassessment, and MRI/referral escalation are coherent. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-25"
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
@@ -3070,7 +3097,8 @@
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary approve recommendation: SLR, ankle-dorsiflexion structural differentiation, and crossed SLR sequence/posture are coherent; angle alone is explicitly not diagnostic. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-25"
     },
     {
       "path": "assets/briefs/2026-10-16-ottawa-ankle-anatomy.webp",
@@ -6360,6 +6388,115 @@
       "userDecision": "pending_for_two_legacy_assets; prior approvals preserved for two BFR assets",
       "mainModified": false,
       "note": "The four remaining not-yet-displayed inventory items were opened from their live original URLs. The two legacy SVGs are uninserted and remain pending_user_review; the two current BFR assets were already explicitly user-approved and their statuses were preserved. Every one of the 119 inventory assets now has previewDisplayed metadata, but the campaign remains in_progress because 109 assets still await an explicit user decision. Public main was not modified."
+    },
+    {
+      "event": "pending-user-review-batch-refreshed",
+      "date": "2026-11-25",
+      "articleContext": "2026-10-15-slr-radicular-pain",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+        "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+        "assets/briefs/2026-10-15-slr-radicular-decision.svg"
+      ],
+      "inventoryClassification": "current_inserted_article_figures",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/2026-10-15-slr-radicular-anatomy.webp": [
+            "2026-10-15-slr-radicular-pain"
+          ],
+          "assets/briefs/2026-10-15-slr-radicular-exam.webp": [
+            "2026-10-15-slr-radicular-pain"
+          ],
+          "assets/briefs/2026-10-15-slr-radicular-decision.svg": [
+            "2026-10-15-slr-radicular-pain"
+          ]
+        },
+        "srcAndHrefConfirmed": {
+          "assets/briefs/2026-10-15-slr-radicular-anatomy.webp": true,
+          "assets/briefs/2026-10-15-slr-radicular-exam.webp": true,
+          "assets/briefs/2026-10-15-slr-radicular-decision.svg": true
+        }
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+          "gitBlobSha": "d1f45761e165023b728a96f123620f85c2abe740",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+          "gitBlobSha": "a66fe4dbf1d22ada33dea7b05e3ecac01a20e831",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
+          "gitBlobSha": "c7998b5d2c4bdbe9ed7d1a75cef022330a5cdccc",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 400,
+          "bytes": 49050,
+          "gitBlobSha": "d1f45761e165023b728a96f123620f85c2abe740",
+          "usedBy": [
+            "2026-10-15-slr-radicular-pain"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
+          "checkedOn": "2026-11-25",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-exam.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 400,
+          "bytes": 41316,
+          "gitBlobSha": "a66fe4dbf1d22ada33dea7b05e3ecac01a20e831",
+          "usedBy": [
+            "2026-10-15-slr-radicular-pain"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-15-slr-radicular-exam.webp",
+          "checkedOn": "2026-11-25",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-15-slr-radicular-decision.svg",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "liveRenderedViewportWidth": 1363,
+          "liveRenderedViewportHeight": 936,
+          "bytes": 4814,
+          "gitBlobSha": "c7998b5d2c4bdbe9ed7d1a75cef022330a5cdccc",
+          "usedBy": [
+            "2026-10-15-slr-radicular-pain"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-15-slr-radicular-decision.svg",
+          "checkedOn": "2026-11-25",
+          "renderedBlank": false
+        }
+      ],
+      "evidenceSources": [
+        "https://pubmed.ncbi.nlm.nih.gov/42843217/",
+        "https://pubmed.ncbi.nlm.nih.gov/34205193/",
+        "https://acsearch.acr.org/docs/69483/Narrative/"
+      ],
+      "recommendations": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "approve_recommended"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "The three current SLR article originals were re-presented after full inventory preview coverage and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains revise-recommended because it labels only the sciatic nerve and can blur L4/L5/S1 roots, sacral plexus and peripheral sciatic distributions while omitting nearby vessels. Figures 2 and 3 remain approve-recommended because the exam sequence and escalation logic are coherent and explicitly avoid single-test diagnosis. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
