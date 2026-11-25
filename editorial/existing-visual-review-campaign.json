@@ -221,7 +221,7 @@
       ],
       "figuresVerified": true,
       "needsRead": false,
-      "lastReviewBatchAt": "2026-10-22",
+      "lastReviewBatchAt": "2026-11-26",
       "preliminaryRecommendation": {
         "figure1": "approve_recommended",
         "figure2": "revise_recommended",
@@ -234,30 +234,55 @@
         ]
       },
       "liveVerification": {
-        "checkedOn": "2026-10-22",
+        "checkedOn": "2026-11-26",
         "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-14-cervical-radiculopathy-tests",
         "pathsMatchArticleSrcHref": true,
+        "articleBodyScan": {
+          "srcAndHrefConfirmedForAllThree": true,
+          "articleBlobSha": "cd6978eb34e1fe5d2e5fe3d984105e2bd2d2066b"
+        },
         "images": [
           {
             "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 533
+            "naturalHeight": 533,
+            "bytes": 61874,
+            "gitBlobSha": "98b72ce7d36fcd4bfd3231841116496e77ec2f0b",
+            "usedBy": [
+              "2026-10-14-cervical-radiculopathy-tests"
+            ],
+            "duplicatePaths": []
           },
           {
             "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 400
+            "naturalHeight": 400,
+            "bytes": 34512,
+            "gitBlobSha": "3eaa9b9eb2c9f87a8ca89b75a86e0a1c44a16a61",
+            "usedBy": [
+              "2026-10-14-cervical-radiculopathy-tests"
+            ],
+            "duplicatePaths": []
           },
           {
             "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
             "complete": true,
             "naturalWidth": 1200,
-            "naturalHeight": 900
+            "naturalHeight": 900,
+            "liveRenderedViewportWidth": 1363,
+            "liveRenderedViewportHeight": 936,
+            "bytes": 4788,
+            "gitBlobSha": "97538af826fb652e2d49b85791fbf7e3d7e37acb",
+            "usedBy": [
+              "2026-10-14-cervical-radiculopathy-tests"
+            ],
+            "duplicatePaths": []
           }
         ]
-      }
+      },
+      "reviewPacketRefreshed": "2026-11-26"
     },
     {
       "id": "2026-10-13-hip-osteonecrosis-mri",
@@ -3030,7 +3055,8 @@
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary approve recommendation: 3D C6–7 disc/foramen/C7 root/spinal cord/vertebral-artery context is plausible and explicitly not a needling route. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-26"
     },
     {
       "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
@@ -3043,7 +3069,8 @@
       "preliminaryVisualNotes": [
         "Original live GitHub SVG rendered. Preliminary approve recommendation: myelopathy/progressive-deficit screening, neurologic test bundle, reassessment and MRI/referral branches are coherent. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-26"
     },
     {
       "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
@@ -3056,7 +3083,8 @@
       "preliminaryVisualNotes": [
         "Original GitHub binary preview displayed. Preliminary revise recommendation: ULNT1 panel does not clearly show the full movement sequence or remote structural differentiation and may be mistaken for a complete technique guide. User decision pending."
       ],
-      "duplicatePaths": []
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-26"
     },
     {
       "path": "assets/briefs/2026-10-15-slr-radicular-anatomy.webp",
@@ -6497,6 +6525,116 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "The three current SLR article originals were re-presented after full inventory preview coverage and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains revise-recommended because it labels only the sciatic nerve and can blur L4/L5/S1 roots, sacral plexus and peripheral sciatic distributions while omitting nearby vessels. Figures 2 and 3 remain approve-recommended because the exam sequence and escalation logic are coherent and explicitly avoid single-test diagnosis. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
+    },
+    {
+      "event": "pending-user-review-batch-refreshed",
+      "date": "2026-11-26",
+      "articleContext": "2026-10-14-cervical-radiculopathy-tests",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+        "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg"
+      ],
+      "inventoryClassification": "current_inserted_article_figures",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ],
+          "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ],
+          "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ]
+        },
+        "srcAndHrefConfirmed": {
+          "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp": true,
+          "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp": true,
+          "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg": true
+        }
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+          "gitBlobSha": "98b72ce7d36fcd4bfd3231841116496e77ec2f0b",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+          "gitBlobSha": "3eaa9b9eb2c9f87a8ca89b75a86e0a1c44a16a61",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+          "gitBlobSha": "97538af826fb652e2d49b85791fbf7e3d7e37acb",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 533,
+          "bytes": 61874,
+          "gitBlobSha": "98b72ce7d36fcd4bfd3231841116496e77ec2f0b",
+          "usedBy": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
+          "checkedOn": "2026-11-26",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 400,
+          "bytes": 34512,
+          "gitBlobSha": "3eaa9b9eb2c9f87a8ca89b75a86e0a1c44a16a61",
+          "usedBy": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-14-cervical-radiculopathy-exam.webp",
+          "checkedOn": "2026-11-26",
+          "renderedBlank": false
+        },
+        {
+          "path": "assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 900,
+          "liveRenderedViewportWidth": 1363,
+          "liveRenderedViewportHeight": 936,
+          "bytes": 4788,
+          "gitBlobSha": "97538af826fb652e2d49b85791fbf7e3d7e37acb",
+          "usedBy": [
+            "2026-10-14-cervical-radiculopathy-tests"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-14-cervical-radiculopathy-decision.svg",
+          "checkedOn": "2026-11-26",
+          "renderedBlank": false
+        }
+      ],
+      "evidenceSources": [
+        "https://pubmed.ncbi.nlm.nih.gov/41680685/",
+        "https://pubmed.ncbi.nlm.nih.gov/42070317/",
+        "https://acsearch.acr.org/docs/69426/narrative/",
+        "https://www.orthopt.org/uploads/content_files/files/Neck%20Pain%20CPG%20Revision%20-%202016%2009%2022%20version-Reviewers.pdf"
+      ],
+      "recommendations": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "approve_recommended"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "The three current cervical-radiculopathy article originals were re-presented and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains approve-recommended as an educational 3D rendering showing C6-7 disc/foramen, C7 root, cord and vertebral artery relationships, not a patient scan or needling path. Figure 2 remains revise-recommended because the single ULNT1 pose does not visibly reproduce the full standard sequence or remote structural differentiation and should not be used as a technique guide. Figure 3 remains approve-recommended because it prioritizes progressive weakness, myelopathy and systemic risk before test clusters and MRI/referral. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
