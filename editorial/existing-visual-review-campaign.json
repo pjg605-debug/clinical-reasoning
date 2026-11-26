@@ -297,43 +297,69 @@
       ],
       "figuresVerified": true,
       "needsRead": false,
-      "lastReviewBatchAt": "2026-10-23",
+      "lastReviewBatchAt": "2026-11-27",
       "preliminaryRecommendation": {
         "figure1": "revise_recommended",
         "figure2": "approve_recommended",
         "figure3": "approve_recommended",
         "status": "advisory_only_user_decision_pending",
         "notes": [
-          "Figure 1: the 3D cutaway usefully shows femoral-head weight-bearing dome, subchondral region, neck and a vascular course, and it explicitly says the image is for location understanding rather than a needling path. However, the inset labelled MRI is a synthetic MRI-like rendering without source/provenance; it can be mistaken for an actual diagnostic MRI and overstates confidence in the exact appearance/placement of marrow edema, necrotic segment and subchondral fracture. Revise or replace the inset, at minimum label it '합성 도해·실제 MRI 아님'; do not treat it as a patient scan.",
-          "Figure 2: antalgic gait/right stance-time observation, passive internal rotation near 90° hip flexion with groin-pain reproduction, and bilateral log-roll comparison are clinically coherent. These findings only raise an intra-articular/hip hypothesis and do not diagnose osteonecrosis. Approve recommended.",
-          "Figure 3: the pathway correctly starts with risk/red-flag screening, obtains AP plus frog-leg radiographs, uses noncontrast MRI when suspicion persists despite normal/suspicious radiographs, and separates pre-collapse early orthopaedic consultation from suspected subchondral fracture/collapse where CT can define bony architecture. Approve recommended."
+          "Figure 1: the 3D cutaway usefully shows the right femoral head weight-bearing dome, subchondral region, neck and a vascular course, and it explicitly says the image is for location understanding rather than a needling path. However, the inset labelled 'MRI 관상면' is a synthetic MRI-like rendering without source/provenance; it can be mistaken for an actual patient MRI and overstates confidence in the exact appearance/placement of marrow edema, necrotic segment and subchondral fracture. Revise or replace the inset, at minimum label it '합성 도해·실제 MRI 아님'; do not treat it as diagnostic imaging.",
+          "Figure 2: antalgic gait/right stance-time observation, passive internal rotation near 90° hip flexion with groin-pain reproduction, and bilateral log-roll comparison are clinically coherent. The image also states that the sequence is not a stand-alone confirmatory test. These findings only raise an intra-articular/hip hypothesis and do not diagnose osteonecrosis. Approve recommended.",
+          "Figure 3: the pathway appropriately starts with risk/red-flag screening, obtains AP plus frog-leg radiographs, uses noncontrast MRI when suspicion persists despite normal or suspicious radiographs, and separates pre-collapse early orthopaedic consultation from suspected subchondral fracture/collapse. CT can help define bony architecture when collapse is known or surgery is planned, but it is not mandatory for every case and should not be read as routine staging after adequate radiography/MRI. Approve recommended with this interpretation."
         ]
       },
       "liveVerification": {
-        "checkedOn": "2026-10-23",
+        "checkedOn": "2026-11-27",
         "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-13-hip-osteonecrosis-mri",
+        "articleGitBlobSha": "020308510d440e37805454dad5030dabc95a0c05",
         "pathsMatchArticleSrcHref": true,
         "images": [
           {
             "path": "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 533
+            "naturalHeight": 533,
+            "bytes": 134658,
+            "gitBlobSha": "6dba523469195d3870317e488d9952033ac69e59",
+            "usedBy": [
+              "2026-10-13-hip-osteonecrosis-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+            "renderedBlank": false
           },
           {
             "path": "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 533
+            "naturalHeight": 533,
+            "bytes": 78010,
+            "gitBlobSha": "4ea8f043adfee25223397234ae216cd39296d1c5",
+            "usedBy": [
+              "2026-10-13-hip-osteonecrosis-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+            "renderedBlank": false
           },
           {
             "path": "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
             "complete": true,
             "naturalWidth": 1200,
-            "naturalHeight": 800
+            "naturalHeight": 800,
+            "bytes": 3941,
+            "gitBlobSha": "de8554d38709e281e3202b1b60b1cf023f57a4e8",
+            "usedBy": [
+              "2026-10-13-hip-osteonecrosis-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+            "renderedBlank": false
           }
         ]
-      }
+      },
+      "reviewPacketRefreshed": "2026-11-27"
     },
     {
       "id": "2026-10-12-meniscus-exam-mri",
@@ -3018,9 +3044,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-23",
-      "preliminaryVisualNotes": "Figure 1: the 3D cutaway usefully shows femoral-head weight-bearing dome, subchondral region, neck and a vascular course, and it explicitly says the image is for location understanding rather than a needling path. However, the inset labelled MRI is a synthetic MRI-like rendering without source/provenance; it can be mistaken for an actual diagnostic MRI and overstates confidence in the exact appearance/placement of marrow edema, necrotic segment and subchondral fracture. Revise or replace the inset, at minimum label it '합성 도해·실제 MRI 아님'; do not treat it as a patient scan.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-27",
+      "preliminaryVisualNotes": "Figure 1: the 3D cutaway usefully shows the right femoral head weight-bearing dome, subchondral region, neck and a vascular course, and it explicitly says the image is for location understanding rather than a needling path. However, the inset labelled 'MRI 관상면' is a synthetic MRI-like rendering without source/provenance; it can be mistaken for an actual patient MRI and overstates confidence in the exact appearance/placement of marrow edema, necrotic segment and subchondral fracture. Revise or replace the inset, at minimum label it '합성 도해·실제 MRI 아님'; do not treat it as diagnostic imaging.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-27"
     },
     {
       "path": "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
@@ -3029,9 +3056,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-23",
-      "preliminaryVisualNotes": "Figure 3: the pathway correctly starts with risk/red-flag screening, obtains AP plus frog-leg radiographs, uses noncontrast MRI when suspicion persists despite normal/suspicious radiographs, and separates pre-collapse early orthopaedic consultation from suspected subchondral fracture/collapse where CT can define bony architecture. Approve recommended.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-27",
+      "preliminaryVisualNotes": "Figure 3: the pathway appropriately starts with risk/red-flag screening, obtains AP plus frog-leg radiographs, uses noncontrast MRI when suspicion persists despite normal or suspicious radiographs, and separates pre-collapse early orthopaedic consultation from suspected subchondral fracture/collapse. CT can help define bony architecture when collapse is known or surgery is planned, but it is not mandatory for every case and should not be read as routine staging after adequate radiography/MRI. Approve recommended with this interpretation.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-27"
     },
     {
       "path": "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
@@ -3040,9 +3068,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-23",
-      "preliminaryVisualNotes": "Figure 2: antalgic gait/right stance-time observation, passive internal rotation near 90° hip flexion with groin-pain reproduction, and bilateral log-roll comparison are clinically coherent. These findings only raise an intra-articular/hip hypothesis and do not diagnose osteonecrosis. Approve recommended.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-27",
+      "preliminaryVisualNotes": "Figure 2: antalgic gait/right stance-time observation, passive internal rotation near 90° hip flexion with groin-pain reproduction, and bilateral log-roll comparison are clinically coherent. The image also states that the sequence is not a stand-alone confirmatory test. These findings only raise an intra-articular/hip hypothesis and do not diagnose osteonecrosis. Approve recommended.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-27"
     },
     {
       "path": "assets/briefs/2026-10-14-cervical-radiculopathy-anatomy.webp",
@@ -6635,6 +6664,114 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "The three current cervical-radiculopathy article originals were re-presented and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains approve-recommended as an educational 3D rendering showing C6-7 disc/foramen, C7 root, cord and vertebral artery relationships, not a patient scan or needling path. Figure 2 remains revise-recommended because the single ULNT1 pose does not visibly reproduce the full standard sequence or remote structural differentiation and should not be used as a technique guide. Figure 3 remains approve-recommended because it prioritizes progressive weakness, myelopathy and systemic risk before test clusters and MRI/referral. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
+    },
+    {
+      "event": "pending-user-review-batch-refreshed",
+      "date": "2026-11-27",
+      "articleContext": "2026-10-13-hip-osteonecrosis-mri",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+        "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+        "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg"
+      ],
+      "inventoryClassification": "current_inserted_article_figures",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ],
+          "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ],
+          "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ]
+        },
+        "srcAndHrefConfirmed": {
+          "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp": true,
+          "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp": true,
+          "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg": true
+        }
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+          "gitBlobSha": "6dba523469195d3870317e488d9952033ac69e59",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+          "gitBlobSha": "4ea8f043adfee25223397234ae216cd39296d1c5",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+          "gitBlobSha": "de8554d38709e281e3202b1b60b1cf023f57a4e8",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 533,
+          "bytes": 134658,
+          "gitBlobSha": "6dba523469195d3870317e488d9952033ac69e59",
+          "usedBy": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-27"
+        },
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 533,
+          "bytes": 78010,
+          "gitBlobSha": "4ea8f043adfee25223397234ae216cd39296d1c5",
+          "usedBy": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-exam.webp",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-27"
+        },
+        {
+          "path": "assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 800,
+          "bytes": 3941,
+          "gitBlobSha": "de8554d38709e281e3202b1b60b1cf023f57a4e8",
+          "usedBy": [
+            "2026-10-13-hip-osteonecrosis-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-13-hip-osteonecrosis-decision.svg",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-27"
+        }
+      ],
+      "evidenceSources": [
+        "https://acsearch.acr.org/list/TopicNarrativePdf?topicId=79",
+        "https://pubmed.ncbi.nlm.nih.gov/41892822/",
+        "https://pubmed.ncbi.nlm.nih.gov/37867923/",
+        "https://pubmed.ncbi.nlm.nih.gov/42383717/"
+      ],
+      "recommendations": {
+        "figure1": "revise_recommended",
+        "figure2": "approve_recommended",
+        "figure3": "approve_recommended"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "The three current hip-osteonecrosis article originals were re-presented and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains revise-recommended because the inset labelled MRI is a synthetic MRI-like rendering without provenance and may be mistaken for an actual patient scan; label it '합성 도해·실제 MRI 아님' or replace it. Figure 2 remains approve-recommended because the depicted gait observation, passive internal rotation and bilateral log-roll comparison are coherent and explicitly not a stand-alone confirmatory test. Figure 3 remains approve-recommended: radiography first and noncontrast MRI when suspicion persists are appropriate; CT is selective for known collapse, subchondral fracture detail or surgical planning, not mandatory for every patient. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
