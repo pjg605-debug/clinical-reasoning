@@ -374,43 +374,69 @@
       ],
       "figuresVerified": true,
       "needsRead": false,
-      "lastReviewBatchAt": "2026-10-24",
+      "lastReviewBatchAt": "2026-11-28",
       "preliminaryRecommendation": {
         "figure1": "approve_recommended",
         "figure2": "revise_recommended",
         "figure3": "approve_recommended",
         "status": "advisory_only_user_decision_pending",
         "notes": [
-          "Figure 1: realistic 3D virtual-anatomy rendering correctly orients the right knee with the fibular side lateral, separates medial and lateral menisci, and shows the medial meniscus relationship to the medial collateral ligament in frontal and axial views. The caption appropriately says anatomy and a single imaging signal do not establish the pain source. Approve recommended as an educational rendering, not a patient MRI or cadaver photograph.",
-          "Figure 2: the history/functional symptom panel and supported stopping warning are useful, but the McMurray panel compresses the maneuver into one still image without clearly showing full flexion, tibial rotation, varus/valgus stress and progressive extension. The Thessaly panel does not clearly show a flat planted foot and repeated two-way body/knee rotation at about 20 degrees. Revise to a multi-step sequence before using it as a technique guide; these tests remain probability modifiers, not confirmation.",
-          "Figure 3: the pathway appropriately separates true locking/acute major effusion or extension block from concordant examination with improving function and discordant OA/patellofemoral patterns. MRI is framed as a test used when imaging would change referral, surgical or loading decisions rather than as an automatic consequence of one positive special test. Approve recommended."
+          "Figure 1: the 3D virtual-anatomy rendering correctly presents a right knee in anterior view with the fibular/lateral side on the viewer's left, separates the medial and lateral menisci, and shows the medial meniscus relationship to the medial collateral ligament in frontal and axial views. The caption appropriately says that anatomy or a single imaging sign does not establish the pain source. Approve recommended as an educational rendering, not a patient MRI or cadaver photograph.",
+          "Figure 2: the history/function panel and supported stop warning are useful, but the McMurray panel compresses full flexion, tibial rotation, varus/valgus stress and progressive extension into one still image. The Thessaly panel shows the weight-bearing foot on the forefoot/with the heel raised rather than clearly flat and planted, and does not clearly demonstrate repeated two-way body-and-knee rotation at about 20 degrees. Revise to a multi-step sequence before using it as a technique guide. Joint-line tenderness, McMurray and Thessaly are probability modifiers best interpreted together; no single test independently confirms a tear.",
+          "Figure 3: the pathway appropriately separates true locking, acute large effusion/extension block, and fracture or infection concern from concordant nonurgent examination and discordant osteoarthritis/patellofemoral/ligament/cartilage patterns. It frames noncontrast MRI as useful when it will change referral, surgery or loading decisions rather than as an automatic consequence of one positive special test. Approve recommended. For acute isolated tears AAOS identifies MRI as the preferred diagnostic imaging, and for chronic knee pain with suspected meniscal abnormality after radiographs ACR rates noncontrast MRI usually appropriate."
         ]
       },
       "liveVerification": {
-        "checkedOn": "2026-10-24",
+        "checkedOn": "2026-11-28",
         "article": "https://pjg605-debug.github.io/clinical-reasoning/#2026-10-12-meniscus-exam-mri",
+        "articleGitBlobSha": "6e47bbeb7507994e3b4b436b18e06c646c53c788",
         "pathsMatchArticleSrcHref": true,
         "images": [
           {
             "path": "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 533
+            "naturalHeight": 533,
+            "bytes": 65518,
+            "gitBlobSha": "da1a106d4a1b11289f4164b1ff8611189e03b7be",
+            "usedBy": [
+              "2026-10-12-meniscus-exam-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+            "renderedBlank": false
           },
           {
             "path": "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
             "complete": true,
             "naturalWidth": 800,
-            "naturalHeight": 533
+            "naturalHeight": 533,
+            "bytes": 58294,
+            "gitBlobSha": "5cd0d8fa87b4f7c1dd6d559356509cc5d150018d",
+            "usedBy": [
+              "2026-10-12-meniscus-exam-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+            "renderedBlank": false
           },
           {
             "path": "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
             "complete": true,
             "naturalWidth": 1200,
-            "naturalHeight": 760
+            "naturalHeight": 760,
+            "bytes": 4332,
+            "gitBlobSha": "873ba89c2c48426cf9c2c90a259c9ab3345c4d41",
+            "usedBy": [
+              "2026-10-12-meniscus-exam-mri"
+            ],
+            "duplicatePaths": [],
+            "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+            "renderedBlank": false
           }
         ]
-      }
+      },
+      "reviewPacketRefreshed": "2026-11-28"
     },
     {
       "id": "2026-10-11-elbow-function-update",
@@ -3011,9 +3037,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-24",
-      "preliminaryVisualNotes": "Figure 1: realistic 3D virtual-anatomy rendering correctly orients the right knee with the fibular side lateral, separates medial and lateral menisci, and shows the medial meniscus relationship to the medial collateral ligament in frontal and axial views. The caption appropriately says anatomy and a single imaging signal do not establish the pain source. Approve recommended as an educational rendering, not a patient MRI or cadaver photograph.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-28",
+      "preliminaryVisualNotes": "Figure 1: the 3D virtual-anatomy rendering correctly presents a right knee in anterior view with the fibular/lateral side on the viewer's left, separates the medial and lateral menisci, and shows the medial meniscus relationship to the medial collateral ligament in frontal and axial views. The caption appropriately says that anatomy or a single imaging sign does not establish the pain source. Approve recommended as an educational rendering, not a patient MRI or cadaver photograph.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-28"
     },
     {
       "path": "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
@@ -3022,9 +3049,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-24",
-      "preliminaryVisualNotes": "Figure 3: the pathway appropriately separates true locking/acute major effusion or extension block from concordant examination with improving function and discordant OA/patellofemoral patterns. MRI is framed as a test used when imaging would change referral, surgical or loading decisions rather than as an automatic consequence of one positive special test. Approve recommended.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-28",
+      "preliminaryVisualNotes": "Figure 3: the pathway appropriately separates true locking, acute large effusion/extension block, and fracture or infection concern from concordant nonurgent examination and discordant osteoarthritis/patellofemoral/ligament/cartilage patterns. It frames noncontrast MRI as useful when it will change referral, surgery or loading decisions rather than as an automatic consequence of one positive special test. Approve recommended. For acute isolated tears AAOS identifies MRI as the preferred diagnostic imaging, and for chronic knee pain with suspected meniscal abnormality after radiographs ACR rates noncontrast MRI usually appropriate.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-28"
     },
     {
       "path": "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
@@ -3033,9 +3061,10 @@
       "reviewStatus": "pending_user_review",
       "linkedInRecentFive": false,
       "userApproval": null,
-      "previewDisplayed": "2026-10-24",
-      "preliminaryVisualNotes": "Figure 2: the history/functional symptom panel and supported stopping warning are useful, but the McMurray panel compresses the maneuver into one still image without clearly showing full flexion, tibial rotation, varus/valgus stress and progressive extension. The Thessaly panel does not clearly show a flat planted foot and repeated two-way body/knee rotation at about 20 degrees. Revise to a multi-step sequence before using it as a technique guide; these tests remain probability modifiers, not confirmation.",
-      "duplicatePaths": []
+      "previewDisplayed": "2026-11-28",
+      "preliminaryVisualNotes": "Figure 2: the history/function panel and supported stop warning are useful, but the McMurray panel compresses full flexion, tibial rotation, varus/valgus stress and progressive extension into one still image. The Thessaly panel shows the weight-bearing foot on the forefoot/with the heel raised rather than clearly flat and planted, and does not clearly demonstrate repeated two-way body-and-knee rotation at about 20 degrees. Revise to a multi-step sequence before using it as a technique guide. Joint-line tenderness, McMurray and Thessaly are probability modifiers best interpreted together; no single test independently confirms a tear.",
+      "duplicatePaths": [],
+      "reviewPacketRefreshed": "2026-11-28"
     },
     {
       "path": "assets/briefs/2026-10-13-hip-osteonecrosis-anatomy.webp",
@@ -6772,6 +6801,114 @@
       "userDecision": "pending",
       "mainModified": false,
       "note": "The three current hip-osteonecrosis article originals were re-presented and checked against the live article, exact Git blobs, all 32 current article contexts, and current evidence. Figure 1 remains revise-recommended because the inset labelled MRI is a synthetic MRI-like rendering without provenance and may be mistaken for an actual patient scan; label it '합성 도해·실제 MRI 아님' or replace it. Figure 2 remains approve-recommended because the depicted gait observation, passive internal rotation and bilateral log-roll comparison are coherent and explicitly not a stand-alone confirmatory test. Figure 3 remains approve-recommended: radiography first and noncontrast MRI when suspicion persists are appropriate; CT is selective for known collapse, subchondral fracture detail or surgical planning, not mandatory for every patient. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
+    },
+    {
+      "event": "pending-user-review-batch-refreshed",
+      "date": "2026-11-28",
+      "articleContext": "2026-10-12-meniscus-exam-mri",
+      "previewsDisplayed": [
+        "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+        "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+        "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg"
+      ],
+      "inventoryClassification": "current_inserted_article_figures",
+      "fullArticleBodyScan": {
+        "articlesScanned": 32,
+        "usedBy": {
+          "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp": [
+            "2026-10-12-meniscus-exam-mri"
+          ],
+          "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp": [
+            "2026-10-12-meniscus-exam-mri"
+          ],
+          "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg": [
+            "2026-10-12-meniscus-exam-mri"
+          ]
+        },
+        "srcAndHrefConfirmed": {
+          "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp": true,
+          "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp": true,
+          "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg": true
+        }
+      },
+      "exactGitBlobDuplicates": [
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+          "gitBlobSha": "da1a106d4a1b11289f4164b1ff8611189e03b7be",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+          "gitBlobSha": "5cd0d8fa87b4f7c1dd6d559356509cc5d150018d",
+          "duplicatePaths": []
+        },
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+          "gitBlobSha": "873ba89c2c48426cf9c2c90a259c9ab3345c4d41",
+          "duplicatePaths": []
+        }
+      ],
+      "liveVerification": [
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 533,
+          "bytes": 65518,
+          "gitBlobSha": "da1a106d4a1b11289f4164b1ff8611189e03b7be",
+          "usedBy": [
+            "2026-10-12-meniscus-exam-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-anatomy.webp",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-28"
+        },
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+          "complete": true,
+          "naturalWidth": 800,
+          "naturalHeight": 533,
+          "bytes": 58294,
+          "gitBlobSha": "5cd0d8fa87b4f7c1dd6d559356509cc5d150018d",
+          "usedBy": [
+            "2026-10-12-meniscus-exam-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-exam.webp",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-28"
+        },
+        {
+          "path": "assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+          "complete": true,
+          "naturalWidth": 1200,
+          "naturalHeight": 760,
+          "bytes": 4332,
+          "gitBlobSha": "873ba89c2c48426cf9c2c90a259c9ab3345c4d41",
+          "usedBy": [
+            "2026-10-12-meniscus-exam-mri"
+          ],
+          "duplicatePaths": [],
+          "url": "https://pjg605-debug.github.io/clinical-reasoning/assets/briefs/2026-10-12-meniscus-exam-mri-decision.svg",
+          "renderedBlank": false,
+          "checkedOn": "2026-11-28"
+        }
+      ],
+      "evidenceSources": [
+        "https://www.aaos.org/globalassets/quality-and-practice-resources/acute-meniscal-pathology/amp-cpg.pdf",
+        "https://gravitas.acr.org/ACPortal/TopicNarrativePdf?topicId=90",
+        "https://pubmed.ncbi.nlm.nih.gov/42544509/",
+        "https://pubmed.ncbi.nlm.nih.gov/40557851/"
+      ],
+      "recommendations": {
+        "figure1": "approve_recommended",
+        "figure2": "revise_recommended",
+        "figure3": "approve_recommended"
+      },
+      "userDecision": "pending",
+      "mainModified": false,
+      "note": "The three current meniscus-exam article originals were re-presented and checked against the live article, exact Git blobs, all 32 current article contexts and current evidence. Figure 1 remains approve-recommended as an educational 3D rendering with coherent right-knee orientation and medial meniscus/MCL relationship, not a patient MRI or cadaver photograph. Figure 2 remains revise-recommended because the McMurray maneuver is compressed into one still and the Thessaly weight-bearing foot is not clearly flat/planted; it should not be used as a technique guide. Figure 3 remains approve-recommended because it prioritizes true locking, large acute effusion/extension block and fracture/infection concern, and links MRI to management-changing questions. These are advisory findings only: all three reviewStatus values remain pending_user_review, all userApproval values remain null, and public main was not modified."
     }
   ],
   "mainUnchangedUntilAuthorized": true,
